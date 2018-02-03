@@ -25,26 +25,14 @@ def enumerate_files():
     return matches
 
 
-def find_token(tok, start, lineno, line, lines):
-    ptr = start
-    while True:
-        if ptr == len(line):
-            lineno += 1
-            line += lines[lineno][:]
-        if line[ptr] == tok:
-            break
-        ptr += 1
-    return line[ptr] == tok, ptr
-
-
-def extract_symbols(symbols, filename, file_object, found_list):
+def extract_symbols(symbols, filename, file_object, found_list, search_text):
     file_object.seek(0)
     contents = file_object.read()
     lines = contents.splitlines()
     for y, x in found_list:
         line = lines[y][:]
         temp_lineno = y
-        begin = x + len(TRANSLATION_FUNCTION)
+        begin = x + len(search_text)
         found_opening_parens = False
         while True:
             if begin == len(line):
@@ -57,21 +45,26 @@ def extract_symbols(symbols, filename, file_object, found_list):
             begin += 1
         if not found_opening_parens:
             continue
-        # TODO: Must match opening/closing parens
-        if line[begin] == '(':
-            end = begin + 1
-            while True:
-                if end == len(line):
-                    temp_lineno += 1
-                    line += lines[temp_lineno][:]
-                if line[end] == ')':
+        parens_cnt = 1
+        end = begin + 1
+        while True:
+            if end == len(line):
+                temp_lineno += 1
+                line += lines[temp_lineno][:]
+            if line[end] == '(':
+                parens_cnt += 1
+            elif line[end] == ')':
+                parens_cnt -= 1
+                if not parens_cnt:
                     break
-                end += 1
-            if line[end] == ')':
-                parens_contents = line[begin:end]
-                parens_contents = parens_contents.strip(' \t()')
-                if parens_contents.isupper():
-                    symbols.setdefault(parens_contents, []).append((filename, y))
+            end += 1
+        if not parens_cnt:
+            parens_contents = line[begin:end]
+            parens_contents = parens_contents.strip(' \t()')
+            if parens_contents.isupper():
+                symbols.setdefault(parens_contents, []).append((filename, y))
+        else:
+            logging.error("%s:%d: Reached end of file and didn't find matching closing parenthesis.", filename, y)
 
 
 def find_translation_calls_in_file(symbols, filename):
@@ -83,7 +76,7 @@ def find_translation_calls_in_file(symbols, filename):
                 if column != -1:
                     found.append((line_number, column))
             if found:
-                extract_symbols(symbols, filename, f, found)
+                extract_symbols(symbols, filename, f, found, TRANSLATION_FUNCTION)
 
     except IOError as e:
         logging.error(e)
@@ -109,7 +102,7 @@ def main(argv=None):
     symbols = {}
     for filename in filenames:
         find_translation_calls_in_file(symbols, filename)
-    print pprint.pprint(symbols)
+    pprint.pprint(symbols)
 
     return 0
 
