@@ -45,14 +45,18 @@ def extract_symbols(symbols, filename, file_object, found_list):
         line = lines[y][:]
         temp_lineno = y
         begin = x + len(TRANSLATION_FUNCTION)
-        # TODO: Must check first non-blank token is '('
+        found_opening_parens = False
         while True:
             if begin == len(line):
                 temp_lineno += 1
                 line += lines[temp_lineno][:]
-            if line[begin] == '(':
+            if line[begin] not in (' ', '\t'):
+                if line[begin] == '(':
+                    found_opening_parens = True
                 break
             begin += 1
+        if not found_opening_parens:
+            continue
         # TODO: Must match opening/closing parens
         if line[begin] == '(':
             end = begin + 1
