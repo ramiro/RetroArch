@@ -130,7 +130,7 @@ def extract_symbols(symbols, filename, file_object, found_list, search_text):
         else:
             text = text.strip(' \t()')
             if text.isupper():
-                symbols.setdefault(text, []).append((filename, y))
+                symbols.setdefault(text, []).append((filename, y + 1))  # Our line index is 0-based
 
 
 def find_translation_calls_in_file(symbols, filename):
@@ -168,7 +168,7 @@ def extract_translations(original_literals, filename, file_object, found_list, s
                 literal = parts[1].strip(' \t"')
                 if symbol in original_literals:
                     raise DuplicateLiteral(symbol, y)
-                original_literals[symbol] = {'lineno': y, 'literal': literal}
+                original_literals[symbol] = {'lineno': y + 1, 'literal': literal}  # Our line index is 0-based
             else:
                 raise SyntaxWarning("Malformed MSG_HASH call.", filename, y)
 
