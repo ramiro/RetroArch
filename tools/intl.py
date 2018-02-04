@@ -25,7 +25,7 @@ RA_LOCALE_NAME_MAP = {
     'us': 'en_US',
 }
 
-OUTPUT_DIR = 'intl'
+OUTPUT_DIR = 'locale'
 
 class SyntaxError(Exception):
     pass
@@ -215,14 +215,11 @@ def updatepo(options):
     if not options.output:
         # logging.error("you ned to specify the -o/--output option when using the updatepo action")
         # return 2
-        if options.locale == 'us':
-            output = os.path.join(OUTPUT_DIR, 'us.pot')
-        else:
-            output = os.path.join(OUTPUT_DIR, '%s.po' % options.locale)
-            if os.path.exists(output):
-                # TODO: Handle actually updating an existing .po file
-                logging.critical("%s exists. refusing to overwite it for now", output)
-                return 3
+        output = os.path.join(OUTPUT_DIR, '%s.po' % locale)
+        if os.path.exists(output):
+            # TODO: Handle actually updating an existing .po file
+            logging.critical("%s exists. refusing to overwite it for now", output)
+            return 3
     elif options.output == '-':
         output = 'CON' if sys.platform == 'win32' else '/dev/stdout'
     else:
@@ -239,12 +236,12 @@ def updatepo(options):
         # 'Report-Msgid-Bugs-To': 'you@example.com',
         # 'Last-Translator': 'you <you@example.com>',
         # 'Language-Team': 'English <yourteam@example.com>',
-        'Language': RA_LOCALE_NAME_MAP.get(options.locale, options.locale),
+        'Language': locale,
         'MIME-Version': '1.0',
         'Content-Type': 'text/plain; charset=utf-8',
         'Content-Transfer-Encoding': '8bit',
     }
-    if options.locale == 'us':
+    if locale == 'en_US':
         pof.metadata.update(
             {'POT-Creation-Date': utcnow}
         )
