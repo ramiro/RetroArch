@@ -1,0 +1,4822 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: RetroArch\n"
+"POT-Creation-Date: 2018-02-04 23:28:00+0000\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: menu/drivers/materialui.c:2694
+msgctxt "MENU_ENUM_LABEL_ACCOUNTS_LIST"
+msgid "accounts_list"
+msgstr ""
+
+#: menu/drivers/materialui.c:2698
+msgctxt "MENU_ENUM_LABEL_ACCOUNTS_RETRO_ACHIEVEMENTS"
+msgid "retro_achievements"
+msgstr ""
+
+#: menu/menu_displaylist.c:2734
+msgctxt "MENU_ENUM_LABEL_ACHIEVEMENT_LIST"
+msgid "achievement_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_cancel.c:79
+msgctxt "MENU_ENUM_LABEL_ADD_CONTENT_LIST"
+msgid "add_content"
+msgstr ""
+
+#: menu/drivers/materialui.c:2575
+msgctxt "MENU_ENUM_LABEL_CONFIGURATIONS_LIST"
+msgid "configurations_list"
+msgstr ""
+
+#: menu/menu_displaylist.c:3863 menu/cbs/menu_cbs_left.c:535
+#: menu/cbs/menu_cbs_left.c:644 menu/cbs/menu_cbs_left.c:685
+#: menu/cbs/menu_cbs_right.c:512 menu/cbs/menu_cbs_right.c:644
+#: menu/cbs/menu_cbs_right.c:684 menu/cbs/menu_cbs_title.c:263
+#: menu/drivers/xmb.c:4211
+msgctxt "MENU_ENUM_LABEL_ADD_TAB"
+msgid "add_tab"
+msgstr ""
+
+#: menu/menu_displaylist.c:3868 menu/cbs/menu_cbs_left.c:536
+#: menu/cbs/menu_cbs_left.c:645 menu/cbs/menu_cbs_left.c:686
+#: menu/cbs/menu_cbs_right.c:513 menu/cbs/menu_cbs_right.c:645
+#: menu/cbs/menu_cbs_right.c:685 menu/cbs/menu_cbs_title.c:265
+#: menu/cbs/menu_cbs_ok.c:3199 menu/drivers/xmb.c:4204
+msgctxt "MENU_ENUM_LABEL_NETPLAY_TAB"
+msgid "netplay_tab"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:341
+msgctxt "MENU_ENUM_LABEL_AUDIO_DSP_PLUGIN"
+msgid "audio_dsp_plugin"
+msgstr ""
+
+#: menu/drivers/materialui.c:2644
+msgctxt "MENU_ENUM_LABEL_AUDIO_SETTINGS"
+msgid "audio_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:3136
+msgctxt "MENU_ENUM_LABEL_CHEAT_APPLY_CHANGES"
+msgid "cheat_apply_changes"
+msgstr ""
+
+#: menu/menu_displaylist.c:3141
+msgctxt "MENU_ENUM_LABEL_CHEAT_FILE_LOAD"
+msgid "cheat_file_load"
+msgstr ""
+
+#: menu/menu_displaylist.c:3146
+msgctxt "MENU_ENUM_LABEL_CHEAT_FILE_SAVE_AS"
+msgid "cheat_file_save_as"
+msgstr ""
+
+#: menu/menu_displaylist.c:3151
+msgctxt "MENU_ENUM_LABEL_CHEAT_NUM_PASSES"
+msgid "cheat_num_passes"
+msgstr ""
+
+#: menu/menu_displaylist.c:2592 menu/drivers/materialui.c:2456
+msgctxt "MENU_ENUM_LABEL_CLOSE_CONTENT"
+msgid "unload_core"
+msgstr ""
+
+#: menu/menu_displaylist.c:2527 menu/menu_displaylist.c:4381
+msgctxt "MENU_ENUM_LABEL_COLLECTION"
+msgid "collection"
+msgstr ""
+
+#: menu/menu_displaylist.c:2925
+msgctxt "MENU_ENUM_LABEL_CONFIGURATIONS"
+msgid "configurations"
+msgstr ""
+
+#: menu/menu_setting.c:2962 menu/drivers/materialui.c:2652
+msgctxt "MENU_ENUM_LABEL_CONFIGURATION_SETTINGS"
+msgid "Determines how configuration files \\n\"      \"are loaded and prioritized."
+msgstr ""
+
+#: menu/menu_displaylist.c:3993 menu/menu_displaylist.c:5475
+msgctxt "MENU_ENUM_LABEL_CONNECT_WIFI"
+msgid "connect_wifi"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3174
+msgctxt "MENU_ENUM_LABEL_CONNECT_NETPLAY_ROOM"
+msgid "connect_room"
+msgstr ""
+
+#: menu/menu_displaylist.c:3770 menu/menu_displaylist.c:3789
+#: menu/menu_displaylist.c:3808 menu/menu_displaylist.c:3840
+#: menu/menu_displaylist.c:6198 menu/cbs/menu_cbs_cancel.c:44
+#: menu/drivers/xmb.c:1862 menu/drivers/xmb.c:4361
+msgctxt "MENU_ENUM_LABEL_CONTENT_COLLECTION_LIST"
+msgid "select_from_collection"
+msgstr ""
+
+#: menu/menu_displaylist.c:6212
+msgctxt "MENU_ENUM_LABEL_BROWSE_URL_LIST"
+msgid "browse_url_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:700 menu/drivers/materialui.c:2595
+msgctxt "MENU_ENUM_LABEL_CONTENT_SETTINGS"
+msgid "quick_menu"
+msgstr ""
+
+#: menu/menu_displaylist.c:2687 menu/drivers/materialui.c:2466
+msgctxt "MENU_ENUM_LABEL_CORE_CHEAT_OPTIONS"
+msgid "core_cheat_options"
+msgstr ""
+
+#: menu/menu_displaylist.c:2912
+msgctxt "MENU_ENUM_LABEL_CORE_COUNTERS"
+msgid "core_counters"
+msgstr ""
+
+#: menu/menu_displaylist.c:2869 menu/cbs/menu_cbs_deferred_push.c:806
+msgctxt "MENU_ENUM_LABEL_CORE_INFORMATION"
+msgid "core_information"
+msgstr ""
+
+#: menu/menu_displaylist.c:2678 menu/drivers/materialui.c:2471
+msgctxt "MENU_ENUM_LABEL_CORE_INPUT_REMAPPING_OPTIONS"
+msgid "core_input_remapping_options"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:821 menu/drivers/materialui.c:2481
+msgctxt "MENU_ENUM_LABEL_CORE_LIST"
+msgid "load_core"
+msgstr ""
+
+#: menu/menu_displaylist.c:2661 menu/cbs/menu_cbs_deferred_push.c:831
+#: menu/drivers/materialui.c:2461
+msgctxt "MENU_ENUM_LABEL_CORE_OPTIONS"
+msgid "core_options"
+msgstr ""
+
+#: menu/drivers/materialui.c:2650
+msgctxt "MENU_ENUM_LABEL_CORE_SETTINGS"
+msgid "core_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:3029 menu/menu_displaylist.c:4030
+#: menu/drivers/materialui.c:2700
+msgctxt "MENU_ENUM_LABEL_CORE_UPDATER_LIST"
+msgid "core_updater_list"
+msgstr ""
+
+#: menu/menu_displaylist.c:472
+msgctxt "MENU_ENUM_LABEL_CPU_ARCHITECTURE"
+msgid "system_information_cpu_architecture"
+msgstr ""
+
+#: menu/menu_displaylist.c:485
+msgctxt "MENU_ENUM_LABEL_CPU_CORES"
+msgid "system_information_cpu_cores"
+msgstr ""
+
+#: menu/menu_displaylist.c:2897
+msgctxt "MENU_ENUM_LABEL_CURSOR_MANAGER_LIST"
+msgid "cursor_manager_list"
+msgstr ""
+
+#: menu/widgets/menu_input_bind_dialog.c:116
+msgctxt "MENU_ENUM_LABEL_CUSTOM_BIND"
+msgid "custom_bind"
+msgstr ""
+
+#: menu/widgets/menu_input_bind_dialog.c:131
+msgctxt "MENU_ENUM_LABEL_CUSTOM_BIND_ALL"
+msgid "custom_bind_all"
+msgstr ""
+
+#: menu/menu_displaylist.c:2892
+msgctxt "MENU_ENUM_LABEL_DATABASE_MANAGER_LIST"
+msgid "database_manager_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:747
+msgctxt "MENU_ENUM_LABEL_DEFERRED_PLAYLIST_LIST"
+msgid "deferred_playlist_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:590 menu/cbs/menu_cbs_title.c:448
+msgctxt "MENU_ENUM_LABEL_DEFERRED_FAVORITES_LIST"
+msgid "deferred_favorites_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:753 menu/cbs/menu_cbs_title.c:453
+msgctxt "MENU_ENUM_LABEL_DEFERRED_IMAGES_LIST"
+msgid "deferred_images_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:741 menu/cbs/menu_cbs_title.c:458
+msgctxt "MENU_ENUM_LABEL_DEFERRED_MUSIC_LIST"
+msgid "deferred_music_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:759 menu/cbs/menu_cbs_title.c:463
+#: menu/cbs/menu_cbs_ok.c:260
+msgctxt "MENU_ENUM_LABEL_DEFERRED_VIDEO_LIST"
+msgid "deferred_video_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:774
+msgctxt "MENU_ENUM_LABEL_DEFERRED_NETPLAY"
+msgid "deferred_netplay"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:735 menu/cbs/menu_cbs_ok.c:280
+msgctxt "MENU_ENUM_LABEL_DEFERRED_MUSIC"
+msgid "deferred_music"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:600 menu/cbs/menu_cbs_ok.c:251
+msgctxt "MENU_ENUM_LABEL_DEFERRED_BROWSE_URL_START"
+msgid "deferred_browse_url_start"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:595
+msgctxt "MENU_ENUM_LABEL_DEFERRED_BROWSE_URL_LIST"
+msgid "deferred_browse_url_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:816
+msgctxt "MENU_ENUM_LABEL_DEFERRED_ACCOUNTS_LIST"
+msgid "deferred_accounts_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:515
+msgctxt "MENU_ENUM_LABEL_DEFERRED_ARCHIVE_ACTION"
+msgid "deferred_archive_action"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:501
+msgctxt "MENU_ENUM_LABEL_DEFERRED_ARCHIVE_ACTION_DETECT_CORE"
+msgid "deferred_archive_action_detect_core"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:316 menu/cbs/menu_cbs_ok.c:908
+#: menu/cbs/menu_cbs_ok.c:1285
+msgctxt "MENU_ENUM_LABEL_DEFERRED_ARCHIVE_OPEN"
+msgid "deferred_archive_open"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:298 menu/cbs/menu_cbs_ok.c:904
+#: menu/cbs/menu_cbs_ok.c:1283
+msgctxt "MENU_ENUM_LABEL_DEFERRED_ARCHIVE_OPEN_DETECT_CORE"
+msgid "deferred_archive_open_detect_core"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:801 menu/cbs/menu_cbs_title.c:473
+#: menu/cbs/menu_cbs_ok.c:1181
+msgctxt "MENU_ENUM_LABEL_DEFERRED_AUDIO_SETTINGS_LIST"
+msgid "deferred_audio_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:610 menu/cbs/menu_cbs_title.c:328
+msgctxt "MENU_ENUM_LABEL_DEFERRED_CONFIGURATION_SETTINGS_LIST"
+msgid "deferred_configuration_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:719 menu/cbs/menu_cbs_cancel.c:72
+#: menu/cbs/menu_cbs_title.c:438 menu/cbs/menu_cbs_ok.c:619
+msgctxt "MENU_ENUM_LABEL_DEFERRED_CORE_CONTENT_DIRS_LIST"
+msgid "deferred_core_content_dirs_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:727 menu/cbs/menu_cbs_title.c:443
+#: menu/cbs/menu_cbs_ok.c:610
+msgctxt "MENU_ENUM_LABEL_DEFERRED_CORE_CONTENT_DIRS_SUBDIR_LIST"
+msgid "deferred_core_content_dirs_subdir_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:847 menu/cbs/menu_cbs_cancel.c:76
+#: menu/cbs/menu_cbs_ok.c:628
+msgctxt "MENU_ENUM_LABEL_DEFERRED_CORE_CONTENT_LIST"
+msgid "deferred_core_content_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:644
+msgctxt "MENU_ENUM_LABEL_DEFERRED_CORE_LIST"
+msgid "deferred_core_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:652
+msgctxt "MENU_ENUM_LABEL_DEFERRED_CORE_LIST_SET"
+msgid "deferred_core_list_set"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:605 menu/cbs/menu_cbs_title.c:323
+msgctxt "MENU_ENUM_LABEL_DEFERRED_CORE_SETTINGS_LIST"
+msgid "deferred_core_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:785 menu/cbs/menu_cbs_cancel.c:70
+#: menu/cbs/menu_cbs_ok.c:590
+msgctxt "MENU_ENUM_LABEL_DEFERRED_CORE_UPDATER_LIST"
+msgid "core_updater"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:581 menu/cbs/menu_cbs_ok.c:2895
+msgctxt "MENU_ENUM_LABEL_DEFERRED_CURSOR_MANAGER_LIST"
+msgid "deferred_cursor_manager_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:568
+msgctxt "MENU_ENUM_LABEL_DEFERRED_DATABASE_MANAGER_LIST"
+msgid "deferred_database_manager_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:707 menu/cbs/menu_cbs_title.c:428
+#: menu/cbs/menu_cbs_ok.c:1173
+msgctxt "MENU_ENUM_LABEL_DEFERRED_DIRECTORY_SETTINGS_LIST"
+msgid "deferred_directory_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:791 menu/cbs/menu_cbs_title.c:468
+msgctxt "MENU_ENUM_LABEL_DEFERRED_DRIVER_SETTINGS_LIST"
+msgid "deferred_driver_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:625 menu/cbs/menu_cbs_title.c:343
+msgctxt "MENU_ENUM_LABEL_DEFERRED_FRAME_THROTTLE_SETTINGS_LIST"
+msgid "deferred_frame_throttle_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:878
+msgctxt "MENU_ENUM_LABEL_DEFERRED_INPUT_HOTKEY_BINDS_LIST"
+msgid "deferred_input_hotkey_binds"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:779
+msgctxt "MENU_ENUM_LABEL_DEFERRED_INPUT_SETTINGS_LIST"
+msgid "deferred_input_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:637
+msgctxt "MENU_ENUM_LABEL_DEFERRED_LAKKA_LIST"
+msgid "deferred_lakka_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:695 menu/cbs/menu_cbs_title.c:418
+msgctxt "MENU_ENUM_LABEL_DEFERRED_LAKKA_SERVICES_LIST"
+msgid "deferred_lakka_services_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:620 menu/cbs/menu_cbs_title.c:338
+msgctxt "MENU_ENUM_LABEL_DEFERRED_LOGGING_SETTINGS_LIST"
+msgid "deferred_logging_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:650 menu/cbs/menu_cbs_title.c:388
+msgctxt "MENU_ENUM_LABEL_DEFERRED_MENU_FILE_BROWSER_SETTINGS_LIST"
+msgid "deferred_menu_file_browser_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:665 menu/cbs/menu_cbs_title.c:378
+#: menu/cbs/menu_cbs_ok.c:1070
+msgctxt "MENU_ENUM_LABEL_DEFERRED_MENU_SETTINGS_LIST"
+msgid "deferred_menu_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:655 menu/cbs/menu_cbs_title.c:368
+msgctxt "MENU_ENUM_LABEL_DEFERRED_MENU_VIEWS_SETTINGS_LIST"
+msgid "deferred_menu_views_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:660 menu/cbs/menu_cbs_title.c:373
+msgctxt "MENU_ENUM_LABEL_DEFERRED_QUICK_MENU_VIEWS_SETTINGS_LIST"
+msgid "deferred_quick_menu_views_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:685 menu/cbs/menu_cbs_title.c:408
+msgctxt "MENU_ENUM_LABEL_DEFERRED_NETWORK_SETTINGS_LIST"
+msgid "deferred_network_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:635 menu/cbs/menu_cbs_title.c:353
+msgctxt "MENU_ENUM_LABEL_DEFERRED_ONSCREEN_DISPLAY_SETTINGS_LIST"
+msgid "deferred_onscreen_display_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:645 menu/cbs/menu_cbs_title.c:363
+#: menu/cbs/menu_cbs_ok.c:1185
+msgctxt "MENU_ENUM_LABEL_DEFERRED_ONSCREEN_OVERLAY_SETTINGS_LIST"
+msgid "deferred_onscreen_overlay_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:640 menu/cbs/menu_cbs_title.c:358
+msgctxt "MENU_ENUM_LABEL_DEFERRED_ONSCREEN_NOTIFICATIONS_SETTINGS_LIST"
+msgid "deferred_onscreen_notifications_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:713 menu/cbs/menu_cbs_title.c:433
+msgctxt "MENU_ENUM_LABEL_DEFERRED_PRIVACY_SETTINGS_LIST"
+msgid "deferred_privacy_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:764 menu/cbs/menu_cbs_ok.c:473
+msgctxt "MENU_ENUM_LABEL_DEFERRED_RDB_ENTRY_DETAIL"
+msgid "deferred_rdb_entry_detail"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:675 menu/cbs/menu_cbs_title.c:393
+msgctxt "MENU_ENUM_LABEL_DEFERRED_RETRO_ACHIEVEMENTS_SETTINGS_LIST"
+msgid "deferred_retro_achievements_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:630 menu/cbs/menu_cbs_title.c:348
+msgctxt "MENU_ENUM_LABEL_DEFERRED_REWIND_SETTINGS_LIST"
+msgid "deferred_rewind_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:615 menu/cbs/menu_cbs_title.c:333
+msgctxt "MENU_ENUM_LABEL_DEFERRED_SAVING_SETTINGS_LIST"
+msgid "deferred_saving_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:842 menu/cbs/menu_cbs_ok.c:599
+msgctxt "MENU_ENUM_LABEL_DEFERRED_THUMBNAILS_UPDATER_LIST"
+msgid "deferred_thumbnails_updater_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:680 menu/cbs/menu_cbs_title.c:403
+msgctxt "MENU_ENUM_LABEL_DEFERRED_UPDATER_SETTINGS_LIST"
+msgid "deferred_updater_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:873 menu/cbs/menu_cbs_ok.c:269
+msgctxt "MENU_ENUM_LABEL_DEFERRED_USER_BINDS_LIST"
+msgid "deferred_user_binds_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:670 menu/cbs/menu_cbs_title.c:383
+msgctxt "MENU_ENUM_LABEL_DEFERRED_USER_INTERFACE_SETTINGS_LIST"
+msgid "deferred_user_interface_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:701 menu/cbs/menu_cbs_title.c:423
+msgctxt "MENU_ENUM_LABEL_DEFERRED_USER_SETTINGS_LIST"
+msgid "deferred_user_settings_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:796 menu/cbs/menu_cbs_ok.c:1177
+msgctxt "MENU_ENUM_LABEL_DEFERRED_VIDEO_SETTINGS_LIST"
+msgid "deferred_video_settings_list"
+msgstr ""
+
+#: menu/menu_displaylist.c:3978 menu/cbs/menu_cbs_deferred_push.c:690
+#: menu/cbs/menu_cbs_title.c:398
+msgctxt "MENU_ENUM_LABEL_DEFERRED_WIFI_SETTINGS_LIST"
+msgid "deferred_wifi_settings_list"
+msgstr ""
+
+#: menu/menu_displaylist.c:2810 menu/drivers/materialui.c:2585
+msgctxt "MENU_ENUM_LABEL_DELETE_ENTRY"
+msgid "delete_entry"
+msgstr ""
+
+#: menu/menu_displaylist.c:6151 menu/cbs/menu_cbs_ok.c:3374
+#: menu/cbs/menu_cbs_ok.c:3387 menu/drivers/xmb.c:4344
+#: menu/drivers/materialui.c:2034 menu/drivers/materialui.c:2711
+msgctxt "MENU_ENUM_LABEL_FAVORITES"
+msgid "favorites"
+msgstr ""
+
+#: menu/menu_setting.c:7281 menu/drivers/materialui.c:2680
+msgctxt "MENU_ENUM_LABEL_DIRECTORY_SETTINGS"
+msgid "directory_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:4490 menu/drivers/materialui.c:2530
+msgctxt "MENU_ENUM_LABEL_DISK_CYCLE_TRAY_STATUS"
+msgid "disk_cycle_tray_status"
+msgstr ""
+
+#: menu/menu_displaylist.c:4495 menu/drivers/materialui.c:2537
+msgctxt "MENU_ENUM_LABEL_DISK_IMAGE_APPEND"
+msgid "disk_image_append"
+msgstr ""
+
+#: menu/menu_displaylist.c:2696 menu/drivers/materialui.c:2539
+msgctxt "MENU_ENUM_LABEL_DISK_OPTIONS"
+msgid "core_disk_options"
+msgstr ""
+
+#: menu/menu_displaylist.c:6189 menu/drivers/xmb.c:4353
+#: menu/drivers/materialui.c:2043 menu/drivers/materialui.c:2712
+msgctxt "MENU_ENUM_LABEL_DOWNLOADED_FILE_DETECT_CORE_LIST"
+msgid "downloaded_file_detect_core_list"
+msgstr ""
+
+#: menu/menu_displaylist.c:3019 menu/menu_displaylist.c:3042
+#: menu/cbs/menu_cbs_cancel.c:74 menu/drivers/materialui.c:2704
+msgctxt "MENU_ENUM_LABEL_DOWNLOAD_CORE_CONTENT_DIRS"
+msgid "download_core_content_dirs"
+msgstr ""
+
+#: menu/drivers/materialui.c:2640
+msgctxt "MENU_ENUM_LABEL_DRIVER_SETTINGS"
+msgid "driver_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:3747 menu/cbs/menu_cbs_left.c:513
+#: menu/cbs/menu_cbs_left.c:533 menu/cbs/menu_cbs_left.c:642
+#: menu/cbs/menu_cbs_left.c:683 menu/cbs/menu_cbs_right.c:510
+#: menu/cbs/menu_cbs_right.c:623 menu/cbs/menu_cbs_right.c:642
+#: menu/cbs/menu_cbs_right.c:682 menu/cbs/menu_cbs_title.c:251
+#: menu/drivers/xmb.c:4197
+msgctxt "MENU_ENUM_LABEL_FAVORITES_TAB"
+msgid "favorites_tab"
+msgstr ""
+
+#: menu/menu_setting.c:4763 menu/drivers/materialui.c:2658
+msgctxt "MENU_ENUM_LABEL_FRAME_THROTTLE_SETTINGS"
+msgid "frame_throttle_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:2906
+msgctxt "MENU_ENUM_LABEL_FRONTEND_COUNTERS"
+msgid "frontend_counters"
+msgstr ""
+
+#: menu/menu_displaylist.c:4735
+msgctxt "MENU_ENUM_LABEL_GAME_SPECIFIC_OPTIONS_CREATE"
+msgid "game_specific_options_create"
+msgstr ""
+
+#: menu/menu_displaylist.c:4743
+msgctxt "MENU_ENUM_LABEL_GAME_SPECIFIC_OPTIONS_IN_USE"
+msgid "game_specific_options_in_use"
+msgstr ""
+
+#: menu/menu_setting.c:1704 menu/widgets/menu_dialog.c:269
+msgctxt "MENU_ENUM_LABEL_HELP"
+msgid "help"
+msgstr ""
+
+#: menu/menu_displaylist.c:6449
+msgctxt "MENU_ENUM_LABEL_HELP_AUDIO_VIDEO_TROUBLESHOOTING"
+msgid "help_audio_video_troubleshooting"
+msgstr ""
+
+#: menu/menu_displaylist.c:6443
+msgctxt "MENU_ENUM_LABEL_HELP_CHANGE_VIRTUAL_GAMEPAD"
+msgid "help_change_virtual_gamepad"
+msgstr ""
+
+#: menu/menu_displaylist.c:6420
+msgctxt "MENU_ENUM_LABEL_HELP_CONTROLS"
+msgid "help_controls"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:858 menu/drivers/materialui.c:2441
+msgctxt "MENU_ENUM_LABEL_HELP_LIST"
+msgid "help_list"
+msgstr ""
+
+#: menu/menu_displaylist.c:6430
+msgctxt "MENU_ENUM_LABEL_HELP_LOADING_CONTENT"
+msgid "help_loading_content"
+msgstr ""
+
+#: menu/menu_displaylist.c:6436
+msgctxt "MENU_ENUM_LABEL_HELP_SCANNING_CONTENT"
+msgid "help_scanning_content"
+msgstr ""
+
+#: menu/menu_displaylist.c:6425
+msgctxt "MENU_ENUM_LABEL_HELP_WHAT_IS_A_CORE"
+msgid "help_what_is_a_core"
+msgstr ""
+
+#: menu/menu_displaylist.c:3742 menu/cbs/menu_cbs_left.c:512
+#: menu/cbs/menu_cbs_left.c:532 menu/cbs/menu_cbs_left.c:641
+#: menu/cbs/menu_cbs_left.c:682 menu/cbs/menu_cbs_right.c:509
+#: menu/cbs/menu_cbs_right.c:622 menu/cbs/menu_cbs_right.c:641
+#: menu/cbs/menu_cbs_right.c:681 menu/cbs/menu_cbs_title.c:249
+#: menu/drivers/nuklear.c:357 menu/drivers/zarch.c:1146
+#: menu/drivers/xmb.c:4191
+msgctxt "MENU_ENUM_LABEL_HISTORY_TAB"
+msgid "history_tab"
+msgstr ""
+
+#: menu/menu_displaylist.c:3873 menu/cbs/menu_cbs_left.c:519
+#: menu/cbs/menu_cbs_left.c:540 menu/cbs/menu_cbs_left.c:649
+#: menu/cbs/menu_cbs_left.c:691 menu/cbs/menu_cbs_right.c:517
+#: menu/cbs/menu_cbs_right.c:629 menu/cbs/menu_cbs_right.c:649
+#: menu/cbs/menu_cbs_right.c:690 menu/cbs/menu_cbs_title.c:267
+#: menu/drivers/xmb.c:4217
+msgctxt "MENU_ENUM_LABEL_HORIZONTAL_MENU"
+msgid "horizontal_menu"
+msgstr ""
+
+#: menu/menu_displaylist.c:3795 menu/cbs/menu_cbs_left.c:517
+#: menu/cbs/menu_cbs_left.c:538 menu/cbs/menu_cbs_left.c:647
+#: menu/cbs/menu_cbs_left.c:689 menu/cbs/menu_cbs_right.c:515
+#: menu/cbs/menu_cbs_right.c:627 menu/cbs/menu_cbs_right.c:647
+#: menu/cbs/menu_cbs_right.c:688 menu/cbs/menu_cbs_title.c:253
+#: menu/drivers/xmb.c:4170
+msgctxt "MENU_ENUM_LABEL_IMAGES_TAB"
+msgid "images_tab"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:863 menu/drivers/materialui.c:2402
+msgctxt "MENU_ENUM_LABEL_INFORMATION_LIST"
+msgid "information_list"
+msgstr ""
+
+#: menu/cbs/menu_cbs_info.c:45
+msgctxt "MENU_ENUM_LABEL_INFO_SCREEN"
+msgid "info_screen"
+msgstr ""
+
+#: menu/drivers/materialui.c:2648
+msgctxt "MENU_ENUM_LABEL_INPUT_HOTKEY_BINDS"
+msgid "input_hotkey_binds"
+msgstr ""
+
+#: menu/menu_setting.c:4728
+msgctxt "MENU_ENUM_LABEL_INPUT_HOTKEY_BINDS_BEGIN"
+msgid "input_hotkey_binds_begin"
+msgstr ""
+
+#: menu/menu_setting.c:2008 menu/menu_displaylist.c:3193
+#, c-format
+msgctxt "MENU_ENUM_LABEL_INPUT_LIBRETRO_DEVICE"
+msgid "input_libretro_device_p%u"
+msgstr ""
+
+#: menu/menu_setting.c:2011 menu/menu_displaylist.c:3195
+#, c-format
+msgctxt "MENU_ENUM_LABEL_INPUT_PLAYER_ANALOG_DPAD_MODE"
+msgid "input_player%u_analog_dpad_mode"
+msgstr ""
+
+#: menu/drivers/materialui.c:2646
+msgctxt "MENU_ENUM_LABEL_INPUT_SETTINGS"
+msgid "input_settings"
+msgstr ""
+
+#: menu/menu_setting.c:4264
+msgctxt "MENU_ENUM_LABEL_INPUT_SETTINGS_BEGIN"
+msgid "input_settings_begin"
+msgstr ""
+
+#: menu/drivers/materialui.c:2674
+msgctxt "MENU_ENUM_LABEL_LAKKA_SERVICES"
+msgid "lakka_services"
+msgstr ""
+
+#: menu/menu_displaylist.c:4788
+msgctxt "MENU_ENUM_LABEL_LOAD_ARCHIVE"
+msgid "load_archive"
+msgstr ""
+
+#: menu/menu_displaylist.c:4804
+msgctxt "MENU_ENUM_LABEL_LOAD_ARCHIVE_DETECT_CORE"
+msgid "load_archive_detect_core"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:826 menu/drivers/materialui.c:2436
+msgctxt "MENU_ENUM_LABEL_LOAD_CONTENT_HISTORY"
+msgid "load_recent"
+msgstr ""
+
+#: menu/menu_displaylist.c:2572
+msgctxt "MENU_ENUM_LABEL_LOAD_CONTENT_SPECIAL"
+msgid "load_special"
+msgstr ""
+
+#: menu/drivers/materialui.c:2580
+msgctxt "MENU_ENUM_LABEL_LOAD_CONTENT_LIST"
+msgid "load_content"
+msgstr ""
+
+#: menu/menu_displaylist.c:2623 menu/drivers/materialui.c:2523
+msgctxt "MENU_ENUM_LABEL_LOAD_STATE"
+msgid "loadstate"
+msgstr ""
+
+#: menu/menu_setting.c:3029 menu/drivers/materialui.c:2656
+msgctxt "MENU_ENUM_LABEL_LOGGING_SETTINGS"
+msgid "logging_settings"
+msgstr ""
+
+#: menu/menu_setting.c:2260 menu/menu_setting.c:7840
+#: menu/cbs/menu_cbs_left.c:436 menu/cbs/menu_cbs_left.c:514
+#: menu/cbs/menu_cbs_left.c:687 menu/cbs/menu_cbs_right.c:546
+#: menu/cbs/menu_cbs_right.c:624 menu/cbs/menu_cbs_right.c:686
+#: menu/cbs/menu_cbs_title.c:247 menu/cbs/menu_cbs_title.c:315
+#: menu/drivers/menu_generic.c:275 menu/drivers/xmb.c:4157
+#: menu/drivers/xmb.c:4509 menu/drivers/materialui.c:1945
+msgctxt "MENU_ENUM_LABEL_MAIN_MENU"
+msgid "main_menu"
+msgstr ""
+
+#: menu/menu_setting.c:6044 menu/menu_displaylist.c:6218
+#: menu/drivers/xmb.c:4376 menu/drivers/materialui.c:2056
+#: menu/drivers/materialui.c:2638
+msgctxt "MENU_ENUM_LABEL_MENU_FILE_BROWSER_SETTINGS"
+msgid "menu_file_browser_settings"
+msgstr ""
+
+#: menu/menu_setting.c:5162 menu/drivers/materialui.c:2688
+msgctxt "MENU_ENUM_LABEL_MENU_SETTINGS"
+msgid "menu_settings"
+msgstr ""
+
+#: menu/cbs/menu_cbs_cancel.c:47
+msgctxt "MENU_ENUM_LABEL_MENU_WALLPAPER"
+msgid "menu_wallpaper"
+msgstr ""
+
+#: menu/menu_displaylist.c:3757 menu/cbs/menu_cbs_left.c:516
+#: menu/cbs/menu_cbs_left.c:537 menu/cbs/menu_cbs_left.c:646
+#: menu/cbs/menu_cbs_left.c:688 menu/cbs/menu_cbs_right.c:514
+#: menu/cbs/menu_cbs_right.c:626 menu/cbs/menu_cbs_right.c:646
+#: menu/cbs/menu_cbs_right.c:687 menu/cbs/menu_cbs_title.c:255
+#: menu/drivers/xmb.c:4177
+msgctxt "MENU_ENUM_LABEL_MUSIC_TAB"
+msgid "music_tab"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3200 menu/drivers/materialui.c:2590
+msgctxt "MENU_ENUM_LABEL_NETPLAY"
+msgid "netplay"
+msgstr ""
+
+#: menu/menu_setting.c:6927
+#, c-format
+msgctxt "MENU_ENUM_LABEL_NETPLAY_REQUEST_DEVICE_I"
+msgid "netplay_request_device_%u"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3097 menu/cbs/menu_cbs_ok.c:3107
+msgctxt "MENU_ENUM_LABEL_NETPLAY_DISCONNECT"
+msgid "menu_netplay_disconnect"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3122
+msgctxt "MENU_ENUM_LABEL_NETPLAY_ENABLE_CLIENT"
+msgid "menu_netplay_enable_client"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3115
+msgctxt "MENU_ENUM_LABEL_NETPLAY_ENABLE_HOST"
+msgid "menu_netplay_enable_host"
+msgstr ""
+
+#: menu/menu_displaylist.c:2669
+msgctxt "MENU_ENUM_LABEL_NETPLAY_SETTINGS"
+msgid "menu_netplay_settings"
+msgstr ""
+
+#: menu/drivers/materialui.c:2672
+msgctxt "MENU_ENUM_LABEL_NETPLAY_LAN_SCAN_SETTINGS"
+msgid "Search for and connect to netplay hosts on the local network."
+msgstr ""
+
+#: menu/menu_displaylist.c:2877 menu/cbs/menu_cbs_deferred_push.c:836
+#: menu/cbs/menu_cbs_title.c:483
+msgctxt "MENU_ENUM_LABEL_NETWORK_INFORMATION"
+msgid "network_information"
+msgstr ""
+
+#: menu/menu_setting.c:7025
+msgctxt "MENU_ENUM_LABEL_NETWORK_REMOTE_ENABLE"
+msgid "network_remote_enable"
+msgstr ""
+
+#: menu/menu_setting.c:6681 menu/drivers/materialui.c:2670
+msgctxt "MENU_ENUM_LABEL_NETWORK_SETTINGS"
+msgid "network_settings"
+msgstr ""
+
+#: cheevos/cheevos.c:2421
+msgctxt "MENU_ENUM_LABEL_NO_ACHIEVEMENTS_TO_DISPLAY"
+msgid "no_achievements_to_display"
+msgstr ""
+
+#: menu/menu_displaylist.c:4577 menu/menu_displaylist.c:4671
+msgctxt "MENU_ENUM_LABEL_NO_CORES_AVAILABLE"
+msgid "no_cores_available"
+msgstr ""
+
+#: menu/menu_displaylist.c:165 menu/drivers/materialui.c:2404
+msgctxt "MENU_ENUM_LABEL_NO_CORE_INFORMATION_AVAILABLE"
+msgid "no_core_information_available"
+msgstr ""
+
+#: menu/menu_displaylist.c:4752 menu/menu_displaylist.c:4772
+#: menu/drivers/materialui.c:2408
+msgctxt "MENU_ENUM_LABEL_NO_CORE_OPTIONS_AVAILABLE"
+msgid "no_core_options_available"
+msgstr ""
+
+#: menu/menu_networking.c:59 menu/menu_displaylist.c:2963
+msgctxt "MENU_ENUM_LABEL_NO_ENTRIES_TO_DISPLAY"
+msgid "no_entries_to_display"
+msgstr ""
+
+#: menu/menu_displaylist.c:4411 menu/menu_displaylist.c:4445
+#: menu/menu_displaylist.c:4468 menu/menu_displaylist.c:6762
+msgctxt "MENU_ENUM_LABEL_NO_HISTORY_AVAILABLE"
+msgid "no_history"
+msgstr ""
+
+#: menu/menu_displaylist.c:2743 menu/menu_displaylist.c:3117
+#: menu/menu_displaylist.c:3518 menu/menu_displaylist.c:3608
+#: menu/menu_displaylist.c:6503 menu/menu_displaylist.c:6524
+#: menu/widgets/menu_filebrowser.c:271 menu/drivers/materialui.c:2406
+msgctxt "MENU_ENUM_LABEL_NO_ITEMS"
+msgid "no_items"
+msgstr ""
+
+#: menu/menu_displaylist.c:5448 menu/menu_displaylist.c:5463
+#: menu/menu_displaylist.c:5484
+msgctxt "MENU_ENUM_LABEL_NO_NETWORKS_FOUND"
+msgid "no_networks_found"
+msgstr ""
+
+#: menu/menu_displaylist.c:137
+msgctxt "MENU_ENUM_LABEL_NO_PERFORMANCE_COUNTERS"
+msgid "no_performance_counters"
+msgstr ""
+
+#: menu/menu_displaylist.c:3452
+msgctxt "MENU_ENUM_LABEL_NO_PLAYLISTS"
+msgid "no_playlists"
+msgstr ""
+
+#: menu/menu_displaylist.c:4083
+msgctxt "MENU_ENUM_LABEL_NO_PLAYLIST_ENTRIES_AVAILABLE"
+msgid "no_playlist_entries_available"
+msgstr ""
+
+#: menu/menu_displaylist.c:2235 menu/menu_displaylist.c:2430
+#: menu/menu_displaylist.c:5435 menu/menu_displaylist.c:5609
+#: menu/menu_displaylist.c:5746 menu/drivers/materialui.c:2410
+msgctxt "MENU_ENUM_LABEL_NO_SETTINGS_FOUND"
+msgid "menu_label_no_settings_found"
+msgstr ""
+
+#: menu/menu_displaylist.c:2035 menu/menu_displaylist.c:6262
+msgctxt "MENU_ENUM_LABEL_NO_SHADER_PARAMETERS"
+msgid "no_shader_parameters."
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:853 menu/cbs/menu_cbs_cancel.c:71
+#: menu/cbs/menu_cbs_cancel.c:73 menu/cbs/menu_cbs_cancel.c:75
+#: menu/cbs/menu_cbs_cancel.c:77 menu/drivers/materialui.c:2601
+msgctxt "MENU_ENUM_LABEL_ONLINE_UPDATER"
+msgid "online_updater"
+msgstr ""
+
+#: menu/menu_setting.c:4820 menu/drivers/materialui.c:2662
+msgctxt "MENU_ENUM_LABEL_ONSCREEN_DISPLAY_SETTINGS"
+msgid "onscreen_display_settings"
+msgstr ""
+
+#: menu/drivers/materialui.c:2690
+msgctxt "MENU_ENUM_LABEL_ONSCREEN_OVERLAY_SETTINGS"
+msgid "onscreen_overlay_settings"
+msgstr ""
+
+#: menu/drivers/materialui.c:2692
+msgctxt "MENU_ENUM_LABEL_ONSCREEN_NOTIFICATIONS_SETTINGS"
+msgid "onscreen_notifications_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:4782
+msgctxt "MENU_ENUM_LABEL_OPEN_ARCHIVE"
+msgid "open_archive"
+msgstr ""
+
+#: menu/menu_displaylist.c:4798
+msgctxt "MENU_ENUM_LABEL_OPEN_ARCHIVE_DETECT_CORE"
+msgid "open_archive_detect_core"
+msgstr ""
+
+#: menu/menu_displaylist.c:3825 menu/cbs/menu_cbs_left.c:465
+#: menu/cbs/menu_cbs_left.c:515 menu/cbs/menu_cbs_left.c:534
+#: menu/cbs/menu_cbs_left.c:643 menu/cbs/menu_cbs_left.c:684
+#: menu/cbs/menu_cbs_right.c:511 menu/cbs/menu_cbs_right.c:575
+#: menu/cbs/menu_cbs_right.c:625 menu/cbs/menu_cbs_right.c:643
+#: menu/cbs/menu_cbs_right.c:683 menu/cbs/menu_cbs_title.c:261
+#: menu/drivers/materialui.c:1951
+msgctxt "MENU_ENUM_LABEL_PLAYLISTS_TAB"
+msgid "playlists_tab"
+msgstr ""
+
+#: menu/drivers/materialui.c:2676
+msgctxt "MENU_ENUM_LABEL_PLAYLIST_SETTINGS"
+msgid "playlist_settings"
+msgstr ""
+
+#: menu/menu_setting.c:6438
+msgctxt "MENU_ENUM_LABEL_PLAYLIST_SETTINGS_BEGIN"
+msgid "playlist_settings_begin"
+msgstr ""
+
+#: menu/menu_setting.c:7675 menu/drivers/materialui.c:2682
+msgctxt "MENU_ENUM_LABEL_PRIVACY_SETTINGS"
+msgid "privacy_settings"
+msgstr ""
+
+#: menu/drivers/materialui.c:2632
+msgctxt "MENU_ENUM_LABEL_QUIT_RETROARCH"
+msgid "quit_retroarch"
+msgstr ""
+
+#: menu/menu_displaylist.c:1917
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_ANALOG"
+msgid "rdb_entry_analog"
+msgstr ""
+
+#: menu/menu_displaylist.c:1852
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_BBFC_RATING"
+msgid "rdb_entry_bbfc_rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1897
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_CERO_RATING"
+msgid "rdb_entry_cero_rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1950
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_CRC32"
+msgid "rdb_entry_crc32"
+msgstr ""
+
+#: menu/menu_displaylist.c:1705
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_DESCRIPTION"
+msgid "rdb_entry_description"
+msgstr ""
+
+#: menu/menu_displaylist.c:1741
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_DEVELOPER"
+msgid "rdb_entry_developer"
+msgstr ""
+
+#: menu/menu_displaylist.c:1821
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_EDGE_MAGAZINE_ISSUE"
+msgid "rdb_entry_edge_magazine_issue"
+msgstr ""
+
+#: menu/menu_displaylist.c:1811
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_EDGE_MAGAZINE_RATING"
+msgid "rdb_entry_edge_magazine_rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1802
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_EDGE_MAGAZINE_REVIEW"
+msgid "rdb_entry_edge_magazine_review"
+msgstr ""
+
+#: menu/menu_displaylist.c:1870
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_ELSPA_RATING"
+msgid "rdb_entry_elspa_rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1888
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_ENHANCEMENT_HW"
+msgid "rdb_entry_enhancement_hw"
+msgstr ""
+
+#: menu/menu_displaylist.c:1861
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_ESRB_RATING"
+msgid "rdb_entry_esrb_rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1792
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_FAMITSU_MAGAZINE_RATING"
+msgid "rdb_entry_famitsu_magazine_rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1763
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_FRANCHISE"
+msgid "rdb_entry_franchise"
+msgstr ""
+
+#: menu/menu_displaylist.c:1717
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_GENRE"
+msgid "rdb_entry_genre"
+msgstr ""
+
+#: menu/menu_displaylist.c:1772
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_MAX_USERS"
+msgid "rdb_entry_max_users"
+msgstr ""
+
+#: menu/menu_displaylist.c:1972
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_MD5"
+msgid "rdb_entry_md5"
+msgstr ""
+
+#: menu/menu_displaylist.c:1693
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_NAME"
+msgid "rdb_entry_name"
+msgstr ""
+
+#: menu/menu_displaylist.c:1754
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_ORIGIN"
+msgid "rdb_entry_origin"
+msgstr ""
+
+#: menu/menu_displaylist.c:1879
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_PEGI_RATING"
+msgid "rdb_entry_pegi_rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1726
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_PUBLISHER"
+msgid "rdb_entry_publisher"
+msgstr ""
+
+#: menu/menu_displaylist.c:1831
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_RELEASE_MONTH"
+msgid "rdb_entry_releasemonth"
+msgstr ""
+
+#: menu/menu_displaylist.c:1842
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_RELEASE_YEAR"
+msgid "rdb_entry_releaseyear"
+msgstr ""
+
+#: menu/menu_displaylist.c:1907
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_SERIAL"
+msgid "rdb_entry_serial"
+msgstr ""
+
+#: menu/menu_displaylist.c:1961
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_SHA1"
+msgid "rdb_entry_sha1"
+msgstr ""
+
+#: menu/menu_displaylist.c:1782
+msgctxt "MENU_ENUM_LABEL_RDB_ENTRY_TGDB_RATING"
+msgid "rdb_entry_tgdb_rating"
+msgstr ""
+
+#: menu/menu_setting.c:4621 menu/drivers/materialui.c:2660
+msgctxt "MENU_ENUM_LABEL_RECORDING_SETTINGS"
+msgid "recording_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:3205
+msgctxt "MENU_ENUM_LABEL_REMAP_FILE_LOAD"
+msgid "remap_file_load"
+msgstr ""
+
+#: menu/menu_displaylist.c:3210
+msgctxt "MENU_ENUM_LABEL_REMAP_FILE_SAVE_CORE"
+msgid "remap_file_save_core"
+msgstr ""
+
+#: menu/menu_displaylist.c:3215
+msgctxt "MENU_ENUM_LABEL_REMAP_FILE_SAVE_GAME"
+msgid "remap_file_save_game"
+msgstr ""
+
+#: menu/menu_displaylist.c:3223
+msgctxt "MENU_ENUM_LABEL_REMAP_FILE_REMOVE_CORE"
+msgid "remap_file_remove_core"
+msgstr ""
+
+#: menu/menu_displaylist.c:3232
+msgctxt "MENU_ENUM_LABEL_REMAP_FILE_REMOVE_GAME"
+msgid "remap_file_remove_game"
+msgstr ""
+
+#: menu/menu_displaylist.c:2586 menu/drivers/materialui.c:2446
+msgctxt "MENU_ENUM_LABEL_RESTART_CONTENT"
+msgid "restart_content"
+msgstr ""
+
+#: menu/menu_displaylist.c:2580 menu/drivers/materialui.c:2451
+msgctxt "MENU_ENUM_LABEL_RESUME_CONTENT"
+msgid "resume_content"
+msgstr ""
+
+#: menu/menu_setting.c:6518 menu/drivers/materialui.c:2666
+msgctxt "MENU_ENUM_LABEL_RETRO_ACHIEVEMENTS_SETTINGS"
+msgid "retro_achievements_settings"
+msgstr ""
+
+#: menu/menu_setting.c:3214 menu/drivers/materialui.c:2696
+msgctxt "MENU_ENUM_LABEL_REWIND_SETTINGS"
+msgid "rewind_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:2653 menu/drivers/materialui.c:2492
+msgctxt "MENU_ENUM_LABEL_ADD_TO_FAVORITES"
+msgid "favorites_add"
+msgstr ""
+
+#: menu/menu_displaylist.c:2818
+msgctxt "MENU_ENUM_LABEL_ADD_TO_FAVORITES_PLAYLIST"
+msgid "favorites_add_playlist"
+msgstr ""
+
+#: menu/menu_displaylist.c:2797 menu/drivers/materialui.c:2486
+msgctxt "MENU_ENUM_LABEL_RUN"
+msgid "collection"
+msgstr ""
+
+#: menu/menu_displaylist.c:4197 menu/drivers/materialui.c:2517
+msgctxt "MENU_ENUM_LABEL_RUN_MUSIC"
+msgid "collection_music"
+msgstr ""
+
+#: menu/menu_displaylist.c:2931
+msgctxt "MENU_ENUM_LABEL_SAVE_CURRENT_CONFIG"
+msgid "save_current_config"
+msgstr ""
+
+#: menu/menu_displaylist.c:2715 menu/drivers/materialui.c:2547
+msgctxt "MENU_ENUM_LABEL_SAVE_CURRENT_CONFIG_OVERRIDE_CORE"
+msgid "save_current_config_override_core"
+msgstr ""
+
+#: menu/menu_displaylist.c:2724 menu/drivers/materialui.c:2549
+msgctxt "MENU_ENUM_LABEL_SAVE_CURRENT_CONFIG_OVERRIDE_GAME"
+msgid "save_current_config_override_game"
+msgstr ""
+
+#: menu/menu_displaylist.c:2937
+msgctxt "MENU_ENUM_LABEL_SAVE_NEW_CONFIG"
+msgid "save_new_config"
+msgstr ""
+
+#: menu/menu_displaylist.c:2617 menu/drivers/materialui.c:2545
+msgctxt "MENU_ENUM_LABEL_SAVE_STATE"
+msgid "savestate"
+msgstr ""
+
+#: menu/menu_setting.c:3098 menu/drivers/materialui.c:2654
+msgctxt "MENU_ENUM_LABEL_SAVING_SETTINGS"
+msgid "saving_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:2949 menu/menu_displaylist.c:2978
+#: menu/menu_displaylist.c:3350 menu/drivers/materialui.c:2625
+msgctxt "MENU_ENUM_LABEL_SCAN_DIRECTORY"
+msgid "scan_directory"
+msgstr ""
+
+#: menu/menu_displaylist.c:2955 menu/menu_displaylist.c:2984
+#: menu/menu_displaylist.c:3355 menu/widgets/menu_filebrowser.c:73
+#: menu/drivers/materialui.c:2626
+msgctxt "MENU_ENUM_LABEL_SCAN_FILE"
+msgid "scan_file"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3128
+msgctxt "MENU_ENUM_LABEL_NETPLAY_REFRESH_ROOMS"
+msgid "refresh_rooms"
+msgstr ""
+
+#: menu/widgets/menu_filebrowser.c:90 menu/drivers/materialui.c:2431
+msgctxt "MENU_ENUM_LABEL_SCAN_THIS_DIRECTORY"
+msgid "scan_this_directory"
+msgstr ""
+
+#: menu/menu_setting.c:1968 menu/menu_setting.c:2787 menu/menu_setting.c:2897
+#: menu/menu_setting.c:3269 menu/menu_setting.c:3947 menu/menu_setting.c:4030
+#: menu/menu_setting.c:4146 menu/menu_setting.c:4267 menu/menu_setting.c:4731
+#: menu/menu_setting.c:6071 menu/menu_setting.c:6442 menu/menu_setting.c:7076
+#: menu/menu_setting.c:7214 menu/menu_setting.c:7236
+msgctxt "MENU_ENUM_LABEL_SETTINGS"
+msgid "settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:3752 menu/cbs/menu_cbs_left.c:541
+#: menu/cbs/menu_cbs_left.c:650 menu/cbs/menu_cbs_left.c:692
+#: menu/cbs/menu_cbs_right.c:518 menu/cbs/menu_cbs_right.c:650
+#: menu/cbs/menu_cbs_right.c:691 menu/cbs/menu_cbs_title.c:259
+#: menu/drivers/xmb.c:4163 menu/drivers/materialui.c:1957
+msgctxt "MENU_ENUM_LABEL_SETTINGS_TAB"
+msgid "settings_tab"
+msgstr ""
+
+#: menu/menu_displaylist.c:1371
+msgctxt "MENU_ENUM_LABEL_SHADER_APPLY_CHANGES"
+msgid "shader_apply_changes"
+msgstr ""
+
+#: menu/menu_displaylist.c:1378
+msgctxt "MENU_ENUM_LABEL_SHADER_WATCH_FOR_CHANGES"
+msgid "video_shader_watch_files"
+msgstr ""
+
+#: menu/menu_displaylist.c:2705 menu/cbs/menu_cbs_deferred_push.c:868
+#: menu/drivers/materialui.c:2476
+msgctxt "MENU_ENUM_LABEL_SHADER_OPTIONS"
+msgid "shader_options"
+msgstr ""
+
+#: menu/drivers/materialui.c:2515
+msgctxt "MENU_ENUM_LABEL_START_CORE"
+msgid "start_core"
+msgstr ""
+
+#: menu/menu_displaylist.c:4049
+msgctxt "MENU_ENUM_LABEL_START_NET_RETROPAD"
+msgid "menu_start_net_retropad"
+msgstr ""
+
+#: menu/menu_displaylist.c:4041
+msgctxt "MENU_ENUM_LABEL_START_VIDEO_PROCESSOR"
+msgid "menu_start_video_processor"
+msgstr ""
+
+#: menu/drivers/materialui.c:2565
+msgctxt "MENU_ENUM_LABEL_STATE_SLOT"
+msgid "state_slot"
+msgstr ""
+
+#: menu/menu_displaylist.c:2885 menu/cbs/menu_cbs_deferred_push.c:811
+#: menu/cbs/menu_cbs_title.c:478
+msgctxt "MENU_ENUM_LABEL_SYSTEM_INFORMATION"
+msgid "system_information"
+msgstr ""
+
+#: menu/menu_displaylist.c:2600 menu/menu_displaylist.c:3816
+#: menu/drivers/materialui.c:2570
+msgctxt "MENU_ENUM_LABEL_TAKE_SCREENSHOT"
+msgid "take_screenshot"
+msgstr ""
+
+#: menu/menu_displaylist.c:3014 menu/menu_displaylist.c:3035
+#: menu/drivers/materialui.c:2702
+msgctxt "MENU_ENUM_LABEL_THUMBNAILS_UPDATER_LIST"
+msgid "thumbnails_updater_list"
+msgstr ""
+
+#: menu/menu_displaylist.c:2637 menu/drivers/materialui.c:2555
+msgctxt "MENU_ENUM_LABEL_UNDO_LOAD_STATE"
+msgid "undoloadstate"
+msgstr ""
+
+#: menu/menu_displaylist.c:2643 menu/drivers/materialui.c:2560
+msgctxt "MENU_ENUM_LABEL_UNDO_SAVE_STATE"
+msgid "undosavestate"
+msgstr ""
+
+#: menu/menu_setting.c:6626
+msgctxt "MENU_ENUM_LABEL_UPDATER_SETTINGS"
+msgid "updater_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:3057 menu/drivers/materialui.c:2607
+msgctxt "MENU_ENUM_LABEL_UPDATE_ASSETS"
+msgid "update_assets"
+msgstr ""
+
+#: menu/menu_displaylist.c:3064 menu/drivers/materialui.c:2605
+msgctxt "MENU_ENUM_LABEL_UPDATE_AUTOCONFIG_PROFILES"
+msgid "update_autoconfig_profiles"
+msgstr ""
+
+#: menu/menu_displaylist.c:3093 menu/drivers/materialui.c:2615
+msgctxt "MENU_ENUM_LABEL_UPDATE_CG_SHADERS"
+msgid "update_cg_shaders"
+msgstr ""
+
+#: menu/menu_displaylist.c:3070 menu/drivers/materialui.c:2609
+msgctxt "MENU_ENUM_LABEL_UPDATE_CHEATS"
+msgid "update_cheats"
+msgstr ""
+
+#: menu/menu_displaylist.c:3050 menu/drivers/materialui.c:2603
+msgctxt "MENU_ENUM_LABEL_UPDATE_CORE_INFO_FILES"
+msgid "update_core_info_files"
+msgstr ""
+
+#: menu/menu_displaylist.c:3078 menu/drivers/materialui.c:2611
+msgctxt "MENU_ENUM_LABEL_UPDATE_DATABASES"
+msgid "update_databases"
+msgstr ""
+
+#: menu/menu_displaylist.c:3101 menu/drivers/materialui.c:2617
+msgctxt "MENU_ENUM_LABEL_UPDATE_GLSL_SHADERS"
+msgid "update_glsl_shaders"
+msgstr ""
+
+#: menu/menu_displaylist.c:3009
+msgctxt "MENU_ENUM_LABEL_UPDATE_LAKKA"
+msgid "update_lakka"
+msgstr ""
+
+#: menu/menu_displaylist.c:3086 menu/drivers/materialui.c:2613
+msgctxt "MENU_ENUM_LABEL_UPDATE_OVERLAYS"
+msgid "update_overlays"
+msgstr ""
+
+#: menu/menu_displaylist.c:3109 menu/drivers/materialui.c:2619
+msgctxt "MENU_ENUM_LABEL_UPDATE_SLANG_SHADERS"
+msgid "update_slang_shaders"
+msgstr ""
+
+#: menu/menu_setting.c:6148 menu/drivers/materialui.c:2664
+msgctxt "MENU_ENUM_LABEL_USER_INTERFACE_SETTINGS"
+msgid "user_interface_settings"
+msgstr ""
+
+#: menu/menu_setting.c:7140 menu/drivers/materialui.c:2678
+msgctxt "MENU_ENUM_LABEL_USER_SETTINGS"
+msgid "user_settings"
+msgstr ""
+
+#: menu/widgets/menu_filebrowser.c:99
+msgctxt "MENU_ENUM_LABEL_USE_THIS_DIRECTORY"
+msgid "use_this_directory"
+msgstr ""
+
+#: menu/drivers/materialui.c:2642
+msgctxt "MENU_ENUM_LABEL_VIDEO_SETTINGS"
+msgid "video_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:1435
+msgctxt "MENU_ENUM_LABEL_VIDEO_SHADER_FILTER_PASS"
+msgid "video_shader_filter_pass"
+msgstr ""
+
+#: menu/menu_displaylist.c:1414
+msgctxt "MENU_ENUM_LABEL_VIDEO_SHADER_NUM_PASSES"
+msgid "video_shader_num_passes"
+msgstr ""
+
+#: menu/menu_displaylist.c:1404
+msgctxt "MENU_ENUM_LABEL_VIDEO_SHADER_PARAMETERS"
+msgid "video_shader_parameters"
+msgstr ""
+
+#: menu/menu_displaylist.c:1429
+msgctxt "MENU_ENUM_LABEL_VIDEO_SHADER_PASS"
+msgid "video_shader_pass"
+msgstr ""
+
+#: menu/menu_displaylist.c:1384
+msgctxt "MENU_ENUM_LABEL_VIDEO_SHADER_PRESET"
+msgid "video_shader_preset"
+msgstr ""
+
+#: menu/menu_displaylist.c:1409
+msgctxt "MENU_ENUM_LABEL_VIDEO_SHADER_PRESET_PARAMETERS"
+msgid "video_shader_preset_parameters"
+msgstr ""
+
+#: menu/menu_displaylist.c:1389 menu/menu_displaylist.c:1394
+#: menu/menu_displaylist.c:1399
+msgctxt "MENU_ENUM_LABEL_VIDEO_SHADER_PRESET_SAVE_AS"
+msgid "video_shader_preset_save_as"
+msgstr ""
+
+#: menu/menu_displaylist.c:1441
+msgctxt "MENU_ENUM_LABEL_VIDEO_SHADER_SCALE_PASS"
+msgid "video_shader_scale_pass"
+msgstr ""
+
+#: menu/menu_displaylist.c:3776 menu/cbs/menu_cbs_left.c:518
+#: menu/cbs/menu_cbs_left.c:539 menu/cbs/menu_cbs_left.c:648
+#: menu/cbs/menu_cbs_left.c:690 menu/cbs/menu_cbs_right.c:516
+#: menu/cbs/menu_cbs_right.c:628 menu/cbs/menu_cbs_right.c:648
+#: menu/cbs/menu_cbs_right.c:689 menu/cbs/menu_cbs_title.c:257
+#: menu/drivers/xmb.c:4184
+msgctxt "MENU_ENUM_LABEL_VIDEO_TAB"
+msgid "video_tab"
+msgstr ""
+
+#: menu/drivers/materialui.c:2668
+msgctxt "MENU_ENUM_LABEL_WIFI_SETTINGS"
+msgid "wifi_settings"
+msgstr ""
+
+#: command.c:364
+msgctxt "MSG_BRINGING_UP_COMMAND_INTERFACE_ON_PORT"
+msgid "bringing_up_command_interface_at_port"
+msgstr ""
+
+#: tasks/task_autodetect.c:264
+msgctxt "MSG_DEVICE_CONFIGURED_IN_PORT"
+msgid "configured in port"
+msgstr ""
+
+#: retroarch.c:799
+msgctxt "MSG_DISCONNECT_DEVICE_FROM_A_VALID_PORT"
+msgid "disconnect_device_from_a_valid_port"
+msgstr ""
+
+#: command.c:774
+msgctxt "MSG_FAILED_TO_SET_DISK"
+msgid "Failed to set disk"
+msgstr ""
+
+#: audio/audio_driver.c:1229
+msgctxt "MSG_FAILED_TO_START_AUDIO_DRIVER"
+msgid "failed_to_start_audio_driver"
+msgstr ""
+
+#: command.c:1194
+msgctxt "MSG_FOUND_LAST_STATE_SLOT"
+msgid "found_last_state_slot"
+msgstr ""
+
+#: menu/drivers/xmb.c:2403 menu/drivers/materialui.c:858
+msgctxt "MENU_ENUM_LABEL_DISABLED"
+msgid "disabled"
+msgstr ""
+
+#: menu/drivers/xmb.c:2411 menu/drivers/materialui.c:869
+msgctxt "MENU_ENUM_LABEL_ENABLED"
+msgid "enabled"
+msgstr ""
+
+#: menu/menu_displaylist.c:4609
+msgctxt "MENU_ENUM_LABEL_DETECT_CORE_LIST_OK"
+msgid "detect_core_list_ok"
+msgstr ""
+
+#: menu/cbs/menu_cbs_deferred_push.c:769 menu/cbs/menu_cbs_title.c:1114
+#: menu/cbs/menu_cbs_ok.c:331
+msgctxt "MENU_ENUM_LABEL_DEFERRED_RPL_ENTRY_ACTIONS"
+msgid "deferred_rpl_entry_actions"
+msgstr ""
+
+#: menu/menu_setting.c:5018
+msgctxt "MENU_ENUM_LABEL_OVERLAY_SETTINGS"
+msgid "overlay_settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:6205 menu/drivers/xmb.c:4368
+#: menu/drivers/materialui.c:2050 frontend/drivers/platform_xdk.c:1380
+#: frontend/drivers/platform_xdk.c:1385 frontend/drivers/platform_xdk.c:1390
+#: frontend/drivers/platform_xdk.c:1395 frontend/drivers/platform_xdk.c:1400
+#: frontend/drivers/platform_xdk.c:1406 frontend/drivers/platform_wiiu.c:165
+#: frontend/drivers/platform_wiiu.c:170 frontend/drivers/platform_ps3.c:527
+#: frontend/drivers/platform_ps3.c:532 frontend/drivers/platform_ps3.c:537
+#: frontend/drivers/platform_ps3.c:542 frontend/drivers/platform_ps3.c:547
+#: frontend/drivers/platform_ps3.c:552 frontend/drivers/platform_ps3.c:557
+#: frontend/drivers/platform_ps3.c:562 frontend/drivers/platform_ps3.c:567
+#: frontend/drivers/platform_ps3.c:572 frontend/drivers/platform_ps3.c:577
+#: frontend/drivers/platform_ps3.c:582 frontend/drivers/platform_psp.c:453
+#: frontend/drivers/platform_psp.c:458 frontend/drivers/platform_psp.c:463
+#: frontend/drivers/platform_psp.c:468 frontend/drivers/platform_psp.c:474
+#: frontend/drivers/platform_psp.c:479 frontend/drivers/platform_psp.c:484
+#: frontend/drivers/platform_unix.c:2090 frontend/drivers/platform_ctr.c:431
+#: frontend/drivers/platform_win32.c:401
+msgctxt "MENU_ENUM_LABEL_FILE_DETECT_CORE_LIST_PUSH_DIR"
+msgid "detect_core_list_push_dir"
+msgstr ""
+
+#: menu/menu_displaylist.c:6459
+msgctxt "MENU_ENUM_LABEL_BROWSE_URL"
+msgid "browse_url"
+msgstr ""
+
+#: menu/menu_displaylist.c:6464
+msgctxt "MENU_ENUM_LABEL_BROWSE_START"
+msgid "browse_start"
+msgstr ""
+
+#: menu/menu_displaylist.c:2790 menu/drivers/materialui.c:2506
+msgctxt "MENU_ENUM_LABEL_ADD_TO_MIXER"
+msgid "audio_add_to_mixer"
+msgstr ""
+
+#: menu/menu_displaylist.c:4189 menu/drivers/materialui.c:2508
+msgctxt "MENU_ENUM_LABEL_ADD_TO_MIXER_AND_COLLECTION"
+msgid "audio_add_to_mixer_and_collection"
+msgstr ""
+
+#: menu/menu_displaylist.c:170 menu/menu_displaylist.c:337
+msgctxt "MENU_ENUM_LABEL_CORE_DELETE"
+msgid "core_delete"
+msgstr ""
+
+#: menu/menu_displaylist.c:3362 menu/menu_displaylist.c:6158
+#: menu/drivers/materialui.c:2494
+msgctxt "MENU_ENUM_LABEL_GOTO_FAVORITES"
+msgid "goto_favorites"
+msgstr ""
+
+#: menu/menu_displaylist.c:3375 menu/menu_displaylist.c:6171
+#: menu/drivers/materialui.c:2421
+msgctxt "MENU_ENUM_LABEL_GOTO_MUSIC"
+msgid "goto_music"
+msgstr ""
+
+#: menu/menu_displaylist.c:3368 menu/menu_displaylist.c:6165
+#: menu/drivers/materialui.c:2416
+msgctxt "MENU_ENUM_LABEL_GOTO_IMAGES"
+msgid "goto_images"
+msgstr ""
+
+#: menu/menu_displaylist.c:3383 menu/menu_displaylist.c:6179
+#: menu/drivers/materialui.c:2426
+msgctxt "MENU_ENUM_LABEL_GOTO_VIDEO"
+msgid "goto_video"
+msgstr ""
+
+#: menu/menu_displaylist.c:2803 menu/drivers/materialui.c:2500
+msgctxt "MENU_ENUM_LABEL_RENAME_ENTRY"
+msgid "rename_entry"
+msgstr ""
+
+#: retroarch.c:2149 retroarch.c:2154 retroarch.c:2158 retroarch.c:2163
+#: retroarch.c:2167
+msgctxt "MSG_COMPILER"
+msgid "Compiler"
+msgstr ""
+
+#: retroarch.c:2172
+msgctxt "MSG_UNKNOWN_COMPILER"
+msgid "Unknown compiler"
+msgstr ""
+
+#: tasks/task_autodetect.c:910
+msgctxt "MSG_DEVICE_DISCONNECTED_FROM_PORT"
+msgid "Device disconnected from port"
+msgstr ""
+
+#: network/netplay/netplay_io.c:1821
+msgctxt "MSG_UNKNOWN_NETPLAY_COMMAND_RECEIVED"
+msgid "Unknown netplay command received"
+msgstr ""
+
+#: tasks/task_save.c:1184
+msgctxt "MSG_FILE_ALREADY_EXISTS_SAVING_TO_BACKUP_BUFFER"
+msgid "File already exists. Saving to backup buffer"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:106
+#: network/netplay/netplay_handshake.c:116
+#, c-format
+msgctxt "MSG_GOT_CONNECTION_FROM"
+msgid "Got connection from: \\\"%s\\"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:101
+#, c-format
+msgctxt "MSG_GOT_CONNECTION_FROM_NAME"
+msgid "Got connection from: \\\"%s (%s)\\"
+msgstr ""
+
+#: network/netplay/netplay_io.c:2015
+msgctxt "MSG_PUBLIC_ADDRESS"
+msgid "Public address"
+msgstr ""
+
+#: retroarch.c:696
+msgctxt "MSG_NO_ARGUMENTS_SUPPLIED_AND_NO_MENU_BUILTIN"
+msgid "No arguments supplied and no menu builtin, displaying help..."
+msgstr ""
+
+#: command.c:763
+msgctxt "MSG_SETTING_DISK_IN_TRAY"
+msgid "Setting disk in tray"
+msgstr ""
+
+#: network/netplay/netplay_frontend.c:1352
+#: network/netplay/netplay_frontend.c:1354
+msgctxt "MSG_WAITING_FOR_CLIENT"
+msgid "Waiting for client ..."
+msgstr ""
+
+#: network/netplay/netplay_io.c:560
+msgctxt "MSG_NETPLAY_YOU_HAVE_LEFT_THE_GAME"
+msgid "You have left the game"
+msgstr ""
+
+#: network/netplay/netplay_io.c:594
+#, c-format
+msgctxt "MSG_NETPLAY_YOU_HAVE_JOINED_AS_PLAYER_N"
+msgid "You have joined as player %u"
+msgstr ""
+
+#: network/netplay/netplay_io.c:622
+#, c-format
+msgctxt "MSG_NETPLAY_YOU_HAVE_JOINED_WITH_INPUT_DEVICES_S"
+msgid "You have joined with input devices %.*s"
+msgstr ""
+
+#: network/netplay/netplay_io.c:557
+#, c-format
+msgctxt "MSG_NETPLAY_PLAYER_S_LEFT"
+msgid "Player %.*s has left the game"
+msgstr ""
+
+#: network/netplay/netplay_io.c:590
+#, c-format
+msgctxt "MSG_NETPLAY_S_HAS_JOINED_AS_PLAYER_N"
+msgid "%2$.*1$s has joined as player %3$u"
+msgstr ""
+
+#: network/netplay/netplay_io.c:616
+#, c-format
+msgctxt "MSG_NETPLAY_S_HAS_JOINED_WITH_INPUT_DEVICES_S"
+msgid "%2$.*1$s has joined with input devices %4$.*3$s"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:327
+msgctxt "MSG_NETPLAY_NOT_RETROARCH"
+msgid ""
+"A netplay connection attempt failed because the peer is not running "
+"RetroArch, or is running an old version of RetroArch."
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:340
+msgctxt "MSG_NETPLAY_OUT_OF_DATE"
+msgid ""
+"The netplay peer is running an old version of RetroArch. Cannot connect."
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:347
+msgctxt "MSG_NETPLAY_DIFFERENT_VERSIONS"
+msgid ""
+"WARNING: A netplay peer is running a different version of RetroArch. If "
+"problems occur, use the same version."
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:884
+msgctxt "MSG_NETPLAY_DIFFERENT_CORES"
+msgid "A netplay peer is running a different core. Cannot connect."
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:893
+msgctxt "MSG_NETPLAY_DIFFERENT_CORE_VERSIONS"
+msgid ""
+"WARNING: A netlpay peer is running a different version of the core. If "
+"problems occur, use the same version."
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:360
+msgctxt "MSG_NETPLAY_ENDIAN_DEPENDENT"
+msgid ""
+"This core does not support inter-architecture netplay between these systems"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:367
+msgctxt "MSG_NETPLAY_PLATFORM_DEPENDENT"
+msgid "This core does not support inter-architecture netplay"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:425
+msgctxt "MSG_NETPLAY_ENTER_PASSWORD"
+msgid "Enter netplay server password:"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:953
+msgctxt "MSG_NETPLAY_INCORRECT_PASSWORD"
+msgid "Incorrect password"
+msgstr ""
+
+#: network/netplay/netplay_io.c:111
+#, c-format
+msgctxt "MSG_NETPLAY_SERVER_NAMED_HANGUP"
+msgid "\\\"%s\\\" has disconnected"
+msgstr ""
+
+#: network/netplay/netplay_io.c:113
+msgctxt "MSG_NETPLAY_SERVER_HANGUP"
+msgid "A netplay client has disconnected"
+msgstr ""
+
+#: network/netplay/netplay_io.c:117
+msgctxt "MSG_NETPLAY_CLIENT_HANGUP"
+msgid "Netplay disconnected"
+msgstr ""
+
+#: network/netplay/netplay_io.c:1452
+msgctxt "MSG_NETPLAY_CANNOT_PLAY_UNPRIVILEGED"
+msgid "You do not have permission to play"
+msgstr ""
+
+#: network/netplay/netplay_io.c:1456
+msgctxt "MSG_NETPLAY_CANNOT_PLAY_NO_SLOTS"
+msgid "There are no free player slots"
+msgstr ""
+
+#: network/netplay/netplay_io.c:1460
+msgctxt "MSG_NETPLAY_CANNOT_PLAY_NOT_AVAILABLE"
+msgid "The input devices requested are not available"
+msgstr ""
+
+#: network/netplay/netplay_io.c:1464
+msgctxt "MSG_NETPLAY_CANNOT_PLAY"
+msgid "Cannot switch to play mode"
+msgstr ""
+
+#: network/netplay/netplay_io.c:1763 network/netplay/netplay_io.c:1773
+#, c-format
+msgctxt "MSG_NETPLAY_PEER_PAUSED"
+msgid "Netplay peer \\\"%s\\\" paused"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:1068
+#, c-format
+msgctxt "MSG_NETPLAY_CHANGED_NICK"
+msgid "Your nickname changed to \\\"%s\\"
+msgstr ""
+
+#: command.c:937 command.c:964
+msgctxt "MSG_AUDIO_VOLUME"
+msgid "Audio volume"
+msgstr ""
+
+#: tasks/task_autodetect.c:889
+msgctxt "MSG_AUTODETECT"
+msgid "Autodetect"
+msgstr ""
+
+#: command.c:1123 tasks/task_save.c:789 tasks/task_save.c:817
+msgctxt "MSG_AUTOLOADING_SAVESTATE_FROM"
+msgid "Auto-loading savestate from"
+msgstr ""
+
+#: retroarch.c:1256
+msgctxt "MSG_CAPABILITIES"
+msgid "Capabilities"
+msgstr ""
+
+#: network/netplay/netplay_frontend.c:1348
+msgctxt "MSG_CONNECTING_TO_NETPLAY_HOST"
+msgid "Connecting to netplay host"
+msgstr ""
+
+#: command.c:1038
+msgctxt "MSG_CONNECTING_TO_PORT"
+msgid "Connecting to port"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:471
+msgctxt "MSG_CONNECTION_SLOT"
+msgid "Connection slot"
+msgstr ""
+
+#: menu/menu_setting.c:7233
+msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_CHEEVOS_SETTINGS"
+msgid "Accounts Cheevos"
+msgstr ""
+
+#: menu/menu_setting.c:7211
+msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_LIST_END"
+msgid "Accounts List Endpoint"
+msgstr ""
+
+#: menu/menu_displaylist.c:2733
+msgctxt "MENU_ENUM_LABEL_VALUE_ACHIEVEMENT_LIST"
+msgid "Achievement List"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:264
+msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TAB"
+msgid "Import content"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:266
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_TAB"
+msgid "Netplay Rooms"
+msgstr ""
+
+#: menu/menu_setting.c:4515
+msgctxt "MENU_ENUM_LABEL_VALUE_TURBO_DEADZONE_LIST"
+msgid "Turbo/Deadzone"
+msgstr ""
+
+#: menu/menu_setting.c:3944
+msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_SETTINGS"
+msgid "Audio"
+msgstr ""
+
+#: menu/widgets/menu_dialog.c:147 menu/drivers/rgui.c:527
+msgctxt "MENU_ENUM_LABEL_VALUE_BASIC_MENU_CONTROLS_BACK"
+msgid "Back"
+msgstr ""
+
+#: menu/widgets/menu_dialog.c:143
+msgctxt "MENU_ENUM_LABEL_VALUE_BASIC_MENU_CONTROLS_CONFIRM"
+msgid "Confirm"
+msgstr ""
+
+#: menu/widgets/menu_dialog.c:151
+msgctxt "MENU_ENUM_LABEL_VALUE_BASIC_MENU_CONTROLS_INFO"
+msgid "Info"
+msgstr ""
+
+#: menu/widgets/menu_dialog.c:163
+msgctxt "MENU_ENUM_LABEL_VALUE_BASIC_MENU_CONTROLS_QUIT"
+msgid "Quit"
+msgstr ""
+
+#: menu/widgets/menu_dialog.c:139
+msgctxt "MENU_ENUM_LABEL_VALUE_BASIC_MENU_CONTROLS_SCROLL_DOWN"
+msgid "Scroll Down"
+msgstr ""
+
+#: menu/widgets/menu_dialog.c:135
+msgctxt "MENU_ENUM_LABEL_VALUE_BASIC_MENU_CONTROLS_SCROLL_UP"
+msgid "Scroll Up"
+msgstr ""
+
+#: menu/widgets/menu_dialog.c:155
+msgctxt "MENU_ENUM_LABEL_VALUE_BASIC_MENU_CONTROLS_START"
+msgid "Start"
+msgstr ""
+
+#: menu/widgets/menu_dialog.c:167
+msgctxt "MENU_ENUM_LABEL_VALUE_BASIC_MENU_CONTROLS_TOGGLE_KEYBOARD"
+msgid "Toggle Keyboard"
+msgstr ""
+
+#: menu/widgets/menu_dialog.c:159
+msgctxt "MENU_ENUM_LABEL_VALUE_BASIC_MENU_CONTROLS_TOGGLE_MENU"
+msgid "Toggle Menu"
+msgstr ""
+
+#: menu/menu_displaylist.c:3162
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT"
+msgid "Cheat"
+msgstr ""
+
+#: menu/menu_displaylist.c:3135
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_APPLY_CHANGES"
+msgid "Apply Changes"
+msgstr ""
+
+#: menu/menu_displaylist.c:3140
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_FILE_LOAD"
+msgid "Load Cheat File"
+msgstr ""
+
+#: menu/menu_displaylist.c:3145
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_FILE_SAVE_AS"
+msgid "Save Cheat File As"
+msgstr ""
+
+#: menu/menu_displaylist.c:3150
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_NUM_PASSES"
+msgid "Cheat Passes"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:84
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_LOCKED_ENTRY"
+msgid "Locked"
+msgstr ""
+
+#: menu/menu_setting.c:6516
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_SETTINGS"
+msgid "RetroAchievements"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:99
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ENTRY"
+msgid "Unlocked"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:114
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ENTRY_HARDCORE"
+msgid "Hardcore"
+msgstr ""
+
+#: menu/menu_displaylist.c:2591
+msgctxt "MENU_ENUM_LABEL_VALUE_CLOSE_CONTENT"
+msgid "Close Content"
+msgstr ""
+
+#: menu/menu_displaylist.c:2924
+msgctxt "MENU_ENUM_LABEL_VALUE_CONFIGURATIONS"
+msgid "Load Configuration"
+msgstr ""
+
+#: menu/menu_setting.c:2960
+msgctxt "MENU_ENUM_LABEL_VALUE_CONFIGURATION_SETTINGS"
+msgid "Configuration"
+msgstr ""
+
+#: menu/menu_displaylist.c:6197 menu/drivers/xmb.c:4360
+msgctxt "MENU_ENUM_LABEL_VALUE_CONTENT_COLLECTION_LIST"
+msgid "Collections"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:699
+msgctxt "MENU_ENUM_LABEL_VALUE_CONTENT_SETTINGS"
+msgid "Quick Menu"
+msgstr ""
+
+#: menu/menu_displaylist.c:2686
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_CHEAT_OPTIONS"
+msgid "Cheats"
+msgstr ""
+
+#: menu/menu_displaylist.c:2911
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_COUNTERS"
+msgid "Core Counters"
+msgstr ""
+
+#: menu/menu_displaylist.c:2868
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFORMATION"
+msgid "Core Information"
+msgstr ""
+
+#: menu/menu_displaylist.c:235
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_AUTHORS"
+msgid "Authors"
+msgstr ""
+
+#: menu/menu_displaylist.c:223
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_CATEGORIES"
+msgid "Categories"
+msgstr ""
+
+#: menu/menu_displaylist.c:189
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_CORE_LABEL"
+msgid "Core label"
+msgstr ""
+
+#: menu/menu_displaylist.c:178
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_CORE_NAME"
+msgid "Core name"
+msgstr ""
+
+#: menu/menu_displaylist.c:291
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_FIRMWARE"
+msgid "Firmware(s)"
+msgstr ""
+
+#: menu/menu_displaylist.c:259
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_LICENSES"
+msgid "License(s)"
+msgstr ""
+
+#: menu/menu_displaylist.c:247
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_PERMISSIONS"
+msgid "Permissions"
+msgstr ""
+
+#: menu/menu_displaylist.c:271
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_SUPPORTED_EXTENSIONS"
+msgid "Supported extensions"
+msgstr ""
+
+#: menu/menu_displaylist.c:212
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_SYSTEM_MANUFACTURER"
+msgid "System manufacturer"
+msgstr ""
+
+#: menu/menu_displaylist.c:200
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_SYSTEM_NAME"
+msgid "System name"
+msgstr ""
+
+#: menu/menu_displaylist.c:2677
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INPUT_REMAPPING_OPTIONS"
+msgid "Controls"
+msgstr ""
+
+#: ui/drivers/ui_win32.c:611
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_LIST"
+msgid "Load Core"
+msgstr ""
+
+#: menu/menu_displaylist.c:2660
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_OPTIONS"
+msgid "Options"
+msgstr ""
+
+#: menu/menu_setting.c:2892
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_SETTINGS"
+msgid "Core"
+msgstr ""
+
+#: menu/menu_displaylist.c:3028
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_UPDATER_LIST"
+msgid "Core Updater"
+msgstr ""
+
+#: menu/menu_setting.c:6624
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_UPDATER_SETTINGS"
+msgid "Updater"
+msgstr ""
+
+#: menu/menu_displaylist.c:432
+msgctxt "MENU_ENUM_LABEL_VALUE_CPU_ARCHITECTURE"
+msgid "CPU Architecture:"
+msgstr ""
+
+#: menu/menu_displaylist.c:483
+msgctxt "MENU_ENUM_LABEL_VALUE_CPU_CORES"
+msgid "CPU Cores:"
+msgstr ""
+
+#: menu/menu_displaylist.c:2896
+msgctxt "MENU_ENUM_LABEL_VALUE_CURSOR_MANAGER"
+msgid "Cursor Manager"
+msgstr ""
+
+#: menu/menu_displaylist.c:2891
+msgctxt "MENU_ENUM_LABEL_VALUE_DATABASE_MANAGER"
+msgid "Database Manager"
+msgstr ""
+
+#: menu/menu_displaylist.c:2809
+msgctxt "MENU_ENUM_LABEL_VALUE_DELETE_ENTRY"
+msgid "Remove"
+msgstr ""
+
+#: menu/menu_displaylist.c:6150 menu/drivers/xmb.c:4343
+#: menu/drivers/materialui.c:2033
+msgctxt "MENU_ENUM_LABEL_VALUE_FAVORITES"
+msgid "Start directory"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:151
+msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_DEFAULT"
+msgid "<Default>"
+msgstr ""
+
+#: menu/menu_displaylist.c:3336 menu/menu_displaylist.c:3501
+#: menu/widgets/menu_filebrowser.c:111
+msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_NOT_FOUND"
+msgid "Directory not found."
+msgstr ""
+
+#: menu/menu_setting.c:7277
+msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_SETTINGS"
+msgid "Directory"
+msgstr ""
+
+#: menu/menu_displaylist.c:4489
+msgctxt "MENU_ENUM_LABEL_VALUE_DISK_CYCLE_TRAY_STATUS"
+msgid "Disk Cycle Tray Status"
+msgstr ""
+
+#: menu/menu_displaylist.c:4494
+msgctxt "MENU_ENUM_LABEL_VALUE_DISK_IMAGE_APPEND"
+msgid "Disk Image Append"
+msgstr ""
+
+#: menu/menu_displaylist.c:4484
+msgctxt "MENU_ENUM_LABEL_VALUE_DISK_INDEX"
+msgid "Disk Index"
+msgstr ""
+
+#: menu/menu_displaylist.c:2695
+msgctxt "MENU_ENUM_LABEL_VALUE_DISK_OPTIONS"
+msgid "Disk Control"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:176 menu/cbs/menu_cbs_get_value.c:209
+#: menu/cbs/menu_cbs_get_value.c:479
+msgctxt "MENU_ENUM_LABEL_VALUE_DONT_CARE"
+msgid "Don't care"
+msgstr ""
+
+#: menu/menu_displaylist.c:6187 menu/drivers/xmb.c:4352
+#: menu/drivers/materialui.c:2042
+msgctxt "MENU_ENUM_LABEL_VALUE_DOWNLOADED_FILE_DETECT_CORE_LIST"
+msgid "Downloads"
+msgstr ""
+
+#: menu/menu_displaylist.c:4029
+msgctxt "MENU_ENUM_LABEL_VALUE_DOWNLOAD_CORE"
+msgid "Download Core..."
+msgstr ""
+
+#: menu/menu_displaylist.c:3018 menu/menu_displaylist.c:3041
+msgctxt "MENU_ENUM_LABEL_VALUE_DOWNLOAD_CORE_CONTENT"
+msgid "Content Downloader"
+msgstr ""
+
+#: menu/menu_setting.c:2784
+msgctxt "MENU_ENUM_LABEL_VALUE_DRIVER_SETTINGS"
+msgid "Driver"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:332
+msgctxt "MENU_ENUM_LABEL_VALUE_FALSE"
+msgid "False"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:252
+msgctxt "MENU_ENUM_LABEL_VALUE_FAVORITES_TAB"
+msgid "Favorites"
+msgstr ""
+
+#: menu/menu_setting.c:4760
+msgctxt "MENU_ENUM_LABEL_VALUE_FRAME_THROTTLE_SETTINGS"
+msgid "Frame Throttle"
+msgstr ""
+
+#: menu/menu_displaylist.c:2905
+msgctxt "MENU_ENUM_LABEL_VALUE_FRONTEND_COUNTERS"
+msgid "Frontend Counters"
+msgstr ""
+
+#: menu/menu_displaylist.c:4733
+msgctxt "MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS_CREATE"
+msgid "Create game-options file"
+msgstr ""
+
+#: menu/menu_displaylist.c:4741
+msgctxt "MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS_IN_USE"
+msgid "Game-options file"
+msgstr ""
+
+#: menu/menu_displaylist.c:6448
+msgctxt "MENU_ENUM_LABEL_VALUE_HELP_AUDIO_VIDEO_TROUBLESHOOTING"
+msgid "Audio/Video Troubleshooting"
+msgstr ""
+
+#: menu/menu_displaylist.c:6442
+msgctxt "MENU_ENUM_LABEL_VALUE_HELP_CHANGE_VIRTUAL_GAMEPAD"
+msgid "Changing Virtual Gamepad Overlay"
+msgstr ""
+
+#: menu/menu_displaylist.c:6419
+msgctxt "MENU_ENUM_LABEL_VALUE_HELP_CONTROLS"
+msgid "Basic Menu Controls"
+msgstr ""
+
+#: menu/menu_displaylist.c:6429
+msgctxt "MENU_ENUM_LABEL_VALUE_HELP_LOADING_CONTENT"
+msgid "Loading Content"
+msgstr ""
+
+#: menu/menu_displaylist.c:6435
+msgctxt "MENU_ENUM_LABEL_VALUE_HELP_SCANNING_CONTENT"
+msgid "Scanning For Content"
+msgstr ""
+
+#: menu/menu_displaylist.c:6424
+msgctxt "MENU_ENUM_LABEL_VALUE_HELP_WHAT_IS_A_CORE"
+msgid "What Is A Core?"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:250
+msgctxt "MENU_ENUM_LABEL_VALUE_HISTORY_TAB"
+msgid "History"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:268
+msgctxt "MENU_ENUM_LABEL_VALUE_HORIZONTAL_MENU"
+msgid "Horizontal Menu"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:254
+msgctxt "MENU_ENUM_LABEL_VALUE_IMAGES_TAB"
+msgid "Image"
+msgstr ""
+
+#: menu/menu_setting.c:2032
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ADC_TYPE"
+msgid "Analog To Digital Type"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:564
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_X"
+msgid "Left Analog X"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:567
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_Y"
+msgid "Left Analog Y"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:570
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_RIGHT_X"
+msgid "Right Analog X"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:573
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_RIGHT_Y"
+msgid "Right Analog Y"
+msgstr ""
+
+#: menu/menu_setting.c:2035
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_BIND_ALL"
+msgid "Bind All"
+msgstr ""
+
+#: menu/menu_setting.c:2038
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_BIND_DEFAULT_ALL"
+msgid "Bind Default All"
+msgstr ""
+
+#: menu/menu_setting.c:2026
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_DEVICE_INDEX"
+msgid "Device Index"
+msgstr ""
+
+#: menu/menu_setting.c:2029
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_DEVICE_TYPE"
+msgid "Device Type"
+msgstr ""
+
+#: menu/menu_setting.c:2044
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_INDEX"
+msgid "Mouse Index"
+msgstr ""
+
+#: input/input_driver.c:2625
+#, c-format
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_KEY"
+msgid "(Key: %s)"
+msgstr ""
+
+#: menu/menu_displaylist.c:1771
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_MAX_USERS"
+msgid "Max Users"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:813
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_EARLY"
+msgid "Early"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:823
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_LATE"
+msgid "Late"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:818
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_NORMAL"
+msgid "Normal"
+msgstr ""
+
+#: menu/menu_setting.c:2041
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_SAVE_AUTOCONFIG"
+msgid "Save Autoconfig"
+msgstr ""
+
+#: menu/menu_setting.c:4596 menu/cbs/menu_cbs_title.c:304
+#, c-format
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_USER_BINDS"
+msgid "Input User %u Binds"
+msgstr ""
+
+#: menu/menu_displaylist.c:401
+msgctxt "MENU_ENUM_LABEL_VALUE_INTERNAL_STORAGE_STATUS"
+msgid "Internal storage status"
+msgstr ""
+
+#: menu/menu_setting.c:7073 menu/menu_setting.c:7079
+msgctxt "MENU_ENUM_LABEL_VALUE_LAKKA_SERVICES"
+msgid "Services"
+msgstr ""
+
+#: menu/menu_setting.c:596
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_CHINESE_SIMPLIFIED"
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: menu/menu_setting.c:595
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_CHINESE_TRADITIONAL"
+msgid "Chinese (Traditional)"
+msgstr ""
+
+#: menu/menu_setting.c:590
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_DUTCH"
+msgid "Dutch"
+msgstr ""
+
+#: menu/menu_setting.c:584
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ENGLISH"
+msgid "English"
+msgstr ""
+
+#: menu/menu_setting.c:597
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ESPERANTO"
+msgid "Esperanto"
+msgstr ""
+
+#: menu/menu_setting.c:586
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_FRENCH"
+msgid "French"
+msgstr ""
+
+#: menu/menu_setting.c:588
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_GERMAN"
+msgid "German"
+msgstr ""
+
+#: menu/menu_setting.c:589
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ITALIAN"
+msgid "Italian"
+msgstr ""
+
+#: menu/menu_setting.c:585
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_JAPANESE"
+msgid "Japanese"
+msgstr ""
+
+#: menu/menu_setting.c:594
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_KOREAN"
+msgid "Korean"
+msgstr ""
+
+#: menu/menu_setting.c:598
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_POLISH"
+msgid "Polish"
+msgstr ""
+
+#: menu/menu_setting.c:591
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_PORTUGUESE_BRAZIL"
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: menu/menu_setting.c:592
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_PORTUGUESE_PORTUGAL"
+msgid "Portuguese (Portugal)"
+msgstr ""
+
+#: menu/menu_setting.c:593
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_RUSSIAN"
+msgid "Russian"
+msgstr ""
+
+#: menu/menu_setting.c:587
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_SPANISH"
+msgid "Spanish"
+msgstr ""
+
+#: menu/menu_setting.c:599
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_VIETNAMESE"
+msgid "Vietnamese"
+msgstr ""
+
+#: menu/menu_setting.c:550
+msgctxt "MENU_ENUM_LABEL_VALUE_LEFT_ANALOG"
+msgid "Left Analog"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:180 menu/cbs/menu_cbs_get_value.c:394
+msgctxt "MENU_ENUM_LABEL_VALUE_LINEAR"
+msgid "Linear"
+msgstr ""
+
+#: menu/menu_displaylist.c:4787 menu/menu_displaylist.c:4803
+msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_ARCHIVE"
+msgid "Load Archive"
+msgstr ""
+
+#: menu/menu_displaylist.c:2569 ui/drivers/ui_win32.c:616
+msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_CONTENT_LIST"
+msgid "Load Content"
+msgstr ""
+
+#: menu/menu_displaylist.c:2622
+msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_STATE"
+msgid "Load State"
+msgstr ""
+
+#: menu/menu_setting.c:3028
+msgctxt "MENU_ENUM_LABEL_VALUE_LOGGING_SETTINGS"
+msgid "Logging"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:248
+msgctxt "MENU_ENUM_LABEL_VALUE_MAIN_MENU"
+msgid "Main Menu"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1015
+msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_BLUE"
+msgid "Blue"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1020
+msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_BLUE_GREY"
+msgid "Blue Grey"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1040
+msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_DARK_BLUE"
+msgid "Dark Blue"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1025
+msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_GREEN"
+msgid "Green"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1045
+msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_NVIDIA_SHIELD"
+msgid "Shield"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1030
+msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_RED"
+msgid "Red"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1035
+msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_YELLOW"
+msgid "Yellow"
+msgstr ""
+
+#: menu/menu_setting.c:6041 menu/menu_displaylist.c:6217
+#: menu/drivers/xmb.c:4375 menu/drivers/materialui.c:2055
+msgctxt "MENU_ENUM_LABEL_VALUE_MENU_FILE_BROWSER_SETTINGS"
+msgid "Settings"
+msgstr ""
+
+#: menu/menu_setting.c:5158
+msgctxt "MENU_ENUM_LABEL_VALUE_MENU_SETTINGS"
+msgid "Appearance"
+msgstr ""
+
+#: menu/menu_displaylist.c:306
+msgctxt "MENU_ENUM_LABEL_VALUE_MISSING"
+msgid "Missing"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:717 menu/cbs/menu_cbs_get_value.c:732
+msgctxt "MENU_ENUM_LABEL_VALUE_MORE"
+msgid "..."
+msgstr ""
+
+#: menu/menu_setting.c:6068
+msgctxt "MENU_ENUM_LABEL_VALUE_MULTIMEDIA_SETTINGS"
+msgid "Multimedia"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:256
+msgctxt "MENU_ENUM_LABEL_VALUE_MUSIC_TAB"
+msgid "Music"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:184 menu/cbs/menu_cbs_get_value.c:396
+msgctxt "MENU_ENUM_LABEL_VALUE_NEAREST"
+msgid "Nearest"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3106
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_DISCONNECT"
+msgid "Disconnect from netplay host"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3121
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE_CLIENT"
+msgid "Connect to netplay host"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3114
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE_HOST"
+msgid "Start netplay host"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3096
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_DISABLE_HOST"
+msgid "Stop netplay host"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3661
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_IP_ADDRESS"
+msgid "Server Address"
+msgstr ""
+
+#: menu/menu_setting.c:6929
+#, c-format
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REQUEST_DEVICE_I"
+msgid "Request Device %u"
+msgstr ""
+
+#: menu/menu_displaylist.c:2668
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SETTINGS"
+msgid "Netplay settings"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1810
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_MAX"
+msgid "Max"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1814
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_AVERAGE"
+msgid "Average"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1769
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_OR"
+msgid "Share"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1773
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_XOR"
+msgid "Grapple"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1777
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_VOTE"
+msgid "Vote"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1781 menu/cbs/menu_cbs_get_value.c:1818
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_NONE"
+msgid "None"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1765 menu/cbs/menu_cbs_get_value.c:1806
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_NO_PREFERENCE"
+msgid "No preference"
+msgstr ""
+
+#: menu/menu_displaylist.c:2876
+msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_INFORMATION"
+msgid "Network Information"
+msgstr ""
+
+#: menu/menu_setting.c:6678
+msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_SETTINGS"
+msgid "Network"
+msgstr ""
+
+#: menu/menu_displaylist.c:775 menu/menu_displaylist.c:788
+#: menu/menu_displaylist.c:801 menu/menu_displaylist.c:813
+#: menu/menu_displaylist.c:824 menu/menu_displaylist.c:834
+#: menu/menu_displaylist.c:845 menu/menu_displaylist.c:856
+#: menu/menu_displaylist.c:866 menu/menu_displaylist.c:876
+#: menu/menu_displaylist.c:886 menu/menu_displaylist.c:896
+#: menu/menu_displaylist.c:905 menu/menu_displaylist.c:914
+#: menu/menu_displaylist.c:923 menu/menu_displaylist.c:932
+#: menu/menu_displaylist.c:941 menu/menu_displaylist.c:950
+#: menu/menu_displaylist.c:959 menu/menu_displaylist.c:968
+#: menu/menu_displaylist.c:977 menu/menu_displaylist.c:986
+#: menu/menu_displaylist.c:995 menu/menu_displaylist.c:1004
+#: menu/menu_displaylist.c:1013 menu/menu_displaylist.c:1022
+#: menu/menu_displaylist.c:1031 menu/menu_displaylist.c:1040
+#: menu/menu_displaylist.c:1049 menu/menu_displaylist.c:1058
+#: menu/menu_displaylist.c:1067 menu/menu_displaylist.c:1076
+#: menu/menu_displaylist.c:1085 menu/menu_displaylist.c:1094
+#: menu/menu_displaylist.c:1103 menu/menu_displaylist.c:1112
+#: menu/menu_displaylist.c:1121 menu/menu_displaylist.c:1130
+#: menu/menu_displaylist.c:1139 menu/menu_displaylist.c:1148
+#: menu/menu_displaylist.c:1157 menu/menu_displaylist.c:1166
+#: menu/menu_displaylist.c:1175 menu/menu_displaylist.c:1184
+#: menu/menu_displaylist.c:1193 menu/menu_displaylist.c:1202
+#: menu/menu_displaylist.c:1212 menu/menu_displaylist.c:1221
+#: menu/menu_displaylist.c:1230 menu/menu_displaylist.c:1240
+msgctxt "MENU_ENUM_LABEL_VALUE_NO"
+msgid "No"
+msgstr ""
+
+#: menu/menu_setting.c:524 menu/menu_setting.c:549
+#: menu/cbs/menu_cbs_get_value.c:1114 menu/cbs/menu_cbs_get_value.c:1194
+msgctxt "MENU_ENUM_LABEL_VALUE_NONE"
+msgid "None"
+msgstr ""
+
+#: retroarch.c:1813 gfx/video_driver.c:2462
+#: network/netplay/netplay_frontend.c:747 menu/menu_setting.c:1475
+#: menu/menu_setting.c:1545 menu/menu_setting.c:2185
+#: menu/menu_displaylist.c:464 menu/menu_displaylist.c:552
+#: menu/menu_displaylist.c:569 menu/menu_displaylist.c:582
+#: menu/menu_displaylist.c:656 menu/menu_displaylist.c:715
+#: menu/cbs/menu_cbs_get_value.c:250 menu/cbs/menu_cbs_get_value.c:366
+#: menu/cbs/menu_cbs_get_value.c:543 menu/cbs/menu_cbs_get_value.c:635
+#: menu/cbs/menu_cbs_get_value.c:1234 menu/cbs/menu_cbs_get_value.c:1573
+#: menu/cbs/menu_cbs_title.c:208 input/input_driver.c:2550
+#: input/input_driver.c:2560 input/input_driver.c:2588
+msgctxt "MENU_ENUM_LABEL_VALUE_NOT_AVAILABLE"
+msgid "N/A"
+msgstr ""
+
+#: cheevos/cheevos.c:2420
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_ACHIEVEMENTS_TO_DISPLAY"
+msgid "No achievements to display."
+msgstr ""
+
+#: paths.c:83 menu/menu_entries.c:209 menu/menu_entries.c:225
+#: menu/menu_entries.c:248 menu/menu_displaylist.c:2863
+#: menu/menu_displaylist.c:6322 menu/drivers/xmb.c:4399
+#: menu/drivers/materialui.c:1096 menu/drivers/materialui.c:2078
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORE"
+msgid "No Core"
+msgstr ""
+
+#: menu/menu_displaylist.c:4576 menu/menu_displaylist.c:4670
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORES_AVAILABLE"
+msgid "No cores available."
+msgstr ""
+
+#: menu/menu_displaylist.c:164
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORE_INFORMATION_AVAILABLE"
+msgid "No core information available."
+msgstr ""
+
+#: menu/menu_displaylist.c:4751 menu/menu_displaylist.c:4771
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORE_OPTIONS_AVAILABLE"
+msgid "No core options available."
+msgstr ""
+
+#: menu/menu_networking.c:58 menu/menu_displaylist.c:2962
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_ENTRIES_TO_DISPLAY"
+msgid "No entries to display."
+msgstr ""
+
+#: menu/menu_displaylist.c:4410 menu/menu_displaylist.c:4444
+#: menu/menu_displaylist.c:4467 menu/menu_displaylist.c:6761
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_HISTORY_AVAILABLE"
+msgid "No history available."
+msgstr ""
+
+#: menu/menu_displaylist.c:2742 menu/menu_displaylist.c:3116
+#: menu/menu_displaylist.c:3517 menu/menu_displaylist.c:3607
+#: menu/menu_displaylist.c:6502 menu/menu_displaylist.c:6523
+#: menu/widgets/menu_filebrowser.c:270
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_ITEMS"
+msgid "No items."
+msgstr ""
+
+#: menu/menu_displaylist.c:5447 menu/menu_displaylist.c:5462
+#: menu/menu_displaylist.c:5483
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_NETWORKS_FOUND"
+msgid "No networks found."
+msgstr ""
+
+#: menu/menu_displaylist.c:136
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_PERFORMANCE_COUNTERS"
+msgid "No performance counters."
+msgstr ""
+
+#: menu/menu_displaylist.c:3451
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_PLAYLISTS"
+msgid "No playlists."
+msgstr ""
+
+#: menu/menu_displaylist.c:4081
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_PLAYLIST_ENTRIES_AVAILABLE"
+msgid "No playlist entries available."
+msgstr ""
+
+#: menu/menu_displaylist.c:2234 menu/menu_displaylist.c:2429
+#: menu/menu_displaylist.c:5434 menu/menu_displaylist.c:5608
+#: menu/menu_displaylist.c:5745
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_SETTINGS_FOUND"
+msgid "No settings found."
+msgstr ""
+
+#: menu/menu_displaylist.c:2034 menu/menu_displaylist.c:6261
+msgctxt "MENU_ENUM_LABEL_VALUE_NO_SHADER_PARAMETERS"
+msgid "No shader parameters."
+msgstr ""
+
+#: menu/menu_setting.c:574 menu/cbs/menu_cbs_get_value.c:274
+#: menu/cbs/menu_cbs_get_value.c:638 menu/cbs/menu_cbs_get_value.c:1073
+#: menu/cbs/menu_cbs_get_value.c:1703 menu/drivers/xmb.c:495
+#: menu/drivers/xmb.c:1257 menu/drivers/xmb.c:1777 menu/drivers/xmb.c:2125
+#: menu/drivers/xmb.c:2404 menu/drivers/xmb.c:2451 menu/drivers/xmb.c:2975
+#: menu/drivers/xmb.c:3934 menu/drivers/materialui.c:859
+msgctxt "MENU_ENUM_LABEL_VALUE_OFF"
+msgid "OFF"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:637 menu/cbs/menu_cbs_get_value.c:1701
+#: menu/drivers/xmb.c:2412 menu/drivers/materialui.c:870
+msgctxt "MENU_ENUM_LABEL_VALUE_ON"
+msgid "ON"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:903
+msgctxt "MENU_ENUM_LABEL_VALUE_ONLINE"
+msgid "Online"
+msgstr ""
+
+#: menu/menu_setting.c:4817
+msgctxt "MENU_ENUM_LABEL_VALUE_ONSCREEN_DISPLAY_SETTINGS"
+msgid "Onscreen Display"
+msgstr ""
+
+#: menu/menu_displaylist.c:4781 menu/menu_displaylist.c:4797
+msgctxt "MENU_ENUM_LABEL_VALUE_OPEN_ARCHIVE"
+msgid "Browse Archive"
+msgstr ""
+
+#: menu/menu_displaylist.c:309
+msgctxt "MENU_ENUM_LABEL_VALUE_OPTIONAL"
+msgid "Optional"
+msgstr ""
+
+#: menu/menu_setting.c:5015
+msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_SETTINGS"
+msgid "Onscreen Overlay"
+msgstr ""
+
+#: menu/menu_displaylist.c:3490 menu/widgets/menu_filebrowser.c:279
+msgctxt "MENU_ENUM_LABEL_VALUE_PARENT_DIRECTORY"
+msgid "Parent directory"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:262
+msgctxt "MENU_ENUM_LABEL_VALUE_PLAYLISTS_TAB"
+msgid "Playlists"
+msgstr ""
+
+#: menu/menu_setting.c:1546
+msgctxt "MENU_ENUM_LABEL_VALUE_PORT"
+msgid "Port"
+msgstr ""
+
+#: menu/menu_displaylist.c:307
+msgctxt "MENU_ENUM_LABEL_VALUE_PRESENT"
+msgid "Present"
+msgstr ""
+
+#: menu/menu_setting.c:7673
+msgctxt "MENU_ENUM_LABEL_VALUE_PRIVACY_SETTINGS"
+msgid "Privacy"
+msgstr ""
+
+#: menu/menu_displaylist.c:1916
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ANALOG"
+msgid "Analog supported"
+msgstr ""
+
+#: menu/menu_displaylist.c:1851
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_BBFC_RATING"
+msgid "BBFC Rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1896
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CERO_RATING"
+msgid "CERO Rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1936
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_COOP"
+msgid "Co-op supported"
+msgstr ""
+
+#: menu/menu_displaylist.c:1949
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CRC32"
+msgid "CRC32"
+msgstr ""
+
+#: menu/menu_displaylist.c:1700
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DESCRIPTION"
+msgid "Description"
+msgstr ""
+
+#: menu/menu_displaylist.c:1740
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DEVELOPER"
+msgid "Developer"
+msgstr ""
+
+#: menu/menu_displaylist.c:1820
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_ISSUE"
+msgid "Edge Magazine Issue"
+msgstr ""
+
+#: menu/menu_displaylist.c:1810
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_RATING"
+msgid "Edge Magazine Rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1801
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_REVIEW"
+msgid "Edge Magazine Review"
+msgstr ""
+
+#: menu/menu_displaylist.c:1869
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ELSPA_RATING"
+msgid "ELSPA Rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1887
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ENHANCEMENT_HW"
+msgid "Enhancement Hardware"
+msgstr ""
+
+#: menu/menu_displaylist.c:1860
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ESRB_RATING"
+msgid "ESRB Rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1791
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FAMITSU_MAGAZINE_RATING"
+msgid "Famitsu Magazine Rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1762
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FRANCHISE"
+msgid "Franchise"
+msgstr ""
+
+#: menu/menu_displaylist.c:1712
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_GENRE"
+msgid "Genre"
+msgstr ""
+
+#: menu/menu_displaylist.c:1971
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_MD5"
+msgid "MD5"
+msgstr ""
+
+#: menu/menu_displaylist.c:313 menu/menu_displaylist.c:1688
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_NAME"
+msgid "Name"
+msgstr ""
+
+#: menu/menu_displaylist.c:1753
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ORIGIN"
+msgid "Origin"
+msgstr ""
+
+#: menu/menu_displaylist.c:1878
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PEGI_RATING"
+msgid "PEGI Rating"
+msgstr ""
+
+#: menu/menu_displaylist.c:1725
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PUBLISHER"
+msgid "Publisher"
+msgstr ""
+
+#: menu/menu_displaylist.c:1830
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RELEASE_MONTH"
+msgid "Releasedate Month"
+msgstr ""
+
+#: menu/menu_displaylist.c:1841
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RELEASE_YEAR"
+msgid "Releasedate Year"
+msgstr ""
+
+#: menu/menu_displaylist.c:1926
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RUMBLE"
+msgid "Rumble supported"
+msgstr ""
+
+#: menu/menu_displaylist.c:1906
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SERIAL"
+msgid "Serial"
+msgstr ""
+
+#: menu/menu_displaylist.c:1960
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SHA1"
+msgid "SHA1"
+msgstr ""
+
+#: menu/menu_displaylist.c:1781
+msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_TGDB_RATING"
+msgid "TGDB Rating"
+msgstr ""
+
+#: menu/menu_setting.c:4618
+msgctxt "MENU_ENUM_LABEL_VALUE_RECORDING_SETTINGS"
+msgid "Recording"
+msgstr ""
+
+#: menu/menu_displaylist.c:3204
+msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_LOAD"
+msgid "Load Remap File"
+msgstr ""
+
+#: menu/menu_displaylist.c:3209
+msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_SAVE_CORE"
+msgid "Save Core Remap File"
+msgstr ""
+
+#: menu/menu_displaylist.c:3214
+msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_SAVE_GAME"
+msgid "Save Game Remap File"
+msgstr ""
+
+#: menu/menu_displaylist.c:3222
+msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_REMOVE_CORE"
+msgid "Delete Core Remap File"
+msgstr ""
+
+#: menu/menu_displaylist.c:3231
+msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_REMOVE_GAME"
+msgid "Delete Game Remap File"
+msgstr ""
+
+#: menu/menu_displaylist.c:310
+msgctxt "MENU_ENUM_LABEL_VALUE_REQUIRED"
+msgid "Required"
+msgstr ""
+
+#: menu/menu_displaylist.c:2585
+msgctxt "MENU_ENUM_LABEL_VALUE_RESTART_CONTENT"
+msgid "Restart"
+msgstr ""
+
+#: menu/menu_displaylist.c:2579
+msgctxt "MENU_ENUM_LABEL_VALUE_RESUME_CONTENT"
+msgid "Resume"
+msgstr ""
+
+#: menu/menu_setting.c:527
+msgctxt "MENU_ENUM_LABEL_VALUE_RETROPAD"
+msgid "RetroPad"
+msgstr ""
+
+#: menu/menu_setting.c:530
+msgctxt "MENU_ENUM_LABEL_VALUE_RETROPAD_WITH_ANALOG"
+msgid "RetroPad w/ Analog"
+msgstr ""
+
+#: menu/menu_setting.c:3212
+msgctxt "MENU_ENUM_LABEL_VALUE_REWIND_SETTINGS"
+msgid "Rewind"
+msgstr ""
+
+#: menu/menu_setting.c:551
+msgctxt "MENU_ENUM_LABEL_VALUE_RIGHT_ANALOG"
+msgid "Right Analog"
+msgstr ""
+
+#: menu/menu_displaylist.c:2652
+msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_FAVORITES"
+msgid "Add to Favorites"
+msgstr ""
+
+#: menu/menu_displaylist.c:2817
+msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_FAVORITES_PLAYLIST"
+msgid "Add to Favorites"
+msgstr ""
+
+#: menu/menu_displaylist.c:2796
+msgctxt "MENU_ENUM_LABEL_VALUE_RUN"
+msgid "Run"
+msgstr ""
+
+#: menu/menu_displaylist.c:4196
+msgctxt "MENU_ENUM_LABEL_VALUE_RUN_MUSIC"
+msgid "Run"
+msgstr ""
+
+#: menu/menu_displaylist.c:2930
+msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_CURRENT_CONFIG"
+msgid "Save Current Configuration"
+msgstr ""
+
+#: menu/menu_displaylist.c:2714
+msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_CURRENT_CONFIG_OVERRIDE_CORE"
+msgid "Save Core Overrides"
+msgstr ""
+
+#: menu/menu_displaylist.c:2723
+msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_CURRENT_CONFIG_OVERRIDE_GAME"
+msgid "Save Game Overrides"
+msgstr ""
+
+#: menu/menu_displaylist.c:2936
+msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_NEW_CONFIG"
+msgid "Save New Configuration"
+msgstr ""
+
+#: menu/menu_displaylist.c:2616
+msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_STATE"
+msgid "Save State"
+msgstr ""
+
+#: menu/menu_setting.c:3097
+msgctxt "MENU_ENUM_LABEL_VALUE_SAVING_SETTINGS"
+msgid "Saving"
+msgstr ""
+
+#: menu/menu_displaylist.c:2948 menu/menu_displaylist.c:2977
+#: menu/menu_displaylist.c:3349
+msgctxt "MENU_ENUM_LABEL_VALUE_SCAN_DIRECTORY"
+msgid "Scan Directory"
+msgstr ""
+
+#: menu/menu_displaylist.c:2954 menu/menu_displaylist.c:2983
+#: menu/menu_displaylist.c:3354
+msgctxt "MENU_ENUM_LABEL_VALUE_SCAN_FILE"
+msgid "Scan File"
+msgstr ""
+
+#: menu/widgets/menu_filebrowser.c:89
+msgctxt "MENU_ENUM_LABEL_VALUE_SCAN_THIS_DIRECTORY"
+msgid "<Scan This Directory>"
+msgstr ""
+
+#: command.c:1793 command.c:1796
+msgctxt "MENU_ENUM_LABEL_VALUE_SCREEN_RESOLUTION"
+msgid "Screen Resolution"
+msgstr ""
+
+#: menu/widgets/menu_input_dialog.c:111
+msgctxt "MENU_ENUM_LABEL_VALUE_SEARCH"
+msgid "Search"
+msgstr ""
+
+#: menu/menu_setting.c:572 menu/widgets/menu_input_bind_dialog.c:440
+msgctxt "MENU_ENUM_LABEL_VALUE_SECONDS"
+msgid "seconds"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:260
+msgctxt "MENU_ENUM_LABEL_VALUE_SETTINGS_TAB"
+msgid "Settings"
+msgstr ""
+
+#: menu/menu_displaylist.c:1426
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER"
+msgid "Shader"
+msgstr ""
+
+#: menu/menu_displaylist.c:1370
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_APPLY_CHANGES"
+msgid "Apply Changes"
+msgstr ""
+
+#: menu/menu_displaylist.c:2704
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_OPTIONS"
+msgid "Shaders"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:283
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_RIBBON"
+msgid "Ribbon"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:278
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_RIBBON_SIMPLIFIED"
+msgid "Ribbon (simplified)"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:288
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_SIMPLE_SNOW"
+msgid "Simple Snow"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:293
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_SNOW"
+msgid "Snow"
+msgstr ""
+
+#: menu/menu_displaylist.c:4048
+msgctxt "MENU_ENUM_LABEL_VALUE_START_NET_RETROPAD"
+msgid "Start Remote RetroPad"
+msgstr ""
+
+#: menu/menu_displaylist.c:4040
+msgctxt "MENU_ENUM_LABEL_VALUE_START_VIDEO_PROCESSOR"
+msgid "Start Video Processor"
+msgstr ""
+
+#: menu/menu_displaylist.c:2884
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFORMATION"
+msgid "System Information"
+msgstr ""
+
+#: menu/menu_displaylist.c:1109
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_7ZIP_SUPPORT"
+msgid "7zip support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1001
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_ALSA_SUPPORT"
+msgid "ALSA support"
+msgstr ""
+
+#: menu/menu_displaylist.c:377
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_BUILD_DATE"
+msgid "Build date"
+msgstr ""
+
+#: menu/menu_displaylist.c:1136
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_CG_SUPPORT"
+msgid "Cg support"
+msgstr ""
+
+#: menu/menu_displaylist.c:831
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_COCOA_SUPPORT"
+msgid "Cocoa support"
+msgstr ""
+
+#: menu/menu_displaylist.c:795
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_COMMAND_IFACE_SUPPORT"
+msgid "Command interface support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1190
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_CORETEXT_SUPPORT"
+msgid "CoreText support"
+msgstr ""
+
+#: menu/menu_displaylist.c:413
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_CPU_FEATURES"
+msgid "CPU Features"
+msgstr ""
+
+#: menu/menu_displaylist.c:757
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_DISPLAY_METRIC_DPI"
+msgid "Display metric DPI"
+msgstr ""
+
+#: menu/menu_displaylist.c:744
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_DISPLAY_METRIC_MM_HEIGHT"
+msgid "Display metric height (mm)"
+msgstr ""
+
+#: menu/menu_displaylist.c:731
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_DISPLAY_METRIC_MM_WIDTH"
+msgid "Display metric width (mm)"
+msgstr ""
+
+#: menu/menu_displaylist.c:1073
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_DSOUND_SUPPORT"
+msgid "DirectSound support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1082
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_WASAPI_SUPPORT"
+msgid "WASAPI support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1118
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_DYLIB_SUPPORT"
+msgid "Dynamic library support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1127
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_DYNAMIC_SUPPORT"
+msgid "Dynamic run-time loading of libretro library"
+msgstr ""
+
+#: menu/menu_displaylist.c:965
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_EGL_SUPPORT"
+msgid "EGL support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1181
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_FFMPEG_SUPPORT"
+msgid "FFmpeg support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1199
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_FREETYPE_SUPPORT"
+msgid "FreeType support"
+msgstr ""
+
+#: menu/menu_displaylist.c:534
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_FRONTEND_IDENTIFIER"
+msgid "Frontend identifier"
+msgstr ""
+
+#: menu/menu_displaylist.c:565
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_FRONTEND_NAME"
+msgid "Frontend name"
+msgstr ""
+
+#: menu/menu_displaylist.c:580
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_FRONTEND_OS"
+msgid "Frontend OS"
+msgstr ""
+
+#: menu/menu_displaylist.c:385
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_GIT_VERSION"
+msgid "Git version"
+msgstr ""
+
+#: menu/menu_displaylist.c:1145
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_GLSL_SUPPORT"
+msgid "GLSL support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1154
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_HLSL_SUPPORT"
+msgid "HLSL support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1055
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_JACK_SUPPORT"
+msgid "JACK support"
+msgstr ""
+
+#: menu/menu_displaylist.c:938
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_KMS_SUPPORT"
+msgid "KMS/EGL support"
+msgstr ""
+
+#: menu/menu_displaylist.c:548
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_LAKKA_VERSION"
+msgid "Lakka Version"
+msgstr ""
+
+#: menu/menu_displaylist.c:768
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_LIBRETRODB_SUPPORT"
+msgid "LibretroDB support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1236
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_LIBUSB_SUPPORT"
+msgid "Libusb support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1163
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_LIBXML2_SUPPORT"
+msgid "libxml2 XML parsing support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1209
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_NETPLAY_SUPPORT"
+msgid "Netplay (peer-to-peer) support"
+msgstr ""
+
+#: menu/menu_displaylist.c:809
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_NETWORK_COMMAND_IFACE_SUPPORT"
+msgid "Network Command interface support"
+msgstr ""
+
+#: menu/menu_displaylist.c:820
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_NETWORK_REMOTE_SUPPORT"
+msgid "Network Gamepad support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1019
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_OPENAL_SUPPORT"
+msgid "OpenAL support"
+msgstr ""
+
+#: menu/menu_displaylist.c:920
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_OPENGLES_SUPPORT"
+msgid "OpenGL ES support"
+msgstr ""
+
+#: menu/menu_displaylist.c:911
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_OPENGL_SUPPORT"
+msgid "OpenGL support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1028
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_OPENSL_SUPPORT"
+msgid "OpenSL support"
+msgstr ""
+
+#: menu/menu_displaylist.c:956
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_OPENVG_SUPPORT"
+msgid "OpenVG support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1010
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_OSS_SUPPORT"
+msgid "OSS support"
+msgstr ""
+
+#: menu/menu_displaylist.c:782
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_OVERLAY_SUPPORT"
+msgid "Overlay support"
+msgstr ""
+
+#: menu/menu_displaylist.c:694
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_POWER_SOURCE"
+msgid "Power source"
+msgstr ""
+
+#: menu/menu_displaylist.c:678
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_POWER_SOURCE_CHARGED"
+msgid "Charged"
+msgstr ""
+
+#: menu/menu_displaylist.c:670
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_POWER_SOURCE_CHARGING"
+msgid "Charging"
+msgstr ""
+
+#: menu/menu_displaylist.c:686
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_POWER_SOURCE_DISCHARGING"
+msgid "Discharging"
+msgstr ""
+
+#: menu/menu_displaylist.c:662
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_POWER_SOURCE_NO_SOURCE"
+msgid "No source"
+msgstr ""
+
+#: menu/menu_displaylist.c:1064
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_PULSEAUDIO_SUPPORT"
+msgid "PulseAudio support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1218
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_PYTHON_SUPPORT"
+msgid "Python (script support in shaders) support"
+msgstr ""
+
+#: menu/menu_displaylist.c:862
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_RBMP_SUPPORT"
+msgid "BMP support (RBMP)"
+msgstr ""
+
+#: menu/menu_displaylist.c:590
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_RETRORATING_LEVEL"
+msgid "RetroRating level"
+msgstr ""
+
+#: menu/menu_displaylist.c:852
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_RJPEG_SUPPORT"
+msgid "JPEG support (RJPEG)"
+msgstr ""
+
+#: menu/menu_displaylist.c:1046
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_ROARAUDIO_SUPPORT"
+msgid "RoarAudio support"
+msgstr ""
+
+#: menu/menu_displaylist.c:841
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_RPNG_SUPPORT"
+msgid "PNG support (RPNG)"
+msgstr ""
+
+#: menu/menu_displaylist.c:1037
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_RSOUND_SUPPORT"
+msgid "RSound support"
+msgstr ""
+
+#: menu/menu_displaylist.c:872
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_RTGA_SUPPORT"
+msgid "TGA support (RTGA)"
+msgstr ""
+
+#: menu/menu_displaylist.c:892
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_SDL2_SUPPORT"
+msgid "SDL2 support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1172
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_SDL_IMAGE_SUPPORT"
+msgid "SDL image support"
+msgstr ""
+
+#: menu/menu_displaylist.c:882
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_SDL_SUPPORT"
+msgid "SDL1.2 support"
+msgstr ""
+
+#: menu/menu_displaylist.c:929
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_THREADING_SUPPORT"
+msgid "Threading support"
+msgstr ""
+
+#: menu/menu_displaylist.c:947
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_UDEV_SUPPORT"
+msgid "Udev support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1227
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_V4L2_SUPPORT"
+msgid "Video4Linux2 support"
+msgstr ""
+
+#: menu/menu_displaylist.c:710
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_VIDEO_CONTEXT_DRIVER"
+msgid "Video context driver"
+msgstr ""
+
+#: menu/menu_displaylist.c:902
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_VULKAN_SUPPORT"
+msgid "Vulkan support"
+msgstr ""
+
+#: menu/menu_displaylist.c:983
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_WAYLAND_SUPPORT"
+msgid "Wayland support"
+msgstr ""
+
+#: menu/menu_displaylist.c:974
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_X11_SUPPORT"
+msgid "X11 support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1091
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_XAUDIO2_SUPPORT"
+msgid "XAudio2 support"
+msgstr ""
+
+#: menu/menu_displaylist.c:992
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_XVIDEO_SUPPORT"
+msgid "XVideo support"
+msgstr ""
+
+#: menu/menu_displaylist.c:1100
+msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_ZLIB_SUPPORT"
+msgid "Zlib support"
+msgstr ""
+
+#: menu/menu_displaylist.c:2599 menu/menu_displaylist.c:3815
+msgctxt "MENU_ENUM_LABEL_VALUE_TAKE_SCREENSHOT"
+msgid "Take Screenshot"
+msgstr ""
+
+#: menu/menu_displaylist.c:3013 menu/menu_displaylist.c:3034
+msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAILS_UPDATER_LIST"
+msgid "Thumbnails Updater"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1088
+msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAIL_MODE_BOXARTS"
+msgid "Boxarts"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1078
+msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAIL_MODE_SCREENSHOTS"
+msgid "Screenshots"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:1083
+msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAIL_MODE_TITLE_SCREENS"
+msgid "Title Screens"
+msgstr ""
+
+#: menu/menu_displaylist.c:1918 menu/menu_displaylist.c:1928
+#: menu/menu_displaylist.c:1938 menu/cbs/menu_cbs_get_value.c:330
+msgctxt "MENU_ENUM_LABEL_VALUE_TRUE"
+msgid "True"
+msgstr ""
+
+#: menu/widgets/menu_filebrowser.c:110
+msgctxt "MENU_ENUM_LABEL_VALUE_UNABLE_TO_READ_COMPRESSED_FILE"
+msgid "Unable to read compressed file."
+msgstr ""
+
+#: menu/menu_displaylist.c:2636
+msgctxt "MENU_ENUM_LABEL_VALUE_UNDO_LOAD_STATE"
+msgid "Undo Load State"
+msgstr ""
+
+#: menu/menu_displaylist.c:2642
+msgctxt "MENU_ENUM_LABEL_VALUE_UNDO_SAVE_STATE"
+msgid "Undo Save State"
+msgstr ""
+
+#: menu/menu_setting.c:533
+msgctxt "MENU_ENUM_LABEL_VALUE_UNKNOWN"
+msgid "Unknown"
+msgstr ""
+
+#: menu/menu_displaylist.c:3056
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_ASSETS"
+msgid "Update Assets"
+msgstr ""
+
+#: menu/menu_displaylist.c:3063
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_AUTOCONFIG_PROFILES"
+msgid "Update Joypad Profiles"
+msgstr ""
+
+#: menu/menu_displaylist.c:3092
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_CG_SHADERS"
+msgid "Update Cg Shaders"
+msgstr ""
+
+#: menu/menu_displaylist.c:3069
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_CHEATS"
+msgid "Update Cheats"
+msgstr ""
+
+#: menu/menu_displaylist.c:3049
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_CORE_INFO_FILES"
+msgid "Update Core Info Files"
+msgstr ""
+
+#: menu/menu_displaylist.c:3077
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_DATABASES"
+msgid "Update Databases"
+msgstr ""
+
+#: menu/menu_displaylist.c:3100
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_GLSL_SHADERS"
+msgid "Update GLSL Shaders"
+msgstr ""
+
+#: menu/menu_displaylist.c:3008
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_LAKKA"
+msgid "Update Lakka"
+msgstr ""
+
+#: menu/menu_displaylist.c:3085
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_OVERLAYS"
+msgid "Update Overlays"
+msgstr ""
+
+#: menu/menu_displaylist.c:3108
+msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_SLANG_SHADERS"
+msgid "Update Slang Shaders"
+msgstr ""
+
+#: menu/menu_setting.c:1962 menu/menu_setting.c:2025 menu/menu_setting.c:2028
+#: menu/menu_setting.c:2031 menu/menu_setting.c:2034 menu/menu_setting.c:2037
+#: menu/menu_setting.c:2040 menu/menu_setting.c:2043
+#: menu/menu_displaylist.c:3262
+msgctxt "MENU_ENUM_LABEL_VALUE_USER"
+msgid "User"
+msgstr ""
+
+#: menu/menu_setting.c:6145
+msgctxt "MENU_ENUM_LABEL_VALUE_USER_INTERFACE_SETTINGS"
+msgid "User Interface"
+msgstr ""
+
+#: menu/menu_setting.c:7137
+msgctxt "MENU_ENUM_LABEL_VALUE_USER_SETTINGS"
+msgid "User"
+msgstr ""
+
+#: menu/widgets/menu_filebrowser.c:98
+msgctxt "MENU_ENUM_LABEL_VALUE_USE_THIS_DIRECTORY"
+msgid "<Use this directory>"
+msgstr ""
+
+#: menu/menu_setting.c:3266
+msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SETTINGS"
+msgid "Video"
+msgstr ""
+
+#: menu/menu_displaylist.c:1413
+msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_NUM_PASSES"
+msgid "Shader Passes"
+msgstr ""
+
+#: menu/menu_displaylist.c:1403
+msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PARAMETERS"
+msgid "Preview Shader Parameters"
+msgstr ""
+
+#: menu/menu_displaylist.c:1383
+msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET"
+msgid "Load Shader Preset"
+msgstr ""
+
+#: menu/menu_displaylist.c:1408
+msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_PARAMETERS"
+msgid "Menu Shader Parameters"
+msgstr ""
+
+#: menu/menu_displaylist.c:1388
+msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_AS"
+msgid "Save Shader Preset As"
+msgstr ""
+
+#: menu/menu_displaylist.c:1393
+msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_CORE"
+msgid "Save Core Preset"
+msgstr ""
+
+#: menu/menu_displaylist.c:1398
+msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_GAME"
+msgid "Save Game Preset"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:258
+msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_TAB"
+msgid "Video"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:885
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_CUSTOM"
+msgid "Custom"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:853
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_FLATUI"
+msgid "FlatUI"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:849
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME"
+msgid "Monochrome"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:881
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME_INVERTED"
+msgid "Monochrome Inverted"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:873
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_SYSTEMATIC"
+msgid "Systematic"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:869
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_NEOACTIVE"
+msgid "NeoActive"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:865
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_PIXEL"
+msgid "Pixel"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:857
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROACTIVE"
+msgid "RetroActive"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:861
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROSYSTEM"
+msgid "Retrosystem"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:877
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_DOTART"
+msgid "Dot-Art"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:963
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_APPLE_GREEN"
+msgid "Apple Green"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:981
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_DARK"
+msgid "Dark"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:987
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_LIGHT"
+msgid "Light"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:939
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_DARK_PURPLE"
+msgid "Dark Purple"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:957
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_ELECTRIC_BLUE"
+msgid "Electric Blue"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:951
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_GOLDEN"
+msgid "Golden"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:933
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_LEGACY_RED"
+msgid "Legacy Red"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:945
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_MIDNIGHT_BLUE"
+msgid "Midnight Blue"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:927
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_PLAIN"
+msgid "Plain"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:969
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_UNDERSEA"
+msgid "Undersea"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:975
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_VOLCANIC_RED"
+msgid "Volcanic Red"
+msgstr ""
+
+#: menu/menu_displaylist.c:774 menu/menu_displaylist.c:787
+#: menu/menu_displaylist.c:800 menu/menu_displaylist.c:812
+#: menu/menu_displaylist.c:823 menu/menu_displaylist.c:833
+#: menu/menu_displaylist.c:844 menu/menu_displaylist.c:855
+#: menu/menu_displaylist.c:865 menu/menu_displaylist.c:875
+#: menu/menu_displaylist.c:885 menu/menu_displaylist.c:895
+#: menu/menu_displaylist.c:904 menu/menu_displaylist.c:913
+#: menu/menu_displaylist.c:922 menu/menu_displaylist.c:931
+#: menu/menu_displaylist.c:940 menu/menu_displaylist.c:949
+#: menu/menu_displaylist.c:958 menu/menu_displaylist.c:967
+#: menu/menu_displaylist.c:976 menu/menu_displaylist.c:985
+#: menu/menu_displaylist.c:994 menu/menu_displaylist.c:1003
+#: menu/menu_displaylist.c:1012 menu/menu_displaylist.c:1021
+#: menu/menu_displaylist.c:1030 menu/menu_displaylist.c:1039
+#: menu/menu_displaylist.c:1048 menu/menu_displaylist.c:1057
+#: menu/menu_displaylist.c:1066 menu/menu_displaylist.c:1075
+#: menu/menu_displaylist.c:1084 menu/menu_displaylist.c:1093
+#: menu/menu_displaylist.c:1102 menu/menu_displaylist.c:1111
+#: menu/menu_displaylist.c:1120 menu/menu_displaylist.c:1129
+#: menu/menu_displaylist.c:1138 menu/menu_displaylist.c:1147
+#: menu/menu_displaylist.c:1156 menu/menu_displaylist.c:1165
+#: menu/menu_displaylist.c:1174 menu/menu_displaylist.c:1183
+#: menu/menu_displaylist.c:1192 menu/menu_displaylist.c:1201
+#: menu/menu_displaylist.c:1211 menu/menu_displaylist.c:1220
+#: menu/menu_displaylist.c:1229 menu/menu_displaylist.c:1239
+msgctxt "MENU_ENUM_LABEL_VALUE_YES"
+msgid "Yes"
+msgstr ""
+
+#: command.c:2353
+msgctxt "MSG_ADDED_TO_FAVORITES"
+msgid "Added to favorites"
+msgstr ""
+
+#: command.c:827
+msgctxt "MSG_APPENDED_DISK"
+msgid "Appended disk"
+msgstr ""
+
+#: frontend/drivers/platform_unix.c:2054
+msgctxt "MSG_APPLICATION_DIR"
+msgid "Application Dir"
+msgstr ""
+
+#: managers/cheat_manager.c:104 managers/cheat_manager.c:105
+msgctxt "MSG_APPLYING_CHEAT"
+msgid "Applying cheat changes."
+msgstr ""
+
+#: command.c:245
+msgctxt "MSG_APPLYING_SHADER"
+msgid "Applying shader"
+msgstr ""
+
+#: command.c:2070
+msgctxt "MSG_AUDIO_MUTED"
+msgid "Audio muted."
+msgstr ""
+
+#: command.c:2071
+msgctxt "MSG_AUDIO_UNMUTED"
+msgid "Audio unmuted."
+msgstr ""
+
+#: menu/menu_setting.c:1417
+msgctxt "MSG_AUTOCONFIG_FILE_ERROR_SAVING"
+msgid "Error saving autoconf file."
+msgstr ""
+
+#: menu/menu_setting.c:1414
+msgctxt "MSG_AUTOCONFIG_FILE_SAVED_SUCCESSFULLY"
+msgid "Autoconfig file saved successfully."
+msgstr ""
+
+#: tasks/task_save.c:310
+msgctxt "MSG_AUTOSAVE_FAILED"
+msgid "Could not initialize autosave."
+msgstr ""
+
+#: command.c:1366
+msgctxt "MSG_AUTO_SAVE_STATE_TO"
+msgid "Auto save state to"
+msgstr ""
+
+#: tasks/task_save.c:414 tasks/task_save.c:909
+msgctxt "MSG_BLOCKING_SRAM_OVERWRITE"
+msgid "Blocking SRAM Overwrite"
+msgstr ""
+
+#: tasks/task_save.c:404 tasks/task_save.c:879 tasks/task_save.c:1168
+#: tasks/task_save.c:1368
+msgctxt "MSG_BYTES"
+msgid "bytes"
+msgstr ""
+
+#: command.c:1486
+msgctxt "MSG_CANNOT_INFER_NEW_CONFIG_PATH"
+msgid "Cannot infer new config path. Use current time."
+msgstr ""
+
+#: cheevos/cheevos.c:2491
+msgctxt "MSG_CHEEVOS_HARDCORE_MODE_ENABLE"
+msgid "Hardcore Mode Enabled, savestate & rewind were disabled."
+msgstr ""
+
+#: tasks/task_database_cue.c:368
+msgctxt "MSG_COMPARING_WITH_KNOWN_MAGIC_NUMBERS"
+msgid "Comparing with known magic numbers..."
+msgstr ""
+
+#: core_impl.c:448
+msgctxt "MSG_COMPILED_AGAINST_API"
+msgid "Compiled against API"
+msgstr ""
+
+#: command.c:1438 command.c:1439
+msgctxt "MSG_CONFIG_DIRECTORY_NOT_SET"
+msgid "Config directory not set. Cannot save new config."
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:482
+msgctxt "MSG_CONNECTED_TO"
+msgid "Connected to"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:906
+msgctxt "MSG_CONTENT_CRC32S_DIFFER"
+msgid "Content CRC32s differ. Cannot use different games."
+msgstr ""
+
+#: tasks/task_content.c:588
+msgctxt "MSG_CONTENT_LOADING_SKIPPED_IMPLEMENTATION_WILL_DO_IT"
+msgid "Content loading skipped. Implementation will load it on its own."
+msgstr ""
+
+#: command.c:1669
+msgctxt "MSG_CORE_DOES_NOT_SUPPORT_SAVESTATES"
+msgid "Core does not support save states."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:2733
+msgctxt "MSG_CORE_OPTIONS_FILE_CREATED_SUCCESSFULLY"
+msgid "Core options file created successfully."
+msgstr ""
+
+#: driver.c:233
+msgctxt "MSG_COULD_NOT_FIND_ANY_NEXT_DRIVER"
+msgid "Could not find any next driver"
+msgstr ""
+
+#: tasks/task_database_cue.c:406
+msgctxt "MSG_COULD_NOT_FIND_COMPATIBLE_SYSTEM"
+msgid "Could not find compatible system."
+msgstr ""
+
+#: tasks/task_database.c:279 tasks/task_database.c:307
+#: tasks/task_database.c:429 tasks/task_database.c:459
+msgctxt "MSG_COULD_NOT_FIND_VALID_DATA_TRACK"
+msgid "Could not find valid data track"
+msgstr ""
+
+#: tasks/task_content.c:411 tasks/task_content.c:577
+msgctxt "MSG_COULD_NOT_READ_CONTENT_FILE"
+msgid "Could not read content file"
+msgstr ""
+
+#: movie.c:131
+msgctxt "MSG_COULD_NOT_READ_STATE_FROM_MOVIE"
+msgid "Could not read state from movie."
+msgstr ""
+
+#: movie.c:106
+msgctxt "MSG_CRC32_CHECKSUM_MISMATCH"
+msgid ""
+"CRC32 checksum mismatch between content file and saved content checksum in "
+"replay file header. Replay highly likely to desync on playback."
+msgstr ""
+
+#: record/record_driver.c:342
+msgctxt "MSG_CUSTOM_TIMING_GIVEN"
+msgid "Custom timing given"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:2523
+msgctxt "MSG_DECOMPRESSION_ALREADY_IN_PROGRESS"
+msgid "Decompression already in progress."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:2546
+msgctxt "MSG_DECOMPRESSION_FAILED"
+msgid "Decompression failed."
+msgstr ""
+
+#: record/record_driver.c:404
+msgctxt "MSG_DETECTED_VIEWPORT_OF"
+msgid "Detected viewport of"
+msgstr ""
+
+#: tasks/task_patch.c:666
+msgctxt "MSG_DID_NOT_FIND_A_VALID_CONTENT_PATCH"
+msgid "Did not find a valid content patch."
+msgstr ""
+
+#: command.c:711
+msgctxt "MSG_DISK_CLOSED"
+msgid "Closed"
+msgstr ""
+
+#: command.c:710
+msgctxt "MSG_DISK_EJECTED"
+msgid "Ejected"
+msgstr ""
+
+#: tasks/task_http.c:301
+msgctxt "MSG_DOWNLOADING"
+msgid "Downloading"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3291
+msgctxt "MSG_DOWNLOAD_FAILED"
+msgid "Download failed"
+msgstr ""
+
+#: tasks/task_patch.c:542
+msgctxt "MSG_ERROR"
+msgid "Error"
+msgstr ""
+
+#: tasks/task_content.c:552
+msgctxt "MSG_ERROR_LIBRETRO_CORE_REQUIRES_CONTENT"
+msgid "Libretro core requires content, but nothing was provided."
+msgstr ""
+
+#: tasks/task_content.c:666
+msgctxt "MSG_ERROR_LIBRETRO_CORE_REQUIRES_SPECIAL_CONTENT"
+msgid "Libretro core requires special content, but none were provided."
+msgstr ""
+
+#: retroarch.c:1054
+msgctxt "MSG_ERROR_PARSING_ARGUMENTS"
+msgid "Error parsing arguments."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:2716
+msgctxt "MSG_ERROR_SAVING_CORE_OPTIONS_FILE"
+msgid "Error saving core options file."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:2000
+msgctxt "MSG_ERROR_SAVING_REMAP_FILE"
+msgid "Error saving remap file."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:2027
+msgctxt "MSG_ERROR_REMOVING_REMAP_FILE"
+msgid "Error removing remap file."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1791 menu/cbs/menu_cbs_ok.c:1923
+msgctxt "MSG_ERROR_SAVING_SHADER_PRESET"
+msgid "Error saving shader preset."
+msgstr ""
+
+#: frontend/drivers/platform_gx.c:485 frontend/drivers/platform_gx.c:490
+#: frontend/drivers/platform_gx.c:496 frontend/drivers/platform_gx.c:501
+#: frontend/drivers/platform_unix.c:2062
+msgctxt "MSG_EXTERNAL_APPLICATION_DIR"
+msgid "External Application Dir"
+msgstr ""
+
+#: tasks/task_decompress.c:331
+msgctxt "MSG_EXTRACTING"
+msgid "Extracting"
+msgstr ""
+
+#: command.c:1398
+msgctxt "MSG_FAILED_SAVING_CONFIG_TO"
+msgid "Failed saving config to"
+msgstr ""
+
+#: command.c:717
+msgctxt "MSG_FAILED_TO"
+msgid "Failed to"
+msgstr ""
+
+#: tasks/task_patch.c:518
+msgctxt "MSG_FAILED_TO_ALLOCATE_MEMORY_FOR_PATCHED_CONTENT"
+msgid "Failed to allocate memory for patched content..."
+msgstr ""
+
+#: command.c:379 input/input_remote.c:107
+msgctxt "MSG_FAILED_TO_BIND_SOCKET"
+msgid "Failed to bind socket."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:2510
+msgctxt "MSG_FAILED_TO_CREATE_THE_DIRECTORY"
+msgid "Failed to create the directory."
+msgstr ""
+
+#: tasks/task_content.c:489
+msgctxt "MSG_FAILED_TO_EXTRACT_CONTENT_FROM_COMPRESSED_FILE"
+msgid "Failed to extract content from compressed file"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:696
+#: network/netplay/netplay_handshake.c:768
+msgctxt "MSG_FAILED_TO_GET_NICKNAME_FROM_CLIENT"
+msgid "Failed to get nickname from client."
+msgstr ""
+
+#: tasks/task_content.c:871
+msgctxt "MSG_FAILED_TO_LOAD"
+msgid "Failed to load"
+msgstr ""
+
+#: tasks/task_content.c:613
+msgctxt "MSG_FAILED_TO_LOAD_CONTENT"
+msgid "Failed to load content"
+msgstr ""
+
+#: movie.c:346
+msgctxt "MSG_FAILED_TO_LOAD_MOVIE_FILE"
+msgid "Failed to load movie file"
+msgstr ""
+
+#: tasks/task_save.c:796 tasks/task_save.c:993
+msgctxt "MSG_FAILED_TO_LOAD_STATE"
+msgid "Failed to load state from"
+msgstr ""
+
+#: dynamic.c:258 dynamic.c:272
+msgctxt "MSG_FAILED_TO_OPEN_LIBRETRO_CORE"
+msgid "Failed to open libretro core"
+msgstr ""
+
+#: tasks/task_patch.c:540
+msgctxt "MSG_FAILED_TO_PATCH"
+msgid "Failed to patch"
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:321
+#: network/netplay/netplay_handshake.c:333
+msgctxt "MSG_FAILED_TO_RECEIVE_HEADER_FROM_CLIENT"
+msgid "Failed to receive header from client."
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:700
+#: network/netplay/netplay_handshake.c:772
+msgctxt "MSG_FAILED_TO_RECEIVE_NICKNAME_FROM_HOST"
+msgid "Failed to receive nickname from host."
+msgstr ""
+
+#: network/netplay/netplay_handshake.c:965
+#: network/netplay/netplay_handshake.c:1087
+#: network/netplay/netplay_handshake.c:1102
+msgctxt "MSG_FAILED_TO_RECEIVE_SRAM_DATA_FROM_HOST"
+msgid "Failed to receive SRAM data from host."
+msgstr ""
+
+#: command.c:778
+msgctxt "MSG_FAILED_TO_REMOVE_DISK_FROM_TRAY"
+msgid "Failed to remove disk from tray."
+msgstr ""
+
+#: tasks/task_content.c:1726
+msgctxt "MSG_FAILED_TO_REMOVE_TEMPORARY_FILE"
+msgid "Failed to remove temporary file"
+msgstr ""
+
+#: tasks/task_save.c:1460
+msgctxt "MSG_FAILED_TO_SAVE_SRAM"
+msgid "Failed to save SRAM"
+msgstr ""
+
+#: tasks/task_save.c:603 tasks/task_save.c:1220
+msgctxt "MSG_FAILED_TO_SAVE_STATE_TO"
+msgid "Failed to save state to"
+msgstr ""
+
+#: movie.c:371 movie.c:374 movie.c:561 movie.c:564
+msgctxt "MSG_FAILED_TO_START_MOVIE_RECORD"
+msgid "Failed to start movie record."
+msgstr ""
+
+#: record/record_driver.c:453
+msgctxt "MSG_FAILED_TO_START_RECORDING"
+msgid "Failed to start recording."
+msgstr ""
+
+#: tasks/task_screenshot.c:178
+msgctxt "MSG_FAILED_TO_TAKE_SCREENSHOT"
+msgid "Failed to take screenshot."
+msgstr ""
+
+#: command.c:1597 tasks/task_save.c:501
+msgctxt "MSG_FAILED_TO_UNDO_LOAD_STATE"
+msgid "Failed to undo load state."
+msgstr ""
+
+#: tasks/task_save.c:595 tasks/task_save.c:599
+msgctxt "MSG_FAILED_TO_UNDO_SAVE_STATE"
+msgid "Failed to undo save state."
+msgstr ""
+
+#: command.c:2076
+msgctxt "MSG_FAILED_TO_UNMUTE_AUDIO"
+msgid "Failed to unmute audio."
+msgstr ""
+
+#: retroarch.c:1239 tasks/task_patch.c:532
+msgctxt "MSG_FATAL_ERROR_RECEIVED_IN"
+msgid "Fatal error received in"
+msgstr ""
+
+#: command.c:1119
+msgctxt "MSG_FOUND_AUTO_SAVESTATE_IN"
+msgid "Found auto savestate in"
+msgstr ""
+
+#: tasks/task_database.c:170 tasks/task_database.c:182
+#: tasks/task_database.c:188 tasks/task_database.c:194
+msgctxt "MSG_FOUND_DISK_LABEL"
+msgid "Found disk label"
+msgstr ""
+
+#: dirs.c:77
+msgctxt "MSG_FOUND_SHADER"
+msgid "Found shader"
+msgstr ""
+
+#: gfx/video_driver.c:2438
+msgctxt "MSG_FRAMES"
+msgid "Frames"
+msgstr ""
+
+#: retroarch.c:1392
+msgctxt "MSG_GAME_SPECIFIC_CORE_OPTIONS_FOUND_AT"
+msgid "Per-Game Options: game-specific core options found at"
+msgstr ""
+
+#: command.c:876 command.c:909
+msgctxt "MSG_GOT_INVALID_DISK_INDEX"
+msgid "Got invalid disk index."
+msgstr ""
+
+#: command.c:2727
+msgctxt "MSG_GRAB_MOUSE_STATE"
+msgid "Grab mouse state"
+msgstr ""
+
+#: command.c:2761
+msgctxt "MSG_GAME_FOCUS_ON"
+msgid "Game focus on"
+msgstr ""
+
+#: command.c:2771
+msgctxt "MSG_GAME_FOCUS_OFF"
+msgid "Game focus off"
+msgstr ""
+
+#: record/record_driver.c:337
+msgctxt "MSG_HW_RENDERED_MUST_USE_POSTSHADED_RECORDING"
+msgid ""
+"Libretro core is hardware rendered. Must use post-shaded recording as well."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1853
+msgctxt "MSG_INPUT_CHEAT"
+msgid "Input Cheat"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1849
+msgctxt "MSG_INPUT_CHEAT_FILENAME"
+msgid "Input Cheat Filename"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1837
+msgctxt "MSG_INPUT_PRESET_FILENAME"
+msgid "Input Preset Filename"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1861
+msgctxt "MSG_INPUT_RENAME_ENTRY"
+msgid "Rename Title"
+msgstr ""
+
+#: menu/menu_displaylist.c:113
+msgctxt "MSG_INTERFACE"
+msgid "Interface"
+msgstr ""
+
+#: frontend/drivers/platform_unix.c:2070
+msgctxt "MSG_INTERNAL_STORAGE"
+msgid "Internal Storage"
+msgstr ""
+
+#: frontend/drivers/platform_unix.c:2078 frontend/drivers/platform_unix.c:2084
+msgctxt "MSG_REMOVABLE_STORAGE"
+msgid "Removable Storage"
+msgstr ""
+
+#: menu/menu_displaylist.c:610
+msgctxt "MSG_IN_BYTES"
+msgid "in bytes"
+msgstr ""
+
+#: menu/menu_displaylist.c:624
+msgctxt "MSG_IN_GIGABYTES"
+msgid "in gigabytes"
+msgstr ""
+
+#: menu/menu_displaylist.c:617
+msgctxt "MSG_IN_MEGABYTES"
+msgid "in megabytes"
+msgstr ""
+
+#: core_impl.c:453
+msgctxt "MSG_LIBRETRO_ABI_BREAK"
+msgid ""
+"is compiled against a different version of libretro than this libretro "
+"implementation."
+msgstr ""
+
+#: retroarch.c:433
+msgctxt "MSG_LIBRETRO_FRONTEND"
+msgid "Frontend for libretro"
+msgstr ""
+
+#: tasks/task_save.c:830
+#, c-format
+msgctxt "MSG_LOADED_STATE_FROM_SLOT"
+msgid "Loaded state from slot #%d."
+msgstr ""
+
+#: tasks/task_save.c:824
+msgctxt "MSG_LOADED_STATE_FROM_SLOT_AUTO"
+msgid "Loaded state from slot #-1 (auto)."
+msgstr ""
+
+#: tasks/task_content.c:1046 tasks/task_content.c:1049
+msgctxt "MSG_FIRMWARE"
+msgid "One or more firmware files are missing"
+msgstr ""
+
+#: tasks/task_content.c:315
+msgctxt "MSG_LOADING_CONTENT_FILE"
+msgid "Loading content file"
+msgstr ""
+
+#: command.c:2184 command.c:2191 command.c:2198 command.c:2206 command.c:2215
+msgctxt "MSG_LOADING_HISTORY_FILE"
+msgid "Loading history file"
+msgstr ""
+
+#: tasks/task_save.c:398 tasks/task_save.c:870 tasks/task_save.c:1120
+#: tasks/task_save.c:1257
+msgctxt "MSG_LOADING_STATE"
+msgid "Loading state"
+msgstr ""
+
+#: menu/menu_displaylist.c:609 menu/menu_displaylist.c:616
+#: menu/menu_displaylist.c:623
+msgctxt "MSG_MEMORY"
+msgid "Memory"
+msgstr ""
+
+#: movie.c:98
+msgctxt "MSG_MOVIE_FILE_IS_NOT_A_VALID_BSV1_FILE"
+msgid "Movie file is not a valid BSV1 file."
+msgstr ""
+
+#: movie.c:145
+msgctxt "MSG_MOVIE_FORMAT_DIFFERENT_SERIALIZER_VERSION"
+msgid ""
+"Movie format seems to have a different serializer version. Will most likely "
+"fail."
+msgstr ""
+
+#: movie.c:506 movie.c:507
+msgctxt "MSG_MOVIE_PLAYBACK_ENDED"
+msgid "Movie playback ended."
+msgstr ""
+
+#: movie.c:524 movie.c:525
+msgctxt "MSG_MOVIE_RECORD_STOPPED"
+msgid "Stopping movie record."
+msgstr ""
+
+#: network/netplay/netplay_frontend.c:1381
+#: network/netplay/netplay_frontend.c:1384 network/netplay/netplay_sync.c:576
+msgctxt "MSG_NETPLAY_FAILED"
+msgid "Failed to initialize netplay."
+msgstr ""
+
+#: tasks/task_content.c:185
+msgctxt "MSG_NO_CONTENT_STARTING_DUMMY_CORE"
+msgid "No content, starting dummy core."
+msgstr ""
+
+#: command.c:1575
+msgctxt "MSG_NO_SAVE_STATE_HAS_BEEN_OVERWRITTEN_YET"
+msgid "No save state has been overwritten yet."
+msgstr ""
+
+#: command.c:1589
+msgctxt "MSG_NO_STATE_HAS_BEEN_LOADED_YET"
+msgid "No state has been loaded yet."
+msgstr ""
+
+#: command.c:1559
+msgctxt "MSG_OVERRIDES_ERROR_SAVING"
+msgid "Error saving overrides."
+msgstr ""
+
+#: command.c:1550
+msgctxt "MSG_OVERRIDES_SAVED_SUCCESSFULLY"
+msgid "Overrides saved successfully."
+msgstr ""
+
+#: command.c:2393 command.c:2396
+msgctxt "MSG_PAUSED"
+msgid "Paused."
+msgstr ""
+
+#: retroarch.c:432 gfx/video_driver.c:2216
+msgctxt "MSG_PROGRAM"
+msgid "RetroArch"
+msgstr ""
+
+#: tasks/task_database.c:285 tasks/task_database.c:313
+#: tasks/task_database.c:437 tasks/task_database.c:467
+msgctxt "MSG_READING_FIRST_DATA_TRACK"
+msgid "Reading first data track..."
+msgstr ""
+
+#: command.c:430
+msgctxt "MSG_RECEIVED"
+msgid "received"
+msgstr ""
+
+#: record/record_driver.c:232 record/record_driver.c:235
+msgctxt "MSG_RECORDING_TERMINATED_DUE_TO_RESIZE"
+msgid "Recording terminated due to resize."
+msgstr ""
+
+#: record/record_driver.c:445
+msgctxt "MSG_RECORDING_TO"
+msgid "Recording to"
+msgstr ""
+
+#: paths.c:202
+msgctxt "MSG_REDIRECTING_CHEATFILE_TO"
+msgid "Redirecting cheat file to"
+msgstr ""
+
+#: paths.c:180 paths.c:371
+msgctxt "MSG_REDIRECTING_SAVEFILE_TO"
+msgid "Redirecting save file to"
+msgstr ""
+
+#: paths.c:192 paths.c:285
+msgctxt "MSG_REDIRECTING_SAVESTATE_TO"
+msgid "Redirecting savestate to"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1995
+msgctxt "MSG_REMAP_FILE_SAVED_SUCCESSFULLY"
+msgid "Remap file saved successfully."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:2022
+msgctxt "MSG_REMAP_FILE_REMOVED_SUCCESSFULLY"
+msgid "Remap file removed successfully."
+msgstr ""
+
+#: command.c:767
+msgctxt "MSG_REMOVED_DISK_FROM_TRAY"
+msgid "Removed disk from tray."
+msgstr ""
+
+#: tasks/task_content.c:1723
+msgctxt "MSG_REMOVING_TEMPORARY_CONTENT_FILE"
+msgid "Removing temporary content file"
+msgstr ""
+
+#: command.c:1873 command.c:1874
+msgctxt "MSG_RESET"
+msgid "Reset"
+msgstr ""
+
+#: driver.c:302
+msgctxt "MSG_RESTARTING_RECORDING_DUE_TO_DRIVER_REINIT"
+msgid "Restarting recording due to driver reinit."
+msgstr ""
+
+#: tasks/task_save.c:617
+msgctxt "MSG_RESTORED_OLD_SAVE_STATE"
+msgid "Restored old save state."
+msgstr ""
+
+#: command.c:1314
+msgctxt "MSG_RESTORING_DEFAULT_SHADER_PRESET_TO"
+msgid "Shaders: restoring default shader preset to"
+msgstr ""
+
+#: paths.c:109
+msgctxt "MSG_REVERTING_SAVEFILE_DIRECTORY_TO"
+msgid "Reverting savefile directory to"
+msgstr ""
+
+#: paths.c:136
+msgctxt "MSG_REVERTING_SAVESTATE_DIRECTORY_TO"
+msgid "Reverting savestate directory to"
+msgstr ""
+
+#: managers/state_manager.c:729
+msgctxt "MSG_REWINDING"
+msgid "Rewinding."
+msgstr ""
+
+#: managers/state_manager.c:641
+msgctxt "MSG_REWIND_INIT"
+msgid "Initializing rewind buffer with size"
+msgstr ""
+
+#: managers/state_manager.c:625 managers/state_manager.c:648
+msgctxt "MSG_REWIND_INIT_FAILED"
+msgid "Failed to initialize rewind buffer. Rewinding will be disabled."
+msgstr ""
+
+#: managers/state_manager.c:636
+msgctxt "MSG_REWIND_INIT_FAILED_THREADED_AUDIO"
+msgid "Implementation uses threaded audio. Cannot use rewind."
+msgstr ""
+
+#: managers/state_manager.c:756
+msgctxt "MSG_REWIND_REACHED_END"
+msgid "Reached end of rewind buffer."
+msgstr ""
+
+#: command.c:1389
+msgctxt "MSG_SAVED_NEW_CONFIG_TO"
+msgid "Saved new config to"
+msgstr ""
+
+#: tasks/task_save.c:625
+#, c-format
+msgctxt "MSG_SAVED_STATE_TO_SLOT"
+msgid "Saved state to slot #%d."
+msgstr ""
+
+#: tasks/task_save.c:619
+msgctxt "MSG_SAVED_STATE_TO_SLOT_AUTO"
+msgid "Saved state to slot #-1 (auto)."
+msgstr ""
+
+#: tasks/task_save.c:1475
+msgctxt "MSG_SAVED_SUCCESSFULLY_TO"
+msgid "Saved successfully to"
+msgstr ""
+
+#: tasks/task_save.c:1451
+msgctxt "MSG_SAVING_RAM_TYPE"
+msgid "Saving RAM type"
+msgstr ""
+
+#: tasks/task_save.c:1047 tasks/task_save.c:1154
+msgctxt "MSG_SAVING_STATE"
+msgid "Saving state"
+msgstr ""
+
+#: tasks/task_database.c:143
+msgctxt "MSG_SCANNING"
+msgid "Scanning"
+msgstr ""
+
+#: tasks/task_database.c:1192
+msgctxt "MSG_SCANNING_OF_DIRECTORY_FINISHED"
+msgid "Scanning of directory finished"
+msgstr ""
+
+#: command.c:528
+msgctxt "MSG_SENDING_COMMAND"
+msgid "Sending command"
+msgstr ""
+
+#: tasks/task_patch.c:657
+msgctxt "MSG_SEVERAL_PATCHES_ARE_EXPLICITLY_DEFINED"
+msgid "Several patches are explicitly defined, ignoring all..."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1787 menu/cbs/menu_cbs_ok.c:1919
+msgctxt "MSG_SHADER_PRESET_SAVED_SUCCESSFULLY"
+msgid "Shader preset saved successfully."
+msgstr ""
+
+#: command.c:1232
+msgctxt "MSG_SKIPPING_SRAM_LOAD"
+msgid "Skipping SRAM load."
+msgstr ""
+
+#: retroarch.c:2906
+msgctxt "MSG_SLOW_MOTION"
+msgid "Slow motion."
+msgstr ""
+
+#: retroarch.c:2798
+msgctxt "MSG_FAST_FORWARD"
+msgid "Fast forward."
+msgstr ""
+
+#: retroarch.c:2903
+msgctxt "MSG_SLOW_MOTION_REWIND"
+msgid "Slow motion rewind."
+msgstr ""
+
+#: paths.c:392
+msgctxt "MSG_SRAM_WILL_NOT_BE_SAVED"
+msgid "SRAM will not be saved."
+msgstr ""
+
+#: movie.c:352 movie.c:354
+msgctxt "MSG_STARTING_MOVIE_PLAYBACK"
+msgid "Starting movie playback."
+msgstr ""
+
+#: movie.c:363 movie.c:380 movie.c:553 movie.c:570
+msgctxt "MSG_STARTING_MOVIE_RECORD_TO"
+msgid "Starting movie record to"
+msgstr ""
+
+#: tasks/task_save.c:402 tasks/task_save.c:877 tasks/task_save.c:1166
+msgctxt "MSG_STATE_SIZE"
+msgid "State size"
+msgstr ""
+
+#: retroarch.c:2825 retroarch.c:2845
+msgctxt "MSG_STATE_SLOT"
+msgid "State slot"
+msgstr ""
+
+#: tasks/task_screenshot.c:263
+msgctxt "MSG_TAKING_SCREENSHOT"
+msgid "Taking screenshot."
+msgstr ""
+
+#: tasks/task_save.c:1369 tasks/task_save.c:1453
+msgctxt "MSG_TO"
+msgid "to"
+msgstr ""
+
+#: command.c:1607
+msgctxt "MSG_UNDID_LOAD_STATE"
+msgid "Undid load state."
+msgstr ""
+
+#: tasks/task_save.c:673
+msgctxt "MSG_UNDOING_SAVE_STATE"
+msgid "Undoing save state"
+msgstr ""
+
+#: retroarch.c:1548
+msgctxt "MSG_UNKNOWN"
+msgid "Unknown"
+msgstr ""
+
+#: command.c:2404
+msgctxt "MSG_UNPAUSED"
+msgid "Unpaused."
+msgstr ""
+
+#: command.c:428
+msgctxt "MSG_UNRECOGNIZED_COMMAND"
+msgid "Unrecognized command"
+msgstr ""
+
+#: command.c:1449
+msgctxt "MSG_USING_CORE_NAME_FOR_NEW_CONFIG"
+msgid "Using core name for new config."
+msgstr ""
+
+#: record/record_driver.c:329
+msgctxt "MSG_USING_LIBRETRO_DUMMY_CORE_RECORDING_SKIPPED"
+msgid "Using libretro dummy core. Skipping recording."
+msgstr ""
+
+#: retroarch.c:735
+msgctxt "MSG_VALUE_CONNECT_DEVICE_FROM_A_VALID_PORT"
+msgid "Connect device from a valid port."
+msgstr ""
+
+#: command.c:1022
+msgctxt "MSG_VALUE_DISCONNECTING_DEVICE_FROM_PORT"
+msgid "Disconnecting device from port"
+msgstr ""
+
+#: command.c:2318
+msgctxt "MSG_VALUE_REBOOTING"
+msgid "Rebooting..."
+msgstr ""
+
+#: command.c:2310
+msgctxt "MSG_VALUE_SHUTTING_DOWN"
+msgid "Shutting down..."
+msgstr ""
+
+#: core_impl.c:445
+msgctxt "MSG_VERSION_OF_LIBRETRO_API"
+msgid "Version of libretro API"
+msgstr ""
+
+#: record/record_driver.c:221
+msgctxt "MSG_VIEWPORT_SIZE_CALCULATION_FAILED"
+msgid ""
+"Viewport size calculation failed! Will continue using raw data. This will "
+"probably not work right ..."
+msgstr ""
+
+#: command.c:712 command.c:719
+msgctxt "MSG_VIRTUAL_DISK_TRAY"
+msgid "virtual disk tray."
+msgstr ""
+
+#: tasks/task_save.c:791
+msgctxt "MSG_FAILED"
+msgid "failed"
+msgstr ""
+
+#: tasks/task_save.c:819
+msgctxt "MSG_SUCCEEDED"
+msgid "succeeded"
+msgstr ""
+
+#: tasks/task_autodetect.c:866
+msgctxt "MSG_DEVICE_NOT_CONFIGURED"
+msgid "not configured"
+msgstr ""
+
+#: tasks/task_autodetect.c:856
+msgctxt "MSG_DEVICE_NOT_CONFIGURED_FALLBACK"
+msgid "not configured, using fallback"
+msgstr ""
+
+#: menu/menu_setting.c:1551
+msgctxt "MENU_ENUM_LABEL_VALUE_DISABLED"
+msgid "Disabled"
+msgstr ""
+
+#: tasks/task_wifi.c:33
+msgctxt "MSG_WIFI_SCAN_COMPLETE"
+msgid "Wi-Fi scan complete."
+msgstr ""
+
+#: tasks/task_wifi.c:50
+msgctxt "MSG_SCANNING_WIRELESS_NETWORKS"
+msgid "Scanning wireless networks..."
+msgstr ""
+
+#: tasks/task_netplay_lan_scan.c:56 tasks/task_netplay_lan_scan.c:73
+msgctxt "MSG_NETPLAY_LAN_SCANNING"
+msgid "Scanning for netplay hosts..."
+msgstr ""
+
+#: menu/menu_setting.c:7026
+#, c-format
+msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_USER_REMOTE_ENABLE"
+msgid "User %d Remote Enable"
+msgstr ""
+
+#: menu/cbs/menu_cbs_title.c:240
+msgctxt "MENU_ENUM_LABEL_VALUE_SELECT_FILE"
+msgid "Select File"
+msgstr ""
+
+#: menu/menu_displaylist.c:1433
+msgctxt "MENU_ENUM_LABEL_VALUE_FILTER"
+msgid "Filter"
+msgstr ""
+
+#: menu/menu_displaylist.c:1439
+msgctxt "MENU_ENUM_LABEL_VALUE_SCALE"
+msgid "Scale"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3599 menu/cbs/menu_cbs_ok.c:3629
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_START_WHEN_LOADED"
+msgid "Netplay will start when content is loaded."
+msgstr ""
+
+#: tasks/task_netplay_find_content.c:118
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_LOAD_CONTENT_MANUALLY"
+msgid "Couldn't find a suitable core or content file, load manually."
+msgstr ""
+
+#: menu/menu_displaylist.c:6211
+msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_URL_LIST"
+msgid "Browse URL"
+msgstr ""
+
+#: menu/menu_displaylist.c:6458
+msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_URL"
+msgid "URL Path"
+msgstr ""
+
+#: menu/menu_displaylist.c:6463
+msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_START"
+msgid "Start"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:298
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_BOKEH"
+msgid "Bokeh"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:303
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_SNOWFLAKE"
+msgid "Snowflake"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3127
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REFRESH_ROOMS"
+msgid "Refresh Room List"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:3279
+#, c-format
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ROOM_NICKNAME"
+msgid "Nickname: %s"
+msgstr ""
+
+#: tasks/task_netplay_find_content.c:170 tasks/task_netplay_find_content.c:202
+#: tasks/task_netplay_find_content.c:265 tasks/task_netplay_find_content.c:290
+msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_COMPAT_CONTENT_FOUND"
+msgid "Compatible content found"
+msgstr ""
+
+#: menu/menu_displaylist.c:2789
+msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_MIXER"
+msgid "Add to mixer"
+msgstr ""
+
+#: menu/menu_displaylist.c:4188
+msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_MIXER_AND_COLLECTION"
+msgid "Add to mixer"
+msgstr ""
+
+#: tasks/task_database.c:1253
+msgctxt "MSG_PREPARING_FOR_CONTENT_SCAN"
+msgid "Preparing for content scan..."
+msgstr ""
+
+#: menu/menu_displaylist.c:169 menu/menu_displaylist.c:336
+msgctxt "MENU_ENUM_LABEL_VALUE_CORE_DELETE"
+msgid "Delete core"
+msgstr ""
+
+#: menu/menu_displaylist.c:3361 menu/menu_displaylist.c:6157
+msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_FAVORITES"
+msgid "Favorites"
+msgstr ""
+
+#: menu/menu_displaylist.c:3374 menu/menu_displaylist.c:6170
+msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_MUSIC"
+msgid "Music"
+msgstr ""
+
+#: menu/menu_displaylist.c:3367 menu/menu_displaylist.c:6164
+msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_IMAGES"
+msgid "Image"
+msgstr ""
+
+#: menu/menu_displaylist.c:3382 menu/menu_displaylist.c:6178
+msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_VIDEO"
+msgid "Video"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1841
+msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD"
+msgid "Enter Password"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1751
+msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD_OK"
+msgid "Password correct."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1757
+msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD_NOK"
+msgid "Password incorrect."
+msgstr ""
+
+#: menu/menu_displaylist.c:2802
+msgctxt "MENU_ENUM_LABEL_VALUE_RENAME_ENTRY"
+msgid "Rename"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1857
+msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD"
+msgid "Enter Password"
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1724
+msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD_OK"
+msgid "Password correct."
+msgstr ""
+
+#: menu/cbs/menu_cbs_ok.c:1730
+msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD_NOK"
+msgid "Password incorrect."
+msgstr ""
+
+#: configuration.c:3041
+msgctxt "MSG_CONFIG_OVERRIDE_LOADED"
+msgid "Configuration override loaded."
+msgstr ""
+
+#: configuration.c:3158
+msgctxt "MSG_GAME_REMAP_FILE_LOADED"
+msgid "Game remap file loaded."
+msgstr ""
+
+#: configuration.c:3178
+msgctxt "MSG_CORE_REMAP_FILE_LOADED"
+msgid "Core remap file loaded."
+msgstr ""
+
+#: tasks/task_database.c:1196
+msgctxt "MSG_SCANNING_OF_FILE_FINISHED"
+msgid "Scanning of file finished"
+msgstr ""
+
+#: menu/menu_displaylist.c:1377
+msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_WATCH_FOR_CHANGES"
+msgid "Watch shader files for changes"
+msgstr ""
