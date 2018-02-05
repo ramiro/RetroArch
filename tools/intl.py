@@ -117,6 +117,7 @@ def find_translation_calls_in_file(symbols, filename):
     try:
         # TODO: How to best handle inconsistent/undefined encoding of RA source files
         # e.g. wii/libogc/libogc/console_font_8x16.c at offset 89868
+
         # with io.open(filename, 'rt', encoding='ascii', newline=None) as f:
         with open(filename, 'rU') as f:
             found = []
@@ -319,4 +320,5 @@ def main(argv=None):
 
 
 if __name__ == '__main__':
+    logging.basicConfig(format='%(message)s')
     sys.exit(main())
