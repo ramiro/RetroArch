@@ -106,14 +106,16 @@ def extract_symbols(symbols, filename, file_object, found_list, search_text):
             return
         else:
             text = text.strip(' \t()')
-            # TODO: Check what's the RA policy Re: Casing of these macro names
-            if text.isupper():
+            # TODO: Check what's the RA policy Re:
+            # * Casing of these macro names
+            # * Which macro name prefixes (i.e. "MSG_", "MENU_ENUM_") actually mark translatable content
+            if text.isupper() and text.startswith('MSG_'):
                 symbols.setdefault(text, []).append((filename, y + 1))  # Our line index is 0-based
 
 
 def find_translation_calls_in_file(symbols, filename):
     try:
-        # TODO: Hot to best handle inconsistent/undefined encoding of RA source files
+        # TODO: How to best handle inconsistent/undefined encoding of RA source files
         # e.g. wii/libogc/libogc/console_font_8x16.c at offset 89868
         # with io.open(filename, 'rt', encoding='ascii', newline=None) as f:
         with open(filename, 'rU') as f:
