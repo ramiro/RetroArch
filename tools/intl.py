@@ -23,6 +23,8 @@ RA_LOCALE_NAME_MAP = {
     'pt_br': 'pt_BR',
     'pt_pt': 'pt_PT',
     'us': 'en_US',
+    'chs': 'zh_Hans',
+    'cht': 'zh_Hant',
 }
 
 OUTPUT_DIR = 'locale'
