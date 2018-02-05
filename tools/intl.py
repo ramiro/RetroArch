@@ -211,14 +211,14 @@ def check(options):
     return 0
 
 
-def updatepo(options):
+def h2po(options):
 
     def key(entry):
         return (original_literals[entry]['file'], original_literals[entry]['lineno'])
 
     locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
     if not options.output:
-        # logging.error("you ned to specify the -o/--output option when using the updatepo action")
+        # logging.error("you ned to specify the -o/--output option when using the h2po action")
         # return 2
         output = os.path.join(OUTPUT_DIR, '%s.po' % locale)
         if os.path.exists(output):
@@ -313,8 +313,8 @@ def main(argv=None):
         parser.error('extraneous command line options')
     if action == 'check':
         return check(options)
-    elif action == 'updatepo':
-        return updatepo(options)
+    elif action == 'h2po':
+        return h2po(options)
     else:
         parser.error('unknown action: \'%s\'' % action)
 
