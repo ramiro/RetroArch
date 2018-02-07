@@ -217,9 +217,90 @@ def h2po(options):
         return (original_literals[entry]['file'], original_literals[entry]['lineno'])
 
     locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
+    output_is_stdout = False
     if not options.output:
-        # logging.error("you ned to specify the -o/--output option when using the h2po action")
-        # return 2
+        output = os.path.join(OUTPUT_DIR, '%s.po' % locale)
+    elif options.output == '-':
+        output_is_stdout = True
+        output = 'CON' if sys.platform == 'win32' else '/dev/stdout'
+    else:
+        output = options.output
+    if not output_is_stdout:
+        if os.path.exists(output) and not options.force:
+            logging.critical("%s exists. Refusing to overwite it", output)
+            return 3
+
+    symbols = {}
+    original_literals = {}
+    common(symbols, original_literals)
+    # TODO: Pass wrapwidth=160?
+    pof = polib.POFile()
+    utcnow = datetime.datetime.utcnow().replace(second=0, microsecond=0).isoformat(' ') + '+0000'
+    pof.metadata = {
+        'Project-Id-Version': 'RetroArch',
+        # 'Report-Msgid-Bugs-To': 'you@example.com',
+        # 'Last-Translator': 'you <you@example.com>',
+        # 'Language-Team': 'English <yourteam@example.com>',
+        'Language': locale,
+        'MIME-Version': '1.0',
+        'Content-Type': 'text/plain; charset=utf-8',
+        'Content-Transfer-Encoding': '8bit',
+    }
+    if locale == 'en_US':
+        pof.metadata.update(
+            {'POT-Creation-Date': utcnow}
+        )
+        for entry in sorted(original_literals, key=key):
+            symbol_def = symbols.get(entry)
+            if symbol_def is not None:
+                # msgid = polib.unescape(original_literals[entry]['literal'])
+                msgid = original_literals[entry]['literal']
+                # TODO: Enhance these heuristics
+                flags = ['c-format'] if '%' in msgid else []
+                po_entry = polib.POEntry(
+                    msgid=msgid,
+                    msgstr='',
+                    occurrences=symbol_def,
+                    # comment=entry,
+                    msgctxt=entry,
+                    flags=flags
+                )
+                pof.append(po_entry)
+    else:
+        pof.metadata.update(
+            {'PO-Revision-Date': utcnow}
+        )
+        existing_translations = extract_translations_from_msg_hash_xx_h(options.locale)
+        # pprint.pprint(existing_translations)
+        for entry in sorted(original_literals, key=key):
+            symbol_def = symbols.get(entry)
+            if symbol_def is not None:
+                # msgid = polib.unescape(original_literals[entry]['literal'])
+                msgid = original_literals[entry]['literal']
+                # TODO: Enhance these heuristics
+                flags = ['c-format'] if '%' in msgid else []
+                translated_def = existing_translations.get(entry)
+                msgstr = '' if translated_def is None else translated_def['literal']
+                po_entry = polib.POEntry(
+                    msgid=msgid,
+                    msgstr=msgstr,
+                    occurrences=symbol_def,
+                    # comment=entry,
+                    msgctxt=entry,
+                    flags=flags
+                )
+                pof.append(po_entry)
+    pof.save(output)
+    return 0
+
+
+def updatepo(options):
+
+    def key(entry):
+        return (original_literals[entry]['file'], original_literals[entry]['lineno'])
+
+    locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
+    if not options.output:
         output = os.path.join(OUTPUT_DIR, '%s.po' % locale)
         if os.path.exists(output):
             # TODO: Handle actually updating an existing .po file
@@ -299,11 +380,12 @@ def main(argv=None):
         argv = sys.argv
 
     parser = OptionParser(
-        usage='%prog [options] [command]',
+        usage='%prog [options] [action]',
         version='%prog ' + __version__
     )
     parser.add_option('-l', '--locale', default='us', help='locale name to work with')
     parser.add_option('-o', '--output', help='PO file to write to')
+    parser.add_option('-f', '--force', action='store_true', help='Force overwriting extisting PO file when using h2po action')
     options, args = parser.parse_args(args=argv[1:])
     if not args:
         action = 'check'
@@ -315,6 +397,8 @@ def main(argv=None):
         return check(options)
     elif action == 'h2po':
         return h2po(options)
+    elif action == 'updatepo':
+        return updatepo(options)
     else:
         parser.error('unknown action: \'%s\'' % action)
 
