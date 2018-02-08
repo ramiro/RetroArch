@@ -29,11 +29,11 @@ RA_LOCALE_NAME_MAP = {
 
 OUTPUT_DIR = 'locale'
 
-class SyntaxError(Exception):
+class CParseError(Exception):
     pass
 
 
-class SyntaxWarning(Exception):
+class CParseWarning(Exception):
     pass
 
 
@@ -58,21 +58,30 @@ def enumerate_files():
 
 
 def find_token(y, x, lines, search_text):
+    # print('lines = %s' % lines)
     line = lines[y][:]
     temp_lineno = y
     begin = x + len(search_text)
     found_opening_parens = False
-    while True:
+    # while True:
+    while temp_lineno < len(lines):
+        # print('begin = %d' % begin)
+        # print('len(line) ("%s") == %d' % (line, len(line)))
         if begin == len(line):
+            # print('begin == len(line)')
             temp_lineno += 1
+            # print('temp_lineno = %d' % temp_lineno)
+            # print('lines[temp_lineno] = %s' % lines[temp_lineno])
             line += lines[temp_lineno][:]
-        if line[begin] not in (' ', '\t'):
+            if begin == len(line):
+                raise CParseWarning("Didn't find opening parenthesis after '%s'." % search_text, y, lines[y])
+        if line and line[begin] not in (' ', '\t'):
             if line[begin] == '(':
                 found_opening_parens = True
             break
         begin += 1
     if not found_opening_parens:
-        raise SyntaxWarning("Didn't find opening parenthesis after '%s'." % search_text, y, lines[y])
+        raise CParseWarning("Didn't find opening parenthesis after '%s'." % search_text, y, lines[y])
     parens_cnt = 1
     end = begin + 1
     while True:
@@ -89,7 +98,7 @@ def find_token(y, x, lines, search_text):
     if not parens_cnt:
         parens_contents = line[begin:end]
         return parens_contents
-    raise SyntaxError("Reached end of file and didn't find matching closing parenthesis.", y, lines[y])
+    raise CParseError("Reached end of file and didn't find matching closing parenthesis.", y, lines[y])
 
 
 def extract_symbols(symbols, filename, file_object, found_list, search_text):
@@ -99,9 +108,10 @@ def extract_symbols(symbols, filename, file_object, found_list, search_text):
     for y, x in found_list:
         try:
             text = find_token(y, x, lines, search_text)
-        except SyntaxWarning:
+        except CParseWarning as e:
+            logging.warn(e)
             continue
-        except SyntaxError as e:
+        except CParseError as e:
             logging.error(e)
             return
         else:
@@ -139,9 +149,9 @@ def extract_translations(original_literals, filename, file_object, found_list, s
     for y, x in found_list:
         try:
             text = find_token(y, x, lines, search_text)
-        except SyntaxWarning:
+        except CParseWarning:
             continue
-        except SyntaxError as e:
+        except CParseError as e:
             logging.error(e)
             return
         else:
@@ -158,7 +168,7 @@ def extract_translations(original_literals, filename, file_object, found_list, s
                     'literal': literal
                 }
             else:
-                raise SyntaxWarning("Malformed MSG_HASH call.", filename, y + 1)
+                raise CParseWarning("Malformed MSG_HASH call.", filename, y + 1)
 
 
 def extract_translations_from_msg_hash_xx_h(locale):
