@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RetroArch\n"
-"PO-Revision-Date: 2018-02-07 23:56:00+0000\n"
+"PO-Revision-Date: 2018-02-08 06:34-0300\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -107,7 +107,7 @@ msgstr "As dejado el juego"
 #, c-format
 msgctxt "MSG_NETPLAY_YOU_HAVE_JOINED_AS_PLAYER_N"
 msgid "You have joined as player %u"
-msgstr "Unido como jugador %d"
+msgstr "Unido como jugador %u"
 
 #: network/netplay/netplay_io.c:622
 #, c-format
