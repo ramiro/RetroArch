@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RetroArch\n"
-"PO-Revision-Date: 2018-02-05 02:19:00+0000\n"
+"PO-Revision-Date: 2018-02-07 23:56:00+0000\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -13,7 +13,7 @@ msgctxt "MSG_BRINGING_UP_COMMAND_INTERFACE_ON_PORT"
 msgid "bringing_up_command_interface_at_port"
 msgstr "Iniciando la linea de comandos en el puerto"
 
-#: tasks/task_autodetect.c:264
+#: tasks/task_autodetect.c:274
 msgctxt "MSG_DEVICE_CONFIGURED_IN_PORT"
 msgid "configured in port"
 msgstr ""
@@ -28,7 +28,7 @@ msgctxt "MSG_FAILED_TO_SET_DISK"
 msgid "Failed to set disk"
 msgstr ""
 
-#: audio/audio_driver.c:1229
+#: audio/audio_driver.c:1239
 msgctxt "MSG_FAILED_TO_START_AUDIO_DRIVER"
 msgid "failed_to_start_audio_driver"
 msgstr "Fallo al iniciar el controlador de audio. Se continuará en silencio"
@@ -38,18 +38,18 @@ msgctxt "MSG_FOUND_LAST_STATE_SLOT"
 msgid "found_last_state_slot"
 msgstr "Encontrada la ultima ranura de guardado"
 
-#: retroarch.c:2149 retroarch.c:2154 retroarch.c:2158 retroarch.c:2163
-#: retroarch.c:2167
+#: retroarch.c:2146 retroarch.c:2151 retroarch.c:2155 retroarch.c:2160
+#: retroarch.c:2164
 msgctxt "MSG_COMPILER"
 msgid "Compiler"
 msgstr "Compilador"
 
-#: retroarch.c:2172
+#: retroarch.c:2169
 msgctxt "MSG_UNKNOWN_COMPILER"
 msgid "Unknown compiler"
 msgstr "Compilador Desconocido"
 
-#: tasks/task_autodetect.c:910
+#: tasks/task_autodetect.c:920
 msgctxt "MSG_DEVICE_DISCONNECTED_FROM_PORT"
 msgid "Device disconnected from port"
 msgstr "Dispositivo desconectado del puerto"
@@ -92,8 +92,8 @@ msgctxt "MSG_SETTING_DISK_IN_TRAY"
 msgid "Setting disk in tray"
 msgstr "Poniendo disco en bandeja"
 
-#: network/netplay/netplay_frontend.c:1352
-#: network/netplay/netplay_frontend.c:1354
+#: network/netplay/netplay_frontend.c:1353
+#: network/netplay/netplay_frontend.c:1355
 msgctxt "MSG_WAITING_FOR_CLIENT"
 msgid "Waiting for client ..."
 msgstr "Esperando al cliente .."
@@ -113,25 +113,25 @@ msgstr "Unido como jugador %d"
 #, c-format
 msgctxt "MSG_NETPLAY_YOU_HAVE_JOINED_WITH_INPUT_DEVICES_S"
 msgid "You have joined with input devices %.*s"
-msgstr ""
+msgstr "Se ha unido con el dispositivo de entrada %.*s"
 
 #: network/netplay/netplay_io.c:557
 #, c-format
 msgctxt "MSG_NETPLAY_PLAYER_S_LEFT"
 msgid "Player %.*s has left the game"
-msgstr ""
+msgstr "Jugador %.*s dejó el juego"
 
 #: network/netplay/netplay_io.c:590
 #, c-format
 msgctxt "MSG_NETPLAY_S_HAS_JOINED_AS_PLAYER_N"
 msgid "%2$.*1$s has joined as player %3$u"
-msgstr ""
+msgstr "%2$.*1$s se ha unido como jugador %3$u"
 
 #: network/netplay/netplay_io.c:616
 #, c-format
 msgctxt "MSG_NETPLAY_S_HAS_JOINED_WITH_INPUT_DEVICES_S"
 msgid "%2$.*1$s has joined with input devices %4$.*3$s"
-msgstr ""
+msgstr "%2$.*1$s se ha unido con los dispositivos de entrada %4$.*3$s"
 
 #: network/netplay/netplay_handshake.c:327
 msgctxt "MSG_NETPLAY_NOT_RETROARCH"
@@ -139,12 +139,16 @@ msgid ""
 "A netplay connection attempt failed because the peer is not running "
 "RetroArch, or is running an old version of RetroArch."
 msgstr ""
+"Una conexión de netplay falló, probablemente no este usando RetroArch o esté"
+" usando una versión antigua de RetroArch"
 
 #: network/netplay/netplay_handshake.c:340
 msgctxt "MSG_NETPLAY_OUT_OF_DATE"
 msgid ""
 "The netplay peer is running an old version of RetroArch. Cannot connect."
 msgstr ""
+"El par de netplay esta usando una versión antigua de RetroArch. No se puede "
+"conectar"
 
 #: network/netplay/netplay_handshake.c:347
 msgctxt "MSG_NETPLAY_DIFFERENT_VERSIONS"
@@ -152,18 +156,24 @@ msgid ""
 "WARNING: A netplay peer is running a different version of RetroArch. If "
 "problems occur, use the same version."
 msgstr ""
+"ADVERTENCIA: Un par de netplay esta usando una versión diferente de "
+"Retroarch. Si ocurren problemas, use la misma versión"
 
 #: network/netplay/netplay_handshake.c:884
 msgctxt "MSG_NETPLAY_DIFFERENT_CORES"
 msgid "A netplay peer is running a different core. Cannot connect."
 msgstr ""
+"Un par de netplay esta usando una versión diferente del núcleo. No se puede "
+"conectar"
 
 #: network/netplay/netplay_handshake.c:893
 msgctxt "MSG_NETPLAY_DIFFERENT_CORE_VERSIONS"
 msgid ""
-"WARNING: A netlpay peer is running a different version of the core. If "
+"WARNING: A netplay peer is running a different version of the core. If "
 "problems occur, use the same version."
 msgstr ""
+"ADVERTENCIA: Un par de netplay está ejecutando una versión diferente del "
+"núcleo. Si ocurren problemas, use la misma versión"
 
 #: network/netplay/netplay_handshake.c:360
 msgctxt "MSG_NETPLAY_ENDIAN_DEPENDENT"
@@ -217,7 +227,7 @@ msgstr "No hay lugar disponible"
 #: network/netplay/netplay_io.c:1460
 msgctxt "MSG_NETPLAY_CANNOT_PLAY_NOT_AVAILABLE"
 msgid "The input devices requested are not available"
-msgstr ""
+msgstr "El dispositivo de entrada pedido no esta disponible"
 
 #: network/netplay/netplay_io.c:1464
 msgctxt "MSG_NETPLAY_CANNOT_PLAY"
@@ -241,7 +251,7 @@ msgctxt "MSG_AUDIO_VOLUME"
 msgid "Audio volume"
 msgstr "Volumen de Audio"
 
-#: tasks/task_autodetect.c:889
+#: tasks/task_autodetect.c:899
 msgctxt "MSG_AUTODETECT"
 msgid "Autodetect"
 msgstr "Auto-detectar"
@@ -251,12 +261,12 @@ msgctxt "MSG_AUTOLOADING_SAVESTATE_FROM"
 msgid "Auto-loading savestate from"
 msgstr "Auto-cargar guardado rápido desde"
 
-#: retroarch.c:1256
+#: retroarch.c:1253
 msgctxt "MSG_CAPABILITIES"
 msgid "Capabilities"
 msgstr "Capacidades"
 
-#: network/netplay/netplay_frontend.c:1348
+#: network/netplay/netplay_frontend.c:1349
 msgctxt "MSG_CONNECTING_TO_NETPLAY_HOST"
 msgid "Connecting to netplay host"
 msgstr "Conectando al servidor de juego en red"
@@ -271,7 +281,7 @@ msgctxt "MSG_CONNECTION_SLOT"
 msgid "Connection slot"
 msgstr "Lugar de conexión"
 
-#: command.c:2353
+#: command.c:2354
 msgctxt "MSG_ADDED_TO_FAVORITES"
 msgid "Added to favorites"
 msgstr "Agregado a los favoritos"
@@ -296,22 +306,22 @@ msgctxt "MSG_APPLYING_SHADER"
 msgid "Applying shader"
 msgstr "Aplicando shader"
 
-#: command.c:2070
+#: command.c:2071
 msgctxt "MSG_AUDIO_MUTED"
 msgid "Audio muted."
 msgstr "Silencio"
 
-#: command.c:2071
+#: command.c:2072
 msgctxt "MSG_AUDIO_UNMUTED"
 msgid "Audio unmuted."
 msgstr "Audio normal"
 
-#: menu/menu_setting.c:1417
+#: menu/menu_setting.c:1421
 msgctxt "MSG_AUTOCONFIG_FILE_ERROR_SAVING"
 msgid "Error saving autoconf file."
 msgstr "Error guardando archivo de auto-configuración"
 
-#: menu/menu_setting.c:1414
+#: menu/menu_setting.c:1418
 msgctxt "MSG_AUTOCONFIG_FILE_SAVED_SUCCESSFULLY"
 msgid "Autoconfig file saved successfully."
 msgstr "Archivo de auto-configuración guardado exitosamente"
@@ -337,13 +347,13 @@ msgctxt "MSG_BYTES"
 msgid "bytes"
 msgstr "bytes"
 
-#: command.c:1486
+#: command.c:1493
 msgctxt "MSG_CANNOT_INFER_NEW_CONFIG_PATH"
 msgid "Cannot infer new config path. Use current time."
 msgstr ""
 "No se puede inferir la nueva ruta de configuración. Use el tiempo actual"
 
-#: cheevos/cheevos.c:2491
+#: cheevos/cheevos.c:2539
 msgctxt "MSG_CHEEVOS_HARDCORE_MODE_ENABLE"
 msgid "Hardcore Mode Enabled, savestate & rewind were disabled."
 msgstr "Modo hardcore activado, guardado rápido y rebobinado deshabilitados"
@@ -358,7 +368,7 @@ msgctxt "MSG_COMPILED_AGAINST_API"
 msgid "Compiled against API"
 msgstr "Compilado para la API"
 
-#: command.c:1438 command.c:1439
+#: command.c:1441 command.c:1442
 msgctxt "MSG_CONFIG_DIRECTORY_NOT_SET"
 msgid "Config directory not set. Cannot save new config."
 msgstr ""
@@ -375,17 +385,17 @@ msgctxt "MSG_CONTENT_CRC32S_DIFFER"
 msgid "Content CRC32s differ. Cannot use different games."
 msgstr "No se pueden usar diferentes juegos. (El CRC32s difiere)"
 
-#: tasks/task_content.c:588
+#: tasks/task_content.c:589
 msgctxt "MSG_CONTENT_LOADING_SKIPPED_IMPLEMENTATION_WILL_DO_IT"
 msgid "Content loading skipped. Implementation will load it on its own."
 msgstr "Carga de contenido saltada. La implementación usara la suya"
 
-#: command.c:1669
+#: command.c:1670
 msgctxt "MSG_CORE_DOES_NOT_SUPPORT_SAVESTATES"
 msgid "Core does not support save states."
 msgstr "El núcleo no soporta guardados rápidos"
 
-#: menu/cbs/menu_cbs_ok.c:2733
+#: menu/cbs/menu_cbs_ok.c:2740
 msgctxt "MSG_CORE_OPTIONS_FILE_CREATED_SUCCESSFULLY"
 msgid "Core options file created successfully."
 msgstr "Archivo de opciones del núcleo creado exitosamente"
@@ -406,7 +416,7 @@ msgctxt "MSG_COULD_NOT_FIND_VALID_DATA_TRACK"
 msgid "Could not find valid data track"
 msgstr "No se encuentra una pista de datos válido"
 
-#: tasks/task_content.c:411 tasks/task_content.c:577
+#: tasks/task_content.c:412 tasks/task_content.c:578
 msgctxt "MSG_COULD_NOT_READ_CONTENT_FILE"
 msgid "Could not read content file"
 msgstr "No se puede leer el contenido"
@@ -430,12 +440,12 @@ msgctxt "MSG_CUSTOM_TIMING_GIVEN"
 msgid "Custom timing given"
 msgstr "Custom timing given"
 
-#: menu/cbs/menu_cbs_ok.c:2523
+#: menu/cbs/menu_cbs_ok.c:2527
 msgctxt "MSG_DECOMPRESSION_ALREADY_IN_PROGRESS"
 msgid "Decompression already in progress."
 msgstr "Descompresión en progreso"
 
-#: menu/cbs/menu_cbs_ok.c:2546
+#: menu/cbs/menu_cbs_ok.c:2553
 msgctxt "MSG_DECOMPRESSION_FAILED"
 msgid "Decompression failed."
 msgstr "Fallo al descomprimir"
@@ -465,7 +475,7 @@ msgctxt "MSG_DOWNLOADING"
 msgid "Downloading"
 msgstr "Descargando"
 
-#: menu/cbs/menu_cbs_ok.c:3291
+#: menu/cbs/menu_cbs_ok.c:3295
 msgctxt "MSG_DOWNLOAD_FAILED"
 msgid "Download failed"
 msgstr "Descarga fallida"
@@ -475,12 +485,12 @@ msgctxt "MSG_ERROR"
 msgid "Error"
 msgstr "Error"
 
-#: tasks/task_content.c:552
+#: tasks/task_content.c:553
 msgctxt "MSG_ERROR_LIBRETRO_CORE_REQUIRES_CONTENT"
 msgid "Libretro core requires content, but nothing was provided."
 msgstr "El núcleo Libretro necesita contenido, pero no se le propicio."
 
-#: tasks/task_content.c:666
+#: tasks/task_content.c:667
 msgctxt "MSG_ERROR_LIBRETRO_CORE_REQUIRES_SPECIAL_CONTENT"
 msgid "Libretro core requires special content, but none were provided."
 msgstr ""
@@ -491,22 +501,22 @@ msgctxt "MSG_ERROR_PARSING_ARGUMENTS"
 msgid "Error parsing arguments."
 msgstr "Error analizando argumentos"
 
-#: menu/cbs/menu_cbs_ok.c:2716
+#: menu/cbs/menu_cbs_ok.c:2723
 msgctxt "MSG_ERROR_SAVING_CORE_OPTIONS_FILE"
 msgid "Error saving core options file."
 msgstr "Error guardando archivo de opciones del núcleo"
 
-#: menu/cbs/menu_cbs_ok.c:2000
+#: menu/cbs/menu_cbs_ok.c:2003
 msgctxt "MSG_ERROR_SAVING_REMAP_FILE"
 msgid "Error saving remap file."
 msgstr "Error guardando archivo de reasignación"
 
-#: menu/cbs/menu_cbs_ok.c:2027
+#: menu/cbs/menu_cbs_ok.c:2030
 msgctxt "MSG_ERROR_REMOVING_REMAP_FILE"
 msgid "Error removing remap file."
 msgstr "Error eliminado archivo de reasignación"
 
-#: menu/cbs/menu_cbs_ok.c:1791 menu/cbs/menu_cbs_ok.c:1923
+#: menu/cbs/menu_cbs_ok.c:1794 menu/cbs/menu_cbs_ok.c:1926
 msgctxt "MSG_ERROR_SAVING_SHADER_PRESET"
 msgid "Error saving shader preset."
 msgstr "Error guardando shader preset"
@@ -543,12 +553,12 @@ msgctxt "MSG_FAILED_TO_BIND_SOCKET"
 msgid "Failed to bind socket."
 msgstr "Fallo al asignar el socket"
 
-#: menu/cbs/menu_cbs_ok.c:2510
+#: menu/cbs/menu_cbs_ok.c:2514
 msgctxt "MSG_FAILED_TO_CREATE_THE_DIRECTORY"
 msgid "Failed to create the directory."
 msgstr "Fallo al crear la carpeta"
 
-#: tasks/task_content.c:489
+#: tasks/task_content.c:490
 msgctxt "MSG_FAILED_TO_EXTRACT_CONTENT_FROM_COMPRESSED_FILE"
 msgid "Failed to extract content from compressed file"
 msgstr "Fallo al extraer el contenido desde el archivo comprimido"
@@ -559,12 +569,7 @@ msgctxt "MSG_FAILED_TO_GET_NICKNAME_FROM_CLIENT"
 msgid "Failed to get nickname from client."
 msgstr "Fallo al obtener el apodo del cliente"
 
-#: tasks/task_content.c:871
-msgctxt "MSG_FAILED_TO_LOAD"
-msgid "Failed to load"
-msgstr "Fallo al cargar"
-
-#: tasks/task_content.c:613
+#: tasks/task_content.c:614
 msgctxt "MSG_FAILED_TO_LOAD_CONTENT"
 msgid "Failed to load content"
 msgstr "Fallo al cargar contenido"
@@ -613,7 +618,7 @@ msgctxt "MSG_FAILED_TO_REMOVE_DISK_FROM_TRAY"
 msgid "Failed to remove disk from tray."
 msgstr "Fallo al sacar el disco de la bandeja"
 
-#: tasks/task_content.c:1726
+#: tasks/task_content.c:1707
 msgctxt "MSG_FAILED_TO_REMOVE_TEMPORARY_FILE"
 msgid "Failed to remove temporary file"
 msgstr "Fallo al eliminar el archivo temporal"
@@ -638,12 +643,12 @@ msgctxt "MSG_FAILED_TO_START_RECORDING"
 msgid "Failed to start recording."
 msgstr "Fallo al iniciar grabación"
 
-#: tasks/task_screenshot.c:178
+#: tasks/task_screenshot.c:166
 msgctxt "MSG_FAILED_TO_TAKE_SCREENSHOT"
 msgid "Failed to take screenshot."
 msgstr "Fallo al capturar pantalla"
 
-#: command.c:1597 tasks/task_save.c:501
+#: command.c:1598 tasks/task_save.c:501
 msgctxt "MSG_FAILED_TO_UNDO_LOAD_STATE"
 msgid "Failed to undo load state."
 msgstr "Fallo al deshacer carga"
@@ -653,12 +658,12 @@ msgctxt "MSG_FAILED_TO_UNDO_SAVE_STATE"
 msgid "Failed to undo save state."
 msgstr "Fallo al deshacer guardado"
 
-#: command.c:2076
+#: command.c:2077
 msgctxt "MSG_FAILED_TO_UNMUTE_AUDIO"
 msgid "Failed to unmute audio."
 msgstr "Fallo al restablecer el audio"
 
-#: retroarch.c:1239 tasks/task_patch.c:532
+#: retroarch.c:1236 tasks/task_patch.c:532
 msgctxt "MSG_FATAL_ERROR_RECEIVED_IN"
 msgid "Fatal error received in"
 msgstr "Fatal error recibido en"
@@ -679,12 +684,12 @@ msgctxt "MSG_FOUND_SHADER"
 msgid "Found shader"
 msgstr "Encontrado el shader"
 
-#: gfx/video_driver.c:2438
+#: gfx/video_driver.c:2455
 msgctxt "MSG_FRAMES"
 msgid "Frames"
 msgstr "Frames"
 
-#: retroarch.c:1392
+#: retroarch.c:1389
 msgctxt "MSG_GAME_SPECIFIC_CORE_OPTIONS_FOUND_AT"
 msgid "Per-Game Options: game-specific core options found at"
 msgstr "Opciones especificas de juego encontradas en"
@@ -694,17 +699,17 @@ msgctxt "MSG_GOT_INVALID_DISK_INDEX"
 msgid "Got invalid disk index."
 msgstr "Indice de disco invalido"
 
-#: command.c:2727
+#: command.c:2728
 msgctxt "MSG_GRAB_MOUSE_STATE"
 msgid "Grab mouse state"
 msgstr "Capturar estado del ratón"
 
-#: command.c:2761
+#: command.c:2762
 msgctxt "MSG_GAME_FOCUS_ON"
 msgid "Game focus on"
 msgstr "Game focus ON"
 
-#: command.c:2771
+#: command.c:2772
 msgctxt "MSG_GAME_FOCUS_OFF"
 msgid "Game focus off"
 msgstr "Game focus OFF"
@@ -717,22 +722,22 @@ msgstr ""
 "El núcleo Libretro esta renderizado por hardware. Debe usar grabaciones "
 "post-shaded"
 
-#: menu/cbs/menu_cbs_ok.c:1853
+#: menu/cbs/menu_cbs_ok.c:1856
 msgctxt "MSG_INPUT_CHEAT"
 msgid "Input Cheat"
 msgstr "Introducir truco"
 
-#: menu/cbs/menu_cbs_ok.c:1849
+#: menu/cbs/menu_cbs_ok.c:1852
 msgctxt "MSG_INPUT_CHEAT_FILENAME"
 msgid "Input Cheat Filename"
 msgstr "Introducir nombre de archivo de truco"
 
-#: menu/cbs/menu_cbs_ok.c:1837
+#: menu/cbs/menu_cbs_ok.c:1840
 msgctxt "MSG_INPUT_PRESET_FILENAME"
 msgid "Input Preset Filename"
 msgstr "Introducir nombre de archivo del preset"
 
-#: menu/cbs/menu_cbs_ok.c:1861
+#: menu/cbs/menu_cbs_ok.c:1864
 msgctxt "MSG_INPUT_RENAME_ENTRY"
 msgid "Rename Title"
 msgstr "Renombrar titulo"
@@ -752,17 +757,17 @@ msgctxt "MSG_REMOVABLE_STORAGE"
 msgid "Removable Storage"
 msgstr "Almacenamiento extraible"
 
-#: menu/menu_displaylist.c:610
+#: menu/menu_displaylist.c:614
 msgctxt "MSG_IN_BYTES"
 msgid "in bytes"
 msgstr "en bytes"
 
-#: menu/menu_displaylist.c:624
+#: menu/menu_displaylist.c:628
 msgctxt "MSG_IN_GIGABYTES"
 msgid "in gigabytes"
 msgstr "en gigabytes"
 
-#: menu/menu_displaylist.c:617
+#: menu/menu_displaylist.c:621
 msgctxt "MSG_IN_MEGABYTES"
 msgid "in megabytes"
 msgstr "en megabytes"
@@ -790,17 +795,17 @@ msgctxt "MSG_LOADED_STATE_FROM_SLOT_AUTO"
 msgid "Loaded state from slot #-1 (auto)."
 msgstr "Cargado guardado de la ranura #-1 (auto)"
 
-#: tasks/task_content.c:1046 tasks/task_content.c:1049
+#: tasks/task_content.c:1027 tasks/task_content.c:1030
 msgctxt "MSG_FIRMWARE"
 msgid "One or more firmware files are missing"
 msgstr "Faltan archivos de firmware"
 
-#: tasks/task_content.c:315
+#: tasks/task_content.c:316
 msgctxt "MSG_LOADING_CONTENT_FILE"
 msgid "Loading content file"
 msgstr "Cargando contenido"
 
-#: command.c:2184 command.c:2191 command.c:2198 command.c:2206 command.c:2215
+#: command.c:2185 command.c:2192 command.c:2199 command.c:2207 command.c:2216
 msgctxt "MSG_LOADING_HISTORY_FILE"
 msgid "Loading history file"
 msgstr "Cargando historial"
@@ -811,8 +816,8 @@ msgctxt "MSG_LOADING_STATE"
 msgid "Loading state"
 msgstr "Cargando estado"
 
-#: menu/menu_displaylist.c:609 menu/menu_displaylist.c:616
-#: menu/menu_displaylist.c:623
+#: menu/menu_displaylist.c:613 menu/menu_displaylist.c:620
+#: menu/menu_displaylist.c:627
 msgctxt "MSG_MEMORY"
 msgid "Memory"
 msgstr "Memoria"
@@ -841,8 +846,8 @@ msgctxt "MSG_MOVIE_RECORD_STOPPED"
 msgid "Stopping movie record."
 msgstr "Deteniendo la grabación"
 
-#: network/netplay/netplay_frontend.c:1381
-#: network/netplay/netplay_frontend.c:1384 network/netplay/netplay_sync.c:576
+#: network/netplay/netplay_frontend.c:1382
+#: network/netplay/netplay_frontend.c:1385 network/netplay/netplay_sync.c:576
 msgctxt "MSG_NETPLAY_FAILED"
 msgid "Failed to initialize netplay."
 msgstr "Fallo al iniciar juego en red"
@@ -852,32 +857,32 @@ msgctxt "MSG_NO_CONTENT_STARTING_DUMMY_CORE"
 msgid "No content, starting dummy core."
 msgstr "No hay contenido, iniciando núcleo vacío"
 
-#: command.c:1575
+#: command.c:1576
 msgctxt "MSG_NO_SAVE_STATE_HAS_BEEN_OVERWRITTEN_YET"
 msgid "No save state has been overwritten yet."
 msgstr "No hay guardado sobrescrito todavía"
 
-#: command.c:1589
+#: command.c:1590
 msgctxt "MSG_NO_STATE_HAS_BEEN_LOADED_YET"
 msgid "No state has been loaded yet."
 msgstr "No hay guardado cargado todavía"
 
-#: command.c:1559
+#: command.c:1560
 msgctxt "MSG_OVERRIDES_ERROR_SAVING"
 msgid "Error saving overrides."
 msgstr "Error guardando anulaciones"
 
-#: command.c:1550
+#: command.c:1551
 msgctxt "MSG_OVERRIDES_SAVED_SUCCESSFULLY"
 msgid "Overrides saved successfully."
 msgstr "Anulaciones guardadas exitosamente"
 
-#: command.c:2393 command.c:2396
+#: command.c:2394 command.c:2397
 msgctxt "MSG_PAUSED"
 msgid "Paused."
 msgstr "Pausado"
 
-#: retroarch.c:432 gfx/video_driver.c:2216
+#: retroarch.c:432 gfx/video_driver.c:2235
 msgctxt "MSG_PROGRAM"
 msgid "RetroArch"
 msgstr "RetroArch"
@@ -908,7 +913,7 @@ msgctxt "MSG_REDIRECTING_CHEATFILE_TO"
 msgid "Redirecting cheat file to"
 msgstr "Redirigiendo archivo de trucos a"
 
-#: paths.c:180 paths.c:371
+#: paths.c:180 paths.c:374
 msgctxt "MSG_REDIRECTING_SAVEFILE_TO"
 msgid "Redirecting save file to"
 msgstr "Redirigiendo archivo de guardado a"
@@ -918,12 +923,12 @@ msgctxt "MSG_REDIRECTING_SAVESTATE_TO"
 msgid "Redirecting savestate to"
 msgstr "Redirigiendo archivo de guardado rápido a"
 
-#: menu/cbs/menu_cbs_ok.c:1995
+#: menu/cbs/menu_cbs_ok.c:1998
 msgctxt "MSG_REMAP_FILE_SAVED_SUCCESSFULLY"
 msgid "Remap file saved successfully."
 msgstr "Reasignaciones guardadas exitosamente"
 
-#: menu/cbs/menu_cbs_ok.c:2022
+#: menu/cbs/menu_cbs_ok.c:2025
 msgctxt "MSG_REMAP_FILE_REMOVED_SUCCESSFULLY"
 msgid "Remap file removed successfully."
 msgstr "Reasignaciones eliminadas exitosamente"
@@ -933,12 +938,12 @@ msgctxt "MSG_REMOVED_DISK_FROM_TRAY"
 msgid "Removed disk from tray."
 msgstr "Quitado el disco de la bandeja"
 
-#: tasks/task_content.c:1723
+#: tasks/task_content.c:1704
 msgctxt "MSG_REMOVING_TEMPORARY_CONTENT_FILE"
 msgid "Removing temporary content file"
 msgstr "Eliminando el contenido temporal"
 
-#: command.c:1873 command.c:1874
+#: command.c:1874 command.c:1875
 msgctxt "MSG_RESET"
 msgid "Reset"
 msgstr "Reset"
@@ -1029,7 +1034,7 @@ msgctxt "MSG_SCANNING"
 msgid "Scanning"
 msgstr "Escaneando"
 
-#: tasks/task_database.c:1192
+#: tasks/task_database.c:1196
 msgctxt "MSG_SCANNING_OF_DIRECTORY_FINISHED"
 msgid "Scanning of directory finished"
 msgstr "Escaneo de carpeta finalizado"
@@ -1044,7 +1049,7 @@ msgctxt "MSG_SEVERAL_PATCHES_ARE_EXPLICITLY_DEFINED"
 msgid "Several patches are explicitly defined, ignoring all..."
 msgstr "Varios parches están explicitamente definidos, ignorando todos..."
 
-#: menu/cbs/menu_cbs_ok.c:1787 menu/cbs/menu_cbs_ok.c:1919
+#: menu/cbs/menu_cbs_ok.c:1790 menu/cbs/menu_cbs_ok.c:1922
 msgctxt "MSG_SHADER_PRESET_SAVED_SUCCESSFULLY"
 msgid "Shader preset saved successfully."
 msgstr "Shader preset guardado exitosamente"
@@ -1054,22 +1059,22 @@ msgctxt "MSG_SKIPPING_SRAM_LOAD"
 msgid "Skipping SRAM load."
 msgstr "Saltando carga de SaveRAM"
 
-#: retroarch.c:2906
+#: retroarch.c:2903
 msgctxt "MSG_SLOW_MOTION"
 msgid "Slow motion."
 msgstr "Cámara lenta"
 
-#: retroarch.c:2798
+#: retroarch.c:2795
 msgctxt "MSG_FAST_FORWARD"
 msgid "Fast forward."
 msgstr "Avance rápido"
 
-#: retroarch.c:2903
+#: retroarch.c:2900
 msgctxt "MSG_SLOW_MOTION_REWIND"
 msgid "Slow motion rewind."
 msgstr "Rebobinado lento"
 
-#: paths.c:392
+#: paths.c:395
 msgctxt "MSG_SRAM_WILL_NOT_BE_SAVED"
 msgid "SRAM will not be saved."
 msgstr "SaveRAM no se guardará"
@@ -1089,12 +1094,12 @@ msgctxt "MSG_STATE_SIZE"
 msgid "State size"
 msgstr "Tamaño del guardado"
 
-#: retroarch.c:2825 retroarch.c:2845
+#: retroarch.c:2822 retroarch.c:2842
 msgctxt "MSG_STATE_SLOT"
 msgid "State slot"
 msgstr "Ranura de guardado"
 
-#: tasks/task_screenshot.c:263
+#: tasks/task_screenshot.c:245
 msgctxt "MSG_TAKING_SCREENSHOT"
 msgid "Taking screenshot."
 msgstr "Capturando pantalla"
@@ -1104,7 +1109,7 @@ msgctxt "MSG_TO"
 msgid "to"
 msgstr "en"
 
-#: command.c:1607
+#: command.c:1608
 msgctxt "MSG_UNDID_LOAD_STATE"
 msgid "Undid load state."
 msgstr "Deshecha la carga"
@@ -1114,12 +1119,12 @@ msgctxt "MSG_UNDOING_SAVE_STATE"
 msgid "Undoing save state"
 msgstr "Deshaciendo el guardado"
 
-#: retroarch.c:1548
+#: retroarch.c:1545
 msgctxt "MSG_UNKNOWN"
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: command.c:2404
+#: command.c:2405
 msgctxt "MSG_UNPAUSED"
 msgid "Unpaused."
 msgstr "Despausado"
@@ -1129,7 +1134,7 @@ msgctxt "MSG_UNRECOGNIZED_COMMAND"
 msgid "Unrecognized command"
 msgstr "Comando no reconocido"
 
-#: command.c:1449
+#: command.c:1456
 msgctxt "MSG_USING_CORE_NAME_FOR_NEW_CONFIG"
 msgid "Using core name for new config."
 msgstr "Usando el nombre del núcleo para la nueva configuración"
@@ -1149,12 +1154,12 @@ msgctxt "MSG_VALUE_DISCONNECTING_DEVICE_FROM_PORT"
 msgid "Disconnecting device from port"
 msgstr "Desconectando el dispositivo del puerto"
 
-#: command.c:2318
+#: command.c:2319
 msgctxt "MSG_VALUE_REBOOTING"
 msgid "Rebooting..."
 msgstr "Reiniciando.."
 
-#: command.c:2310
+#: command.c:2311
 msgctxt "MSG_VALUE_SHUTTING_DOWN"
 msgid "Shutting down..."
 msgstr "Apagando.."
@@ -1188,12 +1193,12 @@ msgctxt "MSG_SUCCEEDED"
 msgid "succeeded"
 msgstr "Éxito"
 
-#: tasks/task_autodetect.c:866
+#: tasks/task_autodetect.c:876
 msgctxt "MSG_DEVICE_NOT_CONFIGURED"
 msgid "not configured"
 msgstr "no configurado"
 
-#: tasks/task_autodetect.c:856
+#: tasks/task_autodetect.c:866
 msgctxt "MSG_DEVICE_NOT_CONFIGURED_FALLBACK"
 msgid "not configured, using fallback"
 msgstr "no configurado, usando respaldo"
@@ -1213,57 +1218,57 @@ msgctxt "MSG_NETPLAY_LAN_SCANNING"
 msgid "Scanning for netplay hosts..."
 msgstr "Escaneando en busca de anfitriones de juego en red..."
 
-#: tasks/task_database.c:1253
+#: tasks/task_database.c:1257
 msgctxt "MSG_PREPARING_FOR_CONTENT_SCAN"
 msgid "Preparing for content scan..."
 msgstr "Preparando para escaneo de contenido..."
 
-#: menu/cbs/menu_cbs_ok.c:1841
+#: menu/cbs/menu_cbs_ok.c:1844
 msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD"
 msgid "Enter Password"
 msgstr "Introducir contraseña"
 
-#: menu/cbs/menu_cbs_ok.c:1751
+#: menu/cbs/menu_cbs_ok.c:1754
 msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD_OK"
 msgid "Password correct."
 msgstr "Contraseña correcta"
 
-#: menu/cbs/menu_cbs_ok.c:1757
+#: menu/cbs/menu_cbs_ok.c:1760
 msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD_NOK"
 msgid "Password incorrect."
 msgstr "Contraseña incorrecta"
 
-#: menu/cbs/menu_cbs_ok.c:1857
+#: menu/cbs/menu_cbs_ok.c:1860
 msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD"
 msgid "Enter Password"
 msgstr "Ingresar contraseña"
 
-#: menu/cbs/menu_cbs_ok.c:1724
+#: menu/cbs/menu_cbs_ok.c:1727
 msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD_OK"
 msgid "Password correct."
 msgstr "Contraseña correcta"
 
-#: menu/cbs/menu_cbs_ok.c:1730
+#: menu/cbs/menu_cbs_ok.c:1733
 msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD_NOK"
 msgid "Password incorrect."
 msgstr "Contraseña incorrecta"
 
-#: configuration.c:3041
+#: configuration.c:3046
 msgctxt "MSG_CONFIG_OVERRIDE_LOADED"
 msgid "Configuration override loaded."
 msgstr "Anulaciones de configuraciones cargadas"
 
-#: configuration.c:3158
+#: configuration.c:3164
 msgctxt "MSG_GAME_REMAP_FILE_LOADED"
 msgid "Game remap file loaded."
 msgstr "Archivo de reasignaciones de juego cargado"
 
-#: configuration.c:3178
+#: configuration.c:3184
 msgctxt "MSG_CORE_REMAP_FILE_LOADED"
 msgid "Core remap file loaded."
 msgstr "Archivo de reasignaciones de núcleo cargado"
 
-#: tasks/task_database.c:1196
+#: tasks/task_database.c:1200
 msgctxt "MSG_SCANNING_OF_FILE_FINISHED"
 msgid "Scanning of file finished"
 msgstr "Escaneo de archivo finalizado"
