@@ -375,6 +375,23 @@ def updatepo(options):
     return 0
 
 
+# msg_hash_cht.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_pl.h: UTF-8 Unicode (with BOM) text
+# msg_hash_ko.h: UTF-8 Unicode (with BOM) text
+# msg_hash_chs.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_ja.h: UTF-8 Unicode (with BOM) text
+# msg_hash_ar.h: UTF-8 Unicode (with BOM) text
+# msg_hash_cht.h: UTF-8 Unicode (with BOM) text
+# msg_hash_ja.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_ko.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_pl.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_ar.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_chs.h: UTF-8 Unicode (with BOM) text
+# msg_hash_ru.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_ru.h: UTF-8 Unicode (with BOM) text
+# msg_hash_vn.h: UTF-8 Unicode (with BOM) text
+
+
 def main(argv=None):
     if argv is None:
         argv = sys.argv
