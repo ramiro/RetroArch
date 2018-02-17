@@ -278,18 +278,18 @@ def h2po(options):
             # msgstr = existing_translations.get(entry, {}).get('literal', '')
         symbol_def = symbols.get(entry)
         if symbol_def is not None:
-            # msgid = polib.unescape(original_literals[entry]['literal'])
             msgid = original_literals[entry]['literal']
-            # TODO: Enhance these heuristics
-            flags = ['c-format'] if '%' in msgid else []
-            po_entry = polib.POEntry(
-                msgid=msgid,
-                msgstr=msgstr,
-                occurrences=symbol_def,
-                # comment=entry,
-                msgctxt=entry,
-                flags=flags
-            )
+            edata = {
+                'msgstr': msgstr,
+                'occurrences': symbol_def,
+                # 'msgid': polib.unescape(original_literals[entry]['literal']),
+                'msgid': msgid,
+                # TODO: Enhance these heuristics
+                'flags': ['c-format'] if '%' in msgid else [],
+                'msgctxt': entry,
+                # 'comment': entry,
+            }
+            po_entry = polib.POEntry(**edata)
             pof.append(po_entry)
     pof.save(output_file)
     return 0
