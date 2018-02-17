@@ -237,15 +237,13 @@ def h2po(options):
         return (original_literals[entry]['file'], original_literals[entry]['lineno'])
 
     locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
-    output_is_stdout = False
-    if not options.output_file:
-        output_file = os.path.join(OUTPUT_DIR, '%s.po' % locale)
-    elif options.output_file == '-':
-        output_is_stdout = True
+    if options.output_file == '-':
         output_file = 'CON' if sys.platform == 'win32' else '/dev/stdout'
     else:
-        output_file = options.output_file
-    if not output_is_stdout:
+        if not options.output_file:
+            output_file = os.path.join(OUTPUT_DIR, '%s.po' % locale)
+        else:
+            output_file = options.output_file
         if os.path.exists(output_file) and not options.force:
             logging.critical("%s exists. Refusing to overwite it", output_file)
             return 3
