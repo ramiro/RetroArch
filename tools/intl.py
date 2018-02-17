@@ -206,7 +206,7 @@ def check(options):
     def key(entry):
         return (original_literals[entry]['file'], original_literals[entry]['lineno'])
 
-    if options.output:
+    if options.output_file:
         logging.error("check action doesn't need the -o/--output option")
         return 2
     symbols = {}
@@ -228,16 +228,16 @@ def h2po(options):
 
     locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
     output_is_stdout = False
-    if not options.output:
-        output = os.path.join(OUTPUT_DIR, '%s.po' % locale)
-    elif options.output == '-':
+    if not options.output_file:
+        output_file = os.path.join(OUTPUT_DIR, '%s.po' % locale)
+    elif options.output_file == '-':
         output_is_stdout = True
-        output = 'CON' if sys.platform == 'win32' else '/dev/stdout'
+        output_file = 'CON' if sys.platform == 'win32' else '/dev/stdout'
     else:
-        output = options.output
+        output_file = options.output_file
     if not output_is_stdout:
-        if os.path.exists(output) and not options.force:
-            logging.critical("%s exists. Refusing to overwite it", output)
+        if os.path.exists(output_file) and not options.force:
+            logging.critical("%s exists. Refusing to overwite it", output_file)
             return 3
 
     symbols = {}
@@ -310,16 +310,16 @@ def updatepo(options):
         return (original_literals[entry]['file'], original_literals[entry]['lineno'])
 
     locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
-    if not options.output:
-        output = os.path.join(OUTPUT_DIR, '%s.po' % locale)
-        if os.path.exists(output):
-            # TODO: Handle actually updating an existing .po file
-            logging.critical("%s exists. refusing to overwite it for now", output)
-            return 3
-    elif options.output == '-':
-        output = 'CON' if sys.platform == 'win32' else '/dev/stdout'
+    if options.output_file == '-':
+        output_file = 'CON' if sys.platform == 'win32' else '/dev/stdout'
     else:
-        output = options.output
+        if not options.output_file:
+            output_file = os.path.join(OUTPUT_DIR, '%s.po' % locale)
+        else:
+            output_file = options.output_file
+        if os.path.exists(output_file):
+            # TODO: Handle actually updating an existing .po file
+            po_data = polib.pofile(output_file)
 
     symbols = {}
     original_literals = {}
@@ -381,7 +381,7 @@ def updatepo(options):
                     flags=flags
                 )
                 pof.append(po_entry)
-    pof.save(output)
+    pof.save(output_file)
     return 0
 
 
@@ -411,7 +411,7 @@ def main(argv=None):
         version='%prog ' + __version__
     )
     parser.add_option('-l', '--locale', default='us', help='locale name to work with')
-    parser.add_option('-o', '--output', help='PO file to write to')
+    parser.add_option('-o', '--output', dest='output_file', help='PO file to write to')
     parser.add_option('-f', '--force', action='store_true', help='Force overwriting extisting PO file when using h2po action')
     options, args = parser.parse_args(args=argv[1:])
     if not args:
