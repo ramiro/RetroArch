@@ -47,6 +47,10 @@ class CParseWarning(Exception):
     pass
 
 
+class SkipOccurrence(Exception):
+    pass
+
+
 class DuplicateLiteral(Exception):
     pass
 
@@ -72,6 +76,7 @@ def find_token(y, x, lines, search_text):
     line = lines[y][:]
     temp_lineno = y
     begin = x + len(search_text)
+    next_char = True
     found_opening_parens = False
     # while True:
     while temp_lineno < len(lines):
@@ -85,11 +90,14 @@ def find_token(y, x, lines, search_text):
             line += lines[temp_lineno][:]
             if begin == len(line):
                 raise CParseWarning("Didn't find opening parenthesis after '%s'." % search_text, y, lines[y])
+        elif next_char and line[begin] == '_':
+            raise SkipOccurrence
         if line and line[begin] not in (' ', '\t'):
             if line[begin] == '(':
                 found_opening_parens = True
             break
         begin += 1
+        next_char = False
     if not found_opening_parens:
         raise CParseWarning("Didn't find opening parenthesis after '%s'." % search_text, y, lines[y])
     parens_cnt = 1
@@ -118,6 +126,8 @@ def extract_symbols(symbols, filename, file_object, found_list, search_text):
     for y, x in found_list:
         try:
             text = find_token(y, x, lines, search_text)
+        except SkipOccurrence:
+            continue
         except CParseWarning as e:
             logging.warn(e)
             continue
