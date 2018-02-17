@@ -29,6 +29,16 @@ RA_LOCALE_NAME_MAP = {
 
 OUTPUT_DIR = 'locale'
 
+BASE_PO_METADATA = {
+    'Project-Id-Version': 'RetroArch',
+    # 'Report-Msgid-Bugs-To': 'you@example.com',
+    # 'Last-Translator': 'you <you@example.com>',
+    # 'Language-Team': 'English <yourteam@example.com>',
+    'MIME-Version': '1.0',
+    'Content-Type': 'text/plain; charset=utf-8',
+    'Content-Transfer-Encoding': '8bit',
+}
+
 class CParseError(Exception):
     pass
 
@@ -246,61 +256,43 @@ def h2po(options):
     # TODO: Pass wrapwidth=160?
     pof = polib.POFile()
     utcnow = datetime.datetime.utcnow().replace(second=0, microsecond=0).isoformat(' ') + '+0000'
-    pof.metadata = {
-        'Project-Id-Version': 'RetroArch',
-        # 'Report-Msgid-Bugs-To': 'you@example.com',
-        # 'Last-Translator': 'you <you@example.com>',
-        # 'Language-Team': 'English <yourteam@example.com>',
+    pof.metadata = BASE_PO_METADATA + {
         'Language': locale,
-        'MIME-Version': '1.0',
-        'Content-Type': 'text/plain; charset=utf-8',
-        'Content-Transfer-Encoding': '8bit',
     }
     if locale == 'en_US':
-        pof.metadata.update(
-            {'POT-Creation-Date': utcnow}
-        )
-        for entry in sorted(original_literals, key=key):
-            symbol_def = symbols.get(entry)
-            if symbol_def is not None:
-                # msgid = polib.unescape(original_literals[entry]['literal'])
-                msgid = original_literals[entry]['literal']
-                # TODO: Enhance these heuristics
-                flags = ['c-format'] if '%' in msgid else []
-                po_entry = polib.POEntry(
-                    msgid=msgid,
-                    msgstr='',
-                    occurrences=symbol_def,
-                    # comment=entry,
-                    msgctxt=entry,
-                    flags=flags
-                )
-                pof.append(po_entry)
+        pof.metadata.update({
+            'POT-Creation-Date': utcnow,
+        })
     else:
-        pof.metadata.update(
-            {'PO-Revision-Date': utcnow}
-        )
+        pof.metadata.update({
+            'PO-Revision-Date': utcnow,
+        })
         existing_translations = extract_translations_from_msg_hash_xx_h(options.locale)
         # pprint.pprint(existing_translations)
-        for entry in sorted(original_literals, key=key):
-            symbol_def = symbols.get(entry)
-            if symbol_def is not None:
-                # msgid = polib.unescape(original_literals[entry]['literal'])
-                msgid = original_literals[entry]['literal']
-                # TODO: Enhance these heuristics
-                flags = ['c-format'] if '%' in msgid else []
-                translated_def = existing_translations.get(entry)
-                msgstr = '' if translated_def is None else translated_def['literal']
-                po_entry = polib.POEntry(
-                    msgid=msgid,
-                    msgstr=msgstr,
-                    occurrences=symbol_def,
-                    # comment=entry,
-                    msgctxt=entry,
-                    flags=flags
-                )
-                pof.append(po_entry)
-    pof.save(output)
+
+    for entry in sorted(original_literals, key=key):
+        if locale == 'en_US':
+            msgstr = ''
+        else:
+            translated_def = existing_translations.get(entry)
+            msgstr = '' if translated_def is None else translated_def['literal']
+            # msgstr = existing_translations.get(entry, {}).get('literal', '')
+        symbol_def = symbols.get(entry)
+        if symbol_def is not None:
+            # msgid = polib.unescape(original_literals[entry]['literal'])
+            msgid = original_literals[entry]['literal']
+            # TODO: Enhance these heuristics
+            flags = ['c-format'] if '%' in msgid else []
+            po_entry = polib.POEntry(
+                msgid=msgid,
+                msgstr=msgstr,
+                occurrences=symbol_def,
+                # comment=entry,
+                msgctxt=entry,
+                flags=flags
+            )
+            pof.append(po_entry)
+    pof.save(output_file)
     return 0
 
 
@@ -327,15 +319,8 @@ def updatepo(options):
     # TODO: Pass wrapwidth=160?
     pof = polib.POFile()
     utcnow = datetime.datetime.utcnow().replace(second=0, microsecond=0).isoformat(' ') + '+0000'
-    pof.metadata = {
-        'Project-Id-Version': 'RetroArch',
-        # 'Report-Msgid-Bugs-To': 'you@example.com',
-        # 'Last-Translator': 'you <you@example.com>',
-        # 'Language-Team': 'English <yourteam@example.com>',
+    pof.metadata = BASE_PO_METADATA + {
         'Language': locale,
-        'MIME-Version': '1.0',
-        'Content-Type': 'text/plain; charset=utf-8',
-        'Content-Transfer-Encoding': '8bit',
     }
     if locale == 'en_US':
         pof.metadata.update(
