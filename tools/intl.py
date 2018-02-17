@@ -256,9 +256,10 @@ def h2po(options):
     # TODO: Pass wrapwidth=160?
     pof = polib.POFile()
     utcnow = datetime.datetime.utcnow().replace(second=0, microsecond=0).isoformat(' ') + '+0000'
-    pof.metadata = BASE_PO_METADATA + {
+    pof.metadata = dict(BASE_PO_METADATA)
+    pof.metadata.update({
         'Language': locale,
-    }
+    })
     if locale == 'en_US':
         pof.metadata.update({
             'POT-Creation-Date': utcnow,
@@ -319,9 +320,10 @@ def updatepo(options):
     # TODO: Pass wrapwidth=160?
     pof = polib.POFile()
     utcnow = datetime.datetime.utcnow().replace(second=0, microsecond=0).isoformat(' ') + '+0000'
-    pof.metadata = BASE_PO_METADATA + {
+    pof.metadata = dict(BASE_PO_METADATA)
+    pof.metadata.update({
         'Language': locale,
-    }
+    })
     if locale == 'en_US':
         pof.metadata.update(
             {'POT-Creation-Date': utcnow}
