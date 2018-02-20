@@ -311,6 +311,7 @@ def updatepo(options):
         return (original_literals[entry]['file'], original_literals[entry]['lineno'])
 
     locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
+    po_data = None
     if options.output_file == '-':
         output_file = 'CON' if sys.platform == 'win32' else '/dev/stdout'
     else:
@@ -328,14 +329,12 @@ def updatepo(options):
     # TODO: Pass wrapwidth=160?
     pof = polib.POFile()
     utcnow = datetime.datetime.utcnow().replace(second=0, microsecond=0).isoformat(' ') + '+0000'
-    pof.metadata = dict(BASE_PO_METADATA)
-    pof.metadata.update({
-        'Language': locale,
-    })
     if locale == 'en_US':
-        pof.metadata.update(
-            {'POT-Creation-Date': utcnow}
-        )
+        pof.metadata = dict(BASE_PO_METADATA)
+        pof.metadata.update({
+            'Language': locale,
+            'POT-Creation-Date': utcnow,
+        })
         for entry in sorted(original_literals, key=key):
             symbol_def = symbols.get(entry)
             if symbol_def is not None:
@@ -352,31 +351,17 @@ def updatepo(options):
                     flags=flags
                 )
                 pof.append(po_entry)
+        pof.save(output_file)
     else:
-        pof.metadata.update(
-            {'PO-Revision-Date': utcnow}
-        )
-        existing_translations = extract_translations_from_msg_hash_xx_h(options.locale)
-        # pprint.pprint(existing_translations)
-        for entry in sorted(original_literals, key=key):
-            symbol_def = symbols.get(entry)
-            if symbol_def is not None:
-                # msgid = polib.unescape(original_literals[entry]['literal'])
-                msgid = original_literals[entry]['literal']
-                # TODO: Enhance these heuristics
-                flags = ['c-format'] if '%' in msgid else []
-                translated_def = existing_translations.get(entry)
-                msgstr = '' if translated_def is None else translated_def['literal']
-                po_entry = polib.POEntry(
-                    msgid=msgid,
-                    msgstr=msgstr,
-                    occurrences=symbol_def,
-                    # comment=entry,
-                    msgctxt=entry,
-                    flags=flags
-                )
-                pof.append(po_entry)
-    pof.save(output_file)
+        refpot_file = os.path.join(OUTPUT_DIR, 'en_US.po')
+        refpot = polib.pofile(refpot_file)
+        if po_data is not None:
+            po_data.merge(refpot)
+            po_data.metadata.update({
+                'Language': locale,
+                'PO-Revision-Date': utcnow,
+            })
+            po_data.save(output_file)
     return 0
 
 
