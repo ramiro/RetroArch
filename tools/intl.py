@@ -191,7 +191,7 @@ def find_translation_calls_in_file(symbols, filename):
         logging.error(e)
 
 
-def extract_translations(original_literals, filename, file_object, found_list, search_text):
+def extract_translations(symbol_defs, filename, file_object, found_list, search_text):
     file_object.seek(0)
     contents = file_object.read()
     lines = contents.splitlines()
@@ -208,10 +208,10 @@ def extract_translations(original_literals, filename, file_object, found_list, s
             parts = text.split(',', 1)
             symbol = parts[0].rstrip(' \t')
             if len(parts) > 1:
-                literal = parts[1].strip(' \t"')
-                if symbol in original_literals:
+                if symbol in symbol_defs:
                     raise DuplicateLiteral(symbol, y)
-                original_literals[symbol] = {
+                literal = parts[1].strip(' \t"')
+                symbol_defs[symbol] = {
                     'file': filename,
                     'lineno': y + 1,  # Our line index is 0-based
                     'literal': literal
@@ -221,7 +221,7 @@ def extract_translations(original_literals, filename, file_object, found_list, s
 
 
 def extract_translations_from_msg_hash_xx_h(locale):
-    literals = {}
+    symbol_defs = {}
     filename = os.path.join('.', 'intl', 'msg_hash_%s.h' % locale)
     try:
         # with open(filename, 'rU') as f:
@@ -232,36 +232,36 @@ def extract_translations_from_msg_hash_xx_h(locale):
                 if column != -1:
                     found.append((line_number, column))
             if found:
-                extract_translations(literals, filename, f, found, TRANSLATION_MACRO)
+                extract_translations(symbol_defs, filename, f, found, TRANSLATION_MACRO)
 
     except IOError as e:
         logging.error(e)
-    return literals
+    return symbol_defs
 
 
-def common(symbols, original_literals):
+def common(symbols, english_symdefs):
     filenames = enumerate_files()
     # print(filenames)
     for filename in filenames:
         find_translation_calls_in_file(symbols, filename)
     # pprint.pprint(symbols)
     for orig_file in ORIGINAL_LITERAL_FILES:
-        original_literals.update(extract_translations_from_msg_hash_xx_h(orig_file))
-    # pprint.pprint(original_literals)
+        english_symdefs.update(extract_translations_from_msg_hash_xx_h(orig_file))
+    # pprint.pprint(english_symdefs)
 
 
 def check(options):
 
     def key(entry):
-        return (original_literals[entry]['file'], original_literals[entry]['lineno'])
+        return (english_symdefs[entry]['file'], english_symdefs[entry]['lineno'])
 
     if options.output_file:
         logging.error("check action doesn't need the -o/--output option")
         return 2
     symbols = {}
-    original_literals = {}
-    common(symbols, original_literals)
-    for entry in sorted(original_literals, key=key):
+    english_symdefs = {}
+    common(symbols, english_symdefs)
+    for entry in sorted(english_symdefs, key=key):
         symbols.pop(entry, None)
     if symbols:
         logging.warning("The following Retroch translatable literal IDs don't have an english original literal defined:")
@@ -273,7 +273,7 @@ def check(options):
 def h2po(options):
 
     def key(entry):
-        return (original_literals[entry]['file'], original_literals[entry]['lineno'])
+        return (english_symdefs[entry]['file'], english_symdefs[entry]['lineno'])
 
     locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
     if options.output_file == '-':
@@ -288,8 +288,8 @@ def h2po(options):
             return 3
 
     symbols = {}
-    original_literals = {}
-    common(symbols, original_literals)
+    english_symdefs = {}
+    common(symbols, english_symdefs)
     # TODO: Pass wrapwidth=160?
     pof = polib.POFile()
     utcnow = datetime.datetime.utcnow().replace(second=0, microsecond=0).isoformat(' ') + '+0000'
@@ -308,7 +308,7 @@ def h2po(options):
         existing_translations = extract_translations_from_msg_hash_xx_h(options.locale)
         # pprint.pprint(existing_translations)
 
-    for entry in sorted(original_literals, key=key):
+    for entry in sorted(english_symdefs, key=key):
         if locale == 'en_US':
             msgstr = ''
         else:
