@@ -417,10 +417,10 @@ def po2h(options):
                 if entry.translated():
                     h_entry = """\
 MSG_HASH(
-\t%(msgctxt)s,
-\t"%(msgstr)s"
+\t%s,
+\t"%s"
 \t)
-""" % entry.__dict__
+""" % (entry.msgctxt, polib.escape(entry.msgstr))
                     f.write(h_entry)
 
 
