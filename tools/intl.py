@@ -392,22 +392,29 @@ def updatepo(options):
             po_data.save(output_file)
     return 0
 
-
-# msg_hash_cht.c: C source, UTF-8 Unicode (with BOM) text
-# msg_hash_pl.h: UTF-8 Unicode (with BOM) text
-# msg_hash_ko.h: UTF-8 Unicode (with BOM) text
-# msg_hash_chs.c: C source, UTF-8 Unicode (with BOM) text
-# msg_hash_ja.h: UTF-8 Unicode (with BOM) text
-# msg_hash_ar.h: UTF-8 Unicode (with BOM) text
-# msg_hash_cht.h: UTF-8 Unicode (with BOM) text
-# msg_hash_ja.c: C source, UTF-8 Unicode (with BOM) text
-# msg_hash_ko.c: C source, UTF-8 Unicode (with BOM) text
-# msg_hash_pl.c: C source, UTF-8 Unicode (with BOM) text
-# msg_hash_ar.c: C source, UTF-8 Unicode (with BOM) text
-# msg_hash_chs.h: UTF-8 Unicode (with BOM) text
-# msg_hash_ru.c: C source, UTF-8 Unicode (with BOM) text
-# msg_hash_ru.h: UTF-8 Unicode (with BOM) text
-# msg_hash_vn.h: UTF-8 Unicode (with BOM) text
+def po2h(options):
+    locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
+    po_data = None
+    input_file = os.path.join(PO_FILES_DIR, '%s.po' % locale)
+    if os.path.exists(input_file):
+        po_data = polib.pofile(input_file)
+        basename = 'msg_hash_%s.h' % options.locale
+        output_file = os.path.join('.', 'intl', basename)
+        if basename in H_FILES_WITH_UTF8_BOM:
+            enc = 'utf-8-sig'
+        else:
+            enc = 'utf-8'
+        with io.open(output_file, 'w', encoding=enc) as f:
+            f.write(u'/* This file is auto-generated. Your changes will be overwritten. */\n\n')
+            for entry in po_data:
+                if entry.translated():
+                    h_entry = """\
+MSG_HASH(
+\t%(msgctxt)s,
+\t"%(msgstr)s"
+\t)
+""" % entry.__dict__
+                    f.write(h_entry)
 
 
 def main(argv=None):
@@ -434,6 +441,8 @@ def main(argv=None):
         return h2po(options)
     elif action == 'updatepo':
         return updatepo(options)
+    elif action == 'po2h':
+        return po2h(options)
     else:
         parser.error('unknown action: \'%s\'' % action)
 
