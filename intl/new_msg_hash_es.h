@@ -1,6 +1,134 @@
 /* This file is auto-generated. Your changes will be overwritten. */
 
 MSG_HASH(
+	MENU_ENUM_LABEL_COLLECTION,
+	"collection"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_CONFIGURATIONS,
+	"configurations"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_CONFIGURATION_SETTINGS,
+	"Determines how configuration files \\n\"      \"are loaded and prioritized."
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_FAVORITES,
+	"favorites"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_HELP,
+	"help"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_INFORMATION,
+	"information"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_LOAD_STATE,
+	"loadstate"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_NETPLAY,
+	"netplay"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_NETPLAY_LAN_SCAN_SETTINGS,
+	"Search for and connect to netplay hosts on the local network."
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_ONLINE,
+	"online"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_REBOOT,
+	"reboot"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_RESUME,
+	"resume"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_RUN,
+	"collection"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_SAVE_STATE,
+	"savestate"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_SETTINGS,
+	"settings"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_SHUTDOWN,
+	"shutdown"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_THUMBNAILS,
+	"thumbnails"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_UNDO_LOAD_STATE,
+	"undoloadstate"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_UNDO_SAVE_STATE,
+	"undosavestate"
+	)
+MSG_HASH(
+	MSG_DEVICE_CONFIGURED_IN_PORT,
+	"configured in port"
+	)
+MSG_HASH(
+	MSG_FAILED_TO_SET_DISK,
+	"Failed to set disk"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_OFF,
+	"off"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_ON,
+	"on"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_DISABLED,
+	"disabled"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_ENABLED,
+	"enabled"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_SECONDS,
+	"seconds"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_STATUS,
+	"status"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_FILTER_BY_CURRENT_CORE,
+	"filter_by_current_Core"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_AUDIO_RESAMPLER_DRIVER_SINC,
+	"sinc"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_AUDIO_RESAMPLER_DRIVER_CC,
+	"cc"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_INPUT_DRIVER_UDEV,
+	"udev"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_INPUT_DRIVER_LINUXRAW,
+	"linuxraw"
+	)
+MSG_HASH(
 	MSG_COMPILER,
 	"Compilador"
 	)
@@ -2993,6 +3121,10 @@ MSG_HASH(
 	"Guardar preset para el núcleo"
 	)
 MSG_HASH(
+	MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_PARENT,
+	"Save Content Directory Preset"
+	)
+MSG_HASH(
 	MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_GAME,
 	"Guardar preset para el juego"
 	)
@@ -5301,6 +5433,10 @@ MSG_HASH(
 	"Guardar la configuración actual de shaders para este núcleo"
 	)
 MSG_HASH(
+	MENU_ENUM_SUBLABEL_VIDEO_SHADER_PRESET_SAVE_PARENT,
+	"Save the current shader settings as the default settings for all files in the current content directory."
+	)
+MSG_HASH(
 	MENU_ENUM_SUBLABEL_VIDEO_SHADER_PRESET_SAVE_GAME,
 	"Guardar la configuración actual de shaders para este contenido"
 	)
@@ -5799,4 +5935,8 @@ MSG_HASH(
 MSG_HASH(
 	MENU_ENUM_SUBLABEL_SHADER_WATCH_FOR_CHANGES,
 	"Auto-aplica los cambios hechos a los archivos shader del disco"
+	)
+MSG_HASH(
+	MENU_ENUM_LABEL_VALUE_VIDEO_WINDOW_SHOW_DECORATIONS,
+	"Show Window Decorations"
 	)
