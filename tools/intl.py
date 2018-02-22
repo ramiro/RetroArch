@@ -301,6 +301,7 @@ def h2po(options):
     pof.metadata.update({
         'Language': locale,
     })
+    existing_translations = {}
     if locale == 'en_US':
         pof.metadata.update({
             'POT-Creation-Date': utcnow,
