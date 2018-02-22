@@ -210,7 +210,11 @@ def extract_translations(symbol_defs, filename, file_object, found_list, search_
             if len(parts) > 1:
                 if symbol in symbol_defs:
                     raise DuplicateLiteral(symbol, y)
-                literal = parts[1].strip(' \t"')
+                literal = parts[1].strip(' \t')
+                if literal[0] == '"':
+                    literal = literal[1:]
+                if literal[-1] == '"':
+                    literal = literal[:-1]
                 symbol_defs[symbol] = {
                     'file': filename,
                     'lineno': y + 1,  # Our line index is 0-based
