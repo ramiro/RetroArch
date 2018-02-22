@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RetroArch\n"
-"PO-Revision-Date: 2018-02-22 16:30:00+0000\n"
+"PO-Revision-Date: 2018-02-22 18:49:00+0000\n"
 "Last-Translator: RetroArch translators\n"
 "Language-Team: RetroArch translators\n"
 "Language: es\n"
@@ -463,7 +463,7 @@ msgstr "Fin de la lista"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_RETRO_ACHIEVEMENTS"
 msgid "RetroAchievements"
-msgstr "RetroAchievements"
+msgstr ""
 
 #: menu/menu_displaylist.c:2727
 msgctxt "MENU_ENUM_LABEL_VALUE_ACHIEVEMENT_LIST"
@@ -556,7 +556,7 @@ msgstr "Controlador de muestreo de audio"
 #: menu/menu_setting.c:3973
 msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_SETTINGS"
 msgid "Audio"
-msgstr "Audio"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_SYNC"
 msgid "Audio Sync"
@@ -756,7 +756,7 @@ msgstr "Bloqueado"
 #: menu/menu_setting.c:6545
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_SETTINGS"
 msgid "RetroAchievements"
-msgstr "RetroAchievements"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_TEST_UNOFFICIAL"
 msgid "Test Unofficial Achievements"
@@ -774,7 +774,7 @@ msgstr "Desbloqueado"
 #: menu/cbs/menu_cbs_get_value.c:114
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ENTRY_HARDCORE"
 msgid "Hardcore"
-msgstr "Hardcore"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_VERBOSE_ENABLE"
 msgid "Achievements Verbose Mode"
@@ -787,7 +787,7 @@ msgstr "Cerrar"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_CONFIG"
 msgid "Config"
-msgstr "Config"
+msgstr ""
 
 #: menu/menu_displaylist.c:2918
 msgctxt "MENU_ENUM_LABEL_VALUE_CONFIGURATIONS"
@@ -879,7 +879,7 @@ msgstr "Nombre del núcleo"
 #: menu/menu_displaylist.c:295
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_FIRMWARE"
 msgid "Firmware(s)"
-msgstr "Firmware(s)"
+msgstr ""
 
 #: menu/menu_displaylist.c:263
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_LICENSES"
@@ -960,7 +960,7 @@ msgstr "Núcleos de CPU:"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_CURSOR_DIRECTORY"
 msgid "Cursor"
-msgstr "Cursor"
+msgstr ""
 
 #: menu/menu_displaylist.c:2890
 msgctxt "MENU_ENUM_LABEL_VALUE_CURSOR_MANAGER"
@@ -1663,7 +1663,7 @@ msgstr "Tarde"
 #: menu/cbs/menu_cbs_get_value.c:850
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_NORMAL"
 msgid "Normal"
-msgstr "Normal"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_PREFER_FRONT_TOUCH"
 msgid "Prefer Front Touch"
@@ -1749,7 +1749,7 @@ msgstr "Ingles"
 #: menu/menu_setting.c:605
 msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ESPERANTO"
 msgid "Esperanto"
-msgstr "Esperanto"
+msgstr ""
 
 #: menu/menu_setting.c:594
 msgctxt "MENU_ENUM_LABEL_VALUE_LANG_FRENCH"
@@ -1900,7 +1900,7 @@ msgstr "Verde"
 #: menu/cbs/menu_cbs_get_value.c:1077
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_NVIDIA_SHIELD"
 msgid "Shield"
-msgstr "Shield"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:1062
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_RED"
@@ -1972,7 +1972,7 @@ msgstr "Soporte para ratón"
 #: menu/menu_setting.c:6097
 msgctxt "MENU_ENUM_LABEL_VALUE_MULTIMEDIA_SETTINGS"
 msgid "Multimedia"
-msgstr "Multimedia"
+msgstr ""
 
 #: menu/cbs/menu_cbs_title.c:256
 msgctxt "MENU_ENUM_LABEL_VALUE_MUSIC_TAB"
@@ -2088,7 +2088,7 @@ msgstr "Comparir entrada analoga"
 #: menu/cbs/menu_cbs_get_value.c:1842
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_MAX"
 msgid "Max"
-msgstr "Max"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:1846
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_AVERAGE"
@@ -2107,7 +2107,7 @@ msgstr "Compartir"
 #: menu/cbs/menu_cbs_get_value.c:1805
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_XOR"
 msgid "Grapple"
-msgstr "Grapple"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:1809
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_VOTE"
@@ -2201,7 +2201,7 @@ msgstr "Red"
 #: menu/menu_displaylist.c:1229 menu/menu_displaylist.c:1239
 msgctxt "MENU_ENUM_LABEL_VALUE_NO"
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #: menu/menu_setting.c:524 menu/menu_setting.c:549
 #: menu/cbs/menu_cbs_get_value.c:1146 menu/cbs/menu_cbs_get_value.c:1226
@@ -2319,13 +2319,13 @@ msgstr "No hay parámetros de shaders"
 #: menu/drivers/xmb.c:3959 menu/drivers/materialui.c:890
 msgctxt "MENU_ENUM_LABEL_VALUE_OFF"
 msgid "OFF"
-msgstr "OFF"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:669 menu/cbs/menu_cbs_get_value.c:1733
 #: menu/drivers/xmb.c:2420 menu/drivers/materialui.c:901
 msgctxt "MENU_ENUM_LABEL_VALUE_ON"
 msgid "ON"
-msgstr "ON"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:935
 msgctxt "MENU_ENUM_LABEL_VALUE_ONLINE"
@@ -2361,7 +2361,7 @@ msgstr "Opcional"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY"
 msgid "Overlay"
-msgstr "Overlay"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_AUTOLOAD_PREFERRED"
 msgid "Autoload Preferred Overlay"
@@ -2369,7 +2369,7 @@ msgstr "Auto-cargar Overlay preferido"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_DIRECTORY"
 msgid "Overlay"
-msgstr "Overlay"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_OPACITY"
 msgid "Overlay Opacity"
@@ -2377,7 +2377,7 @@ msgstr "Opacidad de Overlay"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_PRESET"
 msgid "Overlay Preset"
-msgstr "Overlay Preset"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_SCALE"
 msgid "Overlay Scale"
@@ -2453,12 +2453,12 @@ msgstr "Soporte de analógico"
 #: menu/menu_displaylist.c:1848
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_BBFC_RATING"
 msgid "BBFC Rating"
-msgstr "BBFC Rating"
+msgstr ""
 
 #: menu/menu_displaylist.c:1893
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CERO_RATING"
 msgid "CERO Rating"
-msgstr "CERO Rating"
+msgstr ""
 
 #: menu/menu_displaylist.c:1933
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_COOP"
@@ -2468,7 +2468,7 @@ msgstr "Soporte de Co-op"
 #: menu/menu_displaylist.c:1946
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CRC32"
 msgid "CRC32"
-msgstr "CRC32"
+msgstr ""
 
 #: menu/menu_displaylist.c:1697
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DESCRIPTION"
@@ -2483,37 +2483,37 @@ msgstr "Desarrollador"
 #: menu/menu_displaylist.c:1817
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_ISSUE"
 msgid "Edge Magazine Issue"
-msgstr "Edge Magazine Issue"
+msgstr ""
 
 #: menu/menu_displaylist.c:1807
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_RATING"
 msgid "Edge Magazine Rating"
-msgstr "Edge Magazine Rating"
+msgstr ""
 
 #: menu/menu_displaylist.c:1798
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_REVIEW"
 msgid "Edge Magazine Review"
-msgstr "Edge Magazine Review"
+msgstr ""
 
 #: menu/menu_displaylist.c:1866
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ELSPA_RATING"
 msgid "ELSPA Rating"
-msgstr "ELSPA Rating"
+msgstr ""
 
 #: menu/menu_displaylist.c:1884
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ENHANCEMENT_HW"
 msgid "Enhancement Hardware"
-msgstr "Enhancement Hardware"
+msgstr ""
 
 #: menu/menu_displaylist.c:1857
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ESRB_RATING"
 msgid "ESRB Rating"
-msgstr "ESRB Rating"
+msgstr ""
 
 #: menu/menu_displaylist.c:1788
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FAMITSU_MAGAZINE_RATING"
 msgid "Famitsu Magazine Rating"
-msgstr "Famitsu Magazine Rating"
+msgstr ""
 
 #: menu/menu_displaylist.c:1759
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FRANCHISE"
@@ -2528,7 +2528,7 @@ msgstr "Género"
 #: menu/menu_displaylist.c:1968
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_MD5"
 msgid "MD5"
-msgstr "MD5"
+msgstr ""
 
 #: menu/menu_displaylist.c:317 menu/menu_displaylist.c:1685
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_NAME"
@@ -2543,7 +2543,7 @@ msgstr "Origen"
 #: menu/menu_displaylist.c:1875
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PEGI_RATING"
 msgid "PEGI Rating"
-msgstr "PEGI Rating"
+msgstr ""
 
 #: menu/menu_displaylist.c:1722
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PUBLISHER"
@@ -2568,12 +2568,12 @@ msgstr "Soporte de vibración"
 #: menu/menu_displaylist.c:1903
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SERIAL"
 msgid "Serial"
-msgstr "Serial"
+msgstr ""
 
 #: menu/menu_displaylist.c:1957
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SHA1"
 msgid "SHA1"
-msgstr "SHA1"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_START_CONTENT"
 msgid "Start Content"
@@ -2582,7 +2582,7 @@ msgstr "Ejecutar contenido"
 #: menu/menu_displaylist.c:1778
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_TGDB_RATING"
 msgid "TGDB Rating"
-msgstr "TGDB Rating"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_REBOOT"
 msgid "Reboot"
@@ -2675,12 +2675,12 @@ msgstr "Reanudar"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_RETROKEYBOARD"
 msgid "RetroKeyboard"
-msgstr "RetroKeyboard"
+msgstr ""
 
 #: menu/menu_setting.c:527
 msgctxt "MENU_ENUM_LABEL_VALUE_RETROPAD"
 msgid "RetroPad"
-msgstr "RetroPad"
+msgstr ""
 
 #: menu/menu_setting.c:530
 msgctxt "MENU_ENUM_LABEL_VALUE_RETROPAD_WITH_ANALOG"
@@ -2710,7 +2710,7 @@ msgstr "Explorador de archivos"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_RGUI_CONFIG_DIRECTORY"
 msgid "Config"
-msgstr "Config"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_RGUI_SHOW_START_SCREEN"
 msgid "Display Start Screen"
@@ -2847,7 +2847,7 @@ msgstr "Ajustes"
 #: menu/menu_displaylist.c:1425
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER"
 msgid "Shader"
-msgstr "Shader"
+msgstr ""
 
 #: menu/menu_displaylist.c:1369
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_APPLY_CHANGES"
@@ -2857,12 +2857,12 @@ msgstr "Aplicar cambios"
 #: menu/menu_displaylist.c:2698
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_OPTIONS"
 msgid "Shaders"
-msgstr "Shaders"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:283
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_RIBBON"
 msgid "Ribbon"
-msgstr "Ribbon"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:278
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_RIBBON_SIMPLIFIED"
@@ -3527,11 +3527,11 @@ msgstr "Filtro de video"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FILTER_DIR"
 msgid "Video Filter"
-msgstr "Video Filter"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FILTER_FLICKER"
 msgid "Flicker filter"
-msgstr "Flicker filter"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FONT_ENABLE"
 msgid "Enable Onscreen Notifications"
@@ -3624,11 +3624,11 @@ msgstr "Escalar usando enteros"
 #: menu/menu_setting.c:3279
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SETTINGS"
 msgid "Video"
-msgstr "Video"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_DIR"
 msgid "Video Shader"
-msgstr "Video Shader"
+msgstr ""
 
 #: menu/menu_displaylist.c:1412
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_NUM_PASSES"
@@ -3679,12 +3679,12 @@ msgstr "Activar filtros por software"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SWAP_INTERVAL"
 msgid "Vertical Sync (Vsync) Swap Interval"
-msgstr "Vertical Sync (Vsync) Swap Interval"
+msgstr ""
 
 #: menu/cbs/menu_cbs_title.c:258
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_TAB"
 msgid "Video"
-msgstr "Video"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_THREADED"
 msgid "Threaded Video"
@@ -3696,11 +3696,11 @@ msgstr "Filtro contra parpadeos"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VIEWPORT_CUSTOM_HEIGHT"
 msgid "Custom Aspect Ratio Height"
-msgstr "Custom Aspect Ratio Height"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VIEWPORT_CUSTOM_WIDTH"
 msgid "Custom Aspect Ratio Width"
-msgstr "Custom Aspect Ratio Width"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VIEWPORT_CUSTOM_X"
 msgid "Custom Aspect Ratio X Pos."
@@ -3744,7 +3744,7 @@ msgstr "Controlador Wi-Fi"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_WIFI_SETTINGS"
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ALPHA_FACTOR"
 msgid "Menu Alpha Factor"
@@ -3769,17 +3769,17 @@ msgstr "Fuente del menú"
 #: menu/cbs/menu_cbs_get_value.c:917
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_CUSTOM"
 msgid "Custom"
-msgstr "Custom"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:885
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_FLATUI"
 msgid "FlatUI"
-msgstr "FlatUI"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:881
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME"
 msgid "Monochrome"
-msgstr "Monochrome"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:913
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME_INVERTED"
@@ -3789,32 +3789,32 @@ msgstr "Monochrome Invertido"
 #: menu/cbs/menu_cbs_get_value.c:905
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_SYSTEMATIC"
 msgid "Systematic"
-msgstr "Systematic"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:901
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_NEOACTIVE"
 msgid "NeoActive"
-msgstr "NeoActive"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:897
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_PIXEL"
 msgid "Pixel"
-msgstr "Pixel"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:889
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROACTIVE"
 msgid "RetroActive"
-msgstr "RetroActive"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:893
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROSYSTEM"
 msgid "Retrosystem"
-msgstr "Retrosystem"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:909
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_DOTART"
 msgid "Dot-Art"
-msgstr "Dot-Art"
+msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME"
 msgid "Menu Color Theme"
@@ -4266,7 +4266,7 @@ msgstr "Iniciando la linea de comandos en el puerto"
 #: tasks/task_save.c:1368
 msgctxt "MSG_BYTES"
 msgid "bytes"
-msgstr "bytes"
+msgstr ""
 
 #: command.c:1480
 msgctxt "MSG_CANNOT_INFER_NEW_CONFIG_PATH"
@@ -4367,7 +4367,7 @@ msgstr ""
 #: record/record_driver.c:342
 msgctxt "MSG_CUSTOM_TIMING_GIVEN"
 msgid "Custom timing given"
-msgstr "Custom timing given"
+msgstr ""
 
 #: menu/cbs/menu_cbs_ok.c:2590
 msgctxt "MSG_DECOMPRESSION_ALREADY_IN_PROGRESS"
@@ -4417,7 +4417,7 @@ msgstr "Descarga fallida"
 #: tasks/task_patch.c:542
 msgctxt "MSG_ERROR"
 msgid "Error"
-msgstr "Error"
+msgstr ""
 
 #: tasks/task_content.c:569
 msgctxt "MSG_ERROR_LIBRETRO_CORE_REQUIRES_CONTENT"
@@ -4687,7 +4687,7 @@ msgstr "Encontrado el shader"
 #: gfx/video_driver.c:2448
 msgctxt "MSG_FRAMES"
 msgid "Frames"
-msgstr "Frames"
+msgstr ""
 
 #: retroarch.c:1390
 msgctxt "MSG_GAME_SPECIFIC_CORE_OPTIONS_FOUND_AT"
@@ -4897,7 +4897,7 @@ msgstr "Pausado"
 #: retroarch.c:433 gfx/video_driver.c:2235
 msgctxt "MSG_PROGRAM"
 msgid "RetroArch"
-msgstr "RetroArch"
+msgstr ""
 
 #: tasks/task_database.c:285 tasks/task_database.c:313
 #: tasks/task_database.c:437 tasks/task_database.c:467
@@ -4958,7 +4958,7 @@ msgstr "Eliminando el contenido temporal"
 #: command.c:1861 command.c:1862
 msgctxt "MSG_RESET"
 msgid "Reset"
-msgstr "Reset"
+msgstr ""
 
 #: driver.c:302
 msgctxt "MSG_RESTARTING_RECORDING_DUE_TO_DRIVER_REINIT"
@@ -5062,7 +5062,7 @@ msgstr "Varios parches están explicitamente definidos, ignorando todos..."
 
 msgctxt "MSG_SHADER"
 msgid "Shader"
-msgstr "Shader"
+msgstr ""
 
 #: menu/cbs/menu_cbs_ok.c:1842 menu/cbs/menu_cbs_ok.c:1981
 msgctxt "MSG_SHADER_PRESET_SAVED_SUCCESSFULLY"
@@ -5563,12 +5563,12 @@ msgstr "Iniciar"
 #: menu/cbs/menu_cbs_get_value.c:298
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_BOKEH"
 msgid "Bokeh"
-msgstr "Bokeh"
+msgstr ""
 
 #: menu/cbs/menu_cbs_get_value.c:303
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_SNOWFLAKE"
 msgid "Snowflake"
-msgstr "Snowflake"
+msgstr ""
 
 #: menu/cbs/menu_cbs_ok.c:3196
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REFRESH_ROOMS"
@@ -6816,7 +6816,7 @@ msgstr "Imágenes previamente vistas aparecerán aquí"
 #: menu/menu_displaylist.c:3376 menu/menu_displaylist.c:6179
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_VIDEO"
 msgid "Video"
-msgstr "Video"
+msgstr ""
 
 msgctxt "MENU_ENUM_SUBLABEL_GOTO_VIDEO"
 msgid "Videos which have been previously played will appear here."

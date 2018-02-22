@@ -316,6 +316,8 @@ def h2po(options):
             # translated_def = existing_translations.pop(entry, None)
             # msgstr = '' if translated_def is None else translated_def['literal']
             msgstr = existing_translations.pop(entry, {}).get('literal', '')
+            if msgstr and msgstr == msgid:
+                msgstr = ''
         if not msgstr and msgid.islower() and ' ' not in msgid and '_' in msgid:
             continue
         edata = {
