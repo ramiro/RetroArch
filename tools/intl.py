@@ -60,8 +60,8 @@ PO_FILES_DIR = 'locale'
 BASE_PO_METADATA = {
     'Project-Id-Version': 'RetroArch',
     # 'Report-Msgid-Bugs-To': 'you@example.com',
-    # 'Last-Translator': 'you <you@example.com>',
-    # 'Language-Team': 'English <yourteam@example.com>',
+    'Last-Translator': 'RetroArch translators',
+    'Language-Team': 'RetroArch translators',
     'MIME-Version': '1.0',
     'Content-Type': 'text/plain; charset=utf-8',
     'Content-Transfer-Encoding': '8bit',
