@@ -17,7 +17,7 @@ __version__ = '0.1'
 TRANSLATION_FUNCTION = 'msg_hash_to_str'
 TRANSLATION_MACRO = 'MSG_HASH'
 
-ORIGINAL_LITERAL_FILES = ('us', 'lbl')
+ORIGINAL_LITERAL_FILES = ('lbl', 'us')
 
 RA_LOCALE_NAME_MAP = {
     'pt_br': 'pt_BR',
@@ -168,7 +168,7 @@ def extract_symbols(symbols, filename, file_object, found_list, search_text):
             # TODO: Check what's the RA policy Re:
             # * Casing of these macro names
             # * Which macro name prefixes (i.e. "MSG_", "MENU_ENUM_") actually mark translatable content
-            if text.isupper() and text.startswith('MSG_'):
+            if text.isupper():
                 symbols.setdefault(text, []).append((filename, y + 1))  # Our line index is 0-based
 
 
@@ -315,21 +315,25 @@ def h2po(options):
             translated_def = existing_translations.get(entry)
             msgstr = '' if translated_def is None else translated_def['literal']
             # msgstr = existing_translations.get(entry, {}).get('literal', '')
-        symbol_def = symbols.get(entry)
-        if symbol_def is not None:
-            msgid = original_literals[entry]['literal']
-            edata = {
-                'msgstr': msgstr,
-                'occurrences': symbol_def,
-                # 'msgid': polib.unescape(original_literals[entry]['literal']),
-                'msgid': msgid,
-                # TODO: Enhance these heuristics
-                'flags': ['c-format'] if '%' in msgid else [],
-                'msgctxt': entry,
-                # 'comment': entry,
-            }
-            po_entry = polib.POEntry(**edata)
-            pof.append(po_entry)
+        msgid = english_symdefs[entry]['literal']
+        if not msgstr and msgid.islower() and ' ' not in msgid and '_' in msgid:
+            # print('msgid=%s' % msgid)
+            # print('msgstr=%s' % msgstr)
+            continue
+        edata = {
+            'msgstr': msgstr,
+            # 'msgid': polib.unescape(english_symdefs[entry]['literal']),
+            'msgid': msgid,
+            # TODO: Enhance these heuristics
+            'flags': ['c-format'] if '%' in msgid else [],
+            'msgctxt': entry,
+            # 'comment': entry,
+        }
+        symbol_usage_list = symbols.get(entry)
+        if symbol_usage_list is not None:
+            edata['occurrences'] = symbol_usage_list
+        po_entry = polib.POEntry(**edata)
+        pof.append(po_entry)
     pof.save(output_file)
     return 0
 
