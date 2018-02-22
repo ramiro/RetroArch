@@ -27,7 +27,35 @@ RA_LOCALE_NAME_MAP = {
     'cht': 'zh_Hant',
 }
 
-OUTPUT_DIR = 'locale'
+# msg_hash_cht.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_pl.h: UTF-8 Unicode (with BOM) text
+# msg_hash_ko.h: UTF-8 Unicode (with BOM) text
+# msg_hash_chs.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_ja.h: UTF-8 Unicode (with BOM) text
+# msg_hash_ar.h: UTF-8 Unicode (with BOM) text
+# msg_hash_cht.h: UTF-8 Unicode (with BOM) text
+# msg_hash_ja.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_ko.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_pl.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_ar.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_chs.h: UTF-8 Unicode (with BOM) text
+# msg_hash_ru.c: C source, UTF-8 Unicode (with BOM) text
+# msg_hash_ru.h: UTF-8 Unicode (with BOM) text
+# msg_hash_vn.h: UTF-8 Unicode (with BOM) text
+#
+# Files which need to be UTF-8 Unicode (with BOM) on disk:
+H_FILES_WITH_UTF8_BOM = (
+    'msg_hash_pl.h',
+    'msg_hash_ko.h',
+    'msg_hash_ja.h',
+    'msg_hash_ar.h',
+    'msg_hash_cht.h',
+    'msg_hash_chs.h',
+    'msg_hash_ru.h',
+    'msg_hash_vn.h',
+)
+
+PO_FILES_DIR = 'locale'
 
 BASE_PO_METADATA = {
     'Project-Id-Version': 'RetroArch',
@@ -38,6 +66,7 @@ BASE_PO_METADATA = {
     'Content-Type': 'text/plain; charset=utf-8',
     'Content-Transfer-Encoding': '8bit',
 }
+
 
 class CParseError(Exception):
     pass
@@ -251,7 +280,7 @@ def h2po(options):
         output_file = 'CON' if sys.platform == 'win32' else '/dev/stdout'
     else:
         if not options.output_file:
-            output_file = os.path.join(OUTPUT_DIR, '%s.po' % locale)
+            output_file = os.path.join(PO_FILES_DIR, '%s.po' % locale)
         else:
             output_file = options.output_file
         if os.path.exists(output_file) and not options.force:
@@ -316,11 +345,10 @@ def updatepo(options):
         output_file = 'CON' if sys.platform == 'win32' else '/dev/stdout'
     else:
         if not options.output_file:
-            output_file = os.path.join(OUTPUT_DIR, '%s.po' % locale)
+            output_file = os.path.join(PO_FILES_DIR, '%s.po' % locale)
         else:
             output_file = options.output_file
         if os.path.exists(output_file):
-            # TODO: Handle actually updating an existing .po file
             po_data = polib.pofile(output_file)
 
     symbols = {}
@@ -353,7 +381,7 @@ def updatepo(options):
                 pof.append(po_entry)
         pof.save(output_file)
     else:
-        refpot_file = os.path.join(OUTPUT_DIR, 'en_US.po')
+        refpot_file = os.path.join(PO_FILES_DIR, 'en_US.po')
         refpot = polib.pofile(refpot_file)
         if po_data is not None:
             po_data.merge(refpot)
