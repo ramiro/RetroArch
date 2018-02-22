@@ -264,7 +264,7 @@ def check(options):
     for entry in sorted(english_symdefs, key=key):
         symbols.pop(entry, None)
     if symbols:
-        logging.warning("The following Retroch translatable literal IDs don't have an english original literal defined:")
+        logging.warning("The following RetroArch translatable literal IDs don't have an english original literal defined:")
         for k in symbols:
             logging.warning("\t%s (used in %s)", k, ', '.join('%s:%d' % info for info in symbols[k]))
     return 0
@@ -309,16 +309,14 @@ def h2po(options):
         # pprint.pprint(existing_translations)
 
     for entry in sorted(english_symdefs, key=key):
+        msgid = english_symdefs[entry]['literal']
         if locale == 'en_US':
             msgstr = ''
         else:
-            translated_def = existing_translations.get(entry)
-            msgstr = '' if translated_def is None else translated_def['literal']
-            # msgstr = existing_translations.get(entry, {}).get('literal', '')
-        msgid = english_symdefs[entry]['literal']
+            # translated_def = existing_translations.pop(entry, None)
+            # msgstr = '' if translated_def is None else translated_def['literal']
+            msgstr = existing_translations.pop(entry, {}).get('literal', '')
         if not msgstr and msgid.islower() and ' ' not in msgid and '_' in msgid:
-            # print('msgid=%s' % msgid)
-            # print('msgstr=%s' % msgstr)
             continue
         edata = {
             'msgstr': msgstr,
@@ -334,6 +332,11 @@ def h2po(options):
             edata['occurrences'] = symbol_usage_list
         po_entry = polib.POEntry(**edata)
         pof.append(po_entry)
+    if existing_translations:
+        error_text = ['The following RetroArch translatable literal IDs don\'t have an english original literal defined:']
+        for k in existing_translations:
+            error_text.append('\t%s' % k)
+        logging.warning('\n'.join(error_text))
     pof.save(output_file)
     return 0
 
