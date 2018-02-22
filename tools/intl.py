@@ -416,14 +416,18 @@ def po2h(options):
         with io.open(output_file, 'w', encoding=enc) as f:
             f.write(u'/* This file is auto-generated. Your changes will be overwritten. */\n\n')
             for entry in po_data:
+                orig = entry.msgctxt
                 if entry.translated():
-                    h_entry = """\
+                    trans = polib.escape(entry.msgstr)
+                else:
+                    trans = polib.escape(entry.msgid)
+                h_entry = """\
 MSG_HASH(
 \t%s,
 \t"%s"
 \t)
-""" % (entry.msgctxt, polib.escape(entry.msgstr))
-                    f.write(h_entry)
+""" % (orig, trans)
+                f.write(h_entry)
 
 
 def main(argv=None):
