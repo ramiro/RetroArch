@@ -325,9 +325,8 @@ def h2po(options):
         if not msgstr and msgid.islower() and ' ' not in msgid and '_' in msgid:
             continue
         edata = {
-            'msgstr': msgstr,
-            # 'msgid': polib.unescape(english_symdefs[entry]['literal']),
-            'msgid': msgid,
+            'msgstr': polib.unescape(msgstr),
+            'msgid': polib.unescape(msgid),
             # TODO: Enhance these heuristics
             'flags': ['c-format'] if '%' in msgid else [],
             'msgctxt': entry,
