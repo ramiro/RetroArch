@@ -10,7 +10,7 @@ MSG_HASH(
 	)
 MSG_HASH(
 	MENU_ENUM_LABEL_CONFIGURATION_SETTINGS,
-	"Determines how configuration files \\n\"      \"are loaded and prioritized."
+	"Determines how configuration files \n\"      \"are loaded and prioritized."
 	)
 MSG_HASH(
 	MENU_ENUM_LABEL_FAVORITES,
@@ -150,11 +150,11 @@ MSG_HASH(
 	)
 MSG_HASH(
 	MSG_GOT_CONNECTION_FROM,
-	"Conexión obtenida de: \\\"%s\\"
+	"Conexión obtenida de: \"%s\""
 	)
 MSG_HASH(
 	MSG_GOT_CONNECTION_FROM_NAME,
-	"Conexión obtenida de: \\\"%s (%s)\\"
+	"Conexión obtenida de: \"%s (%s)\""
 	)
 MSG_HASH(
 	MSG_PUBLIC_ADDRESS,
@@ -234,7 +234,7 @@ MSG_HASH(
 	)
 MSG_HASH(
 	MSG_NETPLAY_SERVER_NAMED_HANGUP,
-	"\\\"%s\\\" se ha desconectado"
+	"\"%s\" se ha desconectado"
 	)
 MSG_HASH(
 	MSG_NETPLAY_SERVER_HANGUP,
@@ -262,11 +262,11 @@ MSG_HASH(
 	)
 MSG_HASH(
 	MSG_NETPLAY_PEER_PAUSED,
-	"Cliente de juego en red \\\"%s\\\" pausado"
+	"Cliente de juego en red \"%s\" pausado"
 	)
 MSG_HASH(
 	MSG_NETPLAY_CHANGED_NICK,
-	"Tu apodo cambió a \\\"%s\\"
+	"Tu apodo cambió a \"%s\""
 	)
 MSG_HASH(
 	MENU_ENUM_SUBLABEL_VIDEO_SHARED_CONTEXT,
@@ -4558,7 +4558,7 @@ MSG_HASH(
 	)
 MSG_HASH(
 	MENU_ENUM_LABEL_VALUE_DATABASE_CURSOR_LIST_ENTRY_DATABASE_INFO,
-	"Info de base de datos"
+	"Info de base de datos "
 	)
 MSG_HASH(
 	MSG_WIFI_SCAN_COMPLETE,
