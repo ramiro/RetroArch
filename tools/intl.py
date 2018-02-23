@@ -269,7 +269,7 @@ def check(options):
     for entry in sorted(english_symdefs, key=key):
         symbols.pop(entry, None)
     if symbols:
-        logging.warning("The following RetroArch translatable literal IDs don't have an english original literal defined:")
+        logging.warning("The following RetroArch translatable literal IDs don't have an English original literal defined:")
         for k in symbols:
             logging.warning("\t%s (used in %s)", k, ', '.join('%s:%d' % info for info in symbols[k]))
     return 0
@@ -319,11 +319,7 @@ def h2po(options):
         if locale == 'en_US':
             msgstr = ''
         else:
-            # translated_def = existing_translations.pop(entry, None)
-            # msgstr = '' if translated_def is None else translated_def['literal']
             msgstr = existing_translations.pop(entry, {}).get('literal', '')
-            if msgstr and msgstr == msgid:
-                msgstr = ''
         if not msgstr and msgid.islower() and ' ' not in msgid and '_' in msgid:
             continue
         edata = {
@@ -332,15 +328,17 @@ def h2po(options):
             # TODO: Enhance these heuristics
             'flags': ['c-format'] if '%' in msgid else [],
             'msgctxt': entry,
-            # 'comment': entry,
         }
+        if locale != 'en_US' and options.interpret_equal_trans_as_empty and msgstr and msgstr == msgid:
+            edata['msgstr'] = ''
+            edata['comment'] = 'Please review and decide if this translation should actually be equal to the English original and edit it accordingly if needed. IMPORTANT: In any case remove this comment afterwards'
         symbol_usage_list = symbols.get(entry)
         if symbol_usage_list is not None:
             edata['occurrences'] = symbol_usage_list
         po_entry = polib.POEntry(**edata)
         pof.append(po_entry)
     if existing_translations:
-        error_text = ['The following RetroArch translatable literal IDs don\'t have an english original literal defined:']
+        error_text = ['The following RetroArch translatable literal IDs don\'t have an English original literal defined:']
         for k in existing_translations:
             error_text.append('\t%s' % k)
         logging.warning('\n'.join(error_text))
@@ -444,6 +442,7 @@ def main(argv=None):
     parser.add_option('-l', '--locale', default='us', help='locale name to work with')
     parser.add_option('-o', '--output', dest='output_file', help='PO file to write to')
     parser.add_option('-f', '--force', action='store_true', help='Force overwriting extisting PO file when using h2po action')
+    parser.add_option('-e', dest='interpret_equal_trans_as_empty', action='store_true', help='When a translation in the .h files is equal to its English original store it as untranslated (empty) in the PO file.')
     options, args = parser.parse_args(args=argv[1:])
     if not args:
         action = 'check'
