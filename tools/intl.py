@@ -8,6 +8,7 @@ import logging
 import os
 import pprint  # noqa
 import sys
+import textwrap
 from optparse import OptionParser
 
 import polib
@@ -45,14 +46,14 @@ RA_LOCALE_NAME_MAP = {
 #
 # Files which need to be UTF-8 Unicode (with BOM) on disk:
 H_FILES_WITH_UTF8_BOM = (
-    'msg_hash_pl.h',
-    'msg_hash_ko.h',
-    'msg_hash_ja.h',
-    'msg_hash_ar.h',
-    'msg_hash_cht.h',
-    'msg_hash_chs.h',
-    'msg_hash_ru.h',
-    'msg_hash_vn.h',
+    'pl',
+    'ko',
+    'ja',
+    'ar',
+    'cht',
+    'chs',
+    'ru',
+    'vn',
 )
 
 PO_FILES_DIR = 'locale'
@@ -405,33 +406,31 @@ def updatepo(options):
             po_data.save(output_file)
     return 0
 
+
 def po2h(options):
     locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
-    po_data = None
     input_file = os.path.join(PO_FILES_DIR, '%s.po' % locale)
-    if os.path.exists(input_file):
-        po_data = polib.pofile(input_file)
-        basename = 'msg_hash_%s.h' % options.locale
-        output_file = os.path.join('.', 'intl', basename)
-        if basename in H_FILES_WITH_UTF8_BOM:
-            enc = 'utf-8-sig'
-        else:
-            enc = 'utf-8'
-        with io.open(output_file, 'w', encoding=enc) as f:
-            f.write(u'/* This file is auto-generated. Your changes will be overwritten. */\n\n')
-            for entry in po_data:
-                orig = entry.msgctxt
-                if entry.translated():
-                    trans = polib.escape(entry.msgstr)
-                else:
-                    trans = polib.escape(entry.msgid)
-                h_entry = """\
-MSG_HASH(
-\t%s,
-\t"%s"
-\t)
-""" % (orig, trans)
-                f.write(h_entry)
+    if not os.path.exists(input_file):
+        logging.critical("Input file %s doesn't exist.", input_file)
+        return 1
+    po_data = polib.pofile(input_file)
+    if not options.output_file:
+        output_file = os.path.join('.', 'intl', 'msg_hash_%s.h' % options.locale)
+    else:
+        output_file = options.output_file
+    enc = 'utf-8-sig' if options.locale in H_FILES_WITH_UTF8_BOM else 'utf-8'
+    with io.open(output_file, 'w', encoding=enc) as f:
+        f.write(u'/* This file is auto-generated. Your changes will be overwritten. */\n\n')
+        for entry in po_data:
+            trans = entry.msgstr if entry.translated() else entry.msgid
+            h_entry = textwrap.dedent("""\
+                MSG_HASH(
+                \t%s,
+                \t"%s"
+                \t)
+                """) % (entry.msgctxt, polib.escape(trans))
+            f.write(h_entry)
+    return 0
 
 
 def main(argv=None):
