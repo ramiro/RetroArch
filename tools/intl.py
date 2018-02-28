@@ -410,7 +410,10 @@ def updatepo(options):
 
 def po2h(options):
     locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
-    input_file = os.path.join(PO_FILES_DIR, '%s.po' % locale)
+    if not options.input_file:
+        input_file = os.path.join(PO_FILES_DIR, '%s.po' % locale)
+    else:
+        input_file = options.input_file
     if not os.path.exists(input_file):
         logging.critical("Input file %s doesn't exist.", input_file)
         return 1
@@ -446,6 +449,7 @@ def main(argv=None):
     parser.add_option('-o', '--output', dest='output_file', help='PO file to write to')
     parser.add_option('-f', '--force', action='store_true', help='Force overwriting extisting PO file when using h2po action')
     parser.add_option('-e', dest='interpret_equal_trans_as_empty', action='store_true', help='When a translation in the .h files is equal to its English original store it as untranslated (empty) in the PO file.')
+    parser.add_option('-i', '--input', dest='input_file', help='PO file to read from (po2h action)')
     options, args = parser.parse_args(args=argv[1:])
     if not args:
         action = 'check'
