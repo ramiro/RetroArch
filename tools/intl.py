@@ -7,6 +7,7 @@ import io
 import logging
 import os
 import pprint  # noqa
+import re
 import sys
 import textwrap
 from optparse import OptionParser
@@ -27,6 +28,8 @@ RA_LOCALE_NAME_MAP = {
     'chs': 'zh_Hans',
     'cht': 'zh_Hant',
 }
+
+RE_MULTIPART_LITERAL = re.compile(r'([^\\])"\s+"')
 
 # msg_hash_cht.c: C source, UTF-8 Unicode (with BOM) text
 # msg_hash_pl.h: UTF-8 Unicode (with BOM) text
@@ -211,11 +214,11 @@ def extract_translations(symbol_defs, filename, file_object, found_list, search_
             if len(parts) > 1:
                 if symbol in symbol_defs:
                     raise DuplicateLiteral(symbol, y)
-                literal = parts[1].strip(' \t')
-                if literal[0] == '"':
-                    literal = literal[1:]
-                if literal[-1] == '"':
-                    literal = literal[:-1]
+                raw_literal = parts[1].strip(' \t')
+                literal_parts = RE_MULTIPART_LITERAL.split(raw_literal)
+                literal = u''.join(literal_parts)
+                if literal[0] == '"' and literal[-1] == '"':
+                     literal = literal[1:-1]
                 symbol_defs[symbol] = {
                     'file': filename,
                     'lineno': y + 1,  # Our line index is 0-based
