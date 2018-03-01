@@ -426,13 +426,16 @@ def po2h(options):
     with io.open(output_file, 'w', encoding=enc) as f:
         f.write(u'/* This file is auto-generated. Your changes will be overwritten. */\n\n')
         for entry in po_data:
-            trans = entry.msgstr if entry.translated() else entry.msgid
+            raw_trans = entry.msgstr if entry.translated() else entry.msgid
+            raw_parts = raw_trans.split('\n')
+            parts = [polib.escape(part) for part in raw_parts]
+            trans = '\\n"\n\t"'.join(parts)
             h_entry = textwrap.dedent("""\
                 MSG_HASH(
                 \t%s,
                 \t"%s"
                 \t)
-                """) % (entry.msgctxt, polib.escape(trans))
+                """) % (entry.msgctxt, trans)
             f.write(h_entry)
     return 0
 
