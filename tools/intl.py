@@ -10,7 +10,7 @@ import pprint  # noqa
 import re
 import sys
 import textwrap
-from optparse import OptionParser
+import argparse
 
 import polib
 
@@ -263,9 +263,9 @@ def check(options):
     def key(entry):
         return (english_symdefs[entry]['file'], english_symdefs[entry]['lineno'])
 
-    if options.output_file:
-        logging.error("check action doesn't need the -o/--output option")
-        return 2
+    # if options.output_file:
+    #     logging.error("check command doesn't need the -o/--output option")
+    #     return 2
     symbols = {}
     english_symdefs = {}
     common(symbols, english_symdefs)
@@ -444,32 +444,36 @@ def main(argv=None):
     if argv is None:
         argv = sys.argv
 
-    parser = OptionParser(
-        usage='%prog [options] [action]',
-        version='%prog ' + __version__
+    parser = argparse.ArgumentParser(
+        description='Helper to handle RetroArch translations with gettext ecosystem tools.',
     )
-    parser.add_option('-l', '--locale', default='us', help='locale name to work with')
-    parser.add_option('-o', '--output', dest='output_file', help='PO file to write to')
-    parser.add_option('-f', '--force', action='store_true', help='Force overwriting extisting PO file when using h2po action')
-    parser.add_option('-e', dest='interpret_equal_trans_as_empty', action='store_true', help='When a translation in the .h files is equal to its English original store it as untranslated (empty) in the PO file.')
-    parser.add_option('-i', '--input', dest='input_file', help='PO file to read from (po2h action)')
-    options, args = parser.parse_args(args=argv[1:])
-    if not args:
-        action = 'check'
-    elif len(args) == 1:
-        action = args[0]
-    else:
-        parser.error('extraneous command line options')
-    if action == 'check':
-        return check(options)
-    elif action == 'h2po':
-        return h2po(options)
-    elif action == 'updatepo':
-        return updatepo(options)
-    elif action == 'po2h':
-        return po2h(options)
-    else:
-        parser.error('unknown action: \'%s\'' % action)
+    parser.add_argument('-V', '--version', action='version', version=__version__)
+    # parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')
+
+    sub_parsers = parser.add_subparsers(description='Modes of operation', help='Available commands')
+
+    check_parser = sub_parsers.add_parser('check', help='Perform read-only verifications')
+    check_parser.set_defaults(func=check)
+
+    h2po_parser = sub_parsers.add_parser('h2po', help='Converts translations from RetroArch .h files to gettext PO files')
+    h2po_parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')  # TODO: Review 'us' default
+    h2po_parser.add_argument('-o', '--output', dest='output_file', help='PO file to write to')
+    h2po_parser.add_argument('-f', '--force', action='store_true', help='Force overwriting extisting PO file')
+    h2po_parser.add_argument('-e', dest='interpret_equal_trans_as_empty', action='store_true', help='When a translation in the .h files is equal to its English original store it as untranslated (empty) in the PO file')
+    h2po_parser.set_defaults(func=h2po)
+
+    upd_parser = sub_parsers.add_parser('updatepo', help='Updates PO files')
+    upd_parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')  # TODO: Review 'us' default
+    upd_parser.add_argument('-o', '--output', dest='output_file', help='PO file to write to')
+    upd_parser.set_defaults(func=updatepo)
+
+    po2h_parser = sub_parsers.add_parser('po2h', help='Converts translations from gettext PO files to RetroArch .h files')
+    po2h_parser.add_argument('-l', '--locale', required=True, help='Locale name to work with')
+    po2h_parser.add_argument('-i', '--input', dest='input_file', help='PO file to read from')
+    po2h_parser.add_argument('-o', '--output', dest='output_file', help='.h file to write to')
+    po2h_parser.set_defaults(func=po2h)
+
+    parser.parse_args(argv[1:])
 
 
 if __name__ == '__main__':
