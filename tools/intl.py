@@ -450,30 +450,34 @@ def main(argv=None):
     parser.add_argument('-V', '--version', action='version', version=__version__)
     # parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')
 
-    sub_parsers = parser.add_subparsers(description='Modes of operation', help='Available commands')
+    sub_parsers = parser.add_subparsers(description='Modes of operation', help='Available commands', dest='command')
 
-    check_parser = sub_parsers.add_parser('check', help='Perform read-only verifications')
-    check_parser.set_defaults(func=check)
+    sub_parsers.add_parser('check', help='Perform read-only verifications')
 
     h2po_parser = sub_parsers.add_parser('h2po', help='Converts translations from RetroArch .h files to gettext PO files')
     h2po_parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')  # TODO: Review 'us' default
     h2po_parser.add_argument('-o', '--output', dest='output_file', help='PO file to write to')
     h2po_parser.add_argument('-f', '--force', action='store_true', help='Force overwriting extisting PO file')
     h2po_parser.add_argument('-e', dest='interpret_equal_trans_as_empty', action='store_true', help='When a translation in the .h files is equal to its English original store it as untranslated (empty) in the PO file')
-    h2po_parser.set_defaults(func=h2po)
 
     upd_parser = sub_parsers.add_parser('updatepo', help='Updates PO files')
     upd_parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')  # TODO: Review 'us' default
     upd_parser.add_argument('-o', '--output', dest='output_file', help='PO file to write to')
-    upd_parser.set_defaults(func=updatepo)
 
     po2h_parser = sub_parsers.add_parser('po2h', help='Converts translations from gettext PO files to RetroArch .h files')
     po2h_parser.add_argument('-l', '--locale', required=True, help='Locale name to work with')
     po2h_parser.add_argument('-i', '--input', dest='input_file', help='PO file to read from')
     po2h_parser.add_argument('-o', '--output', dest='output_file', help='.h file to write to')
-    po2h_parser.set_defaults(func=po2h)
 
-    parser.parse_args(argv[1:])
+    args = parser.parse_args(argv[1:])
+    if args.command == 'check':
+        check(args)
+    elif args.command == 'h2po':
+        h2po(args)
+    elif args.command == 'updatepo':
+        updatepo(args)
+    elif args.command == 'po2h':
+        po2h(args)
 
 
 if __name__ == '__main__':
