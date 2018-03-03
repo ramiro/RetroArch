@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RetroArch\n"
-"POT-Creation-Date: 2018-02-22 22:15:00+0000\n"
+"POT-Creation-Date: 2018-03-03 20:37:00+0000\n"
 "Last-Translator: RetroArch translators\n"
 "Language-Team: RetroArch translators\n"
 "Language: en_US\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgctxt "MENU_ENUM_LABEL_CONFIGURATION_SETTINGS"
 msgid ""
 "Determines how configuration files \n"
-"\"      \"are loaded and prioritized."
+"are loaded and prioritized."
 msgstr ""
 
 #: menu/menu_displaylist.c:6152 menu/cbs/menu_cbs_ok.c:3440

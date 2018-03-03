@@ -24,7 +24,6 @@ ORIGINAL_LITERAL_FILES = ('lbl', 'us')
 RA_LOCALE_NAME_MAP = {
     'pt_br': 'pt_BR',
     'pt_pt': 'pt_PT',
-    'us': 'en_US',
     'chs': 'zh_Hans',
     'cht': 'zh_Hant',
 }
@@ -249,13 +248,10 @@ def extract_translations_from_msg_hash_xx_h(locale):
 
 def common(symbols, english_symdefs):
     filenames = enumerate_files()
-    # print(filenames)
     for filename in filenames:
         find_translation_calls_in_file(symbols, filename)
-    # pprint.pprint(symbols)
     for orig_file in ORIGINAL_LITERAL_FILES:
         english_symdefs.update(extract_translations_from_msg_hash_xx_h(orig_file))
-    # pprint.pprint(english_symdefs)
 
 
 def check(options):
@@ -263,9 +259,6 @@ def check(options):
     def key(entry):
         return (english_symdefs[entry]['file'], english_symdefs[entry]['lineno'])
 
-    # if options.output_file:
-    #     logging.error("check command doesn't need the -o/--output option")
-    #     return 2
     symbols = {}
     english_symdefs = {}
     common(symbols, english_symdefs)
@@ -278,21 +271,26 @@ def check(options):
     return 0
 
 
-def h2po(options):
+def h2po(options, create_english_pot=False):
 
     def key(entry):
         return (english_symdefs[entry]['file'], english_symdefs[entry]['lineno'])
 
-    locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
+    if create_english_pot:
+        basename, ext = 'ref', 'pot'
+        locale = 'en_US'
+    else:
+        basename = locale = RA_LOCALE_NAME_MAP.get(options.locale, options.locale)
+        ext = 'po'
     if options.output_file == '-':
         output_file = 'CON' if sys.platform == 'win32' else '/dev/stdout'
     else:
         if not options.output_file:
-            output_file = os.path.join(PO_FILES_DIR, '%s.po' % locale)
+            output_file = os.path.join(PO_FILES_DIR, '%s.%s' % (basename, ext))
         else:
             output_file = options.output_file
         if os.path.exists(output_file) and not options.force:
-            logging.critical("%s exists. Refusing to overwite it", output_file)
+            logging.critical("File %s exists. Refusing to overwite it", output_file)
             return 3
 
     symbols = {}
@@ -306,20 +304,15 @@ def h2po(options):
         'Language': locale,
     })
     existing_translations = {}
-    if locale == 'en_US':
-        pof.metadata.update({
-            'POT-Creation-Date': utcnow,
-        })
+    if create_english_pot:
+        pof.metadata['POT-Creation-Date'] = utcnow
     else:
-        pof.metadata.update({
-            'PO-Revision-Date': utcnow,
-        })
+        pof.metadata['PO-Revision-Date'] = utcnow
         existing_translations = extract_translations_from_msg_hash_xx_h(options.locale)
-        # pprint.pprint(existing_translations)
 
     for entry in sorted(english_symdefs, key=key):
         msgid = english_symdefs[entry]['literal']
-        if locale == 'en_US':
+        if create_english_pot:
             msgstr = ''
         else:
             msgstr = existing_translations.pop(entry, {}).get('literal', '')
@@ -332,7 +325,7 @@ def h2po(options):
             'flags': ['c-format'] if '%' in msgid else [],
             'msgctxt': entry,
         }
-        if locale != 'en_US' and options.interpret_equal_trans_as_empty and msgstr and msgstr == msgid:
+        if not create_english_pot and options.interpret_equal_trans_as_empty and msgstr and msgstr == msgid:
             edata['msgstr'] = ''
             edata['comment'] = 'Please review and decide if this translation should actually be equal to the English original and edit it accordingly if needed. IMPORTANT: In any case remove this comment afterwards'
         symbol_usage_list = symbols.get(entry)
@@ -396,7 +389,7 @@ def updatepo(options):
                 pof.append(po_entry)
         pof.save(output_file)
     else:
-        refpot_file = os.path.join(PO_FILES_DIR, 'en_US.po')
+        refpot_file = os.path.join(PO_FILES_DIR, 'ref.pot')
         refpot = polib.pofile(refpot_file)
         if po_data is not None:
             po_data.merge(refpot)
@@ -448,11 +441,13 @@ def main(argv=None):
         description='Helper to handle RetroArch translations with gettext ecosystem tools.',
     )
     parser.add_argument('-V', '--version', action='version', version=__version__)
-    # parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')
 
-    sub_parsers = parser.add_subparsers(description='Modes of operation', help='Available commands', dest='command')
+    sub_parsers = parser.add_subparsers(help='Available commands', dest='command')
 
     sub_parsers.add_parser('check', help='Perform read-only verifications')
+
+    ref_parser = sub_parsers.add_parser('createref', help='Extract original English literals to a reference POT template')
+    ref_parser.add_argument('-o', '--output', dest='output_file', help='POT file to write to')
 
     h2po_parser = sub_parsers.add_parser('h2po', help='Converts translations from RetroArch .h files to gettext PO files')
     h2po_parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')  # TODO: Review 'us' default
@@ -472,6 +467,8 @@ def main(argv=None):
     args = parser.parse_args(argv[1:])
     if args.command == 'check':
         check(args)
+    elif args.command == 'createref':
+        h2po(args, create_english_pot=True)
     elif args.command == 'h2po':
         h2po(args)
     elif args.command == 'updatepo':
