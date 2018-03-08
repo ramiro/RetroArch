@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RetroArch\n"
-"PO-Revision-Date: 2018-02-22 22:11:00+0000\n"
+"PO-Revision-Date: 2018-03-08 00:10:00+0000\n"
 "Last-Translator: RetroArch translators\n"
 "Language-Team: RetroArch translators\n"
 "Language: es\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: menu/menu_displaylist.c:2532 menu/menu_displaylist.c:4375
+#: menu/menu_displaylist.c:2531 menu/menu_displaylist.c:4369
 msgctxt "MENU_ENUM_LABEL_COLLECTION"
 msgid "collection"
 msgstr ""
@@ -20,21 +20,21 @@ msgctxt "MENU_ENUM_LABEL_CONFIGURATIONS"
 msgid "configurations"
 msgstr ""
 
-#: menu/menu_setting.c:2975 menu/drivers/materialui.c:2698
+#: menu/menu_setting.c:2972 menu/drivers/materialui.c:2709
 msgctxt "MENU_ENUM_LABEL_CONFIGURATION_SETTINGS"
 msgid ""
 "Determines how configuration files \n"
-"\"      \"are loaded and prioritized."
+"are loaded and prioritized."
 msgstr ""
 
-#: menu/menu_displaylist.c:6152 menu/cbs/menu_cbs_ok.c:3440
-#: menu/cbs/menu_cbs_ok.c:3453 menu/drivers/xmb.c:4371
-#: menu/drivers/materialui.c:2080 menu/drivers/materialui.c:2757
+#: menu/menu_displaylist.c:6145 menu/cbs/menu_cbs_ok.c:3437
+#: menu/cbs/menu_cbs_ok.c:3450 menu/drivers/xmb.c:4409
+#: menu/drivers/materialui.c:2091 menu/drivers/materialui.c:2768
 msgctxt "MENU_ENUM_LABEL_FAVORITES"
 msgid "favorites"
 msgstr ""
 
-#: menu/menu_setting.c:1714 menu/widgets/menu_dialog.c:269
+#: menu/menu_setting.c:1711 menu/widgets/menu_dialog.c:269
 msgctxt "MENU_ENUM_LABEL_HELP"
 msgid "help"
 msgstr ""
@@ -43,17 +43,17 @@ msgctxt "MENU_ENUM_LABEL_INFORMATION"
 msgid "information"
 msgstr ""
 
-#: menu/menu_displaylist.c:2617 menu/drivers/materialui.c:2569
+#: menu/menu_displaylist.c:2616 menu/drivers/materialui.c:2580
 msgctxt "MENU_ENUM_LABEL_LOAD_STATE"
 msgid "loadstate"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3266 menu/drivers/materialui.c:2636
+#: menu/cbs/menu_cbs_ok.c:3263 menu/drivers/materialui.c:2647
 msgctxt "MENU_ENUM_LABEL_NETPLAY"
 msgid "netplay"
 msgstr ""
 
-#: menu/drivers/materialui.c:2718
+#: menu/drivers/materialui.c:2729
 msgctxt "MENU_ENUM_LABEL_NETPLAY_LAN_SCAN_SETTINGS"
 msgid "Search for and connect to netplay hosts on the local network."
 msgstr ""
@@ -70,21 +70,21 @@ msgctxt "MENU_ENUM_LABEL_RESUME"
 msgid "resume"
 msgstr ""
 
-#: menu/menu_displaylist.c:2791 menu/drivers/materialui.c:2532
+#: menu/menu_displaylist.c:2791 menu/drivers/materialui.c:2543
 msgctxt "MENU_ENUM_LABEL_RUN"
 msgid "collection"
 msgstr ""
 
-#: menu/menu_displaylist.c:2611 menu/drivers/materialui.c:2591
+#: menu/menu_displaylist.c:2610 menu/drivers/materialui.c:2602
 msgctxt "MENU_ENUM_LABEL_SAVE_STATE"
 msgid "savestate"
 msgstr ""
 
-#: menu/menu_setting.c:1981 menu/menu_setting.c:2800 menu/menu_setting.c:2910
-#: menu/menu_setting.c:3282 menu/menu_setting.c:3976 menu/menu_setting.c:4059
-#: menu/menu_setting.c:4175 menu/menu_setting.c:4296 menu/menu_setting.c:4760
-#: menu/menu_setting.c:6100 menu/menu_setting.c:6471 menu/menu_setting.c:7120
-#: menu/menu_setting.c:7258 menu/menu_setting.c:7280
+#: menu/menu_setting.c:1978 menu/menu_setting.c:2797 menu/menu_setting.c:2907
+#: menu/menu_setting.c:3279 menu/menu_setting.c:3973 menu/menu_setting.c:4056
+#: menu/menu_setting.c:4172 menu/menu_setting.c:4293 menu/menu_setting.c:4757
+#: menu/menu_setting.c:6098 menu/menu_setting.c:6470 menu/menu_setting.c:7119
+#: menu/menu_setting.c:7257 menu/menu_setting.c:7279
 msgctxt "MENU_ENUM_LABEL_SETTINGS"
 msgid "settings"
 msgstr ""
@@ -97,12 +97,12 @@ msgctxt "MENU_ENUM_LABEL_THUMBNAILS"
 msgid "thumbnails"
 msgstr ""
 
-#: menu/menu_displaylist.c:2631 menu/drivers/materialui.c:2601
+#: menu/menu_displaylist.c:2630 menu/drivers/materialui.c:2612
 msgctxt "MENU_ENUM_LABEL_UNDO_LOAD_STATE"
 msgid "undoloadstate"
 msgstr ""
 
-#: menu/menu_displaylist.c:2637 menu/drivers/materialui.c:2606
+#: menu/menu_displaylist.c:2636 menu/drivers/materialui.c:2617
 msgctxt "MENU_ENUM_LABEL_UNDO_SAVE_STATE"
 msgid "undosavestate"
 msgstr ""
@@ -112,7 +112,7 @@ msgctxt "MSG_DEVICE_CONFIGURED_IN_PORT"
 msgid "configured in port"
 msgstr ""
 
-#: command.c:776
+#: command.c:763
 msgctxt "MSG_FAILED_TO_SET_DISK"
 msgid "Failed to set disk"
 msgstr ""
@@ -125,12 +125,12 @@ msgctxt "MENU_ENUM_LABEL_ON"
 msgid "on"
 msgstr ""
 
-#: menu/drivers/xmb.c:2411 menu/drivers/materialui.c:889
+#: menu/drivers/xmb.c:2432 menu/drivers/materialui.c:890
 msgctxt "MENU_ENUM_LABEL_DISABLED"
 msgid "disabled"
 msgstr ""
 
-#: menu/drivers/xmb.c:2419 menu/drivers/materialui.c:900
+#: menu/drivers/xmb.c:2440 menu/drivers/materialui.c:901
 msgctxt "MENU_ENUM_LABEL_ENABLED"
 msgid "enabled"
 msgstr ""
@@ -212,7 +212,7 @@ msgctxt "MSG_NO_ARGUMENTS_SUPPLIED_AND_NO_MENU_BUILTIN"
 msgid "No arguments supplied and no menu builtin, displaying help..."
 msgstr "No se pasaron argumentos y no hay menú integrado, Mostrando ayuda.."
 
-#: command.c:765
+#: command.c:752
 msgctxt "MSG_SETTING_DISK_IN_TRAY"
 msgid "Setting disk in tray"
 msgstr "Poniendo disco en bandeja"
@@ -398,7 +398,7 @@ msgstr ""
 "Mejora el rendimiento a costa de la latencia y mas video stuttering. Usar "
 "solo si no puede obtener máxima velocidad de otra manera"
 
-#: command.c:939 command.c:966
+#: command.c:926 command.c:953
 msgctxt "MSG_AUDIO_VOLUME"
 msgid "Audio volume"
 msgstr "Volumen de Audio"
@@ -408,7 +408,7 @@ msgctxt "MSG_AUTODETECT"
 msgid "Autodetect"
 msgstr "Auto-detectar"
 
-#: command.c:1125 tasks/task_save.c:789 tasks/task_save.c:817
+#: command.c:1112 tasks/task_save.c:789 tasks/task_save.c:817
 msgctxt "MSG_AUTOLOADING_SAVESTATE_FROM"
 msgid "Auto-loading savestate from"
 msgstr "Auto-cargar guardado rápido desde"
@@ -423,7 +423,7 @@ msgctxt "MSG_CONNECTING_TO_NETPLAY_HOST"
 msgid "Connecting to netplay host"
 msgstr "Conectando al servidor de juego en red"
 
-#: command.c:1040
+#: command.c:1027
 msgctxt "MSG_CONNECTING_TO_PORT"
 msgid "Connecting to port"
 msgstr "Conectando al puerto"
@@ -445,7 +445,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_CHEEVOS_PASSWORD"
 msgid "Password"
 msgstr "Contraseña"
 
-#: menu/menu_setting.c:7277
+#: menu/menu_setting.c:7276
 msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_CHEEVOS_SETTINGS"
 msgid "Accounts Cheevos"
 msgstr "Cuenta de logros"
@@ -458,11 +458,14 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_LIST"
 msgid "Accounts"
 msgstr "Cuentas"
 
-#: menu/menu_setting.c:7255
+#: menu/menu_setting.c:7254
 msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_LIST_END"
 msgid "Accounts List Endpoint"
 msgstr "Fin de la lista"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_RETRO_ACHIEVEMENTS"
 msgid "RetroAchievements"
 msgstr ""
@@ -526,7 +529,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_FILTER_DIR"
 msgid "Audio Filter"
 msgstr "Filtro de audio"
 
-#: menu/menu_setting.c:4544
+#: menu/menu_setting.c:4541
 msgctxt "MENU_ENUM_LABEL_VALUE_TURBO_DEADZONE_LIST"
 msgid "Turbo/Deadzone"
 msgstr "Turbo/Zona Muerta"
@@ -555,7 +558,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_RESAMPLER_DRIVER"
 msgid "Audio Resampler Driver"
 msgstr "Controlador de muestreo de audio"
 
-#: menu/menu_setting.c:3973
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_setting.c:3970
 msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_SETTINGS"
 msgid "Audio"
 msgstr ""
@@ -697,12 +703,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CAMERA_DRIVER"
 msgid "Camera Driver"
 msgstr "Controlador de cámara"
 
-#: menu/menu_displaylist.c:3156
+#: menu/menu_displaylist.c:3153
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT"
 msgid "Cheat"
 msgstr "Truco"
 
-#: menu/menu_displaylist.c:3129
+#: menu/menu_displaylist.c:3126
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_APPLY_CHANGES"
 msgid "Apply Changes"
 msgstr "Aplicar trucos"
@@ -715,17 +721,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_FILE"
 msgid "Cheat File"
 msgstr "Archivo de trucos"
 
-#: menu/menu_displaylist.c:3134
+#: menu/menu_displaylist.c:3131
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_FILE_LOAD"
 msgid "Load Cheat File"
 msgstr "Cargar archivo de trucos"
 
-#: menu/menu_displaylist.c:3139
+#: menu/menu_displaylist.c:3136
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_FILE_SAVE_AS"
 msgid "Save Cheat File As"
 msgstr "Guardar archivo de trucos como"
 
-#: menu/menu_displaylist.c:3144
+#: menu/menu_displaylist.c:3141
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_NUM_PASSES"
 msgid "Cheat Passes"
 msgstr "Pasadas de trucos"
@@ -755,7 +761,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_LOCKED_ENTRY"
 msgid "Locked"
 msgstr "Bloqueado"
 
-#: menu/menu_setting.c:6545
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_setting.c:6544
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_SETTINGS"
 msgid "RetroAchievements"
 msgstr ""
@@ -773,6 +782,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ENTRY"
 msgid "Unlocked"
 msgstr "Desbloqueado"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:114
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ENTRY_HARDCORE"
 msgid "Hardcore"
@@ -782,11 +794,14 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_VERBOSE_ENABLE"
 msgid "Achievements Verbose Mode"
 msgstr "Logros modo informativo"
 
-#: menu/menu_displaylist.c:2585
+#: menu/menu_displaylist.c:2584
 msgctxt "MENU_ENUM_LABEL_VALUE_CLOSE_CONTENT"
 msgid "Close Content"
 msgstr "Cerrar"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_CONFIG"
 msgid "Config"
 msgstr ""
@@ -796,7 +811,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CONFIGURATIONS"
 msgid "Load Configuration"
 msgstr "Cargar configuración"
 
-#: menu/menu_setting.c:2973
+#: menu/menu_setting.c:2970
 msgctxt "MENU_ENUM_LABEL_VALUE_CONFIGURATION_SETTINGS"
 msgid "Configuration"
 msgstr "Configuración"
@@ -805,7 +820,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CONFIG_SAVE_ON_EXIT"
 msgid "Save Configuration on Exit"
 msgstr "Guardar configuración al salir"
 
-#: menu/menu_displaylist.c:6198 menu/drivers/xmb.c:4387
+#: menu/menu_displaylist.c:6191 menu/drivers/xmb.c:4425
 msgctxt "MENU_ENUM_LABEL_VALUE_CONTENT_COLLECTION_LIST"
 msgid "Collections"
 msgstr "Colecciones"
@@ -839,7 +854,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_ASSETS_DIRECTORY"
 msgid "Downloads"
 msgstr "Descargas"
 
-#: menu/menu_displaylist.c:2680
+#: menu/menu_displaylist.c:2679
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_CHEAT_OPTIONS"
 msgid "Cheats"
 msgstr "Trucos"
@@ -878,6 +893,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_CORE_NAME"
 msgid "Core name"
 msgstr "Nombre del núcleo"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/menu_displaylist.c:295
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_FIRMWARE"
 msgid "Firmware(s)"
@@ -908,7 +926,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_SYSTEM_NAME"
 msgid "System name"
 msgstr "Nombre del sistema"
 
-#: menu/menu_displaylist.c:2671
+#: menu/menu_displaylist.c:2670
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INPUT_REMAPPING_OPTIONS"
 msgid "Controls"
 msgstr "Controles"
@@ -918,12 +936,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_LIST"
 msgid "Load Core"
 msgstr "Cargar núcleo"
 
-#: menu/menu_displaylist.c:2654
+#: menu/menu_displaylist.c:2653
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_OPTIONS"
 msgid "Options"
 msgstr "Opciones"
 
-#: menu/menu_setting.c:2905
+#: menu/menu_setting.c:2902
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_SETTINGS"
 msgid "Core"
 msgstr "Núcleo"
@@ -945,7 +963,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_UPDATER_LIST"
 msgid "Core Updater"
 msgstr "Actualizador de núcleos"
 
-#: menu/menu_setting.c:6653
+#: menu/menu_setting.c:6652
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_UPDATER_SETTINGS"
 msgid "Updater"
 msgstr "Actualizador"
@@ -960,6 +978,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CPU_CORES"
 msgid "CPU Cores:"
 msgstr "Núcleos de CPU:"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_CURSOR_DIRECTORY"
 msgid "Cursor"
 msgstr ""
@@ -987,8 +1008,8 @@ msgctxt "MENU_ENUM_LABEL_VALUE_DELETE_ENTRY"
 msgid "Remove"
 msgstr "Quitar"
 
-#: menu/menu_displaylist.c:6151 menu/drivers/xmb.c:4370
-#: menu/drivers/materialui.c:2079
+#: menu/menu_displaylist.c:6144 menu/drivers/xmb.c:4408
+#: menu/drivers/materialui.c:2090
 msgctxt "MENU_ENUM_LABEL_VALUE_FAVORITES"
 msgid "Start directory"
 msgstr "Favoritos"
@@ -1006,50 +1027,50 @@ msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_NONE"
 msgid "<None>"
 msgstr "<Ninguna>"
 
-#: menu/menu_displaylist.c:3330 menu/menu_displaylist.c:3495
+#: menu/menu_displaylist.c:3327 menu/menu_displaylist.c:3492
 #: menu/widgets/menu_filebrowser.c:129
 msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_NOT_FOUND"
 msgid "Directory not found."
 msgstr "No se ha encontrado la carpeta"
 
-#: menu/menu_setting.c:7321
+#: menu/menu_setting.c:7320
 msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_SETTINGS"
 msgid "Directory"
 msgstr "Carpetas"
 
-#: menu/menu_displaylist.c:4483
+#: menu/menu_displaylist.c:4477
 msgctxt "MENU_ENUM_LABEL_VALUE_DISK_CYCLE_TRAY_STATUS"
 msgid "Disk Cycle Tray Status"
 msgstr "Estado de la bandeja de discos"
 
-#: menu/menu_displaylist.c:4488
+#: menu/menu_displaylist.c:4482
 msgctxt "MENU_ENUM_LABEL_VALUE_DISK_IMAGE_APPEND"
 msgid "Disk Image Append"
 msgstr "Asignar imagen de disco"
 
-#: menu/menu_displaylist.c:4478
+#: menu/menu_displaylist.c:4472
 msgctxt "MENU_ENUM_LABEL_VALUE_DISK_INDEX"
 msgid "Disk Index"
 msgstr "Índice de disco"
 
-#: menu/menu_displaylist.c:2689
+#: menu/menu_displaylist.c:2688
 msgctxt "MENU_ENUM_LABEL_VALUE_DISK_OPTIONS"
 msgid "Disk Control"
 msgstr "Control de disco"
 
 #: menu/cbs/menu_cbs_get_value.c:176 menu/cbs/menu_cbs_get_value.c:209
-#: menu/cbs/menu_cbs_get_value.c:511
+#: menu/cbs/menu_cbs_get_value.c:515
 msgctxt "MENU_ENUM_LABEL_VALUE_DONT_CARE"
 msgid "Don't care"
 msgstr "No importa"
 
-#: menu/menu_displaylist.c:6188 menu/drivers/xmb.c:4379
-#: menu/drivers/materialui.c:2088
+#: menu/menu_displaylist.c:6181 menu/drivers/xmb.c:4417
+#: menu/drivers/materialui.c:2099
 msgctxt "MENU_ENUM_LABEL_VALUE_DOWNLOADED_FILE_DETECT_CORE_LIST"
 msgid "Downloads"
 msgstr "Descargas"
 
-#: menu/menu_displaylist.c:4023
+#: menu/menu_displaylist.c:4020
 msgctxt "MENU_ENUM_LABEL_VALUE_DOWNLOAD_CORE"
 msgid "Download Core..."
 msgstr "Descargar núcleo.."
@@ -1067,7 +1088,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_DPI_OVERRIDE_VALUE"
 msgid "DPI Override"
 msgstr "Anular DPI"
 
-#: menu/menu_setting.c:2797
+#: menu/menu_setting.c:2794
 msgctxt "MENU_ENUM_LABEL_VALUE_DRIVER_SETTINGS"
 msgid "Driver"
 msgstr "Controladores"
@@ -1122,7 +1143,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_FRAME_THROTTLE_ENABLE"
 msgid "Limit Maximum Run Speed"
 msgstr "Limitar velocidad máxima de ejecución"
 
-#: menu/menu_setting.c:4789
+#: menu/menu_setting.c:4786
 msgctxt "MENU_ENUM_LABEL_VALUE_FRAME_THROTTLE_SETTINGS"
 msgid "Frame Throttle"
 msgstr "Velocidad de frames"
@@ -1136,12 +1157,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS"
 msgid "Load Content-Specific Core Options Automatically"
 msgstr "Usar opciones de núcleo para cada juego si existen"
 
-#: menu/menu_displaylist.c:4727
+#: menu/menu_displaylist.c:4721
 msgctxt "MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS_CREATE"
 msgid "Create game-options file"
 msgstr "Crear archivo de opciones del juego"
 
-#: menu/menu_displaylist.c:4735
+#: menu/menu_displaylist.c:4729
 msgctxt "MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS_IN_USE"
 msgid "Game-options file"
 msgstr "Archivo de opciones del juego"
@@ -1150,17 +1171,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_HELP"
 msgid "Help"
 msgstr "Ayuda"
 
-#: menu/menu_displaylist.c:6449
+#: menu/menu_displaylist.c:6440
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_AUDIO_VIDEO_TROUBLESHOOTING"
 msgid "Audio/Video Troubleshooting"
 msgstr "Solucionar problemas de Audio/Video"
 
-#: menu/menu_displaylist.c:6443
+#: menu/menu_displaylist.c:6434
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_CHANGE_VIRTUAL_GAMEPAD"
 msgid "Changing Virtual Gamepad Overlay"
 msgstr "Cambiar el mando virtual superpuesto"
 
-#: menu/menu_displaylist.c:6420
+#: menu/menu_displaylist.c:6411
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_CONTROLS"
 msgid "Basic Menu Controls"
 msgstr "Controles básicos del menú"
@@ -1169,17 +1190,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_HELP_LIST"
 msgid "Help"
 msgstr "Ayuda"
 
-#: menu/menu_displaylist.c:6430
+#: menu/menu_displaylist.c:6421
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_LOADING_CONTENT"
 msgid "Loading Content"
 msgstr "Cargando contenido"
 
-#: menu/menu_displaylist.c:6436
+#: menu/menu_displaylist.c:6427
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_SCANNING_CONTENT"
 msgid "Scanning For Content"
 msgstr "Buscando contenido"
 
-#: menu/menu_displaylist.c:6425
+#: menu/menu_displaylist.c:6416
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_WHAT_IS_A_CORE"
 msgid "What Is A Core?"
 msgstr "¿Qué es un núcleo?"
@@ -1211,7 +1232,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INFORMATION_LIST"
 msgid "Information"
 msgstr "Información"
 
-#: menu/menu_setting.c:2045
+#: menu/menu_setting.c:2042
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ADC_TYPE"
 msgid "Analog To Digital Type"
 msgstr "Tipo de analógico a digital"
@@ -1220,7 +1241,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ALL_USERS_CONTROL_MENU"
 msgid "All Users Control Menu"
 msgstr "Todos controlan el menú"
 
-#: menu/cbs/menu_cbs_get_value.c:596
+#: menu/cbs/menu_cbs_get_value.c:600
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_X"
 msgid "Left Analog X"
 msgstr "Analógico izq. X"
@@ -1233,7 +1254,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_X_PLUS"
 msgid "Left analog X+ (right)"
 msgstr "Analógico izq. X+ (DERECHA)"
 
-#: menu/cbs/menu_cbs_get_value.c:599
+#: menu/cbs/menu_cbs_get_value.c:603
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_Y"
 msgid "Left Analog Y"
 msgstr "Analógico izq. Y"
@@ -1246,7 +1267,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_Y_PLUS"
 msgid "Left analog Y+ (down)"
 msgstr "Analógico izq. Y+ (ABAJO)"
 
-#: menu/cbs/menu_cbs_get_value.c:602
+#: menu/cbs/menu_cbs_get_value.c:606
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_RIGHT_X"
 msgid "Right Analog X"
 msgstr "Analógico der. X"
@@ -1259,7 +1280,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_RIGHT_X_PLUS"
 msgid "Right analog X+ (right)"
 msgstr "Analógico der. X+ (DERECHA)"
 
-#: menu/cbs/menu_cbs_get_value.c:605
+#: menu/cbs/menu_cbs_get_value.c:609
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_RIGHT_Y"
 msgid "Right Analog Y"
 msgstr "Analógico der. Y"
@@ -1328,12 +1349,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MENU_INPUT_SWAP_OK_CANCEL"
 msgid "Menu Swap OK & Cancel Buttons"
 msgstr "Menú: cambiar OK y Cancelar"
 
-#: menu/menu_setting.c:2048
+#: menu/menu_setting.c:2045
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_BIND_ALL"
 msgid "Bind All"
 msgstr "Asignar todo"
 
-#: menu/menu_setting.c:2051
+#: menu/menu_setting.c:2048
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_BIND_DEFAULT_ALL"
 msgid "Bind Default All"
 msgstr "Asignar valores por defecto"
@@ -1350,17 +1371,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_DESCRIPTOR_LABEL_SHOW"
 msgid "Display Input Descriptor Labels"
 msgstr "Mostrar etiquetas de descripción de entrada"
 
-#: menu/menu_setting.c:2039
+#: menu/menu_setting.c:2036
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_DEVICE_INDEX"
 msgid "Device Index"
 msgstr "Indice de dispositivo"
 
-#: menu/menu_setting.c:2042
+#: menu/menu_setting.c:2039
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_DEVICE_TYPE"
 msgid "Device Type"
 msgstr "Tipo de dispositivo"
 
-#: menu/menu_setting.c:2057
+#: menu/menu_setting.c:2054
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_INDEX"
 msgid "Mouse Index"
 msgstr "Indice de ratón"
@@ -1445,7 +1466,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_Y"
 msgid "Y button (left)"
 msgstr "Botón Y (IZQUIERDA)"
 
-#: input/input_driver.c:2625
+#: input/input_driver.c:2637
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_KEY"
 msgid "(Key: %s)"
@@ -1491,7 +1512,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_KEYBOARD_GAMEPAD_MAPPING_TYPE"
 msgid "Keyboard Gamepad Mapping Type"
 msgstr "Tipo de mapeo Teclado-Mando"
 
-#: menu/menu_displaylist.c:1768
+#: menu/menu_displaylist.c:1769
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_MAX_USERS"
 msgid "Max Users"
 msgstr "Máximo de usuarios"
@@ -1652,17 +1673,20 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR"
 msgid "Poll Type Behavior"
 msgstr "Comportamiento del sondeo"
 
-#: menu/cbs/menu_cbs_get_value.c:845
+#: menu/cbs/menu_cbs_get_value.c:849
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_EARLY"
 msgid "Early"
 msgstr "Temprano"
 
-#: menu/cbs/menu_cbs_get_value.c:855
+#: menu/cbs/menu_cbs_get_value.c:859
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_LATE"
 msgid "Late"
 msgstr "Tarde"
 
-#: menu/cbs/menu_cbs_get_value.c:850
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:854
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_NORMAL"
 msgid "Normal"
 msgstr ""
@@ -1679,7 +1703,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_REMAP_BINDS_ENABLE"
 msgid "Remap Binds Enable"
 msgstr "Permitir reasignar controles"
 
-#: menu/menu_setting.c:2054
+#: menu/menu_setting.c:2051
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_SAVE_AUTOCONFIG"
 msgid "Save Autoconfig"
 msgstr "Guardar Auto-configuración"
@@ -1704,7 +1728,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_TURBO_PERIOD"
 msgid "Turbo Period"
 msgstr "Periodo del turbo"
 
-#: menu/menu_setting.c:4625 menu/cbs/menu_cbs_title.c:304
+#: menu/menu_setting.c:4622 menu/cbs/menu_cbs_title.c:304
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_USER_BINDS"
 msgid "Input User %u Binds"
@@ -1723,7 +1747,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_JOYPAD_DRIVER"
 msgid "Joypad Driver"
 msgstr "Controlador de mando"
 
-#: menu/menu_setting.c:7117 menu/menu_setting.c:7123
+#: menu/menu_setting.c:7116 menu/menu_setting.c:7122
 msgctxt "MENU_ENUM_LABEL_VALUE_LAKKA_SERVICES"
 msgid "Services"
 msgstr "Servicios"
@@ -1748,6 +1772,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ENGLISH"
 msgid "English"
 msgstr "Ingles"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/menu_setting.c:605
 msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ESPERANTO"
 msgid "Esperanto"
@@ -1808,6 +1835,11 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LANG_VIETNAMESE"
 msgid "Vietnamese"
 msgstr "Vietnamita"
 
+#: menu/menu_setting.c:608
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ARABIC"
+msgid "Arabic"
+msgstr "Árabe"
+
 #: menu/menu_setting.c:550
 msgctxt "MENU_ENUM_LABEL_VALUE_LEFT_ANALOG"
 msgid "Left Analog"
@@ -1825,12 +1857,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LIBRETRO_LOG_LEVEL"
 msgid "Core Logging Level"
 msgstr "Nivel de registro de los núcleos"
 
-#: menu/cbs/menu_cbs_get_value.c:180 menu/cbs/menu_cbs_get_value.c:426
+#: menu/cbs/menu_cbs_get_value.c:180 menu/cbs/menu_cbs_get_value.c:429
 msgctxt "MENU_ENUM_LABEL_VALUE_LINEAR"
 msgid "Linear"
 msgstr "Lineal"
 
-#: menu/menu_displaylist.c:4781 menu/menu_displaylist.c:4797
+#: menu/menu_displaylist.c:4775 menu/menu_displaylist.c:4791
 msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_ARCHIVE"
 msgid "Load Archive"
 msgstr "Cargar archivo"
@@ -1839,12 +1871,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_CONTENT_HISTORY"
 msgid "Load Recent"
 msgstr "Cargar archivos recientes"
 
-#: menu/menu_displaylist.c:2563 ui/drivers/ui_win32.c:616
+#: menu/menu_displaylist.c:2562 ui/drivers/ui_win32.c:616
 msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_CONTENT_LIST"
 msgid "Load Content"
 msgstr "Cargar Contenido"
 
-#: menu/menu_displaylist.c:2616
+#: menu/menu_displaylist.c:2615
 msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_STATE"
 msgid "Load State"
 msgstr "Cargar rápida"
@@ -1857,7 +1889,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LOCATION_DRIVER"
 msgid "Location Driver"
 msgstr "Controlador de ubicación"
 
-#: menu/menu_setting.c:3041
+#: menu/menu_setting.c:3038
 msgctxt "MENU_ENUM_LABEL_VALUE_LOGGING_SETTINGS"
 msgid "Logging"
 msgstr "Registros"
@@ -1879,37 +1911,40 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME"
 msgid "Menu Color Theme"
 msgstr "Tema de color del menú"
 
-#: menu/cbs/menu_cbs_get_value.c:1047
+#: menu/cbs/menu_cbs_get_value.c:1051
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_BLUE"
 msgid "Blue"
 msgstr "Azul"
 
-#: menu/cbs/menu_cbs_get_value.c:1052
+#: menu/cbs/menu_cbs_get_value.c:1056
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_BLUE_GREY"
 msgid "Blue Grey"
 msgstr "Azul gris"
 
-#: menu/cbs/menu_cbs_get_value.c:1072
+#: menu/cbs/menu_cbs_get_value.c:1076
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_DARK_BLUE"
 msgid "Dark Blue"
 msgstr "Azul obscuro"
 
-#: menu/cbs/menu_cbs_get_value.c:1057
+#: menu/cbs/menu_cbs_get_value.c:1061
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_GREEN"
 msgid "Green"
 msgstr "Verde"
 
-#: menu/cbs/menu_cbs_get_value.c:1077
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:1081
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_NVIDIA_SHIELD"
 msgid "Shield"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1062
+#: menu/cbs/menu_cbs_get_value.c:1066
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_RED"
 msgid "Red"
 msgstr "Rojo"
 
-#: menu/cbs/menu_cbs_get_value.c:1067
+#: menu/cbs/menu_cbs_get_value.c:1071
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_YELLOW"
 msgid "Yellow"
 msgstr "Amarillo"
@@ -1930,8 +1965,8 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MENU_ENUM_THROTTLE_FRAMERATE"
 msgid "Throttle Menu Framerate"
 msgstr "Controlar FPS del menú"
 
-#: menu/menu_setting.c:6070 menu/menu_displaylist.c:6218
-#: menu/drivers/xmb.c:4402 menu/drivers/materialui.c:2101
+#: menu/menu_setting.c:6068 menu/menu_displaylist.c:6211
+#: menu/drivers/xmb.c:4440 menu/drivers/materialui.c:2112
 msgctxt "MENU_ENUM_LABEL_VALUE_MENU_FILE_BROWSER_SETTINGS"
 msgid "Settings"
 msgstr "Configuraciones"
@@ -1944,7 +1979,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MENU_HORIZONTAL_ANIMATION"
 msgid "Horizontal Animation"
 msgstr "Animación horizontal"
 
-#: menu/menu_setting.c:5187
+#: menu/menu_setting.c:5184
 msgctxt "MENU_ENUM_LABEL_VALUE_MENU_SETTINGS"
 msgid "Appearance"
 msgstr "Apariencia"
@@ -1962,7 +1997,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MISSING"
 msgid "Missing"
 msgstr "Faltante"
 
-#: menu/cbs/menu_cbs_get_value.c:749 menu/cbs/menu_cbs_get_value.c:764
+#: menu/cbs/menu_cbs_get_value.c:753 menu/cbs/menu_cbs_get_value.c:768
 msgctxt "MENU_ENUM_LABEL_VALUE_MORE"
 msgid "..."
 msgstr ".."
@@ -1971,7 +2006,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MOUSE_ENABLE"
 msgid "Mouse Support"
 msgstr "Soporte para ratón"
 
-#: menu/menu_setting.c:6097
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_setting.c:6095
 msgctxt "MENU_ENUM_LABEL_VALUE_MULTIMEDIA_SETTINGS"
 msgid "Multimedia"
 msgstr ""
@@ -1990,7 +2028,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NAVIGATION_WRAPAROUND"
 msgid "Navigation Wrap-Around"
 msgstr "Volver al inicio al llegar al final"
 
-#: menu/cbs/menu_cbs_get_value.c:184 menu/cbs/menu_cbs_get_value.c:428
+#: menu/cbs/menu_cbs_get_value.c:184 menu/cbs/menu_cbs_get_value.c:431
 msgctxt "MENU_ENUM_LABEL_VALUE_NEAREST"
 msgid "Nearest"
 msgstr "Mas cercano"
@@ -2019,7 +2057,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_DELAY_FRAMES"
 msgid "Netplay Delay Frames"
 msgstr "Juego en red: retrasar frames"
 
-#: menu/cbs/menu_cbs_ok.c:3175
+#: menu/cbs/menu_cbs_ok.c:3172
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_DISCONNECT"
 msgid "Disconnect from netplay host"
 msgstr "Desconectar del servidor"
@@ -2028,22 +2066,22 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE"
 msgid "Netplay Enable"
 msgstr "Activar juego en red"
 
-#: menu/cbs/menu_cbs_ok.c:3190
+#: menu/cbs/menu_cbs_ok.c:3187
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE_CLIENT"
 msgid "Connect to netplay host"
 msgstr "Conectar al servidor de juego en red"
 
-#: menu/cbs/menu_cbs_ok.c:3183
+#: menu/cbs/menu_cbs_ok.c:3180
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE_HOST"
 msgid "Start netplay host"
 msgstr "Iniciar juego en red como servidor"
 
-#: menu/cbs/menu_cbs_ok.c:3165
+#: menu/cbs/menu_cbs_ok.c:3162
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_DISABLE_HOST"
 msgid "Stop netplay host"
 msgstr "Terminar juego en red"
 
-#: menu/cbs/menu_cbs_ok.c:3721
+#: menu/cbs/menu_cbs_ok.c:3718
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_IP_ADDRESS"
 msgid "Server Address"
 msgstr "Dirección del servidor"
@@ -2068,7 +2106,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_PUBLIC_ANNOUNCE"
 msgid "Publicly Announce Netplay"
 msgstr "Anunciar juego en red públicamente"
 
-#: menu/menu_setting.c:6973
+#: menu/menu_setting.c:6972
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REQUEST_DEVICE_I"
 msgid "Request Device %u"
@@ -2078,7 +2116,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REQUIRE_SLAVES"
 msgid "Disallow Non-Slave-Mode Clients"
 msgstr "Desactivar clientes sin modo esclavo"
 
-#: menu/menu_displaylist.c:2662
+#: menu/menu_displaylist.c:2661
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SETTINGS"
 msgid "Netplay settings"
 msgstr "Configurar juego en red"
@@ -2087,12 +2125,15 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG"
 msgid "Analog Input Sharing"
 msgstr "Comparir entrada analoga"
 
-#: menu/cbs/menu_cbs_get_value.c:1842
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:1846
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_MAX"
 msgid "Max"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1846
+#: menu/cbs/menu_cbs_get_value.c:1850
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_AVERAGE"
 msgid "Average"
 msgstr "Promedio"
@@ -2101,27 +2142,30 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL"
 msgid "Digital Input Sharing"
 msgstr "Compartir entrada digital"
 
-#: menu/cbs/menu_cbs_get_value.c:1801
+#: menu/cbs/menu_cbs_get_value.c:1805
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_OR"
 msgid "Share"
 msgstr "Compartir"
 
-#: menu/cbs/menu_cbs_get_value.c:1805
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:1809
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_XOR"
 msgid "Grapple"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1809
+#: menu/cbs/menu_cbs_get_value.c:1813
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_VOTE"
 msgid "Vote"
 msgstr "Votar"
 
-#: menu/cbs/menu_cbs_get_value.c:1813 menu/cbs/menu_cbs_get_value.c:1850
+#: menu/cbs/menu_cbs_get_value.c:1817 menu/cbs/menu_cbs_get_value.c:1854
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_NONE"
 msgid "None"
 msgstr "Nada"
 
-#: menu/cbs/menu_cbs_get_value.c:1797 menu/cbs/menu_cbs_get_value.c:1838
+#: menu/cbs/menu_cbs_get_value.c:1801 menu/cbs/menu_cbs_get_value.c:1842
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_NO_PREFERENCE"
 msgid "No preference"
 msgstr "Sin preferencia"
@@ -2171,11 +2215,14 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_REMOTE_PORT"
 msgid "Network Remote Base Port"
 msgstr "Puerto de base remota de red"
 
-#: menu/menu_setting.c:6707
+#: menu/menu_setting.c:6706
 msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_SETTINGS"
 msgid "Network"
 msgstr "Red"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/menu_displaylist.c:776 menu/menu_displaylist.c:788
 #: menu/menu_displaylist.c:800 menu/menu_displaylist.c:812
 #: menu/menu_displaylist.c:823 menu/menu_displaylist.c:833
@@ -2206,21 +2253,21 @@ msgid "No"
 msgstr ""
 
 #: menu/menu_setting.c:524 menu/menu_setting.c:549
-#: menu/cbs/menu_cbs_get_value.c:1146 menu/cbs/menu_cbs_get_value.c:1226
+#: menu/cbs/menu_cbs_get_value.c:1150 menu/cbs/menu_cbs_get_value.c:1230
 msgctxt "MENU_ENUM_LABEL_VALUE_NONE"
 msgid "None"
 msgstr "Ninguno"
 
-#: retroarch.c:1811 gfx/video_driver.c:2472
-#: network/netplay/netplay_frontend.c:747 menu/menu_setting.c:1485
-#: menu/menu_setting.c:1555 menu/menu_setting.c:2198
+#: retroarch.c:1811 gfx/video_driver.c:2453
+#: network/netplay/netplay_frontend.c:747 menu/menu_setting.c:1482
+#: menu/menu_setting.c:1552 menu/menu_setting.c:2195
 #: menu/menu_displaylist.c:469 menu/menu_displaylist.c:660
 #: menu/menu_displaylist.c:718 menu/cbs/menu_cbs_get_value.c:250
-#: menu/cbs/menu_cbs_get_value.c:398 menu/cbs/menu_cbs_get_value.c:575
-#: menu/cbs/menu_cbs_get_value.c:667 menu/cbs/menu_cbs_get_value.c:1266
-#: menu/cbs/menu_cbs_get_value.c:1605 menu/cbs/menu_cbs_title.c:208
-#: input/input_driver.c:2550 input/input_driver.c:2560
-#: input/input_driver.c:2588
+#: menu/cbs/menu_cbs_get_value.c:401 menu/cbs/menu_cbs_get_value.c:579
+#: menu/cbs/menu_cbs_get_value.c:671 menu/cbs/menu_cbs_get_value.c:1270
+#: menu/cbs/menu_cbs_get_value.c:1609 menu/cbs/menu_cbs_title.c:208
+#: input/input_driver.c:2562 input/input_driver.c:2572
+#: input/input_driver.c:2600
 msgctxt "MENU_ENUM_LABEL_VALUE_NOT_AVAILABLE"
 msgid "N/A"
 msgstr "No disponible"
@@ -2230,15 +2277,15 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_ACHIEVEMENTS_TO_DISPLAY"
 msgid "No achievements to display."
 msgstr "Sin logros que mostrar"
 
-#: paths.c:83 menu/menu_entries.c:209 menu/menu_entries.c:225
-#: menu/menu_entries.c:248 menu/menu_displaylist.c:2857
-#: menu/menu_displaylist.c:6323 menu/drivers/xmb.c:4426
-#: menu/drivers/materialui.c:1129 menu/drivers/materialui.c:2124
+#: paths.c:83 menu/menu_entries.c:398 menu/menu_entries.c:423
+#: menu/menu_displaylist.c:2857 menu/menu_displaylist.c:6314
+#: menu/drivers/xmb.c:4464 menu/drivers/materialui.c:1132
+#: menu/drivers/materialui.c:2135
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORE"
 msgid "No Core"
 msgstr "Sin núcleo"
 
-#: menu/menu_displaylist.c:4570 menu/menu_displaylist.c:4664
+#: menu/menu_displaylist.c:4564 menu/menu_displaylist.c:4658
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORES_AVAILABLE"
 msgid "No cores available."
 msgstr "No hay núcleos disponibles"
@@ -2248,18 +2295,18 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORE_INFORMATION_AVAILABLE"
 msgid "No core information available."
 msgstr "No hay información del núcleo"
 
-#: menu/menu_displaylist.c:4745 menu/menu_displaylist.c:4765
+#: menu/menu_displaylist.c:4739 menu/menu_displaylist.c:4759
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORE_OPTIONS_AVAILABLE"
 msgid "No core options available."
 msgstr "No hay opciones del núcleo"
 
-#: menu/menu_networking.c:58 menu/menu_displaylist.c:2956
+#: menu/menu_networking.c:57 menu/menu_displaylist.c:2956
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_ENTRIES_TO_DISPLAY"
 msgid "No entries to display."
 msgstr "No hay entradas disponibles"
 
-#: menu/menu_displaylist.c:4404 menu/menu_displaylist.c:4438
-#: menu/menu_displaylist.c:4461 menu/menu_displaylist.c:6762
+#: menu/menu_displaylist.c:4398 menu/menu_displaylist.c:4432
+#: menu/menu_displaylist.c:4455 menu/menu_displaylist.c:6763
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_HISTORY_AVAILABLE"
 msgid "No history available."
 msgstr "No hay historial disponible"
@@ -2268,9 +2315,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_INFORMATION_AVAILABLE"
 msgid "No information is available."
 msgstr "No hay información disponible"
 
-#: menu/menu_displaylist.c:2736 menu/menu_displaylist.c:3110
-#: menu/menu_displaylist.c:3511 menu/menu_displaylist.c:3601
-#: menu/menu_displaylist.c:6503 menu/menu_displaylist.c:6524
+#: menu/menu_displaylist.c:2736 menu/menu_displaylist.c:3107
+#: menu/menu_displaylist.c:3508 menu/menu_displaylist.c:3598
+#: menu/menu_displaylist.c:6494 menu/menu_displaylist.c:6515
 #: menu/widgets/menu_filebrowser.c:288
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_ITEMS"
 msgid "No items."
@@ -2280,8 +2327,8 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_NETPLAY_HOSTS_FOUND"
 msgid "No netplay hosts found."
 msgstr "No se encontraron anfitriones"
 
-#: menu/menu_displaylist.c:5441 menu/menu_displaylist.c:5456
-#: menu/menu_displaylist.c:5477
+#: menu/menu_displaylist.c:5434 menu/menu_displaylist.c:5449
+#: menu/menu_displaylist.c:5470
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_NETWORKS_FOUND"
 msgid "No networks found."
 msgstr "No se encuentran redes"
@@ -2291,45 +2338,51 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_PERFORMANCE_COUNTERS"
 msgid "No performance counters."
 msgstr "No hay contadores de rendimiento"
 
-#: menu/menu_displaylist.c:3445
+#: menu/menu_displaylist.c:3442
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_PLAYLISTS"
 msgid "No playlists."
 msgstr "No hay listas de reproducción"
 
-#: menu/menu_displaylist.c:4075
+#: menu/menu_displaylist.c:4072
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_PLAYLIST_ENTRIES_AVAILABLE"
 msgid "No playlist entries available."
 msgstr "No hay entradas en la lista de reproducción"
 
-#: menu/menu_displaylist.c:2231 menu/menu_displaylist.c:2426
-#: menu/menu_displaylist.c:5428 menu/menu_displaylist.c:5606
-#: menu/menu_displaylist.c:5743
+#: menu/menu_displaylist.c:2230 menu/menu_displaylist.c:2425
+#: menu/menu_displaylist.c:5421 menu/menu_displaylist.c:5599
+#: menu/menu_displaylist.c:5736
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_SETTINGS_FOUND"
 msgid "No settings found."
 msgstr "No se ha encontrado una configuración"
 
-#: menu/menu_displaylist.c:2031 menu/menu_displaylist.c:6262
+#: menu/menu_displaylist.c:2031 menu/menu_displaylist.c:6254
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_SHADER_PARAMETERS"
 msgid "No shader parameters."
 msgstr "No hay parámetros de shaders"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/menu_setting.c:574 menu/cbs/menu_cbs_get_value.c:274
-#: menu/cbs/menu_cbs_get_value.c:670 menu/cbs/menu_cbs_get_value.c:1105
-#: menu/cbs/menu_cbs_get_value.c:1735 menu/drivers/xmb.c:496
-#: menu/drivers/xmb.c:1264 menu/drivers/xmb.c:1784 menu/drivers/xmb.c:2132
-#: menu/drivers/xmb.c:2412 menu/drivers/xmb.c:2459 menu/drivers/xmb.c:2998
-#: menu/drivers/xmb.c:3959 menu/drivers/materialui.c:890
+#: menu/cbs/menu_cbs_get_value.c:674 menu/cbs/menu_cbs_get_value.c:1109
+#: menu/cbs/menu_cbs_get_value.c:1739 menu/drivers/xmb.c:519
+#: menu/drivers/xmb.c:1286 menu/drivers/xmb.c:1806 menu/drivers/xmb.c:2154
+#: menu/drivers/xmb.c:2433 menu/drivers/xmb.c:2480 menu/drivers/xmb.c:3012
+#: menu/drivers/xmb.c:3998 menu/drivers/materialui.c:891
 msgctxt "MENU_ENUM_LABEL_VALUE_OFF"
 msgid "OFF"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:669 menu/cbs/menu_cbs_get_value.c:1733
-#: menu/drivers/xmb.c:2420 menu/drivers/materialui.c:901
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:673 menu/cbs/menu_cbs_get_value.c:1737
+#: menu/drivers/xmb.c:2441 menu/drivers/materialui.c:902
 msgctxt "MENU_ENUM_LABEL_VALUE_ON"
 msgid "ON"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:935
+#: menu/cbs/menu_cbs_get_value.c:939
 msgctxt "MENU_ENUM_LABEL_VALUE_ONLINE"
 msgid "Online"
 msgstr "En línea"
@@ -2338,7 +2391,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ONLINE_UPDATER"
 msgid "Online Updater"
 msgstr "Actualizador en línea"
 
-#: menu/menu_setting.c:4846
+#: menu/menu_setting.c:4843
 msgctxt "MENU_ENUM_LABEL_VALUE_ONSCREEN_DISPLAY_SETTINGS"
 msgid "Onscreen Display"
 msgstr "Información en pantalla (OSD)"
@@ -2351,7 +2404,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ONSCREEN_NOTIFICATIONS_SETTINGS"
 msgid "Onscreen Notifications"
 msgstr "Notificaciones en pantalla"
 
-#: menu/menu_displaylist.c:4775 menu/menu_displaylist.c:4791
+#: menu/menu_displaylist.c:4769 menu/menu_displaylist.c:4785
 msgctxt "MENU_ENUM_LABEL_VALUE_OPEN_ARCHIVE"
 msgid "Browse Archive"
 msgstr "Explorar archivo"
@@ -2361,6 +2414,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_OPTIONAL"
 msgid "Optional"
 msgstr "Opcional"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY"
 msgid "Overlay"
 msgstr ""
@@ -2369,6 +2425,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_AUTOLOAD_PREFERRED"
 msgid "Autoload Preferred Overlay"
 msgstr "Auto-cargar Overlay preferido"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_DIRECTORY"
 msgid "Overlay"
 msgstr ""
@@ -2377,6 +2436,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_OPACITY"
 msgid "Overlay Opacity"
 msgstr "Opacidad de Overlay"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_PRESET"
 msgid "Overlay Preset"
 msgstr ""
@@ -2385,7 +2447,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_SCALE"
 msgid "Overlay Scale"
 msgstr "Escala de Overlay"
 
-#: menu/menu_setting.c:5044
+#: menu/menu_setting.c:5041
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_SETTINGS"
 msgid "Onscreen Overlay"
 msgstr "Overlay en pantalla"
@@ -2394,7 +2456,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_PAL60_ENABLE"
 msgid "Use PAL60 Mode"
 msgstr "Usar modo PAL60"
 
-#: menu/menu_displaylist.c:3484 menu/widgets/menu_filebrowser.c:297
+#: menu/menu_displaylist.c:3481 menu/widgets/menu_filebrowser.c:297
 msgctxt "MENU_ENUM_LABEL_VALUE_PARENT_DIRECTORY"
 msgid "Parent directory"
 msgstr "Carpeta superior"
@@ -2428,7 +2490,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_POINTER_ENABLE"
 msgid "Touch Support"
 msgstr "Soporte táctil"
 
-#: menu/menu_setting.c:1556
+#: menu/menu_setting.c:1553
 msgctxt "MENU_ENUM_LABEL_VALUE_PORT"
 msgid "Port"
 msgstr "Puerto"
@@ -2438,7 +2500,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_PRESENT"
 msgid "Present"
 msgstr "Presente"
 
-#: menu/menu_setting.c:7717
+#: menu/menu_setting.c:7716
 msgctxt "MENU_ENUM_LABEL_VALUE_PRIVACY_SETTINGS"
 msgid "Privacy"
 msgstr "Privacidad"
@@ -2447,132 +2509,174 @@ msgctxt "MENU_ENUM_LABEL_VALUE_QUIT_RETROARCH"
 msgid "Quit RetroArch"
 msgstr "Cerrar RetroArch"
 
-#: menu/menu_displaylist.c:1913
+#: menu/menu_displaylist.c:1914
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ANALOG"
 msgid "Analog supported"
 msgstr "Soporte de analógico"
 
-#: menu/menu_displaylist.c:1848
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1849
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_BBFC_RATING"
 msgid "BBFC Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1893
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1894
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CERO_RATING"
 msgid "CERO Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1933
+#: menu/menu_displaylist.c:1934
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_COOP"
 msgid "Co-op supported"
 msgstr "Soporte de Co-op"
 
-#: menu/menu_displaylist.c:1946
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1947
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CRC32"
 msgid "CRC32"
 msgstr ""
 
-#: menu/menu_displaylist.c:1697
+#: menu/menu_displaylist.c:1698
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DESCRIPTION"
 msgid "Description"
 msgstr "Descripción"
 
-#: menu/menu_displaylist.c:1737
+#: menu/menu_displaylist.c:1738
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DEVELOPER"
 msgid "Developer"
 msgstr "Desarrollador"
 
-#: menu/menu_displaylist.c:1817
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1818
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_ISSUE"
 msgid "Edge Magazine Issue"
 msgstr ""
 
-#: menu/menu_displaylist.c:1807
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1808
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_RATING"
 msgid "Edge Magazine Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1798
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1799
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_REVIEW"
 msgid "Edge Magazine Review"
 msgstr ""
 
-#: menu/menu_displaylist.c:1866
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1867
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ELSPA_RATING"
 msgid "ELSPA Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1884
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1885
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ENHANCEMENT_HW"
 msgid "Enhancement Hardware"
 msgstr ""
 
-#: menu/menu_displaylist.c:1857
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1858
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ESRB_RATING"
 msgid "ESRB Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1788
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1789
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FAMITSU_MAGAZINE_RATING"
 msgid "Famitsu Magazine Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1759
+#: menu/menu_displaylist.c:1760
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FRANCHISE"
 msgid "Franchise"
 msgstr "Franquicia"
 
-#: menu/menu_displaylist.c:1709
+#: menu/menu_displaylist.c:1710
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_GENRE"
 msgid "Genre"
 msgstr "Género"
 
-#: menu/menu_displaylist.c:1968
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1969
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_MD5"
 msgid "MD5"
 msgstr ""
 
-#: menu/menu_displaylist.c:317 menu/menu_displaylist.c:1685
+#: menu/menu_displaylist.c:317 menu/menu_displaylist.c:1686
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_NAME"
 msgid "Name"
 msgstr "Nombre"
 
-#: menu/menu_displaylist.c:1750
+#: menu/menu_displaylist.c:1751
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ORIGIN"
 msgid "Origin"
 msgstr "Origen"
 
-#: menu/menu_displaylist.c:1875
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1876
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PEGI_RATING"
 msgid "PEGI Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1722
+#: menu/menu_displaylist.c:1723
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PUBLISHER"
 msgid "Publisher"
 msgstr "Distribuidora"
 
-#: menu/menu_displaylist.c:1827
+#: menu/menu_displaylist.c:1828
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RELEASE_MONTH"
 msgid "Releasedate Month"
 msgstr "Mes de lanzamiento"
 
-#: menu/menu_displaylist.c:1838
+#: menu/menu_displaylist.c:1839
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RELEASE_YEAR"
 msgid "Releasedate Year"
 msgstr "Año de lanzamiento"
 
-#: menu/menu_displaylist.c:1923
+#: menu/menu_displaylist.c:1924
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RUMBLE"
 msgid "Rumble supported"
 msgstr "Soporte de vibración"
 
-#: menu/menu_displaylist.c:1903
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1904
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SERIAL"
 msgid "Serial"
 msgstr ""
 
-#: menu/menu_displaylist.c:1957
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1958
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SHA1"
 msgid "SHA1"
 msgstr ""
@@ -2581,7 +2685,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_START_CONTENT"
 msgid "Start Content"
 msgstr "Ejecutar contenido"
 
-#: menu/menu_displaylist.c:1778
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1779
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_TGDB_RATING"
 msgid "TGDB Rating"
 msgstr ""
@@ -2598,7 +2705,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RECORDING_OUTPUT_DIRECTORY"
 msgid "Recording Output"
 msgstr "Carpeta de salida de grabación"
 
-#: menu/menu_setting.c:4647
+#: menu/menu_setting.c:4644
 msgctxt "MENU_ENUM_LABEL_VALUE_RECORDING_SETTINGS"
 msgid "Recording"
 msgstr "Grabación"
@@ -2627,27 +2734,27 @@ msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE"
 msgid "Remap File"
 msgstr "Archivo de reasignación de controles"
 
-#: menu/menu_displaylist.c:3198
+#: menu/menu_displaylist.c:3195
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_LOAD"
 msgid "Load Remap File"
 msgstr "Cargar archivo de reasignación"
 
-#: menu/menu_displaylist.c:3203
+#: menu/menu_displaylist.c:3200
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_SAVE_CORE"
 msgid "Save Core Remap File"
 msgstr "Guardar controles para el núcleo"
 
-#: menu/menu_displaylist.c:3208
+#: menu/menu_displaylist.c:3205
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_SAVE_GAME"
 msgid "Save Game Remap File"
 msgstr "Guardar controles para el juego"
 
-#: menu/menu_displaylist.c:3216
+#: menu/menu_displaylist.c:3213
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_REMOVE_CORE"
 msgid "Delete Core Remap File"
 msgstr "Borrar controles personalizados del núcleo"
 
-#: menu/menu_displaylist.c:3225
+#: menu/menu_displaylist.c:3222
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_REMOVE_GAME"
 msgid "Delete Game Remap File"
 msgstr "Borrar controles personalizados del juego"
@@ -2657,7 +2764,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_REQUIRED"
 msgid "Required"
 msgstr "Necesario"
 
-#: menu/menu_displaylist.c:2579
+#: menu/menu_displaylist.c:2578
 msgctxt "MENU_ENUM_LABEL_VALUE_RESTART_CONTENT"
 msgid "Restart"
 msgstr "Reiniciar"
@@ -2670,15 +2777,21 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RESUME"
 msgid "Resume"
 msgstr "Reanudar"
 
-#: menu/menu_displaylist.c:2573
+#: menu/menu_displaylist.c:2572
 msgctxt "MENU_ENUM_LABEL_VALUE_RESUME_CONTENT"
 msgid "Resume"
 msgstr "Reanudar"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_RETROKEYBOARD"
 msgid "RetroKeyboard"
 msgstr ""
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/menu_setting.c:527
 msgctxt "MENU_ENUM_LABEL_VALUE_RETROPAD"
 msgid "RetroPad"
@@ -2701,7 +2814,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_REWIND_GRANULARITY"
 msgid "Rewind Granularity"
 msgstr "Nivel de detalle del rebobinado"
 
-#: menu/menu_setting.c:3225
+#: menu/menu_setting.c:3222
 msgctxt "MENU_ENUM_LABEL_VALUE_REWIND_SETTINGS"
 msgid "Rewind"
 msgstr "Rebobinado"
@@ -2710,6 +2823,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RGUI_BROWSER_DIRECTORY"
 msgid "File Browser"
 msgstr "Explorador de archivos"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_RGUI_CONFIG_DIRECTORY"
 msgid "Config"
 msgstr ""
@@ -2723,7 +2839,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RIGHT_ANALOG"
 msgid "Right Analog"
 msgstr "Analógico derecho"
 
-#: menu/menu_displaylist.c:2646
+#: menu/menu_displaylist.c:2645
 msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_FAVORITES"
 msgid "Add to Favorites"
 msgstr "Agregar a Favoritos"
@@ -2738,7 +2854,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RUN"
 msgid "Run"
 msgstr "Iniciar"
 
-#: menu/menu_displaylist.c:4190
+#: menu/menu_displaylist.c:4184
 msgctxt "MENU_ENUM_LABEL_VALUE_RUN_MUSIC"
 msgid "Run"
 msgstr "Iniciar"
@@ -2791,24 +2907,24 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_NEW_CONFIG"
 msgid "Save New Configuration"
 msgstr "Guardar configuración nueva"
 
-#: menu/menu_displaylist.c:2610
+#: menu/menu_displaylist.c:2609
 msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_STATE"
 msgid "Save State"
 msgstr "Guardado rápido"
 
-#: menu/menu_setting.c:3110
+#: menu/menu_setting.c:3107
 msgctxt "MENU_ENUM_LABEL_VALUE_SAVING_SETTINGS"
 msgid "Saving"
 msgstr "Guardado"
 
 #: menu/menu_displaylist.c:2942 menu/menu_displaylist.c:2971
-#: menu/menu_displaylist.c:3343
+#: menu/menu_displaylist.c:3340
 msgctxt "MENU_ENUM_LABEL_VALUE_SCAN_DIRECTORY"
 msgid "Scan Directory"
 msgstr "Escanear carpeta"
 
 #: menu/menu_displaylist.c:2948 menu/menu_displaylist.c:2977
-#: menu/menu_displaylist.c:3348
+#: menu/menu_displaylist.c:3345
 msgctxt "MENU_ENUM_LABEL_VALUE_SCAN_FILE"
 msgid "Scan File"
 msgstr "Escanear archivo"
@@ -2822,7 +2938,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SCREENSHOT_DIRECTORY"
 msgid "Screenshot"
 msgstr "Capturas de pantalla"
 
-#: command.c:1781 command.c:1784
+#: command.c:1768 command.c:1771
 msgctxt "MENU_ENUM_LABEL_VALUE_SCREEN_RESOLUTION"
 msgid "Screen Resolution"
 msgstr "Resolución de pantalla"
@@ -2846,21 +2962,30 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SETTINGS_TAB"
 msgid "Settings"
 msgstr "Ajustes"
 
-#: menu/menu_displaylist.c:1425
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:1426
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER"
 msgid "Shader"
 msgstr ""
 
-#: menu/menu_displaylist.c:1369
+#: menu/menu_displaylist.c:1370
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_APPLY_CHANGES"
 msgid "Apply Changes"
 msgstr "Aplicar cambios"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/menu_displaylist.c:2698
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_OPTIONS"
 msgid "Shaders"
 msgstr ""
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:283
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_RIBBON"
 msgid "Ribbon"
@@ -2929,12 +3054,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_START_CORE"
 msgid "Start Core"
 msgstr "Iniciar núcleo"
 
-#: menu/menu_displaylist.c:4042
+#: menu/menu_displaylist.c:4039
 msgctxt "MENU_ENUM_LABEL_VALUE_START_NET_RETROPAD"
 msgid "Start Remote RetroPad"
 msgstr "Iniciar RetroPad remoto"
 
-#: menu/menu_displaylist.c:4034
+#: menu/menu_displaylist.c:4031
 msgctxt "MENU_ENUM_LABEL_VALUE_START_VIDEO_PROCESSOR"
 msgid "Start Video Processor"
 msgstr "Iniciar procesador de video"
@@ -3315,7 +3440,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_ZLIB_SUPPORT"
 msgid "Zlib support"
 msgstr "Soporte de Zlib"
 
-#: menu/menu_displaylist.c:2593 menu/menu_displaylist.c:3809
+#: menu/menu_displaylist.c:2592 menu/menu_displaylist.c:3806
 msgctxt "MENU_ENUM_LABEL_VALUE_TAKE_SCREENSHOT"
 msgid "Take Screenshot"
 msgstr "Capturar pantalla"
@@ -3337,17 +3462,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAILS_UPDATER_LIST"
 msgid "Thumbnails Updater"
 msgstr "Actualizador de miniaturas"
 
-#: menu/cbs/menu_cbs_get_value.c:1120
+#: menu/cbs/menu_cbs_get_value.c:1124
 msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAIL_MODE_BOXARTS"
 msgid "Boxarts"
 msgstr "Cajas"
 
-#: menu/cbs/menu_cbs_get_value.c:1110
+#: menu/cbs/menu_cbs_get_value.c:1114
 msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAIL_MODE_SCREENSHOTS"
 msgid "Screenshots"
 msgstr "Capturas de pantalla"
 
-#: menu/cbs/menu_cbs_get_value.c:1115
+#: menu/cbs/menu_cbs_get_value.c:1119
 msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAIL_MODE_TITLE_SCREENS"
 msgid "Title Screens"
 msgstr "Pantallas de título"
@@ -3360,8 +3485,8 @@ msgctxt "MENU_ENUM_LABEL_VALUE_TITLE_COLOR"
 msgid "Menu title color"
 msgstr "Color de títulos del menú"
 
-#: menu/menu_displaylist.c:1915 menu/menu_displaylist.c:1925
-#: menu/menu_displaylist.c:1935 menu/cbs/menu_cbs_get_value.c:362
+#: menu/menu_displaylist.c:1916 menu/menu_displaylist.c:1926
+#: menu/menu_displaylist.c:1936 menu/cbs/menu_cbs_get_value.c:362
 msgctxt "MENU_ENUM_LABEL_VALUE_TRUE"
 msgid "True"
 msgstr "Activado"
@@ -3383,12 +3508,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_UNABLE_TO_READ_COMPRESSED_FILE"
 msgid "Unable to read compressed file."
 msgstr "No se ha podido leer el archivo comprimido"
 
-#: menu/menu_displaylist.c:2630
+#: menu/menu_displaylist.c:2629
 msgctxt "MENU_ENUM_LABEL_VALUE_UNDO_LOAD_STATE"
 msgid "Undo Load State"
 msgstr "Deshacer carga"
 
-#: menu/menu_displaylist.c:2636
+#: menu/menu_displaylist.c:2635
 msgctxt "MENU_ENUM_LABEL_VALUE_UNDO_SAVE_STATE"
 msgid "Undo Save State"
 msgstr "Deshacer guardado"
@@ -3432,7 +3557,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_DATABASES"
 msgid "Update Databases"
 msgstr "Actualizar bases de datos"
 
-#: menu/menu_displaylist.c:3094
+#: menu/menu_displaylist.c:3093
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_GLSL_SHADERS"
 msgid "Update GLSL Shaders"
 msgstr "Actualizar shaders GLSL"
@@ -3447,15 +3572,15 @@ msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_OVERLAYS"
 msgid "Update Overlays"
 msgstr "Actualizar Overlays"
 
-#: menu/menu_displaylist.c:3102
+#: menu/menu_displaylist.c:3100
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_SLANG_SHADERS"
 msgid "Update Slang Shaders"
 msgstr "Actualizar shaders Slang"
 
-#: menu/menu_setting.c:1975 menu/menu_setting.c:2038 menu/menu_setting.c:2041
-#: menu/menu_setting.c:2044 menu/menu_setting.c:2047 menu/menu_setting.c:2050
-#: menu/menu_setting.c:2053 menu/menu_setting.c:2056
-#: menu/menu_displaylist.c:3256
+#: menu/menu_setting.c:1972 menu/menu_setting.c:2035 menu/menu_setting.c:2038
+#: menu/menu_setting.c:2041 menu/menu_setting.c:2044 menu/menu_setting.c:2047
+#: menu/menu_setting.c:2050 menu/menu_setting.c:2053
+#: menu/menu_displaylist.c:3253
 msgctxt "MENU_ENUM_LABEL_VALUE_USER"
 msgid "User"
 msgstr "Usuario"
@@ -3464,7 +3589,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_KEYBOARD"
 msgid "Kbd"
 msgstr "Teclado"
 
-#: menu/menu_setting.c:6174
+#: menu/menu_setting.c:6172
 msgctxt "MENU_ENUM_LABEL_VALUE_USER_INTERFACE_SETTINGS"
 msgid "User Interface"
 msgstr "Interfaz de usuario"
@@ -3473,7 +3598,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_USER_LANGUAGE"
 msgid "Language"
 msgstr "Idioma"
 
-#: menu/menu_setting.c:7181
+#: menu/menu_setting.c:7180
 msgctxt "MENU_ENUM_LABEL_VALUE_USER_SETTINGS"
 msgid "User"
 msgstr "Usuario"
@@ -3527,10 +3652,16 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FILTER"
 msgid "Video Filter"
 msgstr "Filtro de video"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FILTER_DIR"
 msgid "Video Filter"
 msgstr ""
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FILTER_FLICKER"
 msgid "Flicker filter"
 msgstr ""
@@ -3623,46 +3754,52 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SCALE_INTEGER"
 msgid "Integer Scale"
 msgstr "Escalar usando enteros"
 
-#: menu/menu_setting.c:3279
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_setting.c:3276
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SETTINGS"
 msgid "Video"
 msgstr ""
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_DIR"
 msgid "Video Shader"
 msgstr ""
 
-#: menu/menu_displaylist.c:1412
+#: menu/menu_displaylist.c:1413
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_NUM_PASSES"
 msgid "Shader Passes"
 msgstr "Pasadas del shader"
 
-#: menu/menu_displaylist.c:1407
+#: menu/menu_displaylist.c:1408
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PARAMETERS"
 msgid "Shader Parameters"
 msgstr "Previsualizar parámetros de shaders"
 
-#: menu/menu_displaylist.c:1382
+#: menu/menu_displaylist.c:1383
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET"
 msgid "Load Shader Preset"
 msgstr "Cargar preset de shaders"
 
-#: menu/menu_displaylist.c:1387
+#: menu/menu_displaylist.c:1388
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_AS"
 msgid "Save Shader Preset As"
 msgstr "Guardar preset de shaders como.."
 
-#: menu/menu_displaylist.c:1392
+#: menu/menu_displaylist.c:1393
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_CORE"
 msgid "Save Core Preset"
 msgstr "Guardar preset para el núcleo"
 
-#: menu/menu_displaylist.c:1397
+#: menu/menu_displaylist.c:1398
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_PARENT"
 msgid "Save Content Directory Preset"
 msgstr ""
 
-#: menu/menu_displaylist.c:1402
+#: menu/menu_displaylist.c:1403
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_GAME"
 msgid "Save Game Preset"
 msgstr "Guardar preset para el juego"
@@ -3679,10 +3816,16 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SOFT_FILTER"
 msgid "Soft Filter Enable"
 msgstr "Activar filtros por software"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SWAP_INTERVAL"
 msgid "Vertical Sync (Vsync) Swap Interval"
 msgstr ""
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_title.c:258
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_TAB"
 msgid "Video"
@@ -3696,10 +3839,16 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VFILTER"
 msgid "Deflicker"
 msgstr "Filtro contra parpadeos"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VIEWPORT_CUSTOM_HEIGHT"
 msgid "Custom Aspect Ratio Height"
 msgstr ""
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VIEWPORT_CUSTOM_WIDTH"
 msgid "Custom Aspect Ratio Width"
 msgstr ""
@@ -3744,6 +3893,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_WIFI_DRIVER"
 msgid "Wi-Fi Driver"
 msgstr "Controlador Wi-Fi"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_WIFI_SETTINGS"
 msgid "Wi-Fi"
 msgstr ""
@@ -3768,52 +3920,79 @@ msgctxt "MENU_ENUM_LABEL_VALUE_XMB_FONT"
 msgid "Menu Font"
 msgstr "Fuente del menú"
 
-#: menu/cbs/menu_cbs_get_value.c:917
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:921
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_CUSTOM"
 msgid "Custom"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:885
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:889
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_FLATUI"
 msgid "FlatUI"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:881
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:885
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME"
 msgid "Monochrome"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:913
+#: menu/cbs/menu_cbs_get_value.c:917
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME_INVERTED"
 msgid "Monochrome Inverted"
 msgstr "Monochrome Invertido"
 
-#: menu/cbs/menu_cbs_get_value.c:905
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:909
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_SYSTEMATIC"
 msgid "Systematic"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:901
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:905
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_NEOACTIVE"
 msgid "NeoActive"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:897
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:901
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_PIXEL"
 msgid "Pixel"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:889
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:893
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROACTIVE"
 msgid "RetroActive"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:893
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:897
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROSYSTEM"
 msgid "Retrosystem"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:909
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/cbs/menu_cbs_get_value.c:913
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_DOTART"
 msgid "Dot-Art"
 msgstr ""
@@ -3822,57 +4001,57 @@ msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME"
 msgid "Menu Color Theme"
 msgstr "Color del menú"
 
-#: menu/cbs/menu_cbs_get_value.c:995
+#: menu/cbs/menu_cbs_get_value.c:999
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_APPLE_GREEN"
 msgid "Apple Green"
 msgstr "Verde manzana"
 
-#: menu/cbs/menu_cbs_get_value.c:1013
+#: menu/cbs/menu_cbs_get_value.c:1017
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_DARK"
 msgid "Dark"
 msgstr "Oscuro"
 
-#: menu/cbs/menu_cbs_get_value.c:1019
+#: menu/cbs/menu_cbs_get_value.c:1023
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_LIGHT"
 msgid "Light"
 msgstr "Claro"
 
-#: menu/cbs/menu_cbs_get_value.c:971
+#: menu/cbs/menu_cbs_get_value.c:975
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_DARK_PURPLE"
 msgid "Dark Purple"
 msgstr "Violeta"
 
-#: menu/cbs/menu_cbs_get_value.c:989
+#: menu/cbs/menu_cbs_get_value.c:993
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_ELECTRIC_BLUE"
 msgid "Electric Blue"
 msgstr "Azul Eléctrico"
 
-#: menu/cbs/menu_cbs_get_value.c:983
+#: menu/cbs/menu_cbs_get_value.c:987
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_GOLDEN"
 msgid "Golden"
 msgstr "Dorado"
 
-#: menu/cbs/menu_cbs_get_value.c:965
+#: menu/cbs/menu_cbs_get_value.c:969
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_LEGACY_RED"
 msgid "Legacy Red"
 msgstr "Rojo"
 
-#: menu/cbs/menu_cbs_get_value.c:977
+#: menu/cbs/menu_cbs_get_value.c:981
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_MIDNIGHT_BLUE"
 msgid "Midnight Blue"
 msgstr "Azul Medianoche"
 
-#: menu/cbs/menu_cbs_get_value.c:959
+#: menu/cbs/menu_cbs_get_value.c:963
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_PLAIN"
 msgid "Plain"
 msgstr "Nada"
 
-#: menu/cbs/menu_cbs_get_value.c:1001
+#: menu/cbs/menu_cbs_get_value.c:1005
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_UNDERSEA"
 msgid "Undersea"
 msgstr "Bajo el mar"
 
-#: menu/cbs/menu_cbs_get_value.c:1007
+#: menu/cbs/menu_cbs_get_value.c:1011
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_VOLCANIC_RED"
 msgid "Volcanic Red"
 msgstr "Rojo Volcánico"
@@ -4199,17 +4378,17 @@ msgctxt "MENU_ENUM_SUBLABEL_HELP_LIST"
 msgid "Learn more about how the program works."
 msgstr "Aprender como funciona el programa"
 
-#: command.c:2341
+#: command.c:2328
 msgctxt "MSG_ADDED_TO_FAVORITES"
 msgid "Added to favorites"
 msgstr "Agregado a los favoritos"
 
-#: command.c:829
+#: command.c:816
 msgctxt "MSG_APPENDED_DISK"
 msgid "Appended disk"
 msgstr "Disco encolado"
 
-#: frontend/drivers/platform_unix.c:2054
+#: frontend/drivers/platform_unix.c:2021
 msgctxt "MSG_APPLICATION_DIR"
 msgid "Application Dir"
 msgstr "Carpeta de la aplicación"
@@ -4219,27 +4398,27 @@ msgctxt "MSG_APPLYING_CHEAT"
 msgid "Applying cheat changes."
 msgstr "Aplicando trucos"
 
-#: command.c:246
+#: command.c:233
 msgctxt "MSG_APPLYING_SHADER"
 msgid "Applying shader"
 msgstr "Aplicando shader"
 
-#: command.c:2058
+#: command.c:2045
 msgctxt "MSG_AUDIO_MUTED"
 msgid "Audio muted."
 msgstr "Silencio"
 
-#: command.c:2059
+#: command.c:2046
 msgctxt "MSG_AUDIO_UNMUTED"
 msgid "Audio unmuted."
 msgstr "Audio normal"
 
-#: menu/menu_setting.c:1426
+#: menu/menu_setting.c:1423
 msgctxt "MSG_AUTOCONFIG_FILE_ERROR_SAVING"
 msgid "Error saving autoconf file."
 msgstr "Error guardando archivo de auto-configuración"
 
-#: menu/menu_setting.c:1423
+#: menu/menu_setting.c:1420
 msgctxt "MSG_AUTOCONFIG_FILE_SAVED_SUCCESSFULLY"
 msgid "Autoconfig file saved successfully."
 msgstr "Archivo de auto-configuración guardado exitosamente"
@@ -4249,7 +4428,7 @@ msgctxt "MSG_AUTOSAVE_FAILED"
 msgid "Could not initialize autosave."
 msgstr "No se puede inicializar autogurardado"
 
-#: command.c:1352
+#: command.c:1339
 msgctxt "MSG_AUTO_SAVE_STATE_TO"
 msgid "Auto save state to"
 msgstr "Auto guardar en"
@@ -4259,18 +4438,21 @@ msgctxt "MSG_BLOCKING_SRAM_OVERWRITE"
 msgid "Blocking SRAM Overwrite"
 msgstr "Bloquear sobrescritura de SaveRAM"
 
-#: command.c:366
+#: command.c:353
 msgctxt "MSG_BRINGING_UP_COMMAND_INTERFACE_ON_PORT"
 msgid "Bringing up command interface on port"
 msgstr "Iniciando la linea de comandos en el puerto"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: tasks/task_save.c:404 tasks/task_save.c:879 tasks/task_save.c:1168
 #: tasks/task_save.c:1368
 msgctxt "MSG_BYTES"
 msgid "bytes"
 msgstr ""
 
-#: command.c:1480
+#: command.c:1467
 msgctxt "MSG_CANNOT_INFER_NEW_CONFIG_PATH"
 msgid "Cannot infer new config path. Use current time."
 msgstr ""
@@ -4291,7 +4473,7 @@ msgctxt "MSG_COMPILED_AGAINST_API"
 msgid "Compiled against API"
 msgstr "Compilado para la API"
 
-#: command.c:1427 command.c:1428
+#: command.c:1414 command.c:1415
 msgctxt "MSG_CONFIG_DIRECTORY_NOT_SET"
 msgid "Config directory not set. Cannot save new config."
 msgstr ""
@@ -4313,12 +4495,12 @@ msgctxt "MSG_CONTENT_LOADING_SKIPPED_IMPLEMENTATION_WILL_DO_IT"
 msgid "Content loading skipped. Implementation will load it on its own."
 msgstr "Carga de contenido saltada. La implementación usara la suya"
 
-#: command.c:1657
+#: command.c:1644
 msgctxt "MSG_CORE_DOES_NOT_SUPPORT_SAVESTATES"
 msgid "Core does not support save states."
 msgstr "El núcleo no soporta guardados rápidos"
 
-#: menu/cbs/menu_cbs_ok.c:2800
+#: menu/cbs/menu_cbs_ok.c:2799
 msgctxt "MSG_CORE_OPTIONS_FILE_CREATED_SUCCESSFULLY"
 msgid "Core options file created successfully."
 msgstr "Archivo de opciones del núcleo creado exitosamente"
@@ -4366,17 +4548,20 @@ msgstr ""
 "El CRC32 del contenido no concuerda con el del replay, Es probable que se "
 "de-sincronice al reproducir"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: record/record_driver.c:342
 msgctxt "MSG_CUSTOM_TIMING_GIVEN"
 msgid "Custom timing given"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2590
+#: menu/cbs/menu_cbs_ok.c:2589
 msgctxt "MSG_DECOMPRESSION_ALREADY_IN_PROGRESS"
 msgid "Decompression already in progress."
 msgstr "Descompresión en progreso"
 
-#: menu/cbs/menu_cbs_ok.c:2613
+#: menu/cbs/menu_cbs_ok.c:2612
 msgctxt "MSG_DECOMPRESSION_FAILED"
 msgid "Decompression failed."
 msgstr "Fallo al descomprimir"
@@ -4396,12 +4581,12 @@ msgctxt "MSG_DISCONNECT_DEVICE_FROM_A_VALID_PORT"
 msgid "Disconnect device from a valid port."
 msgstr "Desconecte el dispositivo desde un puerto válido"
 
-#: command.c:713
+#: command.c:700
 msgctxt "MSG_DISK_CLOSED"
 msgid "Closed"
 msgstr "Cerrado"
 
-#: command.c:712
+#: command.c:699
 msgctxt "MSG_DISK_EJECTED"
 msgid "Ejected"
 msgstr "Expulsado"
@@ -4411,11 +4596,14 @@ msgctxt "MSG_DOWNLOADING"
 msgid "Downloading"
 msgstr "Descargando"
 
-#: menu/cbs/menu_cbs_ok.c:3357
+#: menu/cbs/menu_cbs_ok.c:3354
 msgctxt "MSG_DOWNLOAD_FAILED"
 msgid "Download failed"
 msgstr "Descarga fallida"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: tasks/task_patch.c:542
 msgctxt "MSG_ERROR"
 msgid "Error"
@@ -4437,34 +4625,34 @@ msgctxt "MSG_ERROR_PARSING_ARGUMENTS"
 msgid "Error parsing arguments."
 msgstr "Error analizando argumentos"
 
-#: menu/cbs/menu_cbs_ok.c:2783
+#: menu/cbs/menu_cbs_ok.c:2782
 msgctxt "MSG_ERROR_SAVING_CORE_OPTIONS_FILE"
 msgid "Error saving core options file."
 msgstr "Error guardando archivo de opciones del núcleo"
 
-#: menu/cbs/menu_cbs_ok.c:2067
+#: menu/cbs/menu_cbs_ok.c:2066
 msgctxt "MSG_ERROR_SAVING_REMAP_FILE"
 msgid "Error saving remap file."
 msgstr "Error guardando archivo de reasignación"
 
-#: menu/cbs/menu_cbs_ok.c:2094
+#: menu/cbs/menu_cbs_ok.c:2093
 msgctxt "MSG_ERROR_REMOVING_REMAP_FILE"
 msgid "Error removing remap file."
 msgstr "Error eliminado archivo de reasignación"
 
-#: menu/cbs/menu_cbs_ok.c:1846 menu/cbs/menu_cbs_ok.c:1985
+#: menu/cbs/menu_cbs_ok.c:1845 menu/cbs/menu_cbs_ok.c:1984
 msgctxt "MSG_ERROR_SAVING_SHADER_PRESET"
 msgid "Error saving shader preset."
 msgstr "Error guardando shader preset"
 
 #: frontend/drivers/platform_gx.c:485 frontend/drivers/platform_gx.c:490
 #: frontend/drivers/platform_gx.c:496 frontend/drivers/platform_gx.c:501
-#: frontend/drivers/platform_unix.c:2062
+#: frontend/drivers/platform_unix.c:2029
 msgctxt "MSG_EXTERNAL_APPLICATION_DIR"
 msgid "External Application Dir"
 msgstr "Carpeta de aplicación externa"
 
-#: tasks/task_decompress.c:331
+#: tasks/task_decompress.c:359
 msgctxt "MSG_EXTRACTING"
 msgid "Extracting"
 msgstr "Extrayendo"
@@ -4473,12 +4661,12 @@ msgctxt "MSG_EXTRACTING_FILE"
 msgid "Extracting file"
 msgstr "Extrayendo archivo"
 
-#: command.c:1384
+#: command.c:1371
 msgctxt "MSG_FAILED_SAVING_CONFIG_TO"
 msgid "Failed saving config to"
 msgstr "Fallo al guardar configuración en"
 
-#: command.c:719
+#: command.c:706
 msgctxt "MSG_FAILED_TO"
 msgid "Failed to"
 msgstr "Fallo al"
@@ -4496,12 +4684,12 @@ msgctxt "MSG_FAILED_TO_APPLY_SHADER"
 msgid "Failed to apply shader."
 msgstr "Fallo al aplicar el shader"
 
-#: command.c:381 input/input_remote.c:107
+#: command.c:368 input/input_remote.c:107
 msgctxt "MSG_FAILED_TO_BIND_SOCKET"
 msgid "Failed to bind socket."
 msgstr "Fallo al asignar el socket"
 
-#: menu/cbs/menu_cbs_ok.c:2577
+#: menu/cbs/menu_cbs_ok.c:2576
 msgctxt "MSG_FAILED_TO_CREATE_THE_DIRECTORY"
 msgid "Failed to create the directory."
 msgstr "Fallo al crear la carpeta"
@@ -4577,12 +4765,12 @@ msgctxt "MSG_FAILED_TO_RECEIVE_SRAM_DATA_FROM_HOST"
 msgid "Failed to receive SRAM data from host."
 msgstr "Fallo al recibir datos SaveRAM del servidor"
 
-#: command.c:780
+#: command.c:767
 msgctxt "MSG_FAILED_TO_REMOVE_DISK_FROM_TRAY"
 msgid "Failed to remove disk from tray."
 msgstr "Fallo al sacar el disco de la bandeja"
 
-#: tasks/task_content.c:1829
+#: tasks/task_content.c:1828
 msgctxt "MSG_FAILED_TO_REMOVE_TEMPORARY_FILE"
 msgid "Failed to remove temporary file"
 msgstr "Fallo al eliminar el archivo temporal"
@@ -4637,7 +4825,7 @@ msgctxt "MSG_FAILED_TO_TAKE_SCREENSHOT"
 msgid "Failed to take screenshot."
 msgstr "Fallo al capturar pantalla"
 
-#: command.c:1585 tasks/task_save.c:501
+#: command.c:1572 tasks/task_save.c:501
 msgctxt "MSG_FAILED_TO_UNDO_LOAD_STATE"
 msgid "Failed to undo load state."
 msgstr "Fallo al deshacer carga"
@@ -4647,7 +4835,7 @@ msgctxt "MSG_FAILED_TO_UNDO_SAVE_STATE"
 msgid "Failed to undo save state."
 msgstr "Fallo al deshacer guardado"
 
-#: command.c:2064
+#: command.c:2051
 msgctxt "MSG_FAILED_TO_UNMUTE_AUDIO"
 msgid "Failed to unmute audio."
 msgstr "Fallo al restablecer el audio"
@@ -4661,7 +4849,7 @@ msgctxt "MSG_FILE_NOT_FOUND"
 msgid "File not found"
 msgstr "Archivo no encontrado"
 
-#: command.c:1121
+#: command.c:1108
 msgctxt "MSG_FOUND_AUTO_SAVESTATE_IN"
 msgid "Found auto savestate in"
 msgstr "Encontrado autoguardado en"
@@ -4676,7 +4864,7 @@ msgctxt "MSG_FOUND_FIRST_DATA_TRACK_ON_FILE"
 msgid "Found first data track on file"
 msgstr "Encontrada la primer pista de datos en el archivo"
 
-#: command.c:1196
+#: command.c:1183
 msgctxt "MSG_FOUND_LAST_STATE_SLOT"
 msgid "Found last state slot"
 msgstr "Encontrada la ultima ranura de guardado"
@@ -4686,7 +4874,10 @@ msgctxt "MSG_FOUND_SHADER"
 msgid "Found shader"
 msgstr "Encontrado el shader"
 
-#: gfx/video_driver.c:2448
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: gfx/video_driver.c:2429
 msgctxt "MSG_FRAMES"
 msgid "Frames"
 msgstr ""
@@ -4696,22 +4887,22 @@ msgctxt "MSG_GAME_SPECIFIC_CORE_OPTIONS_FOUND_AT"
 msgid "Per-Game Options: game-specific core options found at"
 msgstr "Opciones especificas de juego encontradas en"
 
-#: command.c:878 command.c:911
+#: command.c:865 command.c:898
 msgctxt "MSG_GOT_INVALID_DISK_INDEX"
 msgid "Got invalid disk index."
 msgstr "Indice de disco invalido"
 
-#: command.c:2715
+#: command.c:2702
 msgctxt "MSG_GRAB_MOUSE_STATE"
 msgid "Grab mouse state"
 msgstr "Capturar estado del ratón"
 
-#: command.c:2749
+#: command.c:2736
 msgctxt "MSG_GAME_FOCUS_ON"
 msgid "Game focus on"
 msgstr "Game focus ON"
 
-#: command.c:2759
+#: command.c:2746
 msgctxt "MSG_GAME_FOCUS_OFF"
 msgid "Game focus off"
 msgstr "Game focus OFF"
@@ -4728,22 +4919,22 @@ msgctxt "MSG_INFLATED_CHECKSUM_DID_NOT_MATCH_CRC32"
 msgid "Inflated checksum did not match CRC32."
 msgstr "El CRC32 inflado no concuerda"
 
-#: menu/cbs/menu_cbs_ok.c:1908
+#: menu/cbs/menu_cbs_ok.c:1907
 msgctxt "MSG_INPUT_CHEAT"
 msgid "Input Cheat"
 msgstr "Introducir truco"
 
-#: menu/cbs/menu_cbs_ok.c:1904
+#: menu/cbs/menu_cbs_ok.c:1903
 msgctxt "MSG_INPUT_CHEAT_FILENAME"
 msgid "Input Cheat Filename"
 msgstr "Introducir nombre de archivo de truco"
 
-#: menu/cbs/menu_cbs_ok.c:1892
+#: menu/cbs/menu_cbs_ok.c:1891
 msgctxt "MSG_INPUT_PRESET_FILENAME"
 msgid "Input Preset Filename"
 msgstr "Introducir nombre de archivo del preset"
 
-#: menu/cbs/menu_cbs_ok.c:1916
+#: menu/cbs/menu_cbs_ok.c:1915
 msgctxt "MSG_INPUT_RENAME_ENTRY"
 msgid "Rename Title"
 msgstr "Renombrar titulo"
@@ -4753,12 +4944,12 @@ msgctxt "MSG_INTERFACE"
 msgid "Interface"
 msgstr "Interfaz"
 
-#: frontend/drivers/platform_unix.c:2070
+#: frontend/drivers/platform_unix.c:2037
 msgctxt "MSG_INTERNAL_STORAGE"
 msgid "Internal Storage"
 msgstr "Almacenamiento interno"
 
-#: frontend/drivers/platform_unix.c:2078 frontend/drivers/platform_unix.c:2084
+#: frontend/drivers/platform_unix.c:2045 frontend/drivers/platform_unix.c:2051
 msgctxt "MSG_REMOVABLE_STORAGE"
 msgid "Removable Storage"
 msgstr "Almacenamiento extraible"
@@ -4819,7 +5010,7 @@ msgctxt "MSG_LOADING_CONTENT_FILE"
 msgid "Loading content file"
 msgstr "Cargando contenido"
 
-#: command.c:2172 command.c:2179 command.c:2186 command.c:2194 command.c:2203
+#: command.c:2159 command.c:2166 command.c:2173 command.c:2181 command.c:2190
 msgctxt "MSG_LOADING_HISTORY_FILE"
 msgid "Loading history file"
 msgstr "Cargando historial"
@@ -4871,32 +5062,35 @@ msgctxt "MSG_NO_CONTENT_STARTING_DUMMY_CORE"
 msgid "No content, starting dummy core."
 msgstr "No hay contenido, iniciando núcleo vacío"
 
-#: command.c:1563
+#: command.c:1550
 msgctxt "MSG_NO_SAVE_STATE_HAS_BEEN_OVERWRITTEN_YET"
 msgid "No save state has been overwritten yet."
 msgstr "No hay guardado sobrescrito todavía"
 
-#: command.c:1577
+#: command.c:1564
 msgctxt "MSG_NO_STATE_HAS_BEEN_LOADED_YET"
 msgid "No state has been loaded yet."
 msgstr "No hay guardado cargado todavía"
 
-#: command.c:1547
+#: command.c:1534
 msgctxt "MSG_OVERRIDES_ERROR_SAVING"
 msgid "Error saving overrides."
 msgstr "Error guardando anulaciones"
 
-#: command.c:1538
+#: command.c:1525
 msgctxt "MSG_OVERRIDES_SAVED_SUCCESSFULLY"
 msgid "Overrides saved successfully."
 msgstr "Anulaciones guardadas exitosamente"
 
-#: command.c:2381 command.c:2384
+#: command.c:2368 command.c:2371
 msgctxt "MSG_PAUSED"
 msgid "Paused."
 msgstr "Pausado"
 
-#: retroarch.c:433 gfx/video_driver.c:2235
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: retroarch.c:433 gfx/video_driver.c:2216
 msgctxt "MSG_PROGRAM"
 msgid "RetroArch"
 msgstr ""
@@ -4907,7 +5101,7 @@ msgctxt "MSG_READING_FIRST_DATA_TRACK"
 msgid "Reading first data track..."
 msgstr "Leyendo la primer pista de datos..."
 
-#: command.c:432
+#: command.c:419
 msgctxt "MSG_RECEIVED"
 msgid "received"
 msgstr "recibido"
@@ -4927,37 +5121,40 @@ msgctxt "MSG_REDIRECTING_CHEATFILE_TO"
 msgid "Redirecting cheat file to"
 msgstr "Redirigiendo archivo de trucos a"
 
-#: paths.c:180 paths.c:372
+#: paths.c:180 paths.c:360 paths.c:386
 msgctxt "MSG_REDIRECTING_SAVEFILE_TO"
 msgid "Redirecting save file to"
 msgstr "Redirigiendo archivo de guardado a"
 
-#: paths.c:192 paths.c:285
+#: paths.c:192 paths.c:295
 msgctxt "MSG_REDIRECTING_SAVESTATE_TO"
 msgid "Redirecting savestate to"
 msgstr "Redirigiendo archivo de guardado rápido a"
 
-#: menu/cbs/menu_cbs_ok.c:2062
+#: menu/cbs/menu_cbs_ok.c:2061
 msgctxt "MSG_REMAP_FILE_SAVED_SUCCESSFULLY"
 msgid "Remap file saved successfully."
 msgstr "Reasignaciones guardadas exitosamente"
 
-#: menu/cbs/menu_cbs_ok.c:2089
+#: menu/cbs/menu_cbs_ok.c:2088
 msgctxt "MSG_REMAP_FILE_REMOVED_SUCCESSFULLY"
 msgid "Remap file removed successfully."
 msgstr "Reasignaciones eliminadas exitosamente"
 
-#: command.c:769
+#: command.c:756
 msgctxt "MSG_REMOVED_DISK_FROM_TRAY"
 msgid "Removed disk from tray."
 msgstr "Quitado el disco de la bandeja"
 
-#: tasks/task_content.c:1826
+#: tasks/task_content.c:1825
 msgctxt "MSG_REMOVING_TEMPORARY_CONTENT_FILE"
 msgid "Removing temporary content file"
 msgstr "Eliminando el contenido temporal"
 
-#: command.c:1861 command.c:1862
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: command.c:1848 command.c:1849
 msgctxt "MSG_RESET"
 msgid "Reset"
 msgstr ""
@@ -5011,7 +5208,7 @@ msgctxt "MSG_REWIND_REACHED_END"
 msgid "Reached end of rewind buffer."
 msgstr "Fin del buffer de rebobinado"
 
-#: command.c:1375
+#: command.c:1362
 msgctxt "MSG_SAVED_NEW_CONFIG_TO"
 msgid "Saved new config to"
 msgstr "Guardada nueva configuración en"
@@ -5052,7 +5249,7 @@ msgctxt "MSG_SCANNING_OF_DIRECTORY_FINISHED"
 msgid "Scanning of directory finished"
 msgstr "Escaneo de carpeta finalizado"
 
-#: command.c:530
+#: command.c:517
 msgctxt "MSG_SENDING_COMMAND"
 msgid "Sending command"
 msgstr "Enviando comando"
@@ -5062,16 +5259,19 @@ msgctxt "MSG_SEVERAL_PATCHES_ARE_EXPLICITLY_DEFINED"
 msgid "Several patches are explicitly defined, ignoring all..."
 msgstr "Varios parches están explicitamente definidos, ignorando todos..."
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 msgctxt "MSG_SHADER"
 msgid "Shader"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1842 menu/cbs/menu_cbs_ok.c:1981
+#: menu/cbs/menu_cbs_ok.c:1841 menu/cbs/menu_cbs_ok.c:1980
 msgctxt "MSG_SHADER_PRESET_SAVED_SUCCESSFULLY"
 msgid "Shader preset saved successfully."
 msgstr "Shader preset guardado exitosamente"
 
-#: command.c:1236
+#: command.c:1223
 msgctxt "MSG_SKIPPING_SRAM_LOAD"
 msgid "Skipping SRAM load."
 msgstr "Saltando carga de SaveRAM"
@@ -5091,7 +5291,7 @@ msgctxt "MSG_SLOW_MOTION_REWIND"
 msgid "Slow motion rewind."
 msgstr "Rebobinado lento"
 
-#: paths.c:393
+#: paths.c:407
 msgctxt "MSG_SRAM_WILL_NOT_BE_SAVED"
 msgid "SRAM will not be saved."
 msgstr "SaveRAM no se guardará"
@@ -5126,7 +5326,7 @@ msgctxt "MSG_TO"
 msgid "to"
 msgstr "en"
 
-#: command.c:1595
+#: command.c:1582
 msgctxt "MSG_UNDID_LOAD_STATE"
 msgid "Undid load state."
 msgstr "Deshecha la carga"
@@ -5141,17 +5341,17 @@ msgctxt "MSG_UNKNOWN"
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: command.c:2392
+#: command.c:2379
 msgctxt "MSG_UNPAUSED"
 msgid "Unpaused."
 msgstr "Despausado"
 
-#: command.c:430
+#: command.c:417
 msgctxt "MSG_UNRECOGNIZED_COMMAND"
 msgid "Unrecognized command"
 msgstr "Comando no reconocido"
 
-#: command.c:1443
+#: command.c:1430
 msgctxt "MSG_USING_CORE_NAME_FOR_NEW_CONFIG"
 msgid "Using core name for new config."
 msgstr "Usando el nombre del núcleo para la nueva configuración"
@@ -5166,17 +5366,17 @@ msgctxt "MSG_VALUE_CONNECT_DEVICE_FROM_A_VALID_PORT"
 msgid "Connect device from a valid port."
 msgstr "Conecte el dispositivo a un puerto valido"
 
-#: command.c:1024
+#: command.c:1011
 msgctxt "MSG_VALUE_DISCONNECTING_DEVICE_FROM_PORT"
 msgid "Disconnecting device from port"
 msgstr "Desconectando el dispositivo del puerto"
 
-#: command.c:2306
+#: command.c:2293
 msgctxt "MSG_VALUE_REBOOTING"
 msgid "Rebooting..."
 msgstr "Reiniciando.."
 
-#: command.c:2298
+#: command.c:2285
 msgctxt "MSG_VALUE_SHUTTING_DOWN"
 msgid "Shutting down..."
 msgstr "Apagando.."
@@ -5195,7 +5395,7 @@ msgstr ""
 "Fallo el calculo de la ventana! Se continuará usando datos en bruto. "
 "Probablemente no funcionará bien .."
 
-#: command.c:714 command.c:721
+#: command.c:701 command.c:708
 msgctxt "MSG_VIRTUAL_DISK_TRAY"
 msgid "virtual disk tray."
 msgstr "Bandeja de discos virtual"
@@ -5387,7 +5587,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_DATABASE_CURSOR_LIST_ENTRY_PUBLISHER"
 msgid "Database - Filter : Publisher"
 msgstr "Base de datos - Filtro : Distribuidora"
 
-#: menu/menu_setting.c:1561
+#: menu/menu_setting.c:1558
 msgctxt "MENU_ENUM_LABEL_VALUE_DISABLED"
 msgid "Disabled"
 msgstr "Desactivado"
@@ -5508,7 +5708,7 @@ msgctxt "MENU_ENUM_SUBLABEL_VIDEO_FONT_ENABLE"
 msgid "Show onscreen messages."
 msgstr "Mostrar mensajes en pantalla"
 
-#: menu/menu_setting.c:7070
+#: menu/menu_setting.c:7069
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_USER_REMOTE_ENABLE"
 msgid "User %d Remote Enable"
@@ -5527,17 +5727,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SELECT_FROM_COLLECTION"
 msgid "Select From Collection"
 msgstr "Seleccionar de la colección"
 
-#: menu/menu_displaylist.c:1432
+#: menu/menu_displaylist.c:1433
 msgctxt "MENU_ENUM_LABEL_VALUE_FILTER"
 msgid "Filter"
 msgstr "Filtro"
 
-#: menu/menu_displaylist.c:1438
+#: menu/menu_displaylist.c:1439
 msgctxt "MENU_ENUM_LABEL_VALUE_SCALE"
 msgid "Scale"
 msgstr "Escalar"
 
-#: menu/cbs/menu_cbs_ok.c:3659 menu/cbs/menu_cbs_ok.c:3689
+#: menu/cbs/menu_cbs_ok.c:3656 menu/cbs/menu_cbs_ok.c:3686
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_START_WHEN_LOADED"
 msgid "Netplay will start when content is loaded."
 msgstr "Juego en red comenzará cuando se cargue el contenido"
@@ -5547,37 +5747,43 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_LOAD_CONTENT_MANUALLY"
 msgid "Couldn't find a suitable core or content file, load manually."
 msgstr "No se encontró el núcleo o contenido, cargue manualmente"
 
-#: menu/menu_displaylist.c:6212
+#: menu/menu_displaylist.c:6205
 msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_URL_LIST"
 msgid "Browse URL"
 msgstr "Ver URLs"
 
-#: menu/menu_displaylist.c:6459
+#: menu/menu_displaylist.c:6450
 msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_URL"
 msgid "URL Path"
 msgstr "Ver URL"
 
-#: menu/menu_displaylist.c:6464
+#: menu/menu_displaylist.c:6455
 msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_START"
 msgid "Start"
 msgstr "Iniciar"
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:298
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_BOKEH"
 msgid "Bokeh"
 msgstr ""
 
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:303
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_SNOWFLAKE"
 msgid "Snowflake"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3196
+#: menu/cbs/menu_cbs_ok.c:3193
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REFRESH_ROOMS"
 msgid "Refresh Room List"
 msgstr "Actualizar lista de salas"
 
-#: menu/cbs/menu_cbs_ok.c:3345
+#: menu/cbs/menu_cbs_ok.c:3342
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ROOM_NICKNAME"
 msgid "Nickname: %s"
@@ -6710,7 +6916,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_MIXER"
 msgid "Add to mixer"
 msgstr "Agregar al mezclador"
 
-#: menu/menu_displaylist.c:4182
+#: menu/menu_displaylist.c:4176
 msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_MIXER_AND_COLLECTION"
 msgid "Add to mixer"
 msgstr "Agregar al mezclador y colección"
@@ -6788,7 +6994,7 @@ msgctxt "MENU_ENUM_SUBLABEL_MENU_FRAMEBUFFER_OPACITY"
 msgid "Modify the opacity of the framebuffer."
 msgstr "Modifica la opacidad del framebuffer"
 
-#: menu/menu_displaylist.c:3355 menu/menu_displaylist.c:6158
+#: menu/menu_displaylist.c:3352 menu/menu_displaylist.c:6151
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_FAVORITES"
 msgid "Favorites"
 msgstr "Favoritos"
@@ -6797,7 +7003,7 @@ msgctxt "MENU_ENUM_SUBLABEL_GOTO_FAVORITES"
 msgid "Content which you have added to 'Favorites' will appear here."
 msgstr "Contenido agregado a 'Favoritos' aparecerá aquí"
 
-#: menu/menu_displaylist.c:3368 menu/menu_displaylist.c:6171
+#: menu/menu_displaylist.c:3365 menu/menu_displaylist.c:6164
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_MUSIC"
 msgid "Music"
 msgstr "Música"
@@ -6806,7 +7012,7 @@ msgctxt "MENU_ENUM_SUBLABEL_GOTO_MUSIC"
 msgid "Music which has been previously played will appear here."
 msgstr "Música que ha sido previamente reproducida aparecerá aquí"
 
-#: menu/menu_displaylist.c:3361 menu/menu_displaylist.c:6165
+#: menu/menu_displaylist.c:3358 menu/menu_displaylist.c:6158
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_IMAGES"
 msgid "Image"
 msgstr "Imagen"
@@ -6815,7 +7021,10 @@ msgctxt "MENU_ENUM_SUBLABEL_GOTO_IMAGES"
 msgid "Images which have been previously viewed will appear here."
 msgstr "Imágenes previamente vistas aparecerán aquí"
 
-#: menu/menu_displaylist.c:3376 menu/menu_displaylist.c:6179
+#. Please review and decide if this translation should actually be equal to
+#. the English original and edit it accordingly if needed. IMPORTANT: In any
+#. case remove this comment afterwards
+#: menu/menu_displaylist.c:3373 menu/menu_displaylist.c:6172
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_VIDEO"
 msgid "Video"
 msgstr ""
@@ -6842,17 +7051,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CONTENT_SHOW_SETTINGS_PASSWORD"
 msgid "Set Password For Enabling Settings Tab"
 msgstr "Establecer contraseña para activar la pestaña de opciones"
 
-#: menu/cbs/menu_cbs_ok.c:1896
+#: menu/cbs/menu_cbs_ok.c:1895
 msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD"
 msgid "Enter Password"
 msgstr "Introducir contraseña"
 
-#: menu/cbs/menu_cbs_ok.c:1806
+#: menu/cbs/menu_cbs_ok.c:1805
 msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD_OK"
 msgid "Password correct."
 msgstr "Contraseña correcta"
 
-#: menu/cbs/menu_cbs_ok.c:1812
+#: menu/cbs/menu_cbs_ok.c:1811
 msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD_NOK"
 msgid "Password incorrect."
 msgstr "Contraseña incorrecta"
@@ -7092,17 +7301,17 @@ msgstr ""
 "desde el menú principal, seleccionando 'Desactivar modo kiosco' e "
 "introduciendo la contraseña"
 
-#: menu/cbs/menu_cbs_ok.c:1912
+#: menu/cbs/menu_cbs_ok.c:1911
 msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD"
 msgid "Enter Password"
 msgstr "Ingresar contraseña"
 
-#: menu/cbs/menu_cbs_ok.c:1779
+#: menu/cbs/menu_cbs_ok.c:1778
 msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD_OK"
 msgid "Password correct."
 msgstr "Contraseña correcta"
 
-#: menu/cbs/menu_cbs_ok.c:1785
+#: menu/cbs/menu_cbs_ok.c:1784
 msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD_NOK"
 msgid "Password incorrect."
 msgstr "Contraseña incorrecta"
@@ -7171,7 +7380,7 @@ msgstr ""
 " calidad, incrementar el valor aumentará la calidad a costa del rendimiento "
 "y latencia"
 
-#: menu/menu_displaylist.c:1376
+#: menu/menu_displaylist.c:1377
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_WATCH_FOR_CHANGES"
 msgid "Watch shader files for changes"
 msgstr "Vigilar cambios en los shader"
