@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RetroArch\n"
-"PO-Revision-Date: 2018-03-08 00:10:00+0000\n"
+"PO-Revision-Date: 2018-03-09 08:17-0300\n"
 "Last-Translator: RetroArch translators\n"
 "Language-Team: RetroArch translators\n"
 "Language: es\n"
@@ -26,6 +26,7 @@ msgid ""
 "Determines how configuration files \n"
 "are loaded and prioritized."
 msgstr ""
+"Determina cómo se cargan y priorizan los archivos de configuración"
 
 #: menu/menu_displaylist.c:6145 menu/cbs/menu_cbs_ok.c:3437
 #: menu/cbs/menu_cbs_ok.c:3450 menu/drivers/xmb.c:4409
@@ -56,7 +57,7 @@ msgstr ""
 #: menu/drivers/materialui.c:2729
 msgctxt "MENU_ENUM_LABEL_NETPLAY_LAN_SCAN_SETTINGS"
 msgid "Search for and connect to netplay hosts on the local network."
-msgstr ""
+msgstr "Busca y se conecta a anfitriones netplat en la red local."
 
 msgctxt "MENU_ENUM_LABEL_ONLINE"
 msgid "online"
@@ -110,12 +111,12 @@ msgstr ""
 #: tasks/task_autodetect.c:274
 msgctxt "MSG_DEVICE_CONFIGURED_IN_PORT"
 msgid "configured in port"
-msgstr ""
+msgstr "configurado en puerto"
 
 #: command.c:763
 msgctxt "MSG_FAILED_TO_SET_DISK"
 msgid "Failed to set disk"
-msgstr ""
+msgstr "Fallo al establecer disco"
 
 msgctxt "MENU_ENUM_LABEL_OFF"
 msgid "off"
@@ -463,12 +464,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_LIST_END"
 msgid "Accounts List Endpoint"
 msgstr "Fin de la lista"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_RETRO_ACHIEVEMENTS"
 msgid "RetroAchievements"
-msgstr ""
+msgstr "RetroAchievements"
 
 #: menu/menu_displaylist.c:2727
 msgctxt "MENU_ENUM_LABEL_VALUE_ACHIEVEMENT_LIST"
@@ -558,13 +556,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_RESAMPLER_DRIVER"
 msgid "Audio Resampler Driver"
 msgstr "Controlador de muestreo de audio"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_setting.c:3970
 msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_SETTINGS"
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_SYNC"
 msgid "Audio Sync"
@@ -761,13 +756,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_LOCKED_ENTRY"
 msgid "Locked"
 msgstr "Bloqueado"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_setting.c:6544
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_SETTINGS"
 msgid "RetroAchievements"
-msgstr ""
+msgstr "RetroAchievements"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_TEST_UNOFFICIAL"
 msgid "Test Unofficial Achievements"
@@ -782,13 +774,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ENTRY"
 msgid "Unlocked"
 msgstr "Desbloqueado"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:114
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ENTRY_HARDCORE"
 msgid "Hardcore"
-msgstr ""
+msgstr "Hardcore"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_VERBOSE_ENABLE"
 msgid "Achievements Verbose Mode"
@@ -799,12 +788,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CLOSE_CONTENT"
 msgid "Close Content"
 msgstr "Cerrar"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_CONFIG"
 msgid "Config"
-msgstr ""
+msgstr "Config"
 
 #: menu/menu_displaylist.c:2918
 msgctxt "MENU_ENUM_LABEL_VALUE_CONFIGURATIONS"
@@ -893,13 +879,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_CORE_NAME"
 msgid "Core name"
 msgstr "Nombre del núcleo"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:295
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_FIRMWARE"
 msgid "Firmware(s)"
-msgstr ""
+msgstr "Firmware(s)"
 
 #: menu/menu_displaylist.c:263
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_LICENSES"
@@ -978,12 +961,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CPU_CORES"
 msgid "CPU Cores:"
 msgstr "Núcleos de CPU:"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_CURSOR_DIRECTORY"
 msgid "Cursor"
-msgstr ""
+msgstr "Cursor"
 
 #: menu/menu_displaylist.c:2890
 msgctxt "MENU_ENUM_LABEL_VALUE_CURSOR_MANAGER"
@@ -1683,13 +1663,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_LATE"
 msgid "Late"
 msgstr "Tarde"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:854
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_NORMAL"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_PREFER_FRONT_TOUCH"
 msgid "Prefer Front Touch"
@@ -1772,13 +1749,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ENGLISH"
 msgid "English"
 msgstr "Ingles"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_setting.c:605
 msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ESPERANTO"
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 #: menu/menu_setting.c:594
 msgctxt "MENU_ENUM_LABEL_VALUE_LANG_FRENCH"
@@ -1931,13 +1905,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_GREEN"
 msgid "Green"
 msgstr "Verde"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:1081
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_NVIDIA_SHIELD"
 msgid "Shield"
-msgstr ""
+msgstr "Shield"
 
 #: menu/cbs/menu_cbs_get_value.c:1066
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_RED"
@@ -2006,13 +1977,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MOUSE_ENABLE"
 msgid "Mouse Support"
 msgstr "Soporte para ratón"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_setting.c:6095
 msgctxt "MENU_ENUM_LABEL_VALUE_MULTIMEDIA_SETTINGS"
 msgid "Multimedia"
-msgstr ""
+msgstr "Multimedia"
 
 #: menu/cbs/menu_cbs_title.c:256
 msgctxt "MENU_ENUM_LABEL_VALUE_MUSIC_TAB"
@@ -2125,13 +2093,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG"
 msgid "Analog Input Sharing"
 msgstr "Comparir entrada analoga"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:1846
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_MAX"
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 #: menu/cbs/menu_cbs_get_value.c:1850
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_AVERAGE"
@@ -2147,13 +2112,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_OR"
 msgid "Share"
 msgstr "Compartir"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:1809
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_XOR"
 msgid "Grapple"
-msgstr ""
+msgstr "Grapple"
 
 #: menu/cbs/menu_cbs_get_value.c:1813
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_VOTE"
@@ -2220,9 +2182,6 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_SETTINGS"
 msgid "Network"
 msgstr "Red"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:776 menu/menu_displaylist.c:788
 #: menu/menu_displaylist.c:800 menu/menu_displaylist.c:812
 #: menu/menu_displaylist.c:823 menu/menu_displaylist.c:833
@@ -2250,7 +2209,7 @@ msgstr "Red"
 #: menu/menu_displaylist.c:1229 menu/menu_displaylist.c:1239
 msgctxt "MENU_ENUM_LABEL_VALUE_NO"
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: menu/menu_setting.c:524 menu/menu_setting.c:549
 #: menu/cbs/menu_cbs_get_value.c:1150 menu/cbs/menu_cbs_get_value.c:1230
@@ -2360,9 +2319,6 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_SHADER_PARAMETERS"
 msgid "No shader parameters."
 msgstr "No hay parámetros de shaders"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_setting.c:574 menu/cbs/menu_cbs_get_value.c:274
 #: menu/cbs/menu_cbs_get_value.c:674 menu/cbs/menu_cbs_get_value.c:1109
 #: menu/cbs/menu_cbs_get_value.c:1739 menu/drivers/xmb.c:519
@@ -2371,16 +2327,13 @@ msgstr "No hay parámetros de shaders"
 #: menu/drivers/xmb.c:3998 menu/drivers/materialui.c:891
 msgctxt "MENU_ENUM_LABEL_VALUE_OFF"
 msgid "OFF"
-msgstr ""
+msgstr "OFF"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:673 menu/cbs/menu_cbs_get_value.c:1737
 #: menu/drivers/xmb.c:2441 menu/drivers/materialui.c:902
 msgctxt "MENU_ENUM_LABEL_VALUE_ON"
 msgid "ON"
-msgstr ""
+msgstr "ON"
 
 #: menu/cbs/menu_cbs_get_value.c:939
 msgctxt "MENU_ENUM_LABEL_VALUE_ONLINE"
@@ -2414,34 +2367,25 @@ msgctxt "MENU_ENUM_LABEL_VALUE_OPTIONAL"
 msgid "Optional"
 msgstr "Opcional"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY"
 msgid "Overlay"
-msgstr ""
+msgstr "Overlay"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_AUTOLOAD_PREFERRED"
 msgid "Autoload Preferred Overlay"
 msgstr "Auto-cargar Overlay preferido"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_DIRECTORY"
 msgid "Overlay"
-msgstr ""
+msgstr "Overlay"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_OPACITY"
 msgid "Overlay Opacity"
 msgstr "Opacidad de Overlay"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_PRESET"
 msgid "Overlay Preset"
-msgstr ""
+msgstr "Preset de Overlay"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_SCALE"
 msgid "Overlay Scale"
@@ -2514,34 +2458,25 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ANALOG"
 msgid "Analog supported"
 msgstr "Soporte de analógico"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1849
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_BBFC_RATING"
 msgid "BBFC Rating"
-msgstr ""
+msgstr "BBFC Rating"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1894
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CERO_RATING"
 msgid "CERO Rating"
-msgstr ""
+msgstr "CERO Rating"
 
 #: menu/menu_displaylist.c:1934
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_COOP"
 msgid "Co-op supported"
 msgstr "Soporte de Co-op"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1947
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CRC32"
 msgid "CRC32"
-msgstr ""
+msgstr "CRC32"
 
 #: menu/menu_displaylist.c:1698
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DESCRIPTION"
@@ -2553,61 +2488,40 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DEVELOPER"
 msgid "Developer"
 msgstr "Desarrollador"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1818
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_ISSUE"
 msgid "Edge Magazine Issue"
-msgstr ""
+msgstr "Edge Magazine Issue"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1808
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_RATING"
 msgid "Edge Magazine Rating"
-msgstr ""
+msgstr "Edge Magazine Rating"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1799
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_REVIEW"
 msgid "Edge Magazine Review"
-msgstr ""
+msgstr "Edge Magazine Review"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1867
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ELSPA_RATING"
 msgid "ELSPA Rating"
-msgstr ""
+msgstr "ELSPA Rating"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1885
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ENHANCEMENT_HW"
 msgid "Enhancement Hardware"
-msgstr ""
+msgstr "Enhancement Hardware"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1858
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ESRB_RATING"
 msgid "ESRB Rating"
-msgstr ""
+msgstr "ESRB Rating"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1789
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FAMITSU_MAGAZINE_RATING"
 msgid "Famitsu Magazine Rating"
-msgstr ""
+msgstr "Famitsu Magazine Rating"
 
 #: menu/menu_displaylist.c:1760
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FRANCHISE"
@@ -2619,13 +2533,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_GENRE"
 msgid "Genre"
 msgstr "Género"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1969
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_MD5"
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 #: menu/menu_displaylist.c:317 menu/menu_displaylist.c:1686
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_NAME"
@@ -2637,13 +2548,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ORIGIN"
 msgid "Origin"
 msgstr "Origen"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1876
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PEGI_RATING"
 msgid "PEGI Rating"
-msgstr ""
+msgstr "PEGI Rating"
 
 #: menu/menu_displaylist.c:1723
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PUBLISHER"
@@ -2665,33 +2573,24 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RUMBLE"
 msgid "Rumble supported"
 msgstr "Soporte de vibración"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1904
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SERIAL"
 msgid "Serial"
-msgstr ""
+msgstr "Serial"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1958
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SHA1"
 msgid "SHA1"
-msgstr ""
+msgstr "SHA1"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_START_CONTENT"
 msgid "Start Content"
 msgstr "Ejecutar contenido"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1779
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_TGDB_RATING"
 msgid "TGDB Rating"
-msgstr ""
+msgstr "TGDB Rating"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_REBOOT"
 msgid "Reboot"
@@ -2782,20 +2681,14 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RESUME_CONTENT"
 msgid "Resume"
 msgstr "Reanudar"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_RETROKEYBOARD"
 msgid "RetroKeyboard"
-msgstr ""
+msgstr "RetroKeyboard"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_setting.c:527
 msgctxt "MENU_ENUM_LABEL_VALUE_RETROPAD"
 msgid "RetroPad"
-msgstr ""
+msgstr "RetroPad"
 
 #: menu/menu_setting.c:530
 msgctxt "MENU_ENUM_LABEL_VALUE_RETROPAD_WITH_ANALOG"
@@ -2823,12 +2716,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RGUI_BROWSER_DIRECTORY"
 msgid "File Browser"
 msgstr "Explorador de archivos"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_RGUI_CONFIG_DIRECTORY"
 msgid "Config"
-msgstr ""
+msgstr "Config"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_RGUI_SHOW_START_SCREEN"
 msgid "Display Start Screen"
@@ -2962,34 +2852,25 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SETTINGS_TAB"
 msgid "Settings"
 msgstr "Ajustes"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:1426
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER"
 msgid "Shader"
-msgstr ""
+msgstr "Shader"
 
 #: menu/menu_displaylist.c:1370
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_APPLY_CHANGES"
 msgid "Apply Changes"
 msgstr "Aplicar cambios"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:2698
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_OPTIONS"
 msgid "Shaders"
-msgstr ""
+msgstr "Shaders"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:283
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_RIBBON"
 msgid "Ribbon"
-msgstr ""
+msgstr "Ribbon"
 
 #: menu/cbs/menu_cbs_get_value.c:278
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_RIBBON_SIMPLIFIED"
@@ -3652,19 +3533,13 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FILTER"
 msgid "Video Filter"
 msgstr "Filtro de video"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FILTER_DIR"
 msgid "Video Filter"
-msgstr ""
+msgstr "Filtro de video"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FILTER_FLICKER"
 msgid "Flicker filter"
-msgstr ""
+msgstr "Filtro de parpadeo"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_FONT_ENABLE"
 msgid "Enable Onscreen Notifications"
@@ -3754,20 +3629,14 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SCALE_INTEGER"
 msgid "Integer Scale"
 msgstr "Escalar usando enteros"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_setting.c:3276
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SETTINGS"
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_DIR"
 msgid "Video Shader"
-msgstr ""
+msgstr "Shader de video"
 
 #: menu/menu_displaylist.c:1413
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_NUM_PASSES"
@@ -3797,7 +3666,7 @@ msgstr "Guardar preset para el núcleo"
 #: menu/menu_displaylist.c:1398
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_PARENT"
 msgid "Save Content Directory Preset"
-msgstr ""
+msgstr "Guardar preset de directorio de contenido"
 
 #: menu/menu_displaylist.c:1403
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_GAME"
@@ -3816,20 +3685,14 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SOFT_FILTER"
 msgid "Soft Filter Enable"
 msgstr "Activar filtros por software"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SWAP_INTERVAL"
 msgid "Vertical Sync (Vsync) Swap Interval"
-msgstr ""
+msgstr "Intervalo de intercambio de sincroniz. vertical (Vsync)"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_title.c:258
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_TAB"
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_THREADED"
 msgid "Threaded Video"
@@ -3839,19 +3702,13 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VFILTER"
 msgid "Deflicker"
 msgstr "Filtro contra parpadeos"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VIEWPORT_CUSTOM_HEIGHT"
 msgid "Custom Aspect Ratio Height"
-msgstr ""
+msgstr "Altura de relación de aspecto personalizada"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VIEWPORT_CUSTOM_WIDTH"
 msgid "Custom Aspect Ratio Width"
-msgstr ""
+msgstr "Ancho de relación de aspecto personalizada"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_VIEWPORT_CUSTOM_X"
 msgid "Custom Aspect Ratio X Pos."
@@ -3893,12 +3750,9 @@ msgctxt "MENU_ENUM_LABEL_VALUE_WIFI_DRIVER"
 msgid "Wi-Fi Driver"
 msgstr "Controlador Wi-Fi"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MENU_ENUM_LABEL_VALUE_WIFI_SETTINGS"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ALPHA_FACTOR"
 msgid "Menu Alpha Factor"
@@ -3920,82 +3774,55 @@ msgctxt "MENU_ENUM_LABEL_VALUE_XMB_FONT"
 msgid "Menu Font"
 msgstr "Fuente del menú"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:921
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_CUSTOM"
 msgid "Custom"
-msgstr ""
+msgstr "Personalizado"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:889
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_FLATUI"
 msgid "FlatUI"
-msgstr ""
+msgstr "FlatUI"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:885
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME"
 msgid "Monochrome"
-msgstr ""
+msgstr "Monochrome"
 
 #: menu/cbs/menu_cbs_get_value.c:917
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME_INVERTED"
 msgid "Monochrome Inverted"
 msgstr "Monochrome Invertido"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:909
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_SYSTEMATIC"
 msgid "Systematic"
-msgstr ""
+msgstr "Systematic"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:905
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_NEOACTIVE"
 msgid "NeoActive"
-msgstr ""
+msgstr "NeoActive"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:901
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_PIXEL"
 msgid "Pixel"
-msgstr ""
+msgstr "Pixel"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:893
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROACTIVE"
 msgid "RetroActive"
-msgstr ""
+msgstr "RetroActive"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:897
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROSYSTEM"
 msgid "Retrosystem"
-msgstr ""
+msgstr "Retrosystem"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:913
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_DOTART"
 msgid "Dot-Art"
-msgstr ""
+msgstr "Dot-Art"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME"
 msgid "Menu Color Theme"
@@ -4443,14 +4270,11 @@ msgctxt "MSG_BRINGING_UP_COMMAND_INTERFACE_ON_PORT"
 msgid "Bringing up command interface on port"
 msgstr "Iniciando la linea de comandos en el puerto"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: tasks/task_save.c:404 tasks/task_save.c:879 tasks/task_save.c:1168
 #: tasks/task_save.c:1368
 msgctxt "MSG_BYTES"
 msgid "bytes"
-msgstr ""
+msgstr "bytes"
 
 #: command.c:1467
 msgctxt "MSG_CANNOT_INFER_NEW_CONFIG_PATH"
@@ -4548,13 +4372,10 @@ msgstr ""
 "El CRC32 del contenido no concuerda con el del replay, Es probable que se "
 "de-sincronice al reproducir"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: record/record_driver.c:342
 msgctxt "MSG_CUSTOM_TIMING_GIVEN"
 msgid "Custom timing given"
-msgstr ""
+msgstr "Timing personalizado provisto"
 
 #: menu/cbs/menu_cbs_ok.c:2589
 msgctxt "MSG_DECOMPRESSION_ALREADY_IN_PROGRESS"
@@ -4601,13 +4422,10 @@ msgctxt "MSG_DOWNLOAD_FAILED"
 msgid "Download failed"
 msgstr "Descarga fallida"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: tasks/task_patch.c:542
 msgctxt "MSG_ERROR"
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: tasks/task_content.c:569
 msgctxt "MSG_ERROR_LIBRETRO_CORE_REQUIRES_CONTENT"
@@ -4874,13 +4692,10 @@ msgctxt "MSG_FOUND_SHADER"
 msgid "Found shader"
 msgstr "Encontrado el shader"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: gfx/video_driver.c:2429
 msgctxt "MSG_FRAMES"
 msgid "Frames"
-msgstr ""
+msgstr "Cuadros"
 
 #: retroarch.c:1390
 msgctxt "MSG_GAME_SPECIFIC_CORE_OPTIONS_FOUND_AT"
@@ -5087,13 +4902,10 @@ msgctxt "MSG_PAUSED"
 msgid "Paused."
 msgstr "Pausado"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: retroarch.c:433 gfx/video_driver.c:2216
 msgctxt "MSG_PROGRAM"
 msgid "RetroArch"
-msgstr ""
+msgstr "RetroArch"
 
 #: tasks/task_database.c:285 tasks/task_database.c:313
 #: tasks/task_database.c:437 tasks/task_database.c:467
@@ -5151,13 +4963,10 @@ msgctxt "MSG_REMOVING_TEMPORARY_CONTENT_FILE"
 msgid "Removing temporary content file"
 msgstr "Eliminando el contenido temporal"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: command.c:1848 command.c:1849
 msgctxt "MSG_RESET"
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #: driver.c:302
 msgctxt "MSG_RESTARTING_RECORDING_DUE_TO_DRIVER_REINIT"
@@ -5259,12 +5068,9 @@ msgctxt "MSG_SEVERAL_PATCHES_ARE_EXPLICITLY_DEFINED"
 msgid "Several patches are explicitly defined, ignoring all..."
 msgstr "Varios parches están explicitamente definidos, ignorando todos..."
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 msgctxt "MSG_SHADER"
 msgid "Shader"
-msgstr ""
+msgstr "Shader"
 
 #: menu/cbs/menu_cbs_ok.c:1841 menu/cbs/menu_cbs_ok.c:1980
 msgctxt "MSG_SHADER_PRESET_SAVED_SUCCESSFULLY"
@@ -5762,21 +5568,15 @@ msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_START"
 msgid "Start"
 msgstr "Iniciar"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:298
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_BOKEH"
 msgid "Bokeh"
-msgstr ""
+msgstr "Bokeh"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/cbs/menu_cbs_get_value.c:303
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_SNOWFLAKE"
 msgid "Snowflake"
-msgstr ""
+msgstr "Snowflake"
 
 #: menu/cbs/menu_cbs_ok.c:3193
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REFRESH_ROOMS"
@@ -6809,6 +6609,7 @@ msgid ""
 "Save the current shader settings as the default settings for all files in "
 "the current content directory."
 msgstr ""
+"Guardar la configuración actual de shaders para todos los archivos en el directorio de contenido actual."
 
 msgctxt "MENU_ENUM_SUBLABEL_VIDEO_SHADER_PRESET_SAVE_GAME"
 msgid ""
@@ -7021,13 +6822,10 @@ msgctxt "MENU_ENUM_SUBLABEL_GOTO_IMAGES"
 msgid "Images which have been previously viewed will appear here."
 msgstr "Imágenes previamente vistas aparecerán aquí"
 
-#. Please review and decide if this translation should actually be equal to
-#. the English original and edit it accordingly if needed. IMPORTANT: In any
-#. case remove this comment afterwards
 #: menu/menu_displaylist.c:3373 menu/menu_displaylist.c:6172
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_VIDEO"
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 msgctxt "MENU_ENUM_SUBLABEL_GOTO_VIDEO"
 msgid "Videos which have been previously played will appear here."
@@ -7391,4 +7189,4 @@ msgstr "Auto-aplica los cambios hechos a los archivos shader del disco"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_WINDOW_SHOW_DECORATIONS"
 msgid "Show Window Decorations"
-msgstr ""
+msgstr "Mostrar Decoraciones de Ventanas"
