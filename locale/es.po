@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RetroArch\n"
-"PO-Revision-Date: 2018-03-09 08:17-0300\n"
+"PO-Revision-Date: 2018-03-10 11:06-0300\n"
 "Last-Translator: RetroArch translators\n"
 "Language-Team: RetroArch translators\n"
 "Language: es\n"
@@ -57,7 +57,7 @@ msgstr ""
 #: menu/drivers/materialui.c:2729
 msgctxt "MENU_ENUM_LABEL_NETPLAY_LAN_SCAN_SETTINGS"
 msgid "Search for and connect to netplay hosts on the local network."
-msgstr "Busca y se conecta a anfitriones netplat en la red local."
+msgstr "Busca y se conecta a anfitriones netplay en la red local."
 
 msgctxt "MENU_ENUM_LABEL_ONLINE"
 msgid "online"
@@ -3687,7 +3687,7 @@ msgstr "Activar filtros por software"
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SWAP_INTERVAL"
 msgid "Vertical Sync (Vsync) Swap Interval"
-msgstr "Intervalo de intercambio de sincroniz. vertical (Vsync)"
+msgstr "Intervalo de intercambio de Vsync"
 
 #: menu/cbs/menu_cbs_title.c:258
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_TAB"
@@ -4695,7 +4695,7 @@ msgstr "Encontrado el shader"
 #: gfx/video_driver.c:2429
 msgctxt "MSG_FRAMES"
 msgid "Frames"
-msgstr "Cuadros"
+msgstr "Frames"
 
 #: retroarch.c:1390
 msgctxt "MSG_GAME_SPECIFIC_CORE_OPTIONS_FOUND_AT"
