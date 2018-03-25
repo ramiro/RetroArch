@@ -71,6 +71,9 @@ BASE_PO_METADATA = {
 }
 
 
+EXCLUDE_VALID_OPTIONS = ['l', 'S', 'u']
+
+
 class CParseError(Exception):
     pass
 
@@ -161,7 +164,7 @@ def extract_symbols(symbols, filename, file_object, found_list, search_text):
         except SkipOccurrence:
             continue
         except CParseWarning as e:
-            logging.warn(e)
+            logging.warning(e)
             continue
         except CParseError as e:
             logging.error(e)
@@ -271,11 +274,46 @@ def check(options):
     return 0
 
 
+def process_exclude_options(exclude_options):
+    if exclude_options is None:
+        return None
+    specs = []
+    for exclude_spec in exclude_options:
+        spec = []
+        for exclude_char in exclude_spec:
+            if exclude_char == 'l':
+                spec.append(lambda s: s.islower())
+            elif exclude_char == 'S':
+                spec.append(lambda s: ' ' not in s)
+            else:  # exclude_char = 'u'
+                spec.append(lambda s: '_' in s)
+        specs.append(spec)
+    return specs
+
+
+def apply_exclude_options(msgid, specs):
+    if specs is None:
+        return False
+    must_exclude = False
+    for spec in specs:
+        spec_condition_triggered = True
+        for condition in spec:
+            spec_condition_triggered = spec_condition_triggered and condition(msgid)
+        if spec_condition_triggered:
+            logging.log(logging.INFO - 1, 'Skipping "%s"', msgid)
+            must_exclude = True
+            break
+    return must_exclude
+
+
 def h2po(options, create_english_pot=False):
 
     def key(entry):
         return (english_symdefs[entry]['file'], english_symdefs[entry]['lineno'])
 
+    if options.verbose:
+        logging.getLogger().setLevel(logging.INFO + 1 - options.verbose)
+    exclude_specs = process_exclude_options(options.exclude)
     if create_english_pot:
         basename, ext = 'ref', 'pot'
         locale = 'en_US'
@@ -310,13 +348,17 @@ def h2po(options, create_english_pot=False):
         pof.metadata['PO-Revision-Date'] = utcnow
         existing_translations = extract_translations_from_msg_hash_xx_h(options.locale)
 
+    total_skipped = 0
     for entry in sorted(english_symdefs, key=key):
         msgid = english_symdefs[entry]['literal']
         if create_english_pot:
             msgstr = ''
         else:
             msgstr = existing_translations.pop(entry, {}).get('literal', '')
-        if not msgstr and msgid.islower() and ' ' not in msgid and '_' in msgid:
+        # if not msgstr and msgid.islower() and ' ' not in msgid and '_' in msgid:
+        #     continue
+        if not msgstr and apply_exclude_options(msgid, exclude_specs):
+            total_skipped += 1
             continue
         edata = {
             'msgstr': polib.unescape(msgstr),
@@ -333,6 +375,8 @@ def h2po(options, create_english_pot=False):
             edata['occurrences'] = symbol_usage_list
         po_entry = polib.POEntry(**edata)
         pof.append(po_entry)
+    if total_skipped:
+        logging.info('Total skipped literals: %d', total_skipped)
     if existing_translations:
         error_text = ['The following RetroArch translatable literal IDs don\'t have an English original literal defined:']
         for k in existing_translations:
@@ -454,6 +498,10 @@ def main(argv=None):
     h2po_parser.add_argument('-o', '--output', dest='output_file', help='PO file to write to')
     h2po_parser.add_argument('-f', '--force', action='store_true', help='Force overwriting extisting PO file')
     h2po_parser.add_argument('-e', dest='interpret_equal_trans_as_empty', action='store_true', help='When a translation in the .h files is equal to its English original store it as untranslated (empty) in the PO file')
+    h2po_parser.add_argument('-x', '--exclude', action='append', help="Exclude literals by their characteristics. "
+                             "A combination of 'l' (an all-lowercase literal), 'S' (literal with no spaces) and 'u' "
+                             "(literal with at least one underscore). Can be used mutiple times.")
+    h2po_parser.add_argument('-v', '--verbose', action='count', help='Be more verbose')
 
     upd_parser = sub_parsers.add_parser('updatepo', help='Updates PO files')
     upd_parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')  # TODO: Review 'us' default
@@ -470,6 +518,18 @@ def main(argv=None):
     elif args.command == 'createref':
         h2po(args, create_english_pot=True)
     elif args.command == 'h2po':
+        if args.exclude is not None:
+            for exclude_spec in args.exclude:
+                remain = exclude_spec.strip(''.join(EXCLUDE_VALID_OPTIONS))
+                if remain:
+                    print("ERROR: Invalid exclude option(s) '%s' in '%s'\n" % (remain, exclude_spec))
+                    parser.print_help()
+                    sys.exit(1)
+                for optchar in EXCLUDE_VALID_OPTIONS:
+                    if exclude_spec.count(optchar) > 1:
+                        print("ERROR: Exclude option '%s' used more than once in '%s'\n" % (optchar, exclude_spec))
+                        parser.print_help()
+                        sys.exit(1)
         h2po(args)
     elif args.command == 'updatepo':
         updatepo(args)
