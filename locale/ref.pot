@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RetroArch\n"
-"POT-Creation-Date: 2018-03-03 20:37:00+0000\n"
+"POT-Creation-Date: 2018-03-26 02:11:00+0000\n"
 "Last-Translator: RetroArch translators\n"
 "Language-Team: RetroArch translators\n"
 "Language: en_US\n"
@@ -10,101 +10,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: menu/menu_displaylist.c:2532 menu/menu_displaylist.c:4375
-msgctxt "MENU_ENUM_LABEL_COLLECTION"
-msgid "collection"
-msgstr ""
-
-#: menu/menu_displaylist.c:2919
-msgctxt "MENU_ENUM_LABEL_CONFIGURATIONS"
-msgid "configurations"
-msgstr ""
-
-#: menu/menu_setting.c:2975 menu/drivers/materialui.c:2698
+#: menu/menu_setting.c:2972 menu/drivers/materialui.c:2733
 msgctxt "MENU_ENUM_LABEL_CONFIGURATION_SETTINGS"
 msgid ""
 "Determines how configuration files \n"
 "are loaded and prioritized."
 msgstr ""
 
-#: menu/menu_displaylist.c:6152 menu/cbs/menu_cbs_ok.c:3440
-#: menu/cbs/menu_cbs_ok.c:3453 menu/drivers/xmb.c:4371
-#: menu/drivers/materialui.c:2080 menu/drivers/materialui.c:2757
-msgctxt "MENU_ENUM_LABEL_FAVORITES"
-msgid "favorites"
-msgstr ""
-
-#: menu/menu_setting.c:1714 menu/widgets/menu_dialog.c:269
-msgctxt "MENU_ENUM_LABEL_HELP"
-msgid "help"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_INFORMATION"
-msgid "information"
-msgstr ""
-
-#: menu/menu_displaylist.c:2617 menu/drivers/materialui.c:2569
-msgctxt "MENU_ENUM_LABEL_LOAD_STATE"
-msgid "loadstate"
-msgstr ""
-
-#: menu/cbs/menu_cbs_ok.c:3266 menu/drivers/materialui.c:2636
-msgctxt "MENU_ENUM_LABEL_NETPLAY"
-msgid "netplay"
-msgstr ""
-
-#: menu/drivers/materialui.c:2718
+#: menu/drivers/materialui.c:2753
 msgctxt "MENU_ENUM_LABEL_NETPLAY_LAN_SCAN_SETTINGS"
 msgid "Search for and connect to netplay hosts on the local network."
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_ONLINE"
-msgid "online"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_REBOOT"
-msgid "reboot"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_RESUME"
-msgid "resume"
-msgstr ""
-
-#: menu/menu_displaylist.c:2791 menu/drivers/materialui.c:2532
-msgctxt "MENU_ENUM_LABEL_RUN"
-msgid "collection"
-msgstr ""
-
-#: menu/menu_displaylist.c:2611 menu/drivers/materialui.c:2591
-msgctxt "MENU_ENUM_LABEL_SAVE_STATE"
-msgid "savestate"
-msgstr ""
-
-#: menu/menu_setting.c:1981 menu/menu_setting.c:2800 menu/menu_setting.c:2910
-#: menu/menu_setting.c:3282 menu/menu_setting.c:3976 menu/menu_setting.c:4059
-#: menu/menu_setting.c:4175 menu/menu_setting.c:4296 menu/menu_setting.c:4760
-#: menu/menu_setting.c:6100 menu/menu_setting.c:6471 menu/menu_setting.c:7120
-#: menu/menu_setting.c:7258 menu/menu_setting.c:7280
-msgctxt "MENU_ENUM_LABEL_SETTINGS"
-msgid "settings"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_SHUTDOWN"
-msgid "shutdown"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_THUMBNAILS"
-msgid "thumbnails"
-msgstr ""
-
-#: menu/menu_displaylist.c:2631 menu/drivers/materialui.c:2601
-msgctxt "MENU_ENUM_LABEL_UNDO_LOAD_STATE"
-msgid "undoloadstate"
-msgstr ""
-
-#: menu/menu_displaylist.c:2637 menu/drivers/materialui.c:2606
-msgctxt "MENU_ENUM_LABEL_UNDO_SAVE_STATE"
-msgid "undosavestate"
 msgstr ""
 
 #: tasks/task_autodetect.c:274
@@ -112,64 +27,22 @@ msgctxt "MSG_DEVICE_CONFIGURED_IN_PORT"
 msgid "configured in port"
 msgstr ""
 
-#: command.c:776
+#: command.c:762
 msgctxt "MSG_FAILED_TO_SET_DISK"
 msgid "Failed to set disk"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_OFF"
-msgid "off"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_ON"
-msgid "on"
-msgstr ""
-
-#: menu/drivers/xmb.c:2411 menu/drivers/materialui.c:889
-msgctxt "MENU_ENUM_LABEL_DISABLED"
-msgid "disabled"
-msgstr ""
-
-#: menu/drivers/xmb.c:2419 menu/drivers/materialui.c:900
-msgctxt "MENU_ENUM_LABEL_ENABLED"
-msgid "enabled"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_SECONDS"
-msgid "seconds"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_STATUS"
-msgid "status"
 msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_FILTER_BY_CURRENT_CORE"
 msgid "filter_by_current_Core"
 msgstr ""
 
-msgctxt "MENU_ENUM_LABEL_AUDIO_RESAMPLER_DRIVER_SINC"
-msgid "sinc"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_AUDIO_RESAMPLER_DRIVER_CC"
-msgid "cc"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_INPUT_DRIVER_UDEV"
-msgid "udev"
-msgstr ""
-
-msgctxt "MENU_ENUM_LABEL_INPUT_DRIVER_LINUXRAW"
-msgid "linuxraw"
-msgstr ""
-
-#: retroarch.c:2177 retroarch.c:2182 retroarch.c:2186 retroarch.c:2191
-#: retroarch.c:2195
+#: retroarch.c:2205 retroarch.c:2210 retroarch.c:2214 retroarch.c:2219
+#: retroarch.c:2223
 msgctxt "MSG_COMPILER"
 msgid "Compiler"
 msgstr ""
 
-#: retroarch.c:2200
+#: retroarch.c:2228
 msgctxt "MSG_UNKNOWN_COMPILER"
 msgid "Unknown compiler"
 msgstr ""
@@ -207,12 +80,12 @@ msgctxt "MSG_PUBLIC_ADDRESS"
 msgid "Public address"
 msgstr ""
 
-#: retroarch.c:697
+#: retroarch.c:698
 msgctxt "MSG_NO_ARGUMENTS_SUPPLIED_AND_NO_MENU_BUILTIN"
 msgid "No arguments supplied and no menu builtin, displaying help..."
 msgstr ""
 
-#: command.c:765
+#: command.c:751
 msgctxt "MSG_SETTING_DISK_IN_TRAY"
 msgid "Setting disk in tray"
 msgstr ""
@@ -381,7 +254,7 @@ msgid ""
 "only if you cannot obtain full speed otherwise."
 msgstr ""
 
-#: command.c:939 command.c:966
+#: command.c:925 command.c:952
 msgctxt "MSG_AUDIO_VOLUME"
 msgid "Audio volume"
 msgstr ""
@@ -391,12 +264,12 @@ msgctxt "MSG_AUTODETECT"
 msgid "Autodetect"
 msgstr ""
 
-#: command.c:1125 tasks/task_save.c:789 tasks/task_save.c:817
+#: command.c:1111 tasks/task_save.c:789 tasks/task_save.c:817
 msgctxt "MSG_AUTOLOADING_SAVESTATE_FROM"
 msgid "Auto-loading savestate from"
 msgstr ""
 
-#: retroarch.c:1254
+#: retroarch.c:1283
 msgctxt "MSG_CAPABILITIES"
 msgid "Capabilities"
 msgstr ""
@@ -406,7 +279,7 @@ msgctxt "MSG_CONNECTING_TO_NETPLAY_HOST"
 msgid "Connecting to netplay host"
 msgstr ""
 
-#: command.c:1040
+#: command.c:1026
 msgctxt "MSG_CONNECTING_TO_PORT"
 msgid "Connecting to port"
 msgstr ""
@@ -426,7 +299,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_CHEEVOS_PASSWORD"
 msgid "Password"
 msgstr ""
 
-#: menu/menu_setting.c:7277
+#: menu/menu_setting.c:7307
 msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_CHEEVOS_SETTINGS"
 msgid "Accounts Cheevos"
 msgstr ""
@@ -439,7 +312,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_LIST"
 msgid "Accounts"
 msgstr ""
 
-#: menu/menu_setting.c:7255
+#: menu/menu_setting.c:7285
 msgctxt "MENU_ENUM_LABEL_VALUE_ACCOUNTS_LIST_END"
 msgid "Accounts List Endpoint"
 msgstr ""
@@ -450,11 +323,11 @@ msgstr ""
 
 #: menu/menu_displaylist.c:2727
 msgctxt "MENU_ENUM_LABEL_VALUE_ACHIEVEMENT_LIST"
-msgid "Achievement List"
+msgid "Achievements"
 msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_ACHIEVEMENT_LIST_HARDCORE"
-msgid "Achievement List (Hardcore)"
+msgid "Achievements (Hardcore)"
 msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_ADD_CONTENT_LIST"
@@ -507,7 +380,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_FILTER_DIR"
 msgid "Audio Filter"
 msgstr ""
 
-#: menu/menu_setting.c:4544
+#: menu/menu_setting.c:4556
 msgctxt "MENU_ENUM_LABEL_VALUE_TURBO_DEADZONE_LIST"
 msgid "Turbo/Deadzone"
 msgstr ""
@@ -536,7 +409,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_RESAMPLER_DRIVER"
 msgid "Audio Resampler Driver"
 msgstr ""
 
-#: menu/menu_setting.c:3973
+#: menu/menu_setting.c:3985
 msgctxt "MENU_ENUM_LABEL_VALUE_AUDIO_SETTINGS"
 msgid "Audio"
 msgstr ""
@@ -678,12 +551,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CAMERA_DRIVER"
 msgid "Camera Driver"
 msgstr ""
 
-#: menu/menu_displaylist.c:3156
+#: menu/menu_displaylist.c:3164
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT"
 msgid "Cheat"
 msgstr ""
 
-#: menu/menu_displaylist.c:3129
+#: menu/menu_displaylist.c:3137
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_APPLY_CHANGES"
 msgid "Apply Changes"
 msgstr ""
@@ -696,17 +569,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_FILE"
 msgid "Cheat File"
 msgstr ""
 
-#: menu/menu_displaylist.c:3134
+#: menu/menu_displaylist.c:3142
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_FILE_LOAD"
 msgid "Load Cheat File"
 msgstr ""
 
-#: menu/menu_displaylist.c:3139
+#: menu/menu_displaylist.c:3147
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_FILE_SAVE_AS"
 msgid "Save Cheat File As"
 msgstr ""
 
-#: menu/menu_displaylist.c:3144
+#: menu/menu_displaylist.c:3152
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEAT_NUM_PASSES"
 msgid "Cheat Passes"
 msgstr ""
@@ -731,12 +604,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_LOCKED_ACHIEVEMENTS"
 msgid "Locked Achievements:"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:84
+#: menu/cbs/menu_cbs_get_value.c:85
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_LOCKED_ENTRY"
 msgid "Locked"
 msgstr ""
 
-#: menu/menu_setting.c:6545
+#: menu/menu_setting.c:6559
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_SETTINGS"
 msgid "RetroAchievements"
 msgstr ""
@@ -749,12 +622,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ACHIEVEMENTS"
 msgid "Unlocked Achievements:"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:99
+#: menu/cbs/menu_cbs_get_value.c:100
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ENTRY"
 msgid "Unlocked"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:114
+#: menu/cbs/menu_cbs_get_value.c:115
 msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_UNLOCKED_ENTRY_HARDCORE"
 msgid "Hardcore"
 msgstr ""
@@ -763,7 +636,11 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_VERBOSE_ENABLE"
 msgid "Achievements Verbose Mode"
 msgstr ""
 
-#: menu/menu_displaylist.c:2585
+msgctxt "MENU_ENUM_LABEL_VALUE_CHEEVOS_AUTO_SCREENSHOT"
+msgid "Achievements Automatic Screenshot"
+msgstr ""
+
+#: menu/menu_displaylist.c:2584
 msgctxt "MENU_ENUM_LABEL_VALUE_CLOSE_CONTENT"
 msgid "Close Content"
 msgstr ""
@@ -772,12 +649,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CONFIG"
 msgid "Config"
 msgstr ""
 
-#: menu/menu_displaylist.c:2918
+#: menu/menu_displaylist.c:2929
 msgctxt "MENU_ENUM_LABEL_VALUE_CONFIGURATIONS"
 msgid "Load Configuration"
 msgstr ""
 
-#: menu/menu_setting.c:2973
+#: menu/menu_setting.c:2970
 msgctxt "MENU_ENUM_LABEL_VALUE_CONFIGURATION_SETTINGS"
 msgid "Configuration"
 msgstr ""
@@ -786,7 +663,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CONFIG_SAVE_ON_EXIT"
 msgid "Save Configuration on Exit"
 msgstr ""
 
-#: menu/menu_displaylist.c:6198 menu/drivers/xmb.c:4387
+#: menu/menu_displaylist.c:6209 menu/drivers/xmb.c:4439
 msgctxt "MENU_ENUM_LABEL_VALUE_CONTENT_COLLECTION_LIST"
 msgid "Collections"
 msgstr ""
@@ -807,7 +684,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_PLAYLIST_ENTRY_REMOVE"
 msgid "Allow to remove entries"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:720
+#: menu/cbs/menu_cbs_ok.c:719
 msgctxt "MENU_ENUM_LABEL_VALUE_CONTENT_SETTINGS"
 msgid "Quick Menu"
 msgstr ""
@@ -820,12 +697,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_ASSETS_DIRECTORY"
 msgid "Downloads"
 msgstr ""
 
-#: menu/menu_displaylist.c:2680
+#: menu/menu_displaylist.c:2679
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_CHEAT_OPTIONS"
 msgid "Cheats"
 msgstr ""
 
-#: menu/menu_displaylist.c:2905
+#: menu/menu_displaylist.c:2916
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_COUNTERS"
 msgid "Core Counters"
 msgstr ""
@@ -834,7 +711,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_ENABLE"
 msgid "Show core name"
 msgstr ""
 
-#: menu/menu_displaylist.c:2862
+#: menu/menu_displaylist.c:2873
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFORMATION"
 msgid "Core Information"
 msgstr ""
@@ -889,7 +766,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INFO_SYSTEM_NAME"
 msgid "System name"
 msgstr ""
 
-#: menu/menu_displaylist.c:2671
+#: menu/menu_displaylist.c:2670
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_INPUT_REMAPPING_OPTIONS"
 msgid "Controls"
 msgstr ""
@@ -899,12 +776,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_LIST"
 msgid "Load Core"
 msgstr ""
 
-#: menu/menu_displaylist.c:2654
+#: menu/menu_displaylist.c:2653
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_OPTIONS"
 msgid "Options"
 msgstr ""
 
-#: menu/menu_setting.c:2905
+#: menu/menu_setting.c:2902
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_SETTINGS"
 msgid "Core"
 msgstr ""
@@ -921,12 +798,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CORE_UPDATER_BUILDBOT_URL"
 msgid "Buildbot Cores URL"
 msgstr ""
 
-#: menu/menu_displaylist.c:3022
+#: menu/menu_displaylist.c:3033
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_UPDATER_LIST"
 msgid "Core Updater"
 msgstr ""
 
-#: menu/menu_setting.c:6653
+#: menu/menu_setting.c:6683
 msgctxt "MENU_ENUM_LABEL_VALUE_CORE_UPDATER_SETTINGS"
 msgid "Updater"
 msgstr ""
@@ -945,7 +822,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CURSOR_DIRECTORY"
 msgid "Cursor"
 msgstr ""
 
-#: menu/menu_displaylist.c:2890
+#: menu/menu_displaylist.c:2901
 msgctxt "MENU_ENUM_LABEL_VALUE_CURSOR_MANAGER"
 msgid "Cursor Manager"
 msgstr ""
@@ -954,7 +831,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CUSTOM_RATIO"
 msgid "Custom Ratio"
 msgstr ""
 
-#: menu/menu_displaylist.c:2885
+#: menu/menu_displaylist.c:2896
 msgctxt "MENU_ENUM_LABEL_VALUE_DATABASE_MANAGER"
 msgid "Database Manager"
 msgstr ""
@@ -963,13 +840,13 @@ msgctxt "MENU_ENUM_LABEL_VALUE_DATABASE_SELECTION"
 msgid "Database Selection"
 msgstr ""
 
-#: menu/menu_displaylist.c:2803
+#: menu/menu_displaylist.c:2805
 msgctxt "MENU_ENUM_LABEL_VALUE_DELETE_ENTRY"
 msgid "Remove"
 msgstr ""
 
-#: menu/menu_displaylist.c:6151 menu/drivers/xmb.c:4370
-#: menu/drivers/materialui.c:2079
+#: menu/menu_displaylist.c:6162 menu/drivers/xmb.c:4422
+#: menu/drivers/materialui.c:2114
 msgctxt "MENU_ENUM_LABEL_VALUE_FAVORITES"
 msgid "Start directory"
 msgstr ""
@@ -978,7 +855,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_CONTENT"
 msgid "<Content dir>"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:151
+#: menu/cbs/menu_cbs_get_value.c:152
 msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_DEFAULT"
 msgid "<Default>"
 msgstr ""
@@ -987,55 +864,55 @@ msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_NONE"
 msgid "<None>"
 msgstr ""
 
-#: menu/menu_displaylist.c:3330 menu/menu_displaylist.c:3495
-#: menu/widgets/menu_filebrowser.c:129
+#: menu/menu_displaylist.c:3338 menu/menu_displaylist.c:3503
+#: menu/widgets/menu_filebrowser.c:140
 msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_NOT_FOUND"
 msgid "Directory not found."
 msgstr ""
 
-#: menu/menu_setting.c:7321
+#: menu/menu_setting.c:7351
 msgctxt "MENU_ENUM_LABEL_VALUE_DIRECTORY_SETTINGS"
 msgid "Directory"
 msgstr ""
 
-#: menu/menu_displaylist.c:4483
+#: menu/menu_displaylist.c:4489
 msgctxt "MENU_ENUM_LABEL_VALUE_DISK_CYCLE_TRAY_STATUS"
 msgid "Disk Cycle Tray Status"
 msgstr ""
 
-#: menu/menu_displaylist.c:4488
+#: menu/menu_displaylist.c:4494
 msgctxt "MENU_ENUM_LABEL_VALUE_DISK_IMAGE_APPEND"
 msgid "Disk Image Append"
 msgstr ""
 
-#: menu/menu_displaylist.c:4478
+#: menu/menu_displaylist.c:4484
 msgctxt "MENU_ENUM_LABEL_VALUE_DISK_INDEX"
 msgid "Disk Index"
 msgstr ""
 
-#: menu/menu_displaylist.c:2689
+#: menu/menu_displaylist.c:2688
 msgctxt "MENU_ENUM_LABEL_VALUE_DISK_OPTIONS"
 msgid "Disk Control"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:176 menu/cbs/menu_cbs_get_value.c:209
-#: menu/cbs/menu_cbs_get_value.c:511
+#: menu/cbs/menu_cbs_get_value.c:177 menu/cbs/menu_cbs_get_value.c:210
+#: menu/cbs/menu_cbs_get_value.c:516
 msgctxt "MENU_ENUM_LABEL_VALUE_DONT_CARE"
 msgid "Don't care"
 msgstr ""
 
-#: menu/menu_displaylist.c:6188 menu/drivers/xmb.c:4379
-#: menu/drivers/materialui.c:2088
+#: menu/menu_displaylist.c:6199 menu/drivers/xmb.c:4431
+#: menu/drivers/materialui.c:2123
 msgctxt "MENU_ENUM_LABEL_VALUE_DOWNLOADED_FILE_DETECT_CORE_LIST"
 msgid "Downloads"
 msgstr ""
 
-#: menu/menu_displaylist.c:4023
+#: menu/menu_displaylist.c:4031
 msgctxt "MENU_ENUM_LABEL_VALUE_DOWNLOAD_CORE"
 msgid "Download Core..."
 msgstr ""
 
-#: menu/menu_displaylist.c:3012 menu/menu_displaylist.c:3035
+#: menu/menu_displaylist.c:3023 menu/menu_displaylist.c:3046
 msgctxt "MENU_ENUM_LABEL_VALUE_DOWNLOAD_CORE_CONTENT"
 msgid "Content Downloader"
 msgstr ""
@@ -1048,7 +925,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_DPI_OVERRIDE_VALUE"
 msgid "DPI Override"
 msgstr ""
 
-#: menu/menu_setting.c:2797
+#: menu/menu_setting.c:2794
 msgctxt "MENU_ENUM_LABEL_VALUE_DRIVER_SETTINGS"
 msgid "Driver"
 msgstr ""
@@ -1081,7 +958,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ENTRY_NORMAL_COLOR"
 msgid "Menu entry normal color"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:364
+#: menu/cbs/menu_cbs_get_value.c:365
 msgctxt "MENU_ENUM_LABEL_VALUE_FALSE"
 msgid "False"
 msgstr ""
@@ -1103,12 +980,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_FRAME_THROTTLE_ENABLE"
 msgid "Limit Maximum Run Speed"
 msgstr ""
 
-#: menu/menu_setting.c:4789
+#: menu/menu_setting.c:4801
 msgctxt "MENU_ENUM_LABEL_VALUE_FRAME_THROTTLE_SETTINGS"
 msgid "Frame Throttle"
 msgstr ""
 
-#: menu/menu_displaylist.c:2899
+#: menu/menu_displaylist.c:2910
 msgctxt "MENU_ENUM_LABEL_VALUE_FRONTEND_COUNTERS"
 msgid "Frontend Counters"
 msgstr ""
@@ -1117,12 +994,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS"
 msgid "Load Content-Specific Core Options Automatically"
 msgstr ""
 
-#: menu/menu_displaylist.c:4727
+#: menu/menu_displaylist.c:4733
 msgctxt "MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS_CREATE"
 msgid "Create game-options file"
 msgstr ""
 
-#: menu/menu_displaylist.c:4735
+#: menu/menu_displaylist.c:4741
 msgctxt "MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS_IN_USE"
 msgid "Game-options file"
 msgstr ""
@@ -1131,17 +1008,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_HELP"
 msgid "Help"
 msgstr ""
 
-#: menu/menu_displaylist.c:6449
+#: menu/menu_displaylist.c:6458
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_AUDIO_VIDEO_TROUBLESHOOTING"
 msgid "Audio/Video Troubleshooting"
 msgstr ""
 
-#: menu/menu_displaylist.c:6443
+#: menu/menu_displaylist.c:6452
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_CHANGE_VIRTUAL_GAMEPAD"
 msgid "Changing Virtual Gamepad Overlay"
 msgstr ""
 
-#: menu/menu_displaylist.c:6420
+#: menu/menu_displaylist.c:6429
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_CONTROLS"
 msgid "Basic Menu Controls"
 msgstr ""
@@ -1150,17 +1027,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_HELP_LIST"
 msgid "Help"
 msgstr ""
 
-#: menu/menu_displaylist.c:6430
+#: menu/menu_displaylist.c:6439
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_LOADING_CONTENT"
 msgid "Loading Content"
 msgstr ""
 
-#: menu/menu_displaylist.c:6436
+#: menu/menu_displaylist.c:6445
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_SCANNING_CONTENT"
 msgid "Scanning For Content"
 msgstr ""
 
-#: menu/menu_displaylist.c:6425
+#: menu/menu_displaylist.c:6434
 msgctxt "MENU_ENUM_LABEL_VALUE_HELP_WHAT_IS_A_CORE"
 msgid "What Is A Core?"
 msgstr ""
@@ -1192,7 +1069,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INFORMATION_LIST"
 msgid "Information"
 msgstr ""
 
-#: menu/menu_setting.c:2045
+#: menu/menu_setting.c:2042
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ADC_TYPE"
 msgid "Analog To Digital Type"
 msgstr ""
@@ -1201,7 +1078,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ALL_USERS_CONTROL_MENU"
 msgid "All Users Control Menu"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:596
+#: menu/cbs/menu_cbs_get_value.c:601
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_X"
 msgid "Left Analog X"
 msgstr ""
@@ -1214,7 +1091,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_X_PLUS"
 msgid "Left analog X+ (right)"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:599
+#: menu/cbs/menu_cbs_get_value.c:604
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_Y"
 msgid "Left Analog Y"
 msgstr ""
@@ -1227,7 +1104,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_LEFT_Y_PLUS"
 msgid "Left analog Y+ (down)"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:602
+#: menu/cbs/menu_cbs_get_value.c:607
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_RIGHT_X"
 msgid "Right Analog X"
 msgstr ""
@@ -1240,7 +1117,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_RIGHT_X_PLUS"
 msgid "Right analog X+ (right)"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:605
+#: menu/cbs/menu_cbs_get_value.c:610
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_ANALOG_RIGHT_Y"
 msgid "Right Analog Y"
 msgstr ""
@@ -1309,12 +1186,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MENU_INPUT_SWAP_OK_CANCEL"
 msgid "Menu Swap OK & Cancel Buttons"
 msgstr ""
 
-#: menu/menu_setting.c:2048
+#: menu/menu_setting.c:2045
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_BIND_ALL"
 msgid "Bind All"
 msgstr ""
 
-#: menu/menu_setting.c:2051
+#: menu/menu_setting.c:2048
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_BIND_DEFAULT_ALL"
 msgid "Bind Default All"
 msgstr ""
@@ -1331,17 +1208,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_DESCRIPTOR_LABEL_SHOW"
 msgid "Display Input Descriptor Labels"
 msgstr ""
 
-#: menu/menu_setting.c:2039
+#: menu/menu_setting.c:2036
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_DEVICE_INDEX"
 msgid "Device Index"
 msgstr ""
 
-#: menu/menu_setting.c:2042
+#: menu/menu_setting.c:2039
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_DEVICE_TYPE"
 msgid "Device Type"
 msgstr ""
 
-#: menu/menu_setting.c:2057
+#: menu/menu_setting.c:2054
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_INDEX"
 msgid "Mouse Index"
 msgstr ""
@@ -1426,7 +1303,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_Y"
 msgid "Y button (left)"
 msgstr ""
 
-#: input/input_driver.c:2625
+#: input/input_driver.c:2638
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_KEY"
 msgid "(Key: %s)"
@@ -1472,7 +1349,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_KEYBOARD_GAMEPAD_MAPPING_TYPE"
 msgid "Keyboard Gamepad Mapping Type"
 msgstr ""
 
-#: menu/menu_displaylist.c:1768
+#: menu/menu_displaylist.c:1769
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_MAX_USERS"
 msgid "Max Users"
 msgstr ""
@@ -1593,8 +1470,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_META_SHADER_PREV"
 msgid "Previous shader"
 msgstr ""
 
-msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_META_SLOWMOTION"
-msgid "Slow motion"
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_META_SLOWMOTION_HOLD_KEY"
+msgid "Slow motion hold"
+msgstr ""
+
+msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_META_SLOWMOTION_KEY"
+msgid "Slow motion toggle"
 msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_META_STATE_SLOT_MINUS"
@@ -1633,17 +1514,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR"
 msgid "Poll Type Behavior"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:845
+#: menu/cbs/menu_cbs_get_value.c:850
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_EARLY"
 msgid "Early"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:855
+#: menu/cbs/menu_cbs_get_value.c:860
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_LATE"
 msgid "Late"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:850
+#: menu/cbs/menu_cbs_get_value.c:855
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_NORMAL"
 msgid "Normal"
 msgstr ""
@@ -1660,7 +1541,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_REMAP_BINDS_ENABLE"
 msgid "Remap Binds Enable"
 msgstr ""
 
-#: menu/menu_setting.c:2054
+#: menu/menu_setting.c:2051
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_SAVE_AUTOCONFIG"
 msgid "Save Autoconfig"
 msgstr ""
@@ -1685,7 +1566,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_TURBO_PERIOD"
 msgid "Turbo Period"
 msgstr ""
 
-#: menu/menu_setting.c:4625 menu/cbs/menu_cbs_title.c:304
+#: menu/menu_setting.c:4637 menu/cbs/menu_cbs_title.c:304
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_INPUT_USER_BINDS"
 msgid "Input User %u Binds"
@@ -1704,7 +1585,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_JOYPAD_DRIVER"
 msgid "Joypad Driver"
 msgstr ""
 
-#: menu/menu_setting.c:7117 menu/menu_setting.c:7123
+#: menu/menu_setting.c:7147 menu/menu_setting.c:7153
 msgctxt "MENU_ENUM_LABEL_VALUE_LAKKA_SERVICES"
 msgid "Services"
 msgstr ""
@@ -1789,6 +1670,11 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LANG_VIETNAMESE"
 msgid "Vietnamese"
 msgstr ""
 
+#: menu/menu_setting.c:608
+msgctxt "MENU_ENUM_LABEL_VALUE_LANG_ARABIC"
+msgid "Arabic"
+msgstr ""
+
 #: menu/menu_setting.c:550
 msgctxt "MENU_ENUM_LABEL_VALUE_LEFT_ANALOG"
 msgid "Left Analog"
@@ -1806,12 +1692,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LIBRETRO_LOG_LEVEL"
 msgid "Core Logging Level"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:180 menu/cbs/menu_cbs_get_value.c:426
+#: menu/cbs/menu_cbs_get_value.c:181 menu/cbs/menu_cbs_get_value.c:430
 msgctxt "MENU_ENUM_LABEL_VALUE_LINEAR"
 msgid "Linear"
 msgstr ""
 
-#: menu/menu_displaylist.c:4781 menu/menu_displaylist.c:4797
+#: menu/menu_displaylist.c:4787 menu/menu_displaylist.c:4803
 msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_ARCHIVE"
 msgid "Load Archive"
 msgstr ""
@@ -1820,12 +1706,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_CONTENT_HISTORY"
 msgid "Load Recent"
 msgstr ""
 
-#: menu/menu_displaylist.c:2563 ui/drivers/ui_win32.c:616
+#: menu/menu_displaylist.c:2562 ui/drivers/ui_win32.c:616
 msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_CONTENT_LIST"
 msgid "Load Content"
 msgstr ""
 
-#: menu/menu_displaylist.c:2616
+#: menu/menu_displaylist.c:2615
 msgctxt "MENU_ENUM_LABEL_VALUE_LOAD_STATE"
 msgid "Load State"
 msgstr ""
@@ -1838,7 +1724,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_LOCATION_DRIVER"
 msgid "Location Driver"
 msgstr ""
 
-#: menu/menu_setting.c:3041
+#: menu/menu_setting.c:3038
 msgctxt "MENU_ENUM_LABEL_VALUE_LOGGING_SETTINGS"
 msgid "Logging"
 msgstr ""
@@ -1860,37 +1746,37 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME"
 msgid "Menu Color Theme"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1047
+#: menu/cbs/menu_cbs_get_value.c:1058
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_BLUE"
 msgid "Blue"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1052
+#: menu/cbs/menu_cbs_get_value.c:1063
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_BLUE_GREY"
 msgid "Blue Grey"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1072
+#: menu/cbs/menu_cbs_get_value.c:1083
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_DARK_BLUE"
 msgid "Dark Blue"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1057
+#: menu/cbs/menu_cbs_get_value.c:1068
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_GREEN"
 msgid "Green"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1077
+#: menu/cbs/menu_cbs_get_value.c:1088
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_NVIDIA_SHIELD"
 msgid "Shield"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1062
+#: menu/cbs/menu_cbs_get_value.c:1073
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_RED"
 msgid "Red"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1067
+#: menu/cbs/menu_cbs_get_value.c:1078
 msgctxt "MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_YELLOW"
 msgid "Yellow"
 msgstr ""
@@ -1911,8 +1797,8 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MENU_ENUM_THROTTLE_FRAMERATE"
 msgid "Throttle Menu Framerate"
 msgstr ""
 
-#: menu/menu_setting.c:6070 menu/menu_displaylist.c:6218
-#: menu/drivers/xmb.c:4402 menu/drivers/materialui.c:2101
+#: menu/menu_setting.c:6083 menu/menu_displaylist.c:6229
+#: menu/drivers/xmb.c:4454 menu/drivers/materialui.c:2136
 msgctxt "MENU_ENUM_LABEL_VALUE_MENU_FILE_BROWSER_SETTINGS"
 msgid "Settings"
 msgstr ""
@@ -1925,7 +1811,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MENU_HORIZONTAL_ANIMATION"
 msgid "Horizontal Animation"
 msgstr ""
 
-#: menu/menu_setting.c:5187
+#: menu/menu_setting.c:5199
 msgctxt "MENU_ENUM_LABEL_VALUE_MENU_SETTINGS"
 msgid "Appearance"
 msgstr ""
@@ -1943,7 +1829,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MISSING"
 msgid "Missing"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:749 menu/cbs/menu_cbs_get_value.c:764
+#: menu/cbs/menu_cbs_get_value.c:754 menu/cbs/menu_cbs_get_value.c:769
 msgctxt "MENU_ENUM_LABEL_VALUE_MORE"
 msgid "..."
 msgstr ""
@@ -1952,7 +1838,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_MOUSE_ENABLE"
 msgid "Mouse Support"
 msgstr ""
 
-#: menu/menu_setting.c:6097
+#: menu/menu_setting.c:6110
 msgctxt "MENU_ENUM_LABEL_VALUE_MULTIMEDIA_SETTINGS"
 msgid "Multimedia"
 msgstr ""
@@ -1971,7 +1857,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NAVIGATION_WRAPAROUND"
 msgid "Navigation Wrap-Around"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:184 menu/cbs/menu_cbs_get_value.c:428
+#: menu/cbs/menu_cbs_get_value.c:185 menu/cbs/menu_cbs_get_value.c:432
 msgctxt "MENU_ENUM_LABEL_VALUE_NEAREST"
 msgid "Nearest"
 msgstr ""
@@ -2000,7 +1886,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_DELAY_FRAMES"
 msgid "Netplay Delay Frames"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3175
+#: menu/cbs/menu_cbs_ok.c:3243
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_DISCONNECT"
 msgid "Disconnect from netplay host"
 msgstr ""
@@ -2009,22 +1895,22 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE"
 msgid "Netplay Enable"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3190
+#: menu/cbs/menu_cbs_ok.c:3258
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE_CLIENT"
 msgid "Connect to netplay host"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3183
+#: menu/cbs/menu_cbs_ok.c:3251
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE_HOST"
 msgid "Start netplay host"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3165
+#: menu/cbs/menu_cbs_ok.c:3233
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_DISABLE_HOST"
 msgid "Stop netplay host"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3721
+#: menu/cbs/menu_cbs_ok.c:3800
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_IP_ADDRESS"
 msgid "Server Address"
 msgstr ""
@@ -2049,7 +1935,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_PUBLIC_ANNOUNCE"
 msgid "Publicly Announce Netplay"
 msgstr ""
 
-#: menu/menu_setting.c:6973
+#: menu/menu_setting.c:7003
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REQUEST_DEVICE_I"
 msgid "Request Device %u"
@@ -2059,7 +1945,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REQUIRE_SLAVES"
 msgid "Disallow Non-Slave-Mode Clients"
 msgstr ""
 
-#: menu/menu_displaylist.c:2662
+#: menu/menu_displaylist.c:2661
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SETTINGS"
 msgid "Netplay settings"
 msgstr ""
@@ -2068,12 +1954,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG"
 msgid "Analog Input Sharing"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1842
+#: menu/cbs/menu_cbs_get_value.c:1853
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_MAX"
 msgid "Max"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1846
+#: menu/cbs/menu_cbs_get_value.c:1857
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_AVERAGE"
 msgid "Average"
 msgstr ""
@@ -2082,27 +1968,27 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL"
 msgid "Digital Input Sharing"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1801
+#: menu/cbs/menu_cbs_get_value.c:1812
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_OR"
 msgid "Share"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1805
+#: menu/cbs/menu_cbs_get_value.c:1816
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_XOR"
 msgid "Grapple"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1809
+#: menu/cbs/menu_cbs_get_value.c:1820
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_VOTE"
 msgid "Vote"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1813 menu/cbs/menu_cbs_get_value.c:1850
+#: menu/cbs/menu_cbs_get_value.c:1824 menu/cbs/menu_cbs_get_value.c:1861
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_NONE"
 msgid "None"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1797 menu/cbs/menu_cbs_get_value.c:1838
+#: menu/cbs/menu_cbs_get_value.c:1808 menu/cbs/menu_cbs_get_value.c:1849
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_NO_PREFERENCE"
 msgid "No preference"
 msgstr ""
@@ -2139,7 +2025,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_CMD_PORT"
 msgid "Network Command Port"
 msgstr ""
 
-#: menu/menu_displaylist.c:2870
+#: menu/menu_displaylist.c:2881
 msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_INFORMATION"
 msgid "Network Information"
 msgstr ""
@@ -2152,7 +2038,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_REMOTE_PORT"
 msgid "Network Remote Base Port"
 msgstr ""
 
-#: menu/menu_setting.c:6707
+#: menu/menu_setting.c:6737
 msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_SETTINGS"
 msgid "Network"
 msgstr ""
@@ -2187,39 +2073,39 @@ msgid "No"
 msgstr ""
 
 #: menu/menu_setting.c:524 menu/menu_setting.c:549
-#: menu/cbs/menu_cbs_get_value.c:1146 menu/cbs/menu_cbs_get_value.c:1226
+#: menu/cbs/menu_cbs_get_value.c:1157 menu/cbs/menu_cbs_get_value.c:1237
 msgctxt "MENU_ENUM_LABEL_VALUE_NONE"
 msgid "None"
 msgstr ""
 
-#: retroarch.c:1811 gfx/video_driver.c:2472
-#: network/netplay/netplay_frontend.c:747 menu/menu_setting.c:1485
-#: menu/menu_setting.c:1555 menu/menu_setting.c:2198
+#: retroarch.c:1839 gfx/video_driver.c:2469
+#: network/netplay/netplay_frontend.c:747 menu/menu_setting.c:1482
+#: menu/menu_setting.c:1552 menu/menu_setting.c:2195
 #: menu/menu_displaylist.c:469 menu/menu_displaylist.c:660
-#: menu/menu_displaylist.c:718 menu/cbs/menu_cbs_get_value.c:250
-#: menu/cbs/menu_cbs_get_value.c:398 menu/cbs/menu_cbs_get_value.c:575
-#: menu/cbs/menu_cbs_get_value.c:667 menu/cbs/menu_cbs_get_value.c:1266
-#: menu/cbs/menu_cbs_get_value.c:1605 menu/cbs/menu_cbs_title.c:208
-#: input/input_driver.c:2550 input/input_driver.c:2560
-#: input/input_driver.c:2588
+#: menu/menu_displaylist.c:718 menu/cbs/menu_cbs_get_value.c:251
+#: menu/cbs/menu_cbs_get_value.c:402 menu/cbs/menu_cbs_get_value.c:580
+#: menu/cbs/menu_cbs_get_value.c:672 menu/cbs/menu_cbs_get_value.c:1277
+#: menu/cbs/menu_cbs_get_value.c:1616 menu/cbs/menu_cbs_title.c:208
+#: input/input_driver.c:2563 input/input_driver.c:2573
+#: input/input_driver.c:2601
 msgctxt "MENU_ENUM_LABEL_VALUE_NOT_AVAILABLE"
 msgid "N/A"
 msgstr ""
 
-#: cheevos/cheevos.c:2449
+#: cheevos/cheevos.c:2467
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_ACHIEVEMENTS_TO_DISPLAY"
 msgid "No achievements to display."
 msgstr ""
 
-#: paths.c:83 menu/menu_entries.c:209 menu/menu_entries.c:225
-#: menu/menu_entries.c:248 menu/menu_displaylist.c:2857
-#: menu/menu_displaylist.c:6323 menu/drivers/xmb.c:4426
-#: menu/drivers/materialui.c:1129 menu/drivers/materialui.c:2124
+#: paths.c:83 menu/menu_entries.c:398 menu/menu_entries.c:423
+#: menu/menu_displaylist.c:2868 menu/menu_displaylist.c:6332
+#: menu/drivers/xmb.c:4478 menu/drivers/materialui.c:1135
+#: menu/drivers/materialui.c:2159
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORE"
 msgid "No Core"
 msgstr ""
 
-#: menu/menu_displaylist.c:4570 menu/menu_displaylist.c:4664
+#: menu/menu_displaylist.c:4576 menu/menu_displaylist.c:4670
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORES_AVAILABLE"
 msgid "No cores available."
 msgstr ""
@@ -2229,18 +2115,18 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORE_INFORMATION_AVAILABLE"
 msgid "No core information available."
 msgstr ""
 
-#: menu/menu_displaylist.c:4745 menu/menu_displaylist.c:4765
+#: menu/menu_displaylist.c:4751 menu/menu_displaylist.c:4771
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_CORE_OPTIONS_AVAILABLE"
 msgid "No core options available."
 msgstr ""
 
-#: menu/menu_networking.c:58 menu/menu_displaylist.c:2956
+#: menu/menu_networking.c:55 menu/menu_displaylist.c:2967
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_ENTRIES_TO_DISPLAY"
 msgid "No entries to display."
 msgstr ""
 
-#: menu/menu_displaylist.c:4404 menu/menu_displaylist.c:4438
-#: menu/menu_displaylist.c:4461 menu/menu_displaylist.c:6762
+#: menu/menu_displaylist.c:4410 menu/menu_displaylist.c:4444
+#: menu/menu_displaylist.c:4467 menu/menu_displaylist.c:6781
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_HISTORY_AVAILABLE"
 msgid "No history available."
 msgstr ""
@@ -2249,10 +2135,10 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_INFORMATION_AVAILABLE"
 msgid "No information is available."
 msgstr ""
 
-#: menu/menu_displaylist.c:2736 menu/menu_displaylist.c:3110
-#: menu/menu_displaylist.c:3511 menu/menu_displaylist.c:3601
-#: menu/menu_displaylist.c:6503 menu/menu_displaylist.c:6524
-#: menu/widgets/menu_filebrowser.c:288
+#: menu/menu_displaylist.c:2736 menu/menu_displaylist.c:3118
+#: menu/menu_displaylist.c:3519 menu/menu_displaylist.c:3609
+#: menu/menu_displaylist.c:6512 menu/menu_displaylist.c:6533
+#: menu/widgets/menu_filebrowser.c:299
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_ITEMS"
 msgid "No items."
 msgstr ""
@@ -2261,8 +2147,8 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_NETPLAY_HOSTS_FOUND"
 msgid "No netplay hosts found."
 msgstr ""
 
-#: menu/menu_displaylist.c:5441 menu/menu_displaylist.c:5456
-#: menu/menu_displaylist.c:5477
+#: menu/menu_displaylist.c:5458 menu/menu_displaylist.c:5473
+#: menu/menu_displaylist.c:5494
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_NETWORKS_FOUND"
 msgid "No networks found."
 msgstr ""
@@ -2272,45 +2158,45 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NO_PERFORMANCE_COUNTERS"
 msgid "No performance counters."
 msgstr ""
 
-#: menu/menu_displaylist.c:3445
+#: menu/menu_displaylist.c:3453
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_PLAYLISTS"
 msgid "No playlists."
 msgstr ""
 
-#: menu/menu_displaylist.c:4075
+#: menu/menu_displaylist.c:4083
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_PLAYLIST_ENTRIES_AVAILABLE"
 msgid "No playlist entries available."
 msgstr ""
 
-#: menu/menu_displaylist.c:2231 menu/menu_displaylist.c:2426
-#: menu/menu_displaylist.c:5428 menu/menu_displaylist.c:5606
-#: menu/menu_displaylist.c:5743
+#: menu/menu_displaylist.c:2230 menu/menu_displaylist.c:2425
+#: menu/menu_displaylist.c:5445 menu/menu_displaylist.c:5623
+#: menu/menu_displaylist.c:5760
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_SETTINGS_FOUND"
 msgid "No settings found."
 msgstr ""
 
-#: menu/menu_displaylist.c:2031 menu/menu_displaylist.c:6262
+#: menu/menu_displaylist.c:2031 menu/menu_displaylist.c:6272
 msgctxt "MENU_ENUM_LABEL_VALUE_NO_SHADER_PARAMETERS"
 msgid "No shader parameters."
 msgstr ""
 
-#: menu/menu_setting.c:574 menu/cbs/menu_cbs_get_value.c:274
-#: menu/cbs/menu_cbs_get_value.c:670 menu/cbs/menu_cbs_get_value.c:1105
-#: menu/cbs/menu_cbs_get_value.c:1735 menu/drivers/xmb.c:496
-#: menu/drivers/xmb.c:1264 menu/drivers/xmb.c:1784 menu/drivers/xmb.c:2132
-#: menu/drivers/xmb.c:2412 menu/drivers/xmb.c:2459 menu/drivers/xmb.c:2998
-#: menu/drivers/xmb.c:3959 menu/drivers/materialui.c:890
+#: menu/menu_setting.c:574 menu/cbs/menu_cbs_get_value.c:275
+#: menu/cbs/menu_cbs_get_value.c:675 menu/cbs/menu_cbs_get_value.c:1116
+#: menu/cbs/menu_cbs_get_value.c:1746 menu/drivers/xmb.c:526
+#: menu/drivers/xmb.c:1295 menu/drivers/xmb.c:1815 menu/drivers/xmb.c:2163
+#: menu/drivers/xmb.c:2444 menu/drivers/xmb.c:2491 menu/drivers/xmb.c:3023
+#: menu/drivers/xmb.c:4012 menu/drivers/materialui.c:883
 msgctxt "MENU_ENUM_LABEL_VALUE_OFF"
 msgid "OFF"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:669 menu/cbs/menu_cbs_get_value.c:1733
-#: menu/drivers/xmb.c:2420 menu/drivers/materialui.c:901
+#: menu/cbs/menu_cbs_get_value.c:674 menu/cbs/menu_cbs_get_value.c:1744
+#: menu/drivers/xmb.c:2452 menu/drivers/materialui.c:894
 msgctxt "MENU_ENUM_LABEL_VALUE_ON"
 msgid "ON"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:935
+#: menu/cbs/menu_cbs_get_value.c:940
 msgctxt "MENU_ENUM_LABEL_VALUE_ONLINE"
 msgid "Online"
 msgstr ""
@@ -2319,7 +2205,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ONLINE_UPDATER"
 msgid "Online Updater"
 msgstr ""
 
-#: menu/menu_setting.c:4846
+#: menu/menu_setting.c:4858
 msgctxt "MENU_ENUM_LABEL_VALUE_ONSCREEN_DISPLAY_SETTINGS"
 msgid "Onscreen Display"
 msgstr ""
@@ -2332,7 +2218,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_ONSCREEN_NOTIFICATIONS_SETTINGS"
 msgid "Onscreen Notifications"
 msgstr ""
 
-#: menu/menu_displaylist.c:4775 menu/menu_displaylist.c:4791
+#: menu/menu_displaylist.c:4781 menu/menu_displaylist.c:4797
 msgctxt "MENU_ENUM_LABEL_VALUE_OPEN_ARCHIVE"
 msgid "Browse Archive"
 msgstr ""
@@ -2366,7 +2252,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_SCALE"
 msgid "Overlay Scale"
 msgstr ""
 
-#: menu/menu_setting.c:5044
+#: menu/menu_setting.c:5056
 msgctxt "MENU_ENUM_LABEL_VALUE_OVERLAY_SETTINGS"
 msgid "Onscreen Overlay"
 msgstr ""
@@ -2375,7 +2261,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_PAL60_ENABLE"
 msgid "Use PAL60 Mode"
 msgstr ""
 
-#: menu/menu_displaylist.c:3484 menu/widgets/menu_filebrowser.c:297
+#: menu/menu_displaylist.c:3492 menu/widgets/menu_filebrowser.c:308
 msgctxt "MENU_ENUM_LABEL_VALUE_PARENT_DIRECTORY"
 msgid "Parent directory"
 msgstr ""
@@ -2409,7 +2295,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_POINTER_ENABLE"
 msgid "Touch Support"
 msgstr ""
 
-#: menu/menu_setting.c:1556
+#: menu/menu_setting.c:1553
 msgctxt "MENU_ENUM_LABEL_VALUE_PORT"
 msgid "Port"
 msgstr ""
@@ -2419,7 +2305,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_PRESENT"
 msgid "Present"
 msgstr ""
 
-#: menu/menu_setting.c:7717
+#: menu/menu_setting.c:7747
 msgctxt "MENU_ENUM_LABEL_VALUE_PRIVACY_SETTINGS"
 msgid "Privacy"
 msgstr ""
@@ -2428,132 +2314,132 @@ msgctxt "MENU_ENUM_LABEL_VALUE_QUIT_RETROARCH"
 msgid "Quit RetroArch"
 msgstr ""
 
-#: menu/menu_displaylist.c:1913
+#: menu/menu_displaylist.c:1914
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ANALOG"
 msgid "Analog supported"
 msgstr ""
 
-#: menu/menu_displaylist.c:1848
+#: menu/menu_displaylist.c:1849
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_BBFC_RATING"
 msgid "BBFC Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1893
+#: menu/menu_displaylist.c:1894
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CERO_RATING"
 msgid "CERO Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1933
+#: menu/menu_displaylist.c:1934
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_COOP"
 msgid "Co-op supported"
 msgstr ""
 
-#: menu/menu_displaylist.c:1946
+#: menu/menu_displaylist.c:1947
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CRC32"
 msgid "CRC32"
 msgstr ""
 
-#: menu/menu_displaylist.c:1697
+#: menu/menu_displaylist.c:1698
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DESCRIPTION"
 msgid "Description"
 msgstr ""
 
-#: menu/menu_displaylist.c:1737
+#: menu/menu_displaylist.c:1738
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DEVELOPER"
 msgid "Developer"
 msgstr ""
 
-#: menu/menu_displaylist.c:1817
+#: menu/menu_displaylist.c:1818
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_ISSUE"
 msgid "Edge Magazine Issue"
 msgstr ""
 
-#: menu/menu_displaylist.c:1807
+#: menu/menu_displaylist.c:1808
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_RATING"
 msgid "Edge Magazine Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1798
+#: menu/menu_displaylist.c:1799
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_REVIEW"
 msgid "Edge Magazine Review"
 msgstr ""
 
-#: menu/menu_displaylist.c:1866
+#: menu/menu_displaylist.c:1867
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ELSPA_RATING"
 msgid "ELSPA Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1884
+#: menu/menu_displaylist.c:1885
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ENHANCEMENT_HW"
 msgid "Enhancement Hardware"
 msgstr ""
 
-#: menu/menu_displaylist.c:1857
+#: menu/menu_displaylist.c:1858
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ESRB_RATING"
 msgid "ESRB Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1788
+#: menu/menu_displaylist.c:1789
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FAMITSU_MAGAZINE_RATING"
 msgid "Famitsu Magazine Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1759
+#: menu/menu_displaylist.c:1760
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FRANCHISE"
 msgid "Franchise"
 msgstr ""
 
-#: menu/menu_displaylist.c:1709
+#: menu/menu_displaylist.c:1710
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_GENRE"
 msgid "Genre"
 msgstr ""
 
-#: menu/menu_displaylist.c:1968
+#: menu/menu_displaylist.c:1969
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_MD5"
 msgid "MD5"
 msgstr ""
 
-#: menu/menu_displaylist.c:317 menu/menu_displaylist.c:1685
+#: menu/menu_displaylist.c:317 menu/menu_displaylist.c:1686
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_NAME"
 msgid "Name"
 msgstr ""
 
-#: menu/menu_displaylist.c:1750
+#: menu/menu_displaylist.c:1751
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ORIGIN"
 msgid "Origin"
 msgstr ""
 
-#: menu/menu_displaylist.c:1875
+#: menu/menu_displaylist.c:1876
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PEGI_RATING"
 msgid "PEGI Rating"
 msgstr ""
 
-#: menu/menu_displaylist.c:1722
+#: menu/menu_displaylist.c:1723
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PUBLISHER"
 msgid "Publisher"
 msgstr ""
 
-#: menu/menu_displaylist.c:1827
+#: menu/menu_displaylist.c:1828
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RELEASE_MONTH"
 msgid "Releasedate Month"
 msgstr ""
 
-#: menu/menu_displaylist.c:1838
+#: menu/menu_displaylist.c:1839
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RELEASE_YEAR"
 msgid "Releasedate Year"
 msgstr ""
 
-#: menu/menu_displaylist.c:1923
+#: menu/menu_displaylist.c:1924
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RUMBLE"
 msgid "Rumble supported"
 msgstr ""
 
-#: menu/menu_displaylist.c:1903
+#: menu/menu_displaylist.c:1904
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SERIAL"
 msgid "Serial"
 msgstr ""
 
-#: menu/menu_displaylist.c:1957
+#: menu/menu_displaylist.c:1958
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SHA1"
 msgid "SHA1"
 msgstr ""
@@ -2562,7 +2448,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_START_CONTENT"
 msgid "Start Content"
 msgstr ""
 
-#: menu/menu_displaylist.c:1778
+#: menu/menu_displaylist.c:1779
 msgctxt "MENU_ENUM_LABEL_VALUE_RDB_ENTRY_TGDB_RATING"
 msgid "TGDB Rating"
 msgstr ""
@@ -2579,7 +2465,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RECORDING_OUTPUT_DIRECTORY"
 msgid "Recording Output"
 msgstr ""
 
-#: menu/menu_setting.c:4647
+#: menu/menu_setting.c:4659
 msgctxt "MENU_ENUM_LABEL_VALUE_RECORDING_SETTINGS"
 msgid "Recording"
 msgstr ""
@@ -2608,27 +2494,27 @@ msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE"
 msgid "Remap File"
 msgstr ""
 
-#: menu/menu_displaylist.c:3198
+#: menu/menu_displaylist.c:3206
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_LOAD"
 msgid "Load Remap File"
 msgstr ""
 
-#: menu/menu_displaylist.c:3203
+#: menu/menu_displaylist.c:3211
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_SAVE_CORE"
 msgid "Save Core Remap File"
 msgstr ""
 
-#: menu/menu_displaylist.c:3208
+#: menu/menu_displaylist.c:3216
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_SAVE_GAME"
 msgid "Save Game Remap File"
 msgstr ""
 
-#: menu/menu_displaylist.c:3216
+#: menu/menu_displaylist.c:3224
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_REMOVE_CORE"
 msgid "Delete Core Remap File"
 msgstr ""
 
-#: menu/menu_displaylist.c:3225
+#: menu/menu_displaylist.c:3233
 msgctxt "MENU_ENUM_LABEL_VALUE_REMAP_FILE_REMOVE_GAME"
 msgid "Delete Game Remap File"
 msgstr ""
@@ -2638,7 +2524,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_REQUIRED"
 msgid "Required"
 msgstr ""
 
-#: menu/menu_displaylist.c:2579
+#: menu/menu_displaylist.c:2578
 msgctxt "MENU_ENUM_LABEL_VALUE_RESTART_CONTENT"
 msgid "Restart"
 msgstr ""
@@ -2651,7 +2537,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RESUME"
 msgid "Resume"
 msgstr ""
 
-#: menu/menu_displaylist.c:2573
+#: menu/menu_displaylist.c:2572
 msgctxt "MENU_ENUM_LABEL_VALUE_RESUME_CONTENT"
 msgid "Resume"
 msgstr ""
@@ -2682,7 +2568,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_REWIND_GRANULARITY"
 msgid "Rewind Granularity"
 msgstr ""
 
-#: menu/menu_setting.c:3225
+#: menu/menu_setting.c:3222
 msgctxt "MENU_ENUM_LABEL_VALUE_REWIND_SETTINGS"
 msgid "Rewind"
 msgstr ""
@@ -2704,22 +2590,27 @@ msgctxt "MENU_ENUM_LABEL_VALUE_RIGHT_ANALOG"
 msgid "Right Analog"
 msgstr ""
 
-#: menu/menu_displaylist.c:2646
+#: menu/menu_displaylist.c:2645
 msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_FAVORITES"
 msgid "Add to Favorites"
 msgstr ""
 
-#: menu/menu_displaylist.c:2811
+#: menu/menu_displaylist.c:2813
 msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_FAVORITES_PLAYLIST"
 msgid "Add to Favorites"
 msgstr ""
 
-#: menu/menu_displaylist.c:2790
+#: menu/menu_displaylist.c:2821
+msgctxt "MENU_ENUM_LABEL_VALUE_RESET_CORE_ASSOCIATION"
+msgid "Reset Core Association"
+msgstr ""
+
+#: menu/menu_displaylist.c:2792
 msgctxt "MENU_ENUM_LABEL_VALUE_RUN"
 msgid "Run"
 msgstr ""
 
-#: menu/menu_displaylist.c:4190
+#: menu/menu_displaylist.c:4195
 msgctxt "MENU_ENUM_LABEL_VALUE_RUN_MUSIC"
 msgid "Run"
 msgstr ""
@@ -2752,7 +2643,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SAVESTATE_THUMBNAIL_ENABLE"
 msgid "Savestate Thumbnails"
 msgstr ""
 
-#: menu/menu_displaylist.c:2924
+#: menu/menu_displaylist.c:2935
 msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_CURRENT_CONFIG"
 msgid "Save Current Configuration"
 msgstr ""
@@ -2767,34 +2658,34 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_CURRENT_CONFIG_OVERRIDE_GAME"
 msgid "Save Game Overrides"
 msgstr ""
 
-#: menu/menu_displaylist.c:2930
+#: menu/menu_displaylist.c:2941
 msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_NEW_CONFIG"
 msgid "Save New Configuration"
 msgstr ""
 
-#: menu/menu_displaylist.c:2610
+#: menu/menu_displaylist.c:2609
 msgctxt "MENU_ENUM_LABEL_VALUE_SAVE_STATE"
 msgid "Save State"
 msgstr ""
 
-#: menu/menu_setting.c:3110
+#: menu/menu_setting.c:3107
 msgctxt "MENU_ENUM_LABEL_VALUE_SAVING_SETTINGS"
 msgid "Saving"
 msgstr ""
 
-#: menu/menu_displaylist.c:2942 menu/menu_displaylist.c:2971
-#: menu/menu_displaylist.c:3343
+#: menu/menu_displaylist.c:2953 menu/menu_displaylist.c:2982
+#: menu/menu_displaylist.c:3351
 msgctxt "MENU_ENUM_LABEL_VALUE_SCAN_DIRECTORY"
 msgid "Scan Directory"
 msgstr ""
 
-#: menu/menu_displaylist.c:2948 menu/menu_displaylist.c:2977
-#: menu/menu_displaylist.c:3348
+#: menu/menu_displaylist.c:2959 menu/menu_displaylist.c:2988
+#: menu/menu_displaylist.c:3356
 msgctxt "MENU_ENUM_LABEL_VALUE_SCAN_FILE"
 msgid "Scan File"
 msgstr ""
 
-#: menu/widgets/menu_filebrowser.c:107
+#: menu/widgets/menu_filebrowser.c:118
 msgctxt "MENU_ENUM_LABEL_VALUE_SCAN_THIS_DIRECTORY"
 msgid "<Scan This Directory>"
 msgstr ""
@@ -2803,7 +2694,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SCREENSHOT_DIRECTORY"
 msgid "Screenshot"
 msgstr ""
 
-#: command.c:1781 command.c:1784
+#: command.c:1770 command.c:1773
 msgctxt "MENU_ENUM_LABEL_VALUE_SCREEN_RESOLUTION"
 msgid "Screen Resolution"
 msgstr ""
@@ -2811,11 +2702,6 @@ msgstr ""
 #: menu/widgets/menu_input_dialog.c:111
 msgctxt "MENU_ENUM_LABEL_VALUE_SEARCH"
 msgid "Search"
-msgstr ""
-
-#: menu/menu_setting.c:572 menu/widgets/menu_input_bind_dialog.c:440
-msgctxt "MENU_ENUM_LABEL_VALUE_SECONDS"
-msgid "seconds"
 msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_SETTINGS"
@@ -2827,12 +2713,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SETTINGS_TAB"
 msgid "Settings"
 msgstr ""
 
-#: menu/menu_displaylist.c:1425
+#: menu/menu_displaylist.c:1426
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER"
 msgid "Shader"
 msgstr ""
 
-#: menu/menu_displaylist.c:1369
+#: menu/menu_displaylist.c:1370
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_APPLY_CHANGES"
 msgid "Apply Changes"
 msgstr ""
@@ -2842,22 +2728,22 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_OPTIONS"
 msgid "Shaders"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:283
+#: menu/cbs/menu_cbs_get_value.c:284
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_RIBBON"
 msgid "Ribbon"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:278
+#: menu/cbs/menu_cbs_get_value.c:279
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_RIBBON_SIMPLIFIED"
 msgid "Ribbon (simplified)"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:288
+#: menu/cbs/menu_cbs_get_value.c:289
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_SIMPLE_SNOW"
 msgid "Simple Snow"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:293
+#: menu/cbs/menu_cbs_get_value.c:294
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_SNOW"
 msgid "Snow"
 msgstr ""
@@ -2910,12 +2796,12 @@ msgctxt "MENU_ENUM_LABEL_VALUE_START_CORE"
 msgid "Start Core"
 msgstr ""
 
-#: menu/menu_displaylist.c:4042
+#: menu/menu_displaylist.c:4050
 msgctxt "MENU_ENUM_LABEL_VALUE_START_NET_RETROPAD"
 msgid "Start Remote RetroPad"
 msgstr ""
 
-#: menu/menu_displaylist.c:4034
+#: menu/menu_displaylist.c:4042
 msgctxt "MENU_ENUM_LABEL_VALUE_START_VIDEO_PROCESSOR"
 msgid "Start Video Processor"
 msgstr ""
@@ -2948,7 +2834,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_DIRECTORY"
 msgid "System/BIOS"
 msgstr ""
 
-#: menu/menu_displaylist.c:2878
+#: menu/menu_displaylist.c:2889
 msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFORMATION"
 msgid "System Information"
 msgstr ""
@@ -3296,7 +3182,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SYSTEM_INFO_ZLIB_SUPPORT"
 msgid "Zlib support"
 msgstr ""
 
-#: menu/menu_displaylist.c:2593 menu/menu_displaylist.c:3809
+#: menu/menu_displaylist.c:2592 menu/menu_displaylist.c:3817
 msgctxt "MENU_ENUM_LABEL_VALUE_TAKE_SCREENSHOT"
 msgid "Take Screenshot"
 msgstr ""
@@ -3313,22 +3199,22 @@ msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAILS_DIRECTORY"
 msgid "Thumbnails"
 msgstr ""
 
-#: menu/menu_displaylist.c:3007 menu/menu_displaylist.c:3028
+#: menu/menu_displaylist.c:3018 menu/menu_displaylist.c:3039
 msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAILS_UPDATER_LIST"
 msgid "Thumbnails Updater"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1120
+#: menu/cbs/menu_cbs_get_value.c:1131
 msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAIL_MODE_BOXARTS"
 msgid "Boxarts"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1110
+#: menu/cbs/menu_cbs_get_value.c:1121
 msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAIL_MODE_SCREENSHOTS"
 msgid "Screenshots"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1115
+#: menu/cbs/menu_cbs_get_value.c:1126
 msgctxt "MENU_ENUM_LABEL_VALUE_THUMBNAIL_MODE_TITLE_SCREENS"
 msgid "Title Screens"
 msgstr ""
@@ -3341,8 +3227,8 @@ msgctxt "MENU_ENUM_LABEL_VALUE_TITLE_COLOR"
 msgid "Menu title color"
 msgstr ""
 
-#: menu/menu_displaylist.c:1915 menu/menu_displaylist.c:1925
-#: menu/menu_displaylist.c:1935 menu/cbs/menu_cbs_get_value.c:362
+#: menu/menu_displaylist.c:1916 menu/menu_displaylist.c:1926
+#: menu/menu_displaylist.c:1936 menu/cbs/menu_cbs_get_value.c:363
 msgctxt "MENU_ENUM_LABEL_VALUE_TRUE"
 msgid "True"
 msgstr ""
@@ -3359,17 +3245,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_UI_MENUBAR_ENABLE"
 msgid "Menubar"
 msgstr ""
 
-#: menu/widgets/menu_filebrowser.c:128
+#: menu/widgets/menu_filebrowser.c:139
 msgctxt "MENU_ENUM_LABEL_VALUE_UNABLE_TO_READ_COMPRESSED_FILE"
 msgid "Unable to read compressed file."
 msgstr ""
 
-#: menu/menu_displaylist.c:2630
+#: menu/menu_displaylist.c:2629
 msgctxt "MENU_ENUM_LABEL_VALUE_UNDO_LOAD_STATE"
 msgid "Undo Load State"
 msgstr ""
 
-#: menu/menu_displaylist.c:2636
+#: menu/menu_displaylist.c:2635
 msgctxt "MENU_ENUM_LABEL_VALUE_UNDO_SAVE_STATE"
 msgid "Undo Save State"
 msgstr ""
@@ -3383,60 +3269,60 @@ msgctxt "MENU_ENUM_LABEL_VALUE_UPDATER_SETTINGS"
 msgid "Updater"
 msgstr ""
 
-#: menu/menu_displaylist.c:3050
+#: menu/menu_displaylist.c:3061
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_ASSETS"
 msgid "Update Assets"
 msgstr ""
 
-#: menu/menu_displaylist.c:3057
+#: menu/menu_displaylist.c:3068
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_AUTOCONFIG_PROFILES"
 msgid "Update Joypad Profiles"
 msgstr ""
 
-#: menu/menu_displaylist.c:3086
+#: menu/menu_displaylist.c:3097
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_CG_SHADERS"
 msgid "Update Cg Shaders"
 msgstr ""
 
-#: menu/menu_displaylist.c:3063
+#: menu/menu_displaylist.c:3074
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_CHEATS"
 msgid "Update Cheats"
 msgstr ""
 
-#: menu/menu_displaylist.c:3043
+#: menu/menu_displaylist.c:3054
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_CORE_INFO_FILES"
 msgid "Update Core Info Files"
 msgstr ""
 
-#: menu/menu_displaylist.c:3071
+#: menu/menu_displaylist.c:3082
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_DATABASES"
 msgid "Update Databases"
 msgstr ""
 
-#: menu/menu_displaylist.c:3094
+#: menu/menu_displaylist.c:3104
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_GLSL_SHADERS"
 msgid "Update GLSL Shaders"
 msgstr ""
 
-#: menu/menu_displaylist.c:3002
+#: menu/menu_displaylist.c:3013
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_LAKKA"
 msgid "Update Lakka"
 msgstr ""
 
-#: menu/menu_displaylist.c:3079
+#: menu/menu_displaylist.c:3090
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_OVERLAYS"
 msgid "Update Overlays"
 msgstr ""
 
-#: menu/menu_displaylist.c:3102
+#: menu/menu_displaylist.c:3111
 msgctxt "MENU_ENUM_LABEL_VALUE_UPDATE_SLANG_SHADERS"
 msgid "Update Slang Shaders"
 msgstr ""
 
-#: menu/menu_setting.c:1975 menu/menu_setting.c:2038 menu/menu_setting.c:2041
-#: menu/menu_setting.c:2044 menu/menu_setting.c:2047 menu/menu_setting.c:2050
-#: menu/menu_setting.c:2053 menu/menu_setting.c:2056
-#: menu/menu_displaylist.c:3256
+#: menu/menu_setting.c:1972 menu/menu_setting.c:2035 menu/menu_setting.c:2038
+#: menu/menu_setting.c:2041 menu/menu_setting.c:2044 menu/menu_setting.c:2047
+#: menu/menu_setting.c:2050 menu/menu_setting.c:2053
+#: menu/menu_displaylist.c:3264
 msgctxt "MENU_ENUM_LABEL_VALUE_USER"
 msgid "User"
 msgstr ""
@@ -3445,7 +3331,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_KEYBOARD"
 msgid "Kbd"
 msgstr ""
 
-#: menu/menu_setting.c:6174
+#: menu/menu_setting.c:6187
 msgctxt "MENU_ENUM_LABEL_VALUE_USER_INTERFACE_SETTINGS"
 msgid "User Interface"
 msgstr ""
@@ -3454,7 +3340,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_USER_LANGUAGE"
 msgid "Language"
 msgstr ""
 
-#: menu/menu_setting.c:7181
+#: menu/menu_setting.c:7211
 msgctxt "MENU_ENUM_LABEL_VALUE_USER_SETTINGS"
 msgid "User"
 msgstr ""
@@ -3467,7 +3353,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_USE_BUILTIN_PLAYER"
 msgid "Use Builtin Media Player"
 msgstr ""
 
-#: menu/widgets/menu_filebrowser.c:116
+#: menu/widgets/menu_filebrowser.c:127
 msgctxt "MENU_ENUM_LABEL_VALUE_USE_THIS_DIRECTORY"
 msgid "<Use this directory>"
 msgstr ""
@@ -3604,7 +3490,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SCALE_INTEGER"
 msgid "Integer Scale"
 msgstr ""
 
-#: menu/menu_setting.c:3279
+#: menu/menu_setting.c:3276
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SETTINGS"
 msgid "Video"
 msgstr ""
@@ -3613,37 +3499,37 @@ msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_DIR"
 msgid "Video Shader"
 msgstr ""
 
-#: menu/menu_displaylist.c:1412
+#: menu/menu_displaylist.c:1413
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_NUM_PASSES"
 msgid "Shader Passes"
 msgstr ""
 
-#: menu/menu_displaylist.c:1407
+#: menu/menu_displaylist.c:1408
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PARAMETERS"
 msgid "Shader Parameters"
 msgstr ""
 
-#: menu/menu_displaylist.c:1382
+#: menu/menu_displaylist.c:1383
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET"
 msgid "Load Shader Preset"
 msgstr ""
 
-#: menu/menu_displaylist.c:1387
+#: menu/menu_displaylist.c:1388
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_AS"
 msgid "Save Shader Preset As"
 msgstr ""
 
-#: menu/menu_displaylist.c:1392
+#: menu/menu_displaylist.c:1393
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_CORE"
 msgid "Save Core Preset"
 msgstr ""
 
-#: menu/menu_displaylist.c:1397
+#: menu/menu_displaylist.c:1398
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_PARENT"
 msgid "Save Content Directory Preset"
 msgstr ""
 
-#: menu/menu_displaylist.c:1402
+#: menu/menu_displaylist.c:1403
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_SHADER_PRESET_SAVE_GAME"
 msgid "Save Game Preset"
 msgstr ""
@@ -3749,52 +3635,52 @@ msgctxt "MENU_ENUM_LABEL_VALUE_XMB_FONT"
 msgid "Menu Font"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:917
+#: menu/cbs/menu_cbs_get_value.c:922
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_CUSTOM"
 msgid "Custom"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:885
+#: menu/cbs/menu_cbs_get_value.c:890
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_FLATUI"
 msgid "FlatUI"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:881
+#: menu/cbs/menu_cbs_get_value.c:886
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME"
 msgid "Monochrome"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:913
+#: menu/cbs/menu_cbs_get_value.c:918
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_MONOCHROME_INVERTED"
 msgid "Monochrome Inverted"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:905
+#: menu/cbs/menu_cbs_get_value.c:910
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_SYSTEMATIC"
 msgid "Systematic"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:901
+#: menu/cbs/menu_cbs_get_value.c:906
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_NEOACTIVE"
 msgid "NeoActive"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:897
+#: menu/cbs/menu_cbs_get_value.c:902
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_PIXEL"
 msgid "Pixel"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:889
+#: menu/cbs/menu_cbs_get_value.c:894
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROACTIVE"
 msgid "RetroActive"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:893
+#: menu/cbs/menu_cbs_get_value.c:898
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_RETROSYSTEM"
 msgid "Retrosystem"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:909
+#: menu/cbs/menu_cbs_get_value.c:914
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_ICON_THEME_DOTART"
 msgid "Dot-Art"
 msgstr ""
@@ -3803,57 +3689,62 @@ msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME"
 msgid "Menu Color Theme"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:995
+#: menu/cbs/menu_cbs_get_value.c:1000
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_APPLE_GREEN"
 msgid "Apple Green"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1013
+#: menu/cbs/menu_cbs_get_value.c:1018
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_DARK"
 msgid "Dark"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1019
+#: menu/cbs/menu_cbs_get_value.c:1024
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_LIGHT"
 msgid "Light"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:971
+#: menu/cbs/menu_cbs_get_value.c:1030
+msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_MORNING_BLUE"
+msgid "Morning Blue"
+msgstr ""
+
+#: menu/cbs/menu_cbs_get_value.c:976
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_DARK_PURPLE"
 msgid "Dark Purple"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:989
+#: menu/cbs/menu_cbs_get_value.c:994
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_ELECTRIC_BLUE"
 msgid "Electric Blue"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:983
+#: menu/cbs/menu_cbs_get_value.c:988
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_GOLDEN"
 msgid "Golden"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:965
+#: menu/cbs/menu_cbs_get_value.c:970
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_LEGACY_RED"
 msgid "Legacy Red"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:977
+#: menu/cbs/menu_cbs_get_value.c:982
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_MIDNIGHT_BLUE"
 msgid "Midnight Blue"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:959
+#: menu/cbs/menu_cbs_get_value.c:964
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_PLAIN"
 msgid "Plain"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1001
+#: menu/cbs/menu_cbs_get_value.c:1006
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_UNDERSEA"
 msgid "Undersea"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:1007
+#: menu/cbs/menu_cbs_get_value.c:1012
 msgctxt "MENU_ENUM_LABEL_VALUE_XMB_MENU_COLOR_THEME_VOLCANIC_RED"
 msgid "Volcanic Red"
 msgstr ""
@@ -3964,11 +3855,15 @@ msgid ""
 msgstr ""
 
 msgctxt "MENU_ENUM_SUBLABEL_CHEEVOS_BADGES_ENABLE"
-msgid "Enable or disable badge display in Achievement List."
+msgid "Enable or disable badge display in the Achievement List."
 msgstr ""
 
 msgctxt "MENU_ENUM_SUBLABEL_CHEEVOS_VERBOSE_ENABLE"
 msgid "Enable or disable OSD verbosity for achievements."
+msgstr ""
+
+msgctxt "MENU_ENUM_SUBLABEL_CHEEVOS_AUTO_SCREENSHOT"
+msgid "Automatically take a screenshot when an achievement is triggered."
 msgstr ""
 
 msgctxt "MENU_ENUM_SUBLABEL_DRIVER_SETTINGS"
@@ -4169,17 +4064,22 @@ msgctxt "MENU_ENUM_SUBLABEL_HELP_LIST"
 msgid "Learn more about how the program works."
 msgstr ""
 
-#: command.c:2341
+#: command.c:2330
 msgctxt "MSG_ADDED_TO_FAVORITES"
 msgid "Added to favorites"
 msgstr ""
 
-#: command.c:829
+#: command.c:2350
+msgctxt "MSG_RESET_CORE_ASSOCIATION"
+msgid "Playlist entry core association has been reset."
+msgstr ""
+
+#: command.c:815
 msgctxt "MSG_APPENDED_DISK"
 msgid "Appended disk"
 msgstr ""
 
-#: frontend/drivers/platform_unix.c:2054
+#: frontend/drivers/platform_unix.c:2021
 msgctxt "MSG_APPLICATION_DIR"
 msgid "Application Dir"
 msgstr ""
@@ -4189,27 +4089,27 @@ msgctxt "MSG_APPLYING_CHEAT"
 msgid "Applying cheat changes."
 msgstr ""
 
-#: command.c:246
+#: command.c:234
 msgctxt "MSG_APPLYING_SHADER"
 msgid "Applying shader"
 msgstr ""
 
-#: command.c:2058
+#: command.c:2047
 msgctxt "MSG_AUDIO_MUTED"
 msgid "Audio muted."
 msgstr ""
 
-#: command.c:2059
+#: command.c:2048
 msgctxt "MSG_AUDIO_UNMUTED"
 msgid "Audio unmuted."
 msgstr ""
 
-#: menu/menu_setting.c:1426
+#: menu/menu_setting.c:1423
 msgctxt "MSG_AUTOCONFIG_FILE_ERROR_SAVING"
 msgid "Error saving autoconf file."
 msgstr ""
 
-#: menu/menu_setting.c:1423
+#: menu/menu_setting.c:1420
 msgctxt "MSG_AUTOCONFIG_FILE_SAVED_SUCCESSFULLY"
 msgid "Autoconfig file saved successfully."
 msgstr ""
@@ -4219,7 +4119,7 @@ msgctxt "MSG_AUTOSAVE_FAILED"
 msgid "Could not initialize autosave."
 msgstr ""
 
-#: command.c:1352
+#: command.c:1338
 msgctxt "MSG_AUTO_SAVE_STATE_TO"
 msgid "Auto save state to"
 msgstr ""
@@ -4229,23 +4129,17 @@ msgctxt "MSG_BLOCKING_SRAM_OVERWRITE"
 msgid "Blocking SRAM Overwrite"
 msgstr ""
 
-#: command.c:366
+#: command.c:352
 msgctxt "MSG_BRINGING_UP_COMMAND_INTERFACE_ON_PORT"
 msgid "Bringing up command interface on port"
 msgstr ""
 
-#: tasks/task_save.c:404 tasks/task_save.c:879 tasks/task_save.c:1168
-#: tasks/task_save.c:1368
-msgctxt "MSG_BYTES"
-msgid "bytes"
-msgstr ""
-
-#: command.c:1480
+#: command.c:1466
 msgctxt "MSG_CANNOT_INFER_NEW_CONFIG_PATH"
 msgid "Cannot infer new config path. Use current time."
 msgstr ""
 
-#: cheevos/cheevos.c:2543
+#: cheevos/cheevos.c:2561
 msgctxt "MSG_CHEEVOS_HARDCORE_MODE_ENABLE"
 msgid "Hardcore Mode Enabled, savestate & rewind were disabled."
 msgstr ""
@@ -4260,7 +4154,7 @@ msgctxt "MSG_COMPILED_AGAINST_API"
 msgid "Compiled against API"
 msgstr ""
 
-#: command.c:1427 command.c:1428
+#: command.c:1413 command.c:1414
 msgctxt "MSG_CONFIG_DIRECTORY_NOT_SET"
 msgid "Config directory not set. Cannot save new config."
 msgstr ""
@@ -4280,12 +4174,12 @@ msgctxt "MSG_CONTENT_LOADING_SKIPPED_IMPLEMENTATION_WILL_DO_IT"
 msgid "Content loading skipped. Implementation will load it on its own."
 msgstr ""
 
-#: command.c:1657
+#: command.c:1643
 msgctxt "MSG_CORE_DOES_NOT_SUPPORT_SAVESTATES"
 msgid "Core does not support save states."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2800
+#: menu/cbs/menu_cbs_ok.c:2832
 msgctxt "MSG_CORE_OPTIONS_FILE_CREATED_SUCCESSFULLY"
 msgid "Core options file created successfully."
 msgstr ""
@@ -4336,12 +4230,12 @@ msgctxt "MSG_CUSTOM_TIMING_GIVEN"
 msgid "Custom timing given"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2590
+#: menu/cbs/menu_cbs_ok.c:2619
 msgctxt "MSG_DECOMPRESSION_ALREADY_IN_PROGRESS"
 msgid "Decompression already in progress."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2613
+#: menu/cbs/menu_cbs_ok.c:2642
 msgctxt "MSG_DECOMPRESSION_FAILED"
 msgid "Decompression failed."
 msgstr ""
@@ -4356,27 +4250,27 @@ msgctxt "MSG_DID_NOT_FIND_A_VALID_CONTENT_PATCH"
 msgid "Did not find a valid content patch."
 msgstr ""
 
-#: retroarch.c:800
+#: retroarch.c:830
 msgctxt "MSG_DISCONNECT_DEVICE_FROM_A_VALID_PORT"
 msgid "Disconnect device from a valid port."
 msgstr ""
 
-#: command.c:713
+#: command.c:699
 msgctxt "MSG_DISK_CLOSED"
 msgid "Closed"
 msgstr ""
 
-#: command.c:712
+#: command.c:698
 msgctxt "MSG_DISK_EJECTED"
 msgid "Ejected"
 msgstr ""
 
-#: tasks/task_http.c:301
+#: tasks/task_http.c:309 tasks/task_http.c:313
 msgctxt "MSG_DOWNLOADING"
 msgid "Downloading"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3357
+#: menu/cbs/menu_cbs_ok.c:3425
 msgctxt "MSG_DOWNLOAD_FAILED"
 msgid "Download failed"
 msgstr ""
@@ -4396,39 +4290,39 @@ msgctxt "MSG_ERROR_LIBRETRO_CORE_REQUIRES_SPECIAL_CONTENT"
 msgid "Libretro core requires special content, but none were provided."
 msgstr ""
 
-#: retroarch.c:1055
+#: retroarch.c:1083
 msgctxt "MSG_ERROR_PARSING_ARGUMENTS"
 msgid "Error parsing arguments."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2783
+#: menu/cbs/menu_cbs_ok.c:2815
 msgctxt "MSG_ERROR_SAVING_CORE_OPTIONS_FILE"
 msgid "Error saving core options file."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2067
+#: menu/cbs/menu_cbs_ok.c:2075
 msgctxt "MSG_ERROR_SAVING_REMAP_FILE"
 msgid "Error saving remap file."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2094
+#: menu/cbs/menu_cbs_ok.c:2102
 msgctxt "MSG_ERROR_REMOVING_REMAP_FILE"
 msgid "Error removing remap file."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1846 menu/cbs/menu_cbs_ok.c:1985
+#: menu/cbs/menu_cbs_ok.c:1854 menu/cbs/menu_cbs_ok.c:1993
 msgctxt "MSG_ERROR_SAVING_SHADER_PRESET"
 msgid "Error saving shader preset."
 msgstr ""
 
 #: frontend/drivers/platform_gx.c:485 frontend/drivers/platform_gx.c:490
 #: frontend/drivers/platform_gx.c:496 frontend/drivers/platform_gx.c:501
-#: frontend/drivers/platform_unix.c:2062
+#: frontend/drivers/platform_unix.c:2029
 msgctxt "MSG_EXTERNAL_APPLICATION_DIR"
 msgid "External Application Dir"
 msgstr ""
 
-#: tasks/task_decompress.c:331
+#: tasks/task_decompress.c:359
 msgctxt "MSG_EXTRACTING"
 msgid "Extracting"
 msgstr ""
@@ -4437,12 +4331,12 @@ msgctxt "MSG_EXTRACTING_FILE"
 msgid "Extracting file"
 msgstr ""
 
-#: command.c:1384
+#: command.c:1370
 msgctxt "MSG_FAILED_SAVING_CONFIG_TO"
 msgid "Failed saving config to"
 msgstr ""
 
-#: command.c:719
+#: command.c:705
 msgctxt "MSG_FAILED_TO"
 msgid "Failed to"
 msgstr ""
@@ -4460,12 +4354,12 @@ msgctxt "MSG_FAILED_TO_APPLY_SHADER"
 msgid "Failed to apply shader."
 msgstr ""
 
-#: command.c:381 input/input_remote.c:107
+#: command.c:367 input/input_remote.c:107
 msgctxt "MSG_FAILED_TO_BIND_SOCKET"
 msgid "Failed to bind socket."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2577
+#: menu/cbs/menu_cbs_ok.c:2606
 msgctxt "MSG_FAILED_TO_CREATE_THE_DIRECTORY"
 msgid "Failed to create the directory."
 msgstr ""
@@ -4541,12 +4435,12 @@ msgctxt "MSG_FAILED_TO_RECEIVE_SRAM_DATA_FROM_HOST"
 msgid "Failed to receive SRAM data from host."
 msgstr ""
 
-#: command.c:780
+#: command.c:766
 msgctxt "MSG_FAILED_TO_REMOVE_DISK_FROM_TRAY"
 msgid "Failed to remove disk from tray."
 msgstr ""
 
-#: tasks/task_content.c:1829
+#: tasks/task_content.c:1825
 msgctxt "MSG_FAILED_TO_REMOVE_TEMPORARY_FILE"
 msgid "Failed to remove temporary file"
 msgstr ""
@@ -4581,7 +4475,7 @@ msgctxt "MSG_FAILED_TO_SEND_SRAM_DATA_TO_CLIENT"
 msgid "Failed to send SRAM data to client."
 msgstr ""
 
-#: audio/audio_driver.c:1239
+#: audio/audio_driver.c:1259
 msgctxt "MSG_FAILED_TO_START_AUDIO_DRIVER"
 msgid "Failed to start audio driver. Will continue without audio."
 msgstr ""
@@ -4601,7 +4495,7 @@ msgctxt "MSG_FAILED_TO_TAKE_SCREENSHOT"
 msgid "Failed to take screenshot."
 msgstr ""
 
-#: command.c:1585 tasks/task_save.c:501
+#: command.c:1571 tasks/task_save.c:501
 msgctxt "MSG_FAILED_TO_UNDO_LOAD_STATE"
 msgid "Failed to undo load state."
 msgstr ""
@@ -4611,12 +4505,12 @@ msgctxt "MSG_FAILED_TO_UNDO_SAVE_STATE"
 msgid "Failed to undo save state."
 msgstr ""
 
-#: command.c:2064
+#: command.c:2053
 msgctxt "MSG_FAILED_TO_UNMUTE_AUDIO"
 msgid "Failed to unmute audio."
 msgstr ""
 
-#: retroarch.c:1237 tasks/task_patch.c:532
+#: retroarch.c:1265 tasks/task_patch.c:532
 msgctxt "MSG_FATAL_ERROR_RECEIVED_IN"
 msgid "Fatal error received in"
 msgstr ""
@@ -4625,7 +4519,7 @@ msgctxt "MSG_FILE_NOT_FOUND"
 msgid "File not found"
 msgstr ""
 
-#: command.c:1121
+#: command.c:1107
 msgctxt "MSG_FOUND_AUTO_SAVESTATE_IN"
 msgid "Found auto savestate in"
 msgstr ""
@@ -4640,7 +4534,7 @@ msgctxt "MSG_FOUND_FIRST_DATA_TRACK_ON_FILE"
 msgid "Found first data track on file"
 msgstr ""
 
-#: command.c:1196
+#: command.c:1182
 msgctxt "MSG_FOUND_LAST_STATE_SLOT"
 msgid "Found last state slot"
 msgstr ""
@@ -4650,32 +4544,32 @@ msgctxt "MSG_FOUND_SHADER"
 msgid "Found shader"
 msgstr ""
 
-#: gfx/video_driver.c:2448
+#: gfx/video_driver.c:2445
 msgctxt "MSG_FRAMES"
 msgid "Frames"
 msgstr ""
 
-#: retroarch.c:1390
+#: retroarch.c:1418
 msgctxt "MSG_GAME_SPECIFIC_CORE_OPTIONS_FOUND_AT"
 msgid "Per-Game Options: game-specific core options found at"
 msgstr ""
 
-#: command.c:878 command.c:911
+#: command.c:864 command.c:897
 msgctxt "MSG_GOT_INVALID_DISK_INDEX"
 msgid "Got invalid disk index."
 msgstr ""
 
-#: command.c:2715
+#: command.c:2725
 msgctxt "MSG_GRAB_MOUSE_STATE"
 msgid "Grab mouse state"
 msgstr ""
 
-#: command.c:2749
+#: command.c:2759
 msgctxt "MSG_GAME_FOCUS_ON"
 msgid "Game focus on"
 msgstr ""
 
-#: command.c:2759
+#: command.c:2769
 msgctxt "MSG_GAME_FOCUS_OFF"
 msgid "Game focus off"
 msgstr ""
@@ -4690,22 +4584,22 @@ msgctxt "MSG_INFLATED_CHECKSUM_DID_NOT_MATCH_CRC32"
 msgid "Inflated checksum did not match CRC32."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1908
+#: menu/cbs/menu_cbs_ok.c:1916
 msgctxt "MSG_INPUT_CHEAT"
 msgid "Input Cheat"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1904
+#: menu/cbs/menu_cbs_ok.c:1912
 msgctxt "MSG_INPUT_CHEAT_FILENAME"
 msgid "Input Cheat Filename"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1892
+#: menu/cbs/menu_cbs_ok.c:1900
 msgctxt "MSG_INPUT_PRESET_FILENAME"
 msgid "Input Preset Filename"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1916
+#: menu/cbs/menu_cbs_ok.c:1924
 msgctxt "MSG_INPUT_RENAME_ENTRY"
 msgid "Rename Title"
 msgstr ""
@@ -4715,12 +4609,12 @@ msgctxt "MSG_INTERFACE"
 msgid "Interface"
 msgstr ""
 
-#: frontend/drivers/platform_unix.c:2070
+#: frontend/drivers/platform_unix.c:2037
 msgctxt "MSG_INTERNAL_STORAGE"
 msgid "Internal Storage"
 msgstr ""
 
-#: frontend/drivers/platform_unix.c:2078 frontend/drivers/platform_unix.c:2084
+#: frontend/drivers/platform_unix.c:2045 frontend/drivers/platform_unix.c:2051
 msgctxt "MSG_REMOVABLE_STORAGE"
 msgid "Removable Storage"
 msgstr ""
@@ -4771,7 +4665,7 @@ msgctxt "MSG_LOADING"
 msgid "Loading"
 msgstr ""
 
-#: tasks/task_content.c:1045 tasks/task_content.c:1048
+#: tasks/task_content.c:1042 tasks/task_content.c:1045
 msgctxt "MSG_FIRMWARE"
 msgid "One or more firmware files are missing"
 msgstr ""
@@ -4781,7 +4675,7 @@ msgctxt "MSG_LOADING_CONTENT_FILE"
 msgid "Loading content file"
 msgstr ""
 
-#: command.c:2172 command.c:2179 command.c:2186 command.c:2194 command.c:2203
+#: command.c:2161 command.c:2168 command.c:2175 command.c:2183 command.c:2192
 msgctxt "MSG_LOADING_HISTORY_FILE"
 msgid "Loading history file"
 msgstr ""
@@ -4831,32 +4725,32 @@ msgctxt "MSG_NO_CONTENT_STARTING_DUMMY_CORE"
 msgid "No content, starting dummy core."
 msgstr ""
 
-#: command.c:1563
+#: command.c:1549
 msgctxt "MSG_NO_SAVE_STATE_HAS_BEEN_OVERWRITTEN_YET"
 msgid "No save state has been overwritten yet."
 msgstr ""
 
-#: command.c:1577
+#: command.c:1563
 msgctxt "MSG_NO_STATE_HAS_BEEN_LOADED_YET"
 msgid "No state has been loaded yet."
 msgstr ""
 
-#: command.c:1547
+#: command.c:1533
 msgctxt "MSG_OVERRIDES_ERROR_SAVING"
 msgid "Error saving overrides."
 msgstr ""
 
-#: command.c:1538
+#: command.c:1524
 msgctxt "MSG_OVERRIDES_SAVED_SUCCESSFULLY"
 msgid "Overrides saved successfully."
 msgstr ""
 
-#: command.c:2381 command.c:2384
+#: command.c:2391 command.c:2394
 msgctxt "MSG_PAUSED"
 msgid "Paused."
 msgstr ""
 
-#: retroarch.c:433 gfx/video_driver.c:2235
+#: retroarch.c:433 gfx/video_driver.c:2231
 msgctxt "MSG_PROGRAM"
 msgid "RetroArch"
 msgstr ""
@@ -4865,11 +4759,6 @@ msgstr ""
 #: tasks/task_database.c:437 tasks/task_database.c:467
 msgctxt "MSG_READING_FIRST_DATA_TRACK"
 msgid "Reading first data track..."
-msgstr ""
-
-#: command.c:432
-msgctxt "MSG_RECEIVED"
-msgid "received"
 msgstr ""
 
 #: record/record_driver.c:232 record/record_driver.c:235
@@ -4887,37 +4776,37 @@ msgctxt "MSG_REDIRECTING_CHEATFILE_TO"
 msgid "Redirecting cheat file to"
 msgstr ""
 
-#: paths.c:180 paths.c:372
+#: paths.c:180 paths.c:360 paths.c:386
 msgctxt "MSG_REDIRECTING_SAVEFILE_TO"
 msgid "Redirecting save file to"
 msgstr ""
 
-#: paths.c:192 paths.c:285
+#: paths.c:192 paths.c:295
 msgctxt "MSG_REDIRECTING_SAVESTATE_TO"
 msgid "Redirecting savestate to"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2062
+#: menu/cbs/menu_cbs_ok.c:2070
 msgctxt "MSG_REMAP_FILE_SAVED_SUCCESSFULLY"
 msgid "Remap file saved successfully."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:2089
+#: menu/cbs/menu_cbs_ok.c:2097
 msgctxt "MSG_REMAP_FILE_REMOVED_SUCCESSFULLY"
 msgid "Remap file removed successfully."
 msgstr ""
 
-#: command.c:769
+#: command.c:755
 msgctxt "MSG_REMOVED_DISK_FROM_TRAY"
 msgid "Removed disk from tray."
 msgstr ""
 
-#: tasks/task_content.c:1826
+#: tasks/task_content.c:1822
 msgctxt "MSG_REMOVING_TEMPORARY_CONTENT_FILE"
 msgid "Removing temporary content file"
 msgstr ""
 
-#: command.c:1861 command.c:1862
+#: command.c:1850 command.c:1851
 msgctxt "MSG_RESET"
 msgid "Reset"
 msgstr ""
@@ -4971,7 +4860,7 @@ msgctxt "MSG_REWIND_REACHED_END"
 msgid "Reached end of rewind buffer."
 msgstr ""
 
-#: command.c:1375
+#: command.c:1361
 msgctxt "MSG_SAVED_NEW_CONFIG_TO"
 msgid "Saved new config to"
 msgstr ""
@@ -5012,7 +4901,7 @@ msgctxt "MSG_SCANNING_OF_DIRECTORY_FINISHED"
 msgid "Scanning of directory finished"
 msgstr ""
 
-#: command.c:530
+#: command.c:516
 msgctxt "MSG_SENDING_COMMAND"
 msgid "Sending command"
 msgstr ""
@@ -5026,32 +4915,32 @@ msgctxt "MSG_SHADER"
 msgid "Shader"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1842 menu/cbs/menu_cbs_ok.c:1981
+#: menu/cbs/menu_cbs_ok.c:1850 menu/cbs/menu_cbs_ok.c:1989
 msgctxt "MSG_SHADER_PRESET_SAVED_SUCCESSFULLY"
 msgid "Shader preset saved successfully."
 msgstr ""
 
-#: command.c:1236
+#: command.c:1222
 msgctxt "MSG_SKIPPING_SRAM_LOAD"
 msgid "Skipping SRAM load."
 msgstr ""
 
-#: retroarch.c:2934
+#: retroarch.c:2987
 msgctxt "MSG_SLOW_MOTION"
 msgid "Slow motion."
 msgstr ""
 
-#: retroarch.c:2826
+#: retroarch.c:2854
 msgctxt "MSG_FAST_FORWARD"
 msgid "Fast forward."
 msgstr ""
 
-#: retroarch.c:2931
+#: retroarch.c:2984
 msgctxt "MSG_SLOW_MOTION_REWIND"
 msgid "Slow motion rewind."
 msgstr ""
 
-#: paths.c:393
+#: paths.c:407
 msgctxt "MSG_SRAM_WILL_NOT_BE_SAVED"
 msgid "SRAM will not be saved."
 msgstr ""
@@ -5071,7 +4960,7 @@ msgctxt "MSG_STATE_SIZE"
 msgid "State size"
 msgstr ""
 
-#: retroarch.c:2853 retroarch.c:2873
+#: retroarch.c:2881 retroarch.c:2901
 msgctxt "MSG_STATE_SLOT"
 msgid "State slot"
 msgstr ""
@@ -5081,12 +4970,7 @@ msgctxt "MSG_TAKING_SCREENSHOT"
 msgid "Taking screenshot."
 msgstr ""
 
-#: tasks/task_save.c:1369 tasks/task_save.c:1453
-msgctxt "MSG_TO"
-msgid "to"
-msgstr ""
-
-#: command.c:1595
+#: command.c:1581
 msgctxt "MSG_UNDID_LOAD_STATE"
 msgid "Undid load state."
 msgstr ""
@@ -5096,22 +4980,22 @@ msgctxt "MSG_UNDOING_SAVE_STATE"
 msgid "Undoing save state"
 msgstr ""
 
-#: retroarch.c:1546
+#: retroarch.c:1574
 msgctxt "MSG_UNKNOWN"
 msgid "Unknown"
 msgstr ""
 
-#: command.c:2392
+#: command.c:2402
 msgctxt "MSG_UNPAUSED"
 msgid "Unpaused."
 msgstr ""
 
-#: command.c:430
+#: command.c:416
 msgctxt "MSG_UNRECOGNIZED_COMMAND"
 msgid "Unrecognized command"
 msgstr ""
 
-#: command.c:1443
+#: command.c:1429
 msgctxt "MSG_USING_CORE_NAME_FOR_NEW_CONFIG"
 msgid "Using core name for new config."
 msgstr ""
@@ -5121,22 +5005,22 @@ msgctxt "MSG_USING_LIBRETRO_DUMMY_CORE_RECORDING_SKIPPED"
 msgid "Using libretro dummy core. Skipping recording."
 msgstr ""
 
-#: retroarch.c:736
+#: retroarch.c:780
 msgctxt "MSG_VALUE_CONNECT_DEVICE_FROM_A_VALID_PORT"
 msgid "Connect device from a valid port."
 msgstr ""
 
-#: command.c:1024
+#: command.c:1010
 msgctxt "MSG_VALUE_DISCONNECTING_DEVICE_FROM_PORT"
 msgid "Disconnecting device from port"
 msgstr ""
 
-#: command.c:2306
+#: command.c:2295
 msgctxt "MSG_VALUE_REBOOTING"
 msgid "Rebooting..."
 msgstr ""
 
-#: command.c:2298
+#: command.c:2287
 msgctxt "MSG_VALUE_SHUTTING_DOWN"
 msgid "Shutting down..."
 msgstr ""
@@ -5153,7 +5037,7 @@ msgid ""
 "probably not work right ..."
 msgstr ""
 
-#: command.c:714 command.c:721
+#: command.c:700 command.c:707
 msgctxt "MSG_VIRTUAL_DISK_TRAY"
 msgid "virtual disk tray."
 msgstr ""
@@ -5285,16 +5169,6 @@ msgid ""
 "PAL cores on NTSC displays)."
 msgstr ""
 
-#: tasks/task_save.c:791
-msgctxt "MSG_FAILED"
-msgid "failed"
-msgstr ""
-
-#: tasks/task_save.c:819
-msgctxt "MSG_SUCCEEDED"
-msgid "succeeded"
-msgstr ""
-
 #: tasks/task_autodetect.c:876
 msgctxt "MSG_DEVICE_NOT_CONFIGURED"
 msgid "not configured"
@@ -5317,7 +5191,7 @@ msgctxt "MENU_ENUM_LABEL_VALUE_DATABASE_CURSOR_LIST_ENTRY_PUBLISHER"
 msgid "Database - Filter : Publisher"
 msgstr ""
 
-#: menu/menu_setting.c:1561
+#: menu/menu_setting.c:1558
 msgctxt "MENU_ENUM_LABEL_VALUE_DISABLED"
 msgid "Disabled"
 msgstr ""
@@ -5436,7 +5310,7 @@ msgctxt "MENU_ENUM_SUBLABEL_VIDEO_FONT_ENABLE"
 msgid "Show onscreen messages."
 msgstr ""
 
-#: menu/menu_setting.c:7070
+#: menu/menu_setting.c:7100
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_NETWORK_USER_REMOTE_ENABLE"
 msgid "User %d Remote Enable"
@@ -5455,17 +5329,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_SELECT_FROM_COLLECTION"
 msgid "Select From Collection"
 msgstr ""
 
-#: menu/menu_displaylist.c:1432
+#: menu/menu_displaylist.c:1433
 msgctxt "MENU_ENUM_LABEL_VALUE_FILTER"
 msgid "Filter"
 msgstr ""
 
-#: menu/menu_displaylist.c:1438
+#: menu/menu_displaylist.c:1439
 msgctxt "MENU_ENUM_LABEL_VALUE_SCALE"
 msgid "Scale"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3659 menu/cbs/menu_cbs_ok.c:3689
+#: menu/cbs/menu_cbs_ok.c:3738 menu/cbs/menu_cbs_ok.c:3768
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_START_WHEN_LOADED"
 msgid "Netplay will start when content is loaded."
 msgstr ""
@@ -5475,37 +5349,37 @@ msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_LOAD_CONTENT_MANUALLY"
 msgid "Couldn't find a suitable core or content file, load manually."
 msgstr ""
 
-#: menu/menu_displaylist.c:6212
+#: menu/menu_displaylist.c:6223
 msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_URL_LIST"
 msgid "Browse URL"
 msgstr ""
 
-#: menu/menu_displaylist.c:6459
+#: menu/menu_displaylist.c:6468
 msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_URL"
 msgid "URL Path"
 msgstr ""
 
-#: menu/menu_displaylist.c:6464
+#: menu/menu_displaylist.c:6473
 msgctxt "MENU_ENUM_LABEL_VALUE_BROWSE_START"
 msgid "Start"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:298
+#: menu/cbs/menu_cbs_get_value.c:299
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_BOKEH"
 msgid "Bokeh"
 msgstr ""
 
-#: menu/cbs/menu_cbs_get_value.c:303
+#: menu/cbs/menu_cbs_get_value.c:304
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_PIPELINE_SNOWFLAKE"
 msgid "Snowflake"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3196
+#: menu/cbs/menu_cbs_ok.c:3264
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_REFRESH_ROOMS"
 msgid "Refresh Room List"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:3345
+#: menu/cbs/menu_cbs_ok.c:3413
 #, c-format
 msgctxt "MENU_ENUM_LABEL_VALUE_NETPLAY_ROOM_NICKNAME"
 msgid "Nickname: %s"
@@ -6517,12 +6391,12 @@ msgid ""
 "to have lower latency."
 msgstr ""
 
-#: menu/menu_displaylist.c:2783
+#: menu/menu_displaylist.c:2785
 msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_MIXER"
 msgid "Add to mixer"
 msgstr ""
 
-#: menu/menu_displaylist.c:4182
+#: menu/menu_displaylist.c:4187
 msgctxt "MENU_ENUM_LABEL_VALUE_ADD_TO_MIXER_AND_COLLECTION"
 msgid "Add to mixer"
 msgstr ""
@@ -6599,7 +6473,7 @@ msgctxt "MENU_ENUM_SUBLABEL_MENU_FRAMEBUFFER_OPACITY"
 msgid "Modify the opacity of the framebuffer."
 msgstr ""
 
-#: menu/menu_displaylist.c:3355 menu/menu_displaylist.c:6158
+#: menu/menu_displaylist.c:3363 menu/menu_displaylist.c:6169
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_FAVORITES"
 msgid "Favorites"
 msgstr ""
@@ -6608,7 +6482,7 @@ msgctxt "MENU_ENUM_SUBLABEL_GOTO_FAVORITES"
 msgid "Content which you have added to 'Favorites' will appear here."
 msgstr ""
 
-#: menu/menu_displaylist.c:3368 menu/menu_displaylist.c:6171
+#: menu/menu_displaylist.c:3376 menu/menu_displaylist.c:6182
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_MUSIC"
 msgid "Music"
 msgstr ""
@@ -6617,7 +6491,7 @@ msgctxt "MENU_ENUM_SUBLABEL_GOTO_MUSIC"
 msgid "Music which has been previously played will appear here."
 msgstr ""
 
-#: menu/menu_displaylist.c:3361 menu/menu_displaylist.c:6165
+#: menu/menu_displaylist.c:3369 menu/menu_displaylist.c:6176
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_IMAGES"
 msgid "Image"
 msgstr ""
@@ -6626,7 +6500,7 @@ msgctxt "MENU_ENUM_SUBLABEL_GOTO_IMAGES"
 msgid "Images which have been previously viewed will appear here."
 msgstr ""
 
-#: menu/menu_displaylist.c:3376 menu/menu_displaylist.c:6179
+#: menu/menu_displaylist.c:3384 menu/menu_displaylist.c:6190
 msgctxt "MENU_ENUM_LABEL_VALUE_GOTO_VIDEO"
 msgid "Video"
 msgstr ""
@@ -6653,17 +6527,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_CONTENT_SHOW_SETTINGS_PASSWORD"
 msgid "Set Password For Enabling Settings Tab"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1896
+#: menu/cbs/menu_cbs_ok.c:1904
 msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD"
 msgid "Enter Password"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1806
+#: menu/cbs/menu_cbs_ok.c:1814
 msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD_OK"
 msgid "Password correct."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1812
+#: menu/cbs/menu_cbs_ok.c:1820
 msgctxt "MSG_INPUT_ENABLE_SETTINGS_PASSWORD_NOK"
 msgid "Password incorrect."
 msgstr ""
@@ -6691,7 +6565,7 @@ msgctxt "MENU_ENUM_SUBLABEL_RENAME_ENTRY"
 msgid "Rename the title of the entry."
 msgstr ""
 
-#: menu/menu_displaylist.c:2796
+#: menu/menu_displaylist.c:2798
 msgctxt "MENU_ENUM_LABEL_VALUE_RENAME_ENTRY"
 msgid "Rename"
 msgstr ""
@@ -6897,17 +6771,17 @@ msgid ""
 " Mode and entering the password."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1912
+#: menu/cbs/menu_cbs_ok.c:1920
 msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD"
 msgid "Enter Password"
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1779
+#: menu/cbs/menu_cbs_ok.c:1787
 msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD_OK"
 msgid "Password correct."
 msgstr ""
 
-#: menu/cbs/menu_cbs_ok.c:1785
+#: menu/cbs/menu_cbs_ok.c:1793
 msgctxt "MSG_INPUT_KIOSK_MODE_PASSWORD_NOK"
 msgid "Password incorrect."
 msgstr ""
@@ -6928,17 +6802,17 @@ msgctxt "MENU_ENUM_LABEL_VALUE_FRAMECOUNT_SHOW"
 msgid "Show frame count on FPS display"
 msgstr ""
 
-#: configuration.c:3058
+#: configuration.c:3035
 msgctxt "MSG_CONFIG_OVERRIDE_LOADED"
 msgid "Configuration override loaded."
 msgstr ""
 
-#: configuration.c:3180
+#: configuration.c:3157
 msgctxt "MSG_GAME_REMAP_FILE_LOADED"
 msgid "Game remap file loaded."
 msgstr ""
 
-#: configuration.c:3202
+#: configuration.c:3179
 msgctxt "MSG_CORE_REMAP_FILE_LOADED"
 msgid "Core remap file loaded."
 msgstr ""
@@ -6971,7 +6845,7 @@ msgid ""
 "performance/lower latency."
 msgstr ""
 
-#: menu/menu_displaylist.c:1376
+#: menu/menu_displaylist.c:1377
 msgctxt "MENU_ENUM_LABEL_VALUE_SHADER_WATCH_FOR_CHANGES"
 msgid "Watch shader files for changes"
 msgstr ""
@@ -6982,4 +6856,12 @@ msgstr ""
 
 msgctxt "MENU_ENUM_LABEL_VALUE_VIDEO_WINDOW_SHOW_DECORATIONS"
 msgid "Show Window Decorations"
+msgstr ""
+
+msgctxt "MENU_ENUM_LABEL_VALUE_STATISTICS_SHOW"
+msgid "Display Statistics"
+msgstr ""
+
+msgctxt "MENU_ENUM_SUBLABEL_STATISTICS_SHOW"
+msgid "Show onscreen technical statistics."
 msgstr ""
