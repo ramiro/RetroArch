@@ -311,7 +311,7 @@ def h2po(options, create_english_pot=False):
     def key(entry):
         return (english_symdefs[entry]['file'], english_symdefs[entry]['lineno'])
 
-    if options.verbose:
+    if not create_english_pot and options.verbose:
         logging.getLogger().setLevel(logging.INFO + 1 - options.verbose)
     exclude_specs = process_exclude_options(options.exclude)
     if create_english_pot:
@@ -327,7 +327,7 @@ def h2po(options, create_english_pot=False):
             output_file = os.path.join(PO_FILES_DIR, '%s.%s' % (basename, ext))
         else:
             output_file = options.output_file
-        if os.path.exists(output_file) and not options.force:
+        if os.path.exists(output_file) and not create_english_pot and not options.force:
             logging.critical("File %s exists. Refusing to overwite it", output_file)
             return 3
 
@@ -495,29 +495,29 @@ def main(argv=None):
 
     h2po_parser = sub_parsers.add_parser('h2po', help='Converts translations from RetroArch .h files to gettext PO files')
     h2po_parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')  # TODO: Review 'us' default
-    h2po_parser.add_argument('-o', '--output', dest='output_file', help='PO file to write to')
     h2po_parser.add_argument('-f', '--force', action='store_true', help='Force overwriting extisting PO file')
     h2po_parser.add_argument('-e', dest='interpret_equal_trans_as_empty', action='store_true', help='When a translation in the .h files is equal to its English original store it as untranslated (empty) in the PO file')
-    h2po_parser.add_argument('-x', '--exclude', action='append', help="Exclude literals by their characteristics. "
-                             "A combination of 'l' (an all-lowercase literal), 'S' (literal with no spaces) and 'u' "
-                             "(literal with at least one underscore). Can be used mutiple times.")
     h2po_parser.add_argument('-v', '--verbose', action='count', help='Be more verbose')
 
     upd_parser = sub_parsers.add_parser('updatepo', help='Updates PO files')
     upd_parser.add_argument('-l', '--locale', default='us', help='Locale name to work with')  # TODO: Review 'us' default
-    upd_parser.add_argument('-o', '--output', dest='output_file', help='PO file to write to')
 
     po2h_parser = sub_parsers.add_parser('po2h', help='Converts translations from gettext PO files to RetroArch .h files')
     po2h_parser.add_argument('-l', '--locale', required=True, help='Locale name to work with')
     po2h_parser.add_argument('-i', '--input', dest='input_file', help='PO file to read from')
     po2h_parser.add_argument('-o', '--output', dest='output_file', help='.h file to write to')
 
+    for p in (ref_parser, h2po_parser):
+        p.add_argument('-x', '--exclude', action='append', help="Exclude literals by their characteristics. "
+                       "A combination of 'l' (an all-lowercase literal), 'S' (literal with no spaces) and 'u' "
+                       "(literal with at least one underscore). Can be used mutiple times.")
+    for p in (h2po_parser, upd_parser):
+        p.add_argument('-o', '--output', dest='output_file', help='PO file to write to')
+
     args = parser.parse_args(argv[1:])
     if args.command == 'check':
         check(args)
-    elif args.command == 'createref':
-        h2po(args, create_english_pot=True)
-    elif args.command == 'h2po':
+    elif args.command in ('createref', 'h2po'):
         if args.exclude is not None:
             for exclude_spec in args.exclude:
                 remain = exclude_spec.strip(''.join(EXCLUDE_VALID_OPTIONS))
@@ -530,7 +530,10 @@ def main(argv=None):
                         print("ERROR: Exclude option '%s' used more than once in '%s'\n" % (optchar, exclude_spec))
                         parser.print_help()
                         sys.exit(1)
-        h2po(args)
+        if args.command == 'createref':
+            h2po(args, create_english_pot=True)
+        else:  # h2po
+            h2po(args)
     elif args.command == 'updatepo':
         updatepo(args)
     elif args.command == 'po2h':
